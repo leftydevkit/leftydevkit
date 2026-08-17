@@ -31,6 +31,7 @@
 			<span class="logo-text">Lefty<span>DevKit</span></span>
 		</a>
 		<div class="nav-links">
+			<a href="/ledger">Corruption Ledger</a>
 			<a href="#projects">Projects</a>
 			<a href="#mission">Mission</a>
 			<a href="#stream">Stream</a>

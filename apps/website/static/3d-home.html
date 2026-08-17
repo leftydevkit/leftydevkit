@@ -1,0 +1,1542 @@
+<!doctype html>
+<!--
+  ═══════════════════════════════════════════════════════════════════════
+  LEFTYDEVKIT — the revolution's command console
+  Single-file 3D landing site. No build step. Serve over HTTP:
+      python -m http.server 8020 --bind 127.0.0.1   →  http://127.0.0.1:8020
+  ───────────────────────────────────────────────────────────────────────
+  HOW TO EDIT (swap points, all documented):
+  · COLORS  → :root CSS variables (--ink, --paper, --blue, --green, --amber)
+  · FONTS   → Google Fonts <link> in <head> (Space Grotesk + JetBrains Mono)
+  · COPY    → sections are marked with HTML comments (SECTION: ...)
+  · LOGO    → inline SVG in <header> (mark + wordmark)
+  · 3D SCENE→ the <script type="module"> at the bottom, "SCENE" block
+  · MOTION  → prefers-reduced-motion is honored everywhere; auto-rotation,
+              parallax, ticker, scramble and the boot overlay all disable.
+  · EASTER  → FIGHT MODE: type  while(!free)  anywhere on the page.
+  ═══════════════════════════════════════════════════════════════════════
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeftyDevKit — Code. Organize. Resist.</title>
+<meta name="description" content="Open-source progressive civic-tech tools. Free for candidates and organizers who align with our values. Built in public, one stream at a time.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✊</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+/* ═══════════ TOKENS ═══════════ */
+:root{
+  --ink:      #050a18;   /* page / canvas background            */
+  --ink-2:    #0b1730;   /* raised surface                      */
+  --panel:    rgba(6,12,28,.5);
+  --paper:    #f2f0ec;   /* body text                           */
+  --muted:    #9797a3;   /* secondary text                      */
+  --dim:      #5a5a68;   /* tertiary / labels                   */
+  --blue:     #3ba6f2;   /* primary accent                      */
+  --blue-2:   #7dd3fc;   /* soft accent / gradients             */
+  --green:    #7cfc98;   /* terminal success / code             */
+  --amber:    #ffd166;   /* warnings / corruption               */
+  --line:     rgba(59,166,242,.18);
+  --line-2:   rgba(242,240,236,.09);
+  --font-d: 'Space Grotesk', 'Arial Black', system-ui, sans-serif;
+  --font-m: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
+  --ease: cubic-bezier(.2,.8,.2,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--ink);
+  color:var(--paper);
+  font-family:var(--font-d);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:56px; /* room for the fixed bottom ticker */
+}
+/* overflow safety net: never allow horizontal scroll (laptop/kb/grain can't push the page) */
+html{overflow-x:hidden;overflow-x:clip}
+/* grid children must be allowed to shrink below their content's intrinsic width */
+.wrap > *,section > *{min-width:0}
+/* long mono / code lines wrap instead of blowing out the layout */
+.mono,pre,code{overflow-wrap:anywhere;word-break:break-word}
+::selection{background:var(--blue);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+
+/* ═══════════ 3D STAGE ═══════════ */
+#stage3d{position:fixed;inset:0;z-index:0}
+#stage3d canvas{display:block}
+#fallback2d{position:fixed;inset:0;z-index:0;display:none}
+#fallback2d canvas{display:block}
+/* blue glow behind hero even before WebGL warms up */
+#hero::before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(60% 55% at 72% 42%, rgba(59,166,242,.16), transparent 70%);
+}
+
+/* ═══════════ GRAIN / OVERLAYS ═══════════ */
+#grain{
+  position:fixed;inset:-50%;z-index:60;pointer-events:none;opacity:.055;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation:grain 8s steps(10) infinite;
+}
+@keyframes grain{
+  0%,100%{transform:translate(0,0)} 10%{transform:translate(-5%,-8%)}
+  30%{transform:translate(3%,-12%)} 50%{transform:translate(-8%,6%)}
+  70%{transform:translate(12%,3%)} 90%{transform:translate(-4%,10%)}
+}
+#scrollprog{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--blue),var(--blue-2));z-index:80}
+#toast{
+  position:fixed;left:50%;bottom:84px;transform:translate(-50%,16px);
+  z-index:85;opacity:0;pointer-events:none;transition:opacity .3s var(--ease),transform .3s var(--ease);
+  background:var(--ink-2);border:1px solid var(--blue);border-radius:4px;
+  font-family:var(--font-m);font-size:13px;padding:10px 16px;white-space:nowrap;
+  box-shadow:0 12px 40px rgba(0,0,0,.6);
+}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* ═══════════ CURSOR ═══════════ */
+#curRing,#curDot{position:fixed;top:0;left:0;z-index:90;pointer-events:none;border-radius:50%}
+#curRing{width:30px;height:30px;border:1px solid rgba(59,166,242,.85);transition:width .18s var(--ease),height .18s var(--ease),border-color .18s}
+#curDot{width:4px;height:4px;background:var(--paper);margin:-2px}
+#curRing.grow{width:52px;height:52px;border-color:var(--paper)}
+@media (hover:none),(pointer:coarse){ #curRing,#curDot{display:none} }
+
+@media (prefers-reduced-motion:reduce){ .brick{animation:none;opacity:1;transform:none;filter:none} }
+
+/* ═══════════ NAV ═══════════ */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:70;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+  padding:18px clamp(18px,4vw,48px);
+  transition:background .3s,border-color .3s,padding .3s;
+  border-bottom:1px solid transparent;
+}
+header.scrolled{background:rgba(5,10,24,.82);backdrop-filter:blur(12px);border-color:var(--line-2);padding-block:12px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.02em}
+.brand-fist{width:34px;height:52px;object-fit:contain;object-position:center;flex:none;border-radius:6px;filter:drop-shadow(0 0 10px rgba(59,166,242,.45))}
+.brand .w{font-size:21px}
+.brand .w b{color:var(--blue)}
+nav ul{display:flex;gap:26px;list-style:none}
+nav a{font-family:var(--font-m);font-size:12px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;position:relative;padding:6px 2px;transition:color .2s}
+nav a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--blue);transition:width .25s var(--ease)}
+nav a:hover{color:var(--paper)}
+nav a:hover::after{width:100%}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.live-pill{
+  font-family:var(--font-m);font-size:11px;color:var(--green);
+  border:1px solid rgba(124,252,152,.35);border-radius:999px;padding:6px 12px;
+  display:flex;align-items:center;gap:8px;white-space:nowrap;
+}
+.live-pill i{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:blink 1.4s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--font-m);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;
+  padding:14px 24px;border-radius:4px;position:relative;overflow:hidden;
+  border:1px solid var(--blue);color:var(--blue);
+  transition:color .25s,box-shadow .25s;
+  will-change:transform;
+}
+.btn::before{
+  content:"";position:absolute;inset:0;background:var(--blue);
+  transform:translateY(102%);transition:transform .28s var(--ease);z-index:-1;
+}
+.btn:hover{color:var(--ink);box-shadow:0 0 26px rgba(59,166,242,.45)}
+.btn:hover::before{transform:translateY(0)}
+.btn.solid{background:var(--blue);color:var(--ink);box-shadow:0 0 22px rgba(59,166,242,.35)}
+.btn.solid::before{display:none}
+.btn.solid:hover{background:var(--blue-2);color:var(--ink)}
+.btn.ghost{border-color:var(--line-2);color:var(--muted)}
+.btn.ghost::before{background:var(--paper)}
+.btn.ghost:hover{color:var(--ink);box-shadow:0 0 22px rgba(242,240,236,.25)}
+#burger{display:none}
+@media (max-width:900px){
+  nav{position:fixed;inset:0 0 0 auto;width:min(78vw,330px);background:rgba(5,10,24,.97);backdrop-filter:blur(14px);border-left:1px solid var(--line-2);transform:translateX(102%);transition:transform .35s var(--ease);padding:90px 34px;z-index:69}
+  nav.open{transform:translateX(0)}
+  nav ul{flex-direction:column;gap:22px}
+  nav a{font-size:15px}
+  #burger{display:flex;flex-direction:column;gap:5px;padding:10px;z-index:71}
+  #burger span{width:24px;height:2px;background:var(--paper);transition:.3s}
+  #burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  #burger.open span:nth-child(2){opacity:0}
+  #burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+}
+
+/* ═══════════ LAYOUT PRIMITIVES ═══════════ */
+main{position:relative;z-index:5}
+section{position:relative;padding:clamp(90px,14vh,170px) clamp(18px,6vw,80px)}
+.wrap{max-width:1240px;margin:0 auto}
+.panel{
+  background:var(--panel);
+  backdrop-filter:blur(8px) saturate(1.1);
+  -webkit-backdrop-filter:blur(8px) saturate(1.1);
+  border:1px solid var(--line-2);border-radius:10px;
+  box-shadow:0 24px 70px rgba(0,0,0,.45);
+}
+/* bracket corners — technical HUD look */
+.brk{position:relative}
+.brk::before,.brk::after{content:"";position:absolute;width:16px;height:16px;border:2px solid var(--blue);opacity:.75;transition:opacity .25s}
+.brk::before{top:-2px;left:-2px;border-right:0;border-bottom:0}
+.brk::after{bottom:-2px;right:-2px;border-left:0;border-top:0}
+.brk:hover::before,.brk:hover::after{opacity:1}
+
+.kicker{
+  font-family:var(--font-m);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--blue);display:flex;align-items:center;gap:12px;margin-bottom:22px;
+}
+.kicker::before{content:"";width:34px;height:1px;background:var(--blue)}
+h2.display{
+  font-size:clamp(2.2rem,5.4vw,4.2rem);line-height:.98;font-weight:700;letter-spacing:-.02em;
+  margin-bottom:26px;text-wrap:balance;
+}
+h2.display em{font-style:normal;color:var(--blue)}
+.lede{font-size:clamp(1rem,1.4vw,1.18rem);color:var(--muted);line-height:1.7;max-width:62ch}
+.mono{font-family:var(--font-m)}
+
+/* ═══════════ HERO ═══════════ */
+#hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:110px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero-title{font-size:clamp(3.4rem,11vw,8.6rem);line-height:.92;font-weight:700;letter-spacing:-.03em;text-transform:uppercase}
+.hero-title .misreg{position:relative;display:block}
+.hero-title .misreg::before,.hero-title .misreg::after{
+  content:attr(data-txt);position:absolute;inset:0;pointer-events:none;
+}
+.hero-title .misreg::before{color:var(--blue);transform:translate(-3px,-2px);opacity:.55;mix-blend-mode:screen}
+.hero-title .misreg::after{color:#3fd7ff;transform:translate(3px,2px);opacity:.4;mix-blend-mode:screen}
+.hero-title .m2{color:transparent;-webkit-text-stroke:2px var(--paper)}
+.hero-title .m3{color:var(--blue)}
+.hero-sub{max-width:56ch;color:var(--muted);font-size:clamp(1rem,1.5vw,1.22rem);line-height:1.65;margin-top:34px}
+.hero-sub b{color:var(--paper)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:16px;margin-top:38px}
+.hero-cmd{
+  margin-top:34px;font-family:var(--font-m);font-size:13px;color:var(--muted);
+  border:1px dashed var(--line-2);border-radius:6px;padding:12px 16px;display:inline-block;
+  background:rgba(8,15,36,.5);
+}
+.hero-cmd .p{color:var(--green)} .hero-cmd .c{color:var(--paper)}
+.hero-cmd .blink{display:inline-block;width:9px;height:15px;background:var(--green);vertical-align:middle;margin-left:6px;animation:blink 1.1s infinite}
+/* live corruption counter panel */
+.counter-panel{margin-left:auto;width:min(100%,360px);font-family:var(--font-m)}
+.counter-head{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line-2)}
+.counter-head .t{font-size:11px;letter-spacing:.18em;color:var(--muted);text-transform:uppercase}
+.counter-head .st{font-size:10px;color:var(--amber);border:1px solid rgba(255,209,102,.4);padding:3px 8px;border-radius:99px}
+.counter-body{padding:22px 18px}
+.counter-body .amt{font-size:clamp(1.7rem,3vw,2.3rem);font-weight:800;color:var(--paper);letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.counter-body .amt b{color:var(--blue)}
+.counter-body .note{font-size:11px;color:var(--dim);margin-top:8px;line-height:1.6}
+.counter-bump{display:none;margin-top:12px;font-size:11px;color:var(--amber);animation:flashIn .5s var(--ease)}
+.counter-bump.show{display:block}
+@keyframes flashIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.hero-scrollhint{position:absolute;bottom:74px;left:50%;transform:translateX(-50%);font-family:var(--font-m);font-size:10px;letter-spacing:.3em;color:var(--dim);text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:8px}
+.hero-scrollhint::after{content:"▼";font-size:12px;animation:drop 1.6s infinite}
+@keyframes drop{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(6px);opacity:1}}
+
+/* ═══════════ TICKER (fixed bottom) ═══════════ */
+#ticker{
+  position:fixed;left:0;right:0;bottom:0;z-index:65;
+  background:var(--blue);color:var(--ink);overflow:hidden;
+  font-family:var(--font-m);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  border-top:1px solid rgba(0,0,0,.3);height:40px;display:flex;align-items:center;
+  box-shadow:0 -10px 40px rgba(59,166,242,.18);
+}
+#ticker .track{display:flex;width:max-content;animation:tick 26s linear infinite}
+#ticker:hover .track{animation-play-state:paused}
+#ticker span{padding:0 26px;white-space:nowrap}
+#ticker span::after{content:" ✦";opacity:.6}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ═══════════ MISSION ═══════════ */
+#mission .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(30px,5vw,80px);align-items:start}
+.quote{
+  font-size:clamp(1.7rem,3.4vw,2.9rem);line-height:1.18;font-weight:700;letter-spacing:-.01em;
+  text-wrap:balance;
+}
+.quote .r{color:var(--blue)}
+.quote .g{color:var(--green)}
+.quote .am{color:var(--amber)}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.stat{
+  padding:20px 22px;font-family:var(--font-m);
+}
+.stat .n{font-size:clamp(1.5rem,2.6vw,2rem);font-weight:800;color:var(--paper);font-variant-numeric:tabular-nums}
+.stat .n.g{color:var(--green)} .stat .n.r{color:var(--blue)} .stat .n.am{color:var(--amber)}
+.stat .l{font-size:11px;color:var(--dim);margin-top:8px;letter-spacing:.06em;text-transform:uppercase}
+.stat .l b{color:var(--muted)}
+
+/* ═══════════ STACK ═══════════ */
+#stack .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,5vw,80px);align-items:start}
+.stack-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:12px}
+.schip{
+  font-family:var(--font-m);font-size:13px;padding:16px 18px;position:relative;
+  transition:transform .25s var(--ease),border-color .25s,box-shadow .25s;
+}
+.schip:hover{transform:translateY(-3px);border-color:var(--line);box-shadow:0 14px 34px rgba(0,0,0,.45),0 0 0 1px rgba(59,166,242,.15)}
+.schip .nm{font-weight:700;color:var(--paper)}
+.schip .tg{display:inline-block;margin-top:10px;font-size:10px;letter-spacing:.14em;color:var(--blue);text-transform:uppercase}
+.schip .tg::before{content:"["}
+.schip .tg::after{content:"]"}
+
+/* ═══════════ ARSENAL ═══════════ */
+#arsenal .head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:20px;margin-bottom:44px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;perspective:1100px}
+.card{
+  position:relative;padding:26px 26px 24px;transform-style:preserve-3d;transition:border-color .25s;
+  overflow:hidden;cursor:pointer;
+}
+.card .glare{position:absolute;inset:0;pointer-events:none;background:radial-gradient(420px circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.09),transparent 45%);opacity:0;transition:opacity .3s}
+.card:hover .glare{opacity:1}
+.card .status{
+  position:absolute;top:18px;right:18px;font-family:var(--font-m);font-size:10px;letter-spacing:.16em;
+  padding:5px 10px;border-radius:99px;text-transform:uppercase;
+}
+.status.live{color:var(--green);border:1px solid rgba(124,252,152,.4)}
+.status.beta{color:var(--amber);border:1px solid rgba(255,209,102,.4)}
+.status.dev{color:var(--muted);border:1px solid var(--line-2)}
+.card .icon{font-size:26px;margin-bottom:18px;transform:translateZ(30px);display:inline-block}
+.card h3{font-size:1.35rem;font-weight:700;letter-spacing:-.01em;transform:translateZ(24px)}
+.card p{font-family:var(--font-m);font-size:12.5px;line-height:1.75;color:var(--muted);margin-top:12px;transform:translateZ(18px)}
+.card .foot{margin-top:18px;font-family:var(--font-m);font-size:10px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;transform:translateZ(14px)}
+.card .foot::before{content:"// ";color:var(--blue)}
+
+/* ═══════════ CORRUPTION LEDGER ═══════════ */
+#ledger .head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:20px;margin-bottom:44px}
+.ledger-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:26px}
+.ledger-stats .stat{padding:20px 22px}
+.ledger-stats .n{font-size:30px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.1}
+.ledger-stats .n .cur{font-size:.55em;vertical-align:super;color:var(--dim);margin-right:2px}
+.ledger-stats .l{margin-top:8px;font-family:var(--font-m);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.ledger-tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.ledger-tools input,.ledger-tools select{
+  background:rgba(6,12,28,.6);border:1px solid var(--line);color:var(--paper);
+  font-family:var(--font-m);font-size:13px;padding:11px 14px;border-radius:8px;
+}
+.ledger-tools input{flex:1;min-width:220px}
+.ledger-tools input::placeholder{color:var(--dim)}
+.ledger-tools select{cursor:pointer}
+.ledger-tools select:focus-visible,.ledger-tools input:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.ledger-count{font-size:12px;color:var(--dim);margin-bottom:16px;letter-spacing:.06em}
+.ledger-list{display:flex;flex-direction:column;gap:12px}
+.linc{
+  background:rgba(6,12,28,.55);border:1px solid var(--line);border-left:3px solid var(--line);
+  border-radius:10px;padding:18px 20px;
+}
+.linc.money{border-left-color:var(--blue)}
+.linc h3{font-size:1.05rem;font-weight:700;line-height:1.4;margin-bottom:8px}
+.linc .lm{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted);margin-bottom:10px}
+.linc .lm .tg{font-family:var(--font-m);font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:3px 9px;border-radius:99px;border:1px solid var(--line-2);color:var(--muted)}
+.linc .lm .amt{font-family:var(--font-m);font-weight:800;font-variant-numeric:tabular-nums}
+.linc .lm .amt.f{color:var(--blue)}
+.linc .lm .amt.p{color:var(--amber)}
+.linc .sum{font-family:var(--font-m);font-size:12.5px;line-height:1.7;color:var(--muted)}
+.linc .basis{font-size:12px;color:var(--dim);border-left:2px solid var(--line);padding:4px 0 4px 10px;margin-top:10px;font-style:italic}
+.linc .cites{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.linc .cite{font-family:var(--font-m);font-size:10.5px;background:rgba(6,12,28,.7);border:1px solid var(--line-2);padding:3px 9px;border-radius:6px;color:var(--muted);transition:border-color .2s,color .2s}
+.linc .cite:hover{color:var(--paper);border-color:var(--blue)}
+.linc .cite.t0{border-color:rgba(124,252,152,.35);color:var(--green)}
+.ledger-more{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:26px;font-size:12px;color:var(--dim)}
+.ledger-more .btn{padding:10px 20px;font-size:12px}
+.ledger-empty{font-family:var(--font-m);color:var(--dim);padding:30px 0;text-align:center}
+
+/* corruption ledger interest panel */
+.ledger-interest{margin-bottom:26px;overflow:hidden}
+.li-head{display:flex;justify-content:space-between;align-items:center;padding:13px 18px;border-bottom:1px solid var(--line-2)}
+.li-head .t{font-size:11px;letter-spacing:.18em;color:var(--muted);text-transform:uppercase}
+.li-head .st{font-size:10px;color:var(--green);border:1px solid rgba(124,252,152,.35);padding:3px 8px;border-radius:99px}
+.li-body{padding:20px 18px;display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:center}
+.li-note{font-family:var(--font-m);font-size:11px;color:var(--dim);margin-bottom:6px}
+.amt.b{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;color:var(--green);letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.amt.b b{color:var(--muted);font-weight:700}
+.li-sub{display:flex;flex-direction:column;gap:10px}
+.li-cell{display:flex;flex-direction:column}
+.li-cell .k{font-family:var(--font-m);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.li-cell .v{font-size:16px;font-weight:700;margin-top:2px;font-variant-numeric:tabular-nums}
+.li-cell .v.g{color:var(--green)}
+.li-cell .d{font-family:var(--font-m);font-size:10px;color:var(--dim)}
+.li-notes{border-top:1px solid var(--line-2);padding:9px 18px;font-size:10.5px;color:var(--dim);letter-spacing:.04em}
+
+@media(max-width:640px){.li-body{grid-template-columns:1fr}}
+
+/* ═══════════ MANIFESTO TERMINAL ═══════════ */
+#manifesto .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,5vw,80px);align-items:start}
+.term{
+  background:#070d1f;border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  box-shadow:0 30px 90px rgba(0,0,0,.65),0 0 0 1px rgba(0,0,0,.5);
+}
+.term-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:var(--ink-2);border-bottom:1px solid var(--line-2)}
+.term-bar i{width:11px;height:11px;border-radius:50%}
+.term-bar i:nth-child(1){background:#ff5f57} .term-bar i:nth-child(2){background:#febc2e} .term-bar i:nth-child(3){background:#28c840}
+.term-bar .tt{margin-left:10px;font-family:var(--font-m);font-size:11px;color:var(--dim)}
+.term-body{
+  padding:20px 20px 24px;font-family:var(--font-m);font-size:13px;line-height:1.85;
+  min-height:340px;max-height:420px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--blue) transparent;
+}
+.term-body::-webkit-scrollbar{width:6px}
+.term-body::-webkit-scrollbar-thumb{background:var(--blue);border-radius:3px}
+.tline{white-space:pre-wrap;word-break:break-word}
+.tline.prompt{color:var(--green)}
+.tline.out{color:var(--paper)}
+.tline.dim{color:var(--muted)}
+.tline.err{color:var(--amber)}
+.tline.ok{color:var(--green)}
+.tline .cur{display:inline-block;width:9px;height:14px;background:var(--green);vertical-align:-2px;animation:blink 1.1s infinite}
+.term-cmds{display:flex;flex-wrap:wrap;gap:10px;padding:14px 16px;border-top:1px solid var(--line-2);background:rgba(255,255,255,.015)}
+.tcmd{
+  font-family:var(--font-m);font-size:11px;color:var(--blue);
+  border:1px solid var(--line);border-radius:4px;padding:8px 12px;
+  transition:background .2s,color .2s;white-space:nowrap;
+}
+.tcmd:hover{background:var(--blue);color:var(--ink)}
+.tcmd:disabled{opacity:.4;cursor:default;pointer-events:none}
+
+/* ── THE LAPTOP — a terminal laptop that flips open into a section ── */
+.laptop{
+  position:relative; margin-top:34px;
+  perspective:1500px;
+}
+.laptop-lid{
+  position:relative;
+  transform-origin:50% 100%;
+  transform:rotateX(-88deg);
+  transform-style:preserve-3d;
+  transition:transform 1.15s cubic-bezier(.19,1,.22,1);
+  will-change:transform;
+}
+.laptop.open .laptop-lid{ transform:rotateX(0deg); }
+.laptop-lid .term{ border-radius:14px 14px 2px 2px; }
+.laptop-lid::after{ /* screen glass rim */
+  content:""; position:absolute; inset:0; z-index:2;
+  border:1px solid rgba(125,211,252,.4); border-radius:14px 14px 2px 2px;
+  pointer-events:none;
+}
+.lid-boot{
+  position:absolute; inset:0; z-index:3; pointer-events:none;
+  background:linear-gradient(115deg, transparent 28%, rgba(125,211,252,.3) 50%, transparent 72%);
+  transform:translateX(-130%); opacity:0;
+}
+.laptop.open .lid-boot{ animation:lidShine 1.5s ease .55s forwards; }
+@keyframes lidShine{
+  0%{transform:translateX(-130%); opacity:0}
+  22%{opacity:1}
+  100%{transform:translateX(130%); opacity:0}
+}
+.laptop-base{
+  position:relative; margin-top:9px; height:76px;
+  background:linear-gradient(180deg,#18243c,#0d1526);
+  border:1px solid var(--line-2); border-radius:10px 10px 20px 20px;
+  box-shadow:0 24px 60px rgba(0,0,0,.5);
+  display:flex; align-items:center; justify-content:center;
+}
+.laptop-base::before{ /* trackpad */
+  content:""; position:absolute; width:190px; height:36px; bottom:9px;
+  background:#0a1120; border:1px solid var(--line-2); border-radius:9px;
+}
+.kb{ display:flex; gap:5px; margin-top:-8px; opacity:.92; }
+.kb i{ width:17px; height:16px; border-radius:3px; background:#22324d; border:1px solid #2f435f; }
+
+/* ═══════════ JOIN ═══════════ */
+#join .panel{padding:clamp(34px,5vw,70px);text-align:left;position:relative;overflow:hidden}
+#join .panel::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(70% 90% at 50% 0%,rgba(59,166,242,.12),transparent 60%);
+}
+.join-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,4vw,56px);align-items:center}
+#join h2{font-size:clamp(2rem,5vw,3.8rem);line-height:1.02;font-weight:700;letter-spacing:-.02em;margin-bottom:22px;text-wrap:balance}
+#join h2 em{font-style:normal;color:var(--blue)}
+#join p{color:var(--muted);max-width:56ch;margin:0 0 34px;line-height:1.7}
+#join .row{display:flex;flex-wrap:wrap;gap:16px}
+.join-poster{margin:0}
+.join-poster img{
+  width:100%;display:block;border:1px solid var(--line-2);border-radius:10px;
+  box-shadow:0 24px 70px rgba(0,0,0,.5);
+}
+.join-poster figcaption{font-family:var(--font-m);font-size:11px;color:var(--dim);margin-top:14px;letter-spacing:.12em;text-transform:uppercase}
+.join-poster figcaption b{color:var(--blue)}
+@media (max-width:820px){ .join-grid{grid-template-columns:1fr} }
+
+/* ═══════════ FOOTER ═══════════ */
+footer{position:relative;z-index:5;border-top:1px solid var(--line-2);padding:44px clamp(18px,6vw,80px) 70px}
+.foot-grid{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:center}
+footer .mono{font-family:var(--font-m);font-size:11px;color:var(--dim);line-height:1.9}
+footer .links{display:flex;gap:22px;flex-wrap:wrap}
+footer .links a{font-family:var(--font-m);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);transition:color .2s}
+footer .links a:hover{color:var(--blue)}
+footer .mit b{color:var(--paper)}
+
+/* ═══════════ REVEAL / SCRAMBLE ═══════════ */
+[data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease);transition-delay:var(--d,0s)}
+[data-reveal].in{opacity:1;transform:none}
+[data-scramble]{will-change:contents}
+
+/* ═══════════ FIGHT MODE ═══════════ */
+body.fight #stage3d{animation:shake .5s}
+body.fight #toast{animation:shake .5s}
+@keyframes shake{
+  0%,100%{transform:translate(0,0)} 20%{transform:translate(-8px,4px)}
+  40%{transform:translate(7px,-5px)} 60%{transform:translate(-5px,-3px)} 80%{transform:translate(4px,5px)}
+}
+#fightflash{position:fixed;inset:0;z-index:75;pointer-events:none;background:var(--blue);opacity:0}
+body.fight #fightflash{animation:fflash .5s}
+@keyframes fflash{0%{opacity:.32}100%{opacity:0}}
+
+/* ═══════════ REDUCED MOTION ═══════════ */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001s!important;animation-iteration-count:1!important;transition-duration:.001s!important}
+  html{scroll-behavior:auto}
+  #grain{display:none}
+  [data-reveal]{opacity:1;transform:none}
+  #ticker .track{animation:none}
+  .hero-cmd .blink,.term-body .cur,.live-pill i{animation:none}
+}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width:1020px){
+  #manifesto .wrap,#stack .wrap,#mission .wrap{grid-template-columns:1fr}
+  .hero-grid{grid-template-columns:1fr}
+  .counter-panel{margin-left:0;margin-top:30px}
+  .hero-scrollhint{display:none}
+  /* shrink the laptop/terminal so it fits single-column mobile layouts */
+  .laptop{margin-top:24px}
+  .term-body{min-height:0;max-height:340px;padding:16px 16px 20px;font-size:12px;line-height:1.75}
+  .term-bar{padding:10px 14px}
+  .laptop-base{height:58px;margin-top:7px}
+  .laptop-base::before{width:130px;height:26px;bottom:7px}
+  .kb{flex-wrap:wrap;max-width:280px;gap:4px;margin-top:-6px}
+  .kb i{width:13px;height:13px}
+}
+@media (max-width:560px){
+  .stat-grid{grid-template-columns:1fr 1fr}
+  .card-grid{grid-template-columns:1fr}
+  .live-pill{display:none}
+  /* compact terminal on phones */
+  .laptop-lid .term{border-radius:10px 10px 2px 2px}
+  .term-bar{padding:8px 10px;gap:6px}
+  .term-bar i{width:9px;height:9px}
+  .term-bar .tt{font-size:9.5px;margin-left:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .term-body{padding:12px 12px 16px;font-size:11px;line-height:1.7;min-height:0;max-height:300px}
+  .term-cmds{padding:10px 10px;gap:7px}
+  .tcmd{font-size:10px;padding:6px 9px}
+  .laptop-base{height:44px;margin-top:6px;border-radius:8px 8px 14px 14px}
+  .laptop-base::before{width:92px;height:18px;bottom:5px;border-radius:6px}
+  .kb{max-width:200px;gap:3px;margin-top:-4px}
+  .kb i{width:9px;height:9px;border-radius:2px}
+}
+</style>
+</head>
+<body>
+<script>
+window.__pageErrs = [];
+window.addEventListener('error', function(e){
+  window.__pageErrs.push({kind:'error', msg:e.message, src:e.filename+':'+e.lineno+':'+e.colno, stack:(e.error && e.error.stack)||''});
+});
+window.addEventListener('unhandledrejection', function(e){
+  window.__pageErrs.push({kind:'rejection', msg:String((e.reason && (e.reason.stack||e.reason.message))||e.reason)});
+});
+</script>
+
+
+<!-- 3D stage + fallback -->
+<div id="stage3d" aria-hidden="true"></div>
+<canvas id="fallback2d" aria-hidden="true" style="display:none"></canvas>
+
+<!-- overlays -->
+<div id="grain" aria-hidden="true"></div>
+<div id="fightflash" aria-hidden="true"></div>
+<div id="scrollprog" aria-hidden="true"></div>
+<div id="toast" role="status"></div>
+<div id="curRing" aria-hidden="true"></div>
+<div id="curDot" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header id="nav">
+  <a class="brand" href="#hero" aria-label="LeftyDevKit home">
+    <img class="brand-fist" src="assets/fist.png" alt="" aria-hidden="true">
+    <span class="w">Lefty<b>DevKit</b></span>
+  </a>
+  <button id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav id="navmenu" aria-label="Primary">
+    <ul>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#stack">The Machine</a></li>
+      <li><a href="#arsenal">Arsenal</a></li>
+      <li><a href="/ledger">Ledger</a></li>
+      <li><a href="#manifesto">Manifesto</a></li>
+    </ul>
+  </nav>
+  <div class="nav-cta">
+    <span class="live-pill"><i></i>BUILT IN PUBLIC</span>
+    <a class="btn ghost" href="#join" data-magnet>Join</a>
+  </div>
+</header>
+
+<main>
+  <!-- SECTION: HERO -->
+  <section id="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="kicker" data-scramble>system.reclaim();</div>
+        <h1 class="hero-title" aria-label="Code. Organize. Resist.">
+          <span class="misreg" data-txt="CODE." data-scramble>CODE.</span>
+          <span class="m2 misreg" data-txt="ORGANIZE." data-scramble>ORGANIZE.</span>
+          <span class="m3 misreg" data-txt="RESIST." data-scramble>RESIST.</span>
+        </h1>
+        <p class="hero-sub">
+          Open-source <b>progressive civic-tech</b> — free for candidates and organizers
+          who align with our values. The right wing pours billionaire money into political
+          tech infrastructure. <b>We compete with people who believe in something bigger
+          than themselves.</b>
+        </p>
+        <div class="hero-cta">
+          <a class="btn solid" href="#arsenal" data-magnet>Enter the Arsenal</a>
+          <a class="btn" href="#manifesto" data-magnet>Read the Manifesto</a>
+        </div>
+        <div class="hero-cmd" aria-hidden="true">
+          <span class="p">leftydevdad@leftydevkit:~$</span> <span class="c">./organize --all --quiet</span><span class="blink"></span>
+        </div>
+      </div>
+      <!-- LIVE corruption counter (it only goes up) -->
+      <div class="counter-panel brk panel" data-reveal>
+        <div class="counter-head">
+          <span class="t">Corruption Counter</span>
+          <span class="st">▲ LIVE</span>
+        </div>
+        <div class="counter-body">
+          <div class="amt"><b>$</b><span id="ccount">1,234,567</span></div>
+          <div class="note">estimated lobbyist dollars spent since this page loaded.<br>tracked in public by the <b>corruption-counter</b> project.</div>
+          <div class="counter-bump" id="cbump">⚠ lobbyist detected</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scrollhint">scroll to breach the firewall</div>
+  </section>
+
+  <!-- SECTION: MISSION -->
+  <section id="mission">
+    <div class="wrap">
+      <div data-reveal>
+        <div class="kicker" data-scramble>/ why we build</div>
+        <p class="quote">
+          The right wing pours <span class="r">billionaire money</span> into political
+          tech infrastructure. The left competes with people who believe in something
+          <span class="g">bigger than themselves</span>.
+        </p>
+        <p class="lede" style="margin-top:28px" data-reveal>
+          LeftyDevKit is the toolkit for that fight — <b>built in public, one stream at a
+          time</b>. Every repo, every pull request, every build failure on stream. No dark
+          patterns. No surveillance. Just tools for the people who need them.
+        </p>
+      </div>
+      <div class="stat-grid" style="margin-top:8px">
+        <div class="stat panel brk" data-reveal style="--d:.05s">
+          <div class="n r" id="cstat">$1,234,567</div>
+          <div class="l">lobbyist dollars <b>tracked</b></div>
+        </div>
+        <div class="stat panel brk" data-reveal style="--d:.12s">
+          <div class="n g">12,847</div>
+          <div class="l">neighbors <b>organized</b></div>
+        </div>
+        <div class="stat panel brk" data-reveal style="--d:.19s">
+          <div class="n am">∞</div>
+          <div class="l">lines of code <b>(one stream at a time)</b></div>
+        </div>
+        <div class="stat panel brk" data-reveal style="--d:.26s">
+          <div class="n">100%</div>
+          <div class="l">built <b>in public</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: STACK -->
+  <section id="stack">
+    <div class="wrap">
+      <div data-reveal>
+        <div class="kicker" data-scramble>/ the machine</div>
+        <h2 class="display">A stack that <em>fights back</em></h2>
+        <p class="lede">
+          Everything runs on free and open tools. Local-first where it matters — your
+          data, your hardware, your movement. No VC-backed surveillance cloud required.
+        </p>
+        <p class="mono" style="margin-top:22px;font-size:12px;color:var(--dim)">
+          $ uname -a<br>linux resistance 6.1.0-revolution #1 SMP PREEMPT_DYNAMIC<br>built in public on stream, every thursday night
+        </p>
+      </div>
+      <div class="stack-grid" style="margin-top:8px">
+        <div class="schip panel brk" data-reveal><div class="nm">SvelteKit</div><div class="tg">web</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.04s"><div class="nm">Three.js</div><div class="tg">this page</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.08s"><div class="nm">Python</div><div class="tg">backbone</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.12s"><div class="nm">Freqtrade</div><div class="tg">the fund</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.16s"><div class="nm">OBS Studio</div><div class="tg">broadcast</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.2s"><div class="nm">Kokoro TTS</div><div class="tg">cohost voice</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.24s"><div class="nm">llama.cpp</div><div class="tg">local brain</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.28s"><div class="nm">Coolify</div><div class="tg">deploy</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.32s"><div class="nm">YouTube Live</div><div class="tg">the stream</div></div>
+        <div class="schip panel brk" data-reveal style="--d:.36s"><div class="nm">GitHub</div><div class="tg">history</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: ARSENAL -->
+  <section id="arsenal">
+    <div class="wrap">
+      <div class="head">
+        <div data-reveal>
+          <div class="kicker" data-scramble>/ the arsenal</div>
+          <h2 class="display" style="margin-bottom:0">Tools for the <em>fight</em></h2>
+        </div>
+        <p class="mono" data-reveal style="font-size:12px;color:var(--dim)">hover to inspect // click to deploy</p>
+      </div>
+      <div class="card-grid">
+        <article class="card panel brk tilt" data-reveal>
+          <span class="status live">live</span>
+          <span class="icon" aria-hidden="true">📈</span>
+          <h3>Corruption Counter</h3>
+          <p>a public ticker for the grift. every lobbyist dollar, every dark-money PAC — tracked in the open, because the receipts should embarrass them.</p>
+          <div class="foot">you can see it running above</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+        <article class="card panel brk tilt" data-reveal style="--d:.06s">
+          <span class="status live">live</span>
+          <span class="icon" aria-hidden="true">🎛️</span>
+          <h3>Stream Overlay + AI Cohost</h3>
+          <p>a broadcast-grade battlefield HUD for the stream — chat, cam, tickers — plus a cohost who reads theory aloud so you can keep working.</p>
+          <div class="foot">the machine reads; you build</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+        <article class="card panel brk tilt" data-reveal style="--d:.12s">
+          <span class="status beta">beta</span>
+          <span class="icon" aria-hidden="true">🛰️</span>
+          <h3>Social Ops Dashboard</h3>
+          <p>a left-twitter operations center — monitor the discourse, organize replies in formation, spot the bots, keep the receipts.</p>
+          <div class="foot">signal over noise</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+        <article class="card panel brk tilt" data-reveal style="--d:.18s">
+          <span class="status dev">in dev</span>
+          <span class="icon" aria-hidden="true">🗿</span>
+          <h3>amitheidiot</h3>
+          <p>a monument to the idiot. every dumb thing, archived forever, with receipts. built live on stream — the judge's ruling is final.</p>
+          <div class="foot">appeals not accepted</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+        <article class="card panel brk tilt" data-reveal style="--d:.24s">
+          <span class="status dev">in dev</span>
+          <span class="icon" aria-hidden="true">📣</span>
+          <h3>Neighborhood Billboard</h3>
+          <p>hyperlocal organizing — put the message on the corner, not in the feed. flyers, meetups, mutual aid, all in one board.</p>
+          <div class="foot">offline-first, by design</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+        <article class="card panel brk tilt" data-reveal style="--d:.3s">
+          <span class="status dev">in dev</span>
+          <span class="icon" aria-hidden="true">🛡️</span>
+          <h3>Protection Ring</h3>
+          <p>community safety tooling for mutual-aid crews — check-ins, alerts, and coordination that never routes through a cop.</p>
+          <div class="foot">care, not cages</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+        <article class="card panel brk tilt" data-reveal style="--d:.36s">
+          <span class="status beta">yours?</span>
+          <span class="icon" aria-hidden="true">➕</span>
+          <h3>Your Project Here</h3>
+          <p>running for office? organizing a district? need a site, a tool, a scraper? free for progressive candidates and organizers. reach out on the stream.</p>
+          <div class="foot">built on stream, for you</div>
+          <div class="glare" aria-hidden="true"></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: MANIFESTO -->
+  <section id="manifesto">
+    <div class="wrap">
+      <div data-reveal>
+        <div class="kicker" data-scramble>/ the manifesto</div>
+        <h2 class="display">Read the <em>doctrine</em></h2>
+        <p class="lede">
+          No billionaire money. No dark patterns. Just tools — free for the people who
+          fight for a better world. The terminal below is real: click a command and watch
+          it run.
+        </p>
+        <p class="mono" style="margin-top:22px;font-size:12px;color:var(--dim)">
+          tip: type <b style="color:var(--blue)">while(!free)</b> anywhere on the page
+        </p>
+      </div>
+      <div class="laptop brk" data-reveal style="--d:.1s" id="laptop">
+        <div class="laptop-lid">
+          <div class="lid-boot"></div>
+          <div class="term">
+            <div class="term-bar">
+              <i></i><i></i><i></i>
+              <span class="tt">leftydevdad@leftydevkit: ~/revolution — bash</span>
+            </div>
+            <div class="term-body" id="termBody" role="log" aria-live="polite">
+              <div class="tline dim">LeftyDevKit OS 0.1.0-revolution — session opened</div>
+              <div class="tline prompt">leftydevdad@leftydevkit:~$ <span class="cur"></span></div>
+            </div>
+            <div class="term-cmds">
+              <button class="tcmd" data-cmd="ls /etc/revolution">ls /etc/revolution</button>
+              <button class="tcmd" data-cmd="cat manifesto.txt">cat manifesto.txt</button>
+              <button class="tcmd" data-cmd="system.reclaim()">system.reclaim()</button>
+              <button class="tcmd" data-cmd="./organize --district=all --quiet">./organize --district=all</button>
+              <button class="tcmd" data-cmd="apt install justice">apt install justice</button>
+              <button class="tcmd" data-cmd="while(!free){fight();}">while(!free){fight();}</button>
+              <button class="tcmd" data-cmd="git push origin revolution">git push origin revolution</button>
+            </div>
+          </div>
+        </div>
+        <div class="laptop-base">
+          <div class="kb">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: JOIN -->
+  <section id="join">
+    <div class="wrap">
+      <div class="panel join-grid" data-reveal>
+        <div>
+          <div class="kicker">/ deploy yourself</div>
+          <h2>Free for candidates &amp; <em>organizers</em></h2>
+          <p>
+            Need a website, a tool, or tech help? If you're building toward a better world,
+            it's free. These tools are built in public, on stream — come watch them get made,
+            or come get one made for you.
+          </p>
+          <div class="row">
+            <a class="btn solid" href="https://github.com/techydad05/leftydevkit" target="_blank" rel="noopener" data-magnet>★ Star the Repo</a>
+            <a class="btn" href="https://ldk.idevsites.com" target="_blank" rel="noopener" data-magnet>See the Kit</a>
+            <a class="btn ghost" href="#hero" data-magnet>Back to Top</a>
+          </div>
+        </div>
+        <figure class="join-poster" data-reveal style="--d:.15s">
+          <img src="assets/reg-logo.jpg" alt="LeftyDevKit poster: a raised fist over a developer at a desk, a crowd behind them, SYSTEM.RECLAIM();">
+          <figcaption>the poster — <b>system.reclaim();</b></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- fixed bottom broadcast ticker -->
+<div id="ticker" aria-hidden="true">
+  <div class="track">
+    <span>organize()</span><span>built in public</span><span>free for candidates &amp; organizers</span>
+    <span>seize the means of production</span><span>while(!free){fight();}</span><span>one stream at a time</span>
+    <span>code. organize. resist.</span><span>no billionaire money</span>
+    <span>organize()</span><span>built in public</span><span>free for candidates &amp; organizers</span>
+    <span>seize the means of production</span><span>while(!free){fight();}</span><span>one stream at a time</span>
+    <span>code. organize. resist.</span><span>no billionaire money</span>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-grid">
+    <div class="mono">
+      <div>LeftyDevKit — MIT licensed. <b style="color:var(--blue)">system.reclaim();</b></div>
+      <div class="mit">"<b>do what you want, just make the world better.</b>"</div>
+      <div style="margin-top:6px">stream live — <b style="color:var(--blue)">@leftydevdad</b></div>
+    </div>
+    <div class="mono" style="text-align:right">
+      <div>every line of code, every shitpost, every build failure —</div>
+      <div>built in public, one stream at a time.</div>
+    </div>
+    <div class="links">
+      <a href="https://github.com/techydad05/leftydevkit" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://ldk.idevsites.com" target="_blank" rel="noopener">Site</a>
+      <a href="#manifesto">Manifesto</a>
+      <a href="#join">Join</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════ IMPORTS ═══════════ -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<!-- 3D + interactions (module) -->
+<script type="module">
+import * as THREE from 'three';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+
+window.__threeReady = true;
+
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+// align with the CSS single-column breakpoint (max-width:1020px) so cloud placement matches layout
+const isMobile = innerWidth < 1020 || matchMedia('(pointer: coarse)').matches;
+
+/* ─────────── RENDERER / SCENE / CAMERA ─────────── */
+const stage = document.getElementById('stage3d');
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, isMobile ? 1.5 : 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.1;
+stage.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color('#050a18');
+scene.fog = new THREE.FogExp2('#050a18', 0.04);
+
+const camera = new THREE.PerspectiveCamera(62, innerWidth / innerHeight, .1, 220);
+camera.position.set(0, .7, 8.6);
+
+/* stars — faint backdrop speckle */
+function starLayer(count, size, color, rMin, rMax, opacity){
+  const g = new THREE.BufferGeometry();
+  const p = new Float32Array(count * 3);
+  for(let i = 0; i < count; i++){
+    const r = rMin + Math.random() * (rMax - rMin);
+    const th = Math.random() * Math.PI * 2, ph = Math.acos(2 * Math.random() - 1);
+    p[i*3]   = r * Math.sin(ph) * Math.cos(th);
+    p[i*3+1] = r * Math.sin(ph) * Math.sin(th);
+    p[i*3+2] = r * Math.cos(ph);
+  }
+  g.setAttribute('position', new THREE.BufferAttribute(p, 3));
+  return new THREE.Points(g, new THREE.PointsMaterial({ color, size, sizeAttenuation: true, transparent: true, opacity }));
+}
+const starsFar  = starLayer(isMobile ? 500 : 900, .32, 0x9aa7bd, 45, 90, .35);
+const starsNear = starLayer(isMobile ? 250 : 500, .45, 0xc9d6e8, 30, 60, .3);
+scene.add(starsFar, starsNear);
+
+/* ═══════════════════════════════════════════════════════════════
+   THE PEOPLE'S CLOUD — pixel-sampled particle morph (lab system)
+   Every particle's home is a pixel of a real brand PNG. On load it
+   gathers from a scattered field into the FIST; as you scroll into
+   each section the home target swaps and the cloud morphs.
+   Targets (order MUST match the sections below):
+     HERO→FIST · MISSION→AT THE DESK · STACK→GEAR ·
+     ARSENAL→THE COURTHOUSE · MANIFESTO→reclaim() · JOIN→THE PICKET
+   ═══════════════════════════════════════════════════════════════ */
+const SAMPLES = 26000;          // full particle budget on every device (user: keep all particles on mobile)
+const SAMPLE_SCALE = 4.2;      // lab coords (±0.62) → site world units (~5.2 tall)
+
+const cvs = document.createElement('canvas');
+const ctx = cvs.getContext('2d', { willReadFrequently: true });
+
+function sampleImage(img, stride = 2, alphaMin = 40, lumaMin = 0.10){
+  const MAXW = 280;
+  const sc = Math.min(1, MAXW / img.width);
+  const w = Math.max(1, Math.round(img.width * sc)), h = Math.max(1, Math.round(img.height * sc));
+  cvs.width = w; cvs.height = h;
+  ctx.clearRect(0, 0, w, h); ctx.drawImage(img, 0, 0, w, h);
+  const d = ctx.getImageData(0, 0, w, h).data;
+  const pts = [];
+  for(let y = 0; y < h; y += stride){
+    for(let x = 0; x < w; x += stride){
+      const i = (y * w + x) * 4;
+      const a = d[i + 3]; if(a < alphaMin) continue;
+      const r = d[i] / 255, g = d[i + 1] / 255, b = d[i + 2] / 255;
+      if(.299 * r + .587 * g + .114 * b < lumaMin) continue;   // skip near-black bg
+      pts.push({ x: (x / w - .5) * 2, y: -(y / h - .5) * 2, r, g, b });
+    }
+  }
+  const ar = w / h;
+  pts.forEach(p => { p.x *= ar * 0.62 * SAMPLE_SCALE; p.y *= 0.62 * SAMPLE_SCALE; });
+  return pts;
+}
+
+function sampleText(txt){
+  const w = 420, h = 170; cvs.width = w; cvs.height = h;
+  ctx.clearRect(0, 0, w, h);
+  ctx.fillStyle = '#fff';
+  ctx.font = '800 76px ui-monospace, Consolas, monospace';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(txt, w / 2, h / 2);
+  const d = ctx.getImageData(0, 0, w, h).data; const pts = [];
+  for(let y = 0; y < h; y += 2) for(let x = 0; x < w; x += 2){
+    const i = (y * w + x) * 4; if(d[i + 3] < 40) continue;
+    pts.push({ x: (x / w - .5) * 2 * (w / h) * 0.55 * SAMPLE_SCALE, y: -(y / h - .5) * 2 * 0.55 * SAMPLE_SCALE, r: .43, g: .66, b: 1 });
+  }
+  return pts;
+}
+
+// resample a point list to exactly SAMPLES entries (fixed count → any pair morphs 1:1)
+function resample(pts, n){
+  const out = new Float32Array(n * 3), col = new Float32Array(n * 3);
+  if(!pts.length) return { out, col };
+  for(let i = 0; i < n; i++){
+    const p = pts[(Math.random() * pts.length) | 0];
+    const j = Math.random() * Math.PI * 2, rad = Math.random() * 0.006;
+    out[i*3]   = p.x + Math.cos(j) * rad;
+    out[i*3+1] = p.y + Math.sin(j) * rad;
+    out[i*3+2] = (Math.random() - .5) * .02 * SAMPLE_SCALE;
+    // brand-tint: blend sampled colour toward LDK blue range
+    col[i*3]   = p.r * 0.35 + 0.20;
+    col[i*3+1] = p.g * 0.45 + 0.36;
+    col[i*3+2] = p.b * 0.30 + 0.72;
+  }
+  return { out, col };
+}
+
+/* particle buffers — start scattered "from all over" (uniform sphere) */
+const pos = new Float32Array(SAMPLES * 3);
+const home = new Float32Array(SAMPLES * 3);
+const colA = new Float32Array(SAMPLES * 3);
+const SPREAD = 13;
+for(let i = 0; i < SAMPLES; i++){
+  const th = Math.random() * Math.PI * 2;
+  const ph = Math.acos(2 * Math.random() - 1);
+  const r = Math.pow(Math.random(), 1 / 3) * SPREAD;
+  pos[i*3]   = r * Math.sin(ph) * Math.cos(th);
+  pos[i*3+1] = r * Math.sin(ph) * Math.sin(th);
+  pos[i*3+2] = r * Math.cos(ph) - .5;
+}
+const scatterStart = new Float32Array(pos);     // snapshot for the load gather
+
+const geo = new THREE.BufferGeometry();
+geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+geo.setAttribute('color', new THREE.BufferAttribute(colA, 3));
+const mat = new THREE.PointsMaterial({
+  size: isMobile ? .05 : .045, vertexColors: true, transparent: true,
+  opacity: isMobile ? .52 : .6,          // mobile: cloud sits behind single-column text → keep it a faint hologram
+  blending: THREE.AdditiveBlending, depthWrite: false, sizeAttenuation: true
+});
+const cloud = new THREE.Points(geo, mat); scene.add(cloud);
+
+let TARGET_ARRAYS = [];      // one pre-resampled Float32Array per shape (built at load)
+let curTargets = null;       // {a, b, s} of the active scroll band (for the debug hook)
+
+function setTarget(pts){
+  const { out, col } = resample(pts, SAMPLES);
+  home.set(out); colA.set(col);
+  geo.attributes.color.needsUpdate = true;
+}
+
+/* ---------- load sources (order = section order) ---------- */
+const loader = new THREE.TextureLoader();
+function loadImg(src){
+  return new Promise((res, rej) => {
+    const im = new Image(); im.crossOrigin = 'anonymous';
+    im.onload = () => res(im); im.onerror = () => rej(new Error('load fail ' + src)); im.src = src;
+  });
+}
+const targets = [];
+const report = {};
+async function addImageTarget(name, src, alphaMin){
+  try{
+    const im = await loadImg(src);
+    const p = sampleImage(im, 2, alphaMin, 0.10);
+    targets.push({ name, pts: p }); report[name] = p.length;
+  }catch(e){ report[name] = 'ERR ' + e.message; }
+}
+async function buildTargets(){
+  await addImageTarget('FIST',           'assets/fist.png',       40);
+  await addImageTarget('AT THE DESK',    'assets/desk.png',       0);   // RGB, no alpha
+  await addImageTarget('GEAR',           'assets/gear.png',       0);   // RGB, no alpha
+  await addImageTarget('THE COURTHOUSE', 'assets/courthouse.png', 0);   // RGB, no alpha
+  targets.push({ name: 'reclaim()', pts: sampleText('reclaim()') });
+  report['reclaim()'] = targets[targets.length - 1].pts.length;
+  await addImageTarget('THE PICKET',     'assets/protest.png',    0);   // RGB, no alpha
+  /* pre-resample every target to SAMPLES → scroll-morph lerps between
+     adjacent arrays 1:1 with zero allocation per frame */
+  TARGET_ARRAYS = targets.map(t => resample(t.pts, SAMPLES).out);
+  if(targets.length){
+    setTarget(targets[0].pts);      // colors for the fist
+    home.set(TARGET_ARRAYS[0]);     // home = the SAME array the scroll-morph starts at (no pop)
+  }
+  if(reduced){
+    for(let i = 0; i < SAMPLES * 3; i++) pos[i] = home[i];   // reduced: jump straight to fist
+    geo.attributes.position.needsUpdate = true;
+  }
+  console.log('PARTICLE_MORPH ' + JSON.stringify({ targets: targets.map(t => t.name), counts: report, SAMPLES }));
+}
+
+/* ---------- load gather (the approved sequence: scatter → once → hold) ---------- */
+const GATHER_DUR = 2.6;
+let gatherStarted = false, gT0 = 0, gatherDone = false;
+function updateGather(t){
+  if(!gatherStarted){ gatherStarted = true; gT0 = t + .15; }
+  const k = Math.max(0, Math.min(1, (t - gT0) / GATHER_DUR));
+  const s = k * k * (3 - 2 * k);                        // smoothstep
+  const P = geo.attributes.position.array;
+  for(let i = 0; i < SAMPLES * 3; i++) P[i] = scatterStart[i] + (home[i] - scatterStart[i]) * s;
+  geo.attributes.position.needsUpdate = true;
+  if(k >= 1) gatherDone = true;
+}
+
+/* ---------- spring toward home (lab physics, no cursor scatter) ---------- */
+/* ── SCROLL TIMELINE — camera flythrough + cloud track ── */
+/* Desktop: 2-col layout, cloud parked right of the text column.
+   Mobile: single-col layout — cloud CENTERED and scaled to the narrow
+   viewport (wide shapes like THE PICKET 8.65u / reclaim() 9.79u would be
+   badly cropped at phone aspect; camera also pulls back a touch). */
+const K_DESKTOP = [
+  { p: 0.00, cam: { p: [0, .7, 8.6], l: [0, 1.2, 0] },  c: { p: [2.6, .7, 0], s: 1.00 } },   // hero — FIST
+  { p: 0.16, cam: { p: [1.4, .8, 7.4], l: [.4, 1.1, 0] }, c: { p: [2.4, .8, 0], s: .92 } },   // mission — AT THE DESK
+  { p: 0.35, cam: { p: [.2, 1.2, 6.4], l: [0, 1.2, 0] }, c: { p: [2.2, 1.0, 0], s: 1.02 } },  // stack — GEAR
+  { p: 0.52, cam: { p: [-1.2, .9, 6.0], l: [.5, 1.1, 0] }, c: { p: [2.4, .9, 0], s: 1.06 } }, // arsenal — COURTHOUSE
+  { p: 0.74, cam: { p: [.2, 1.0, 5.6], l: [0, 1.0, 0] },  c: { p: [0, 1.0, 0], s: .85 } },  // manifesto — reclaim() (wide text: center it)
+  { p: 1.00, cam: { p: [0, .9, 8.2], l: [0, 1.0, 0] },    c: { p: [2.4, .9, 0], s: .90 } },   // join — THE PICKET
+];
+const K_MOBILE = [
+  { p: 0.00, cam: { p: [0, .8, 9.4], l: [0, 1.0, 0] },  c: { p: [0, .85, 0], s: .72 } },     // hero — FIST centered
+  { p: 0.16, cam: { p: [0, .9, 8.8], l: [0, 1.0, 0] },  c: { p: [0, .95, 0], s: .62 } },     // mission — AT THE DESK
+  { p: 0.35, cam: { p: [0, 1.1, 8.2], l: [0, 1.1, 0] }, c: { p: [0, 1.05, 0], s: .66 } },    // stack — GEAR
+  { p: 0.52, cam: { p: [0, .95, 7.8], l: [0, 1.0, 0] }, c: { p: [0, .95, 0], s: .7 } },      // arsenal — COURTHOUSE
+  { p: 0.74, cam: { p: [0, 1.0, 7.6], l: [0, 1.0, 0] }, c: { p: [0, .95, 0], s: .42 } },     // manifesto — reclaim() (very wide)
+  { p: 1.00, cam: { p: [0, .95, 9.2], l: [0, 1.0, 0] }, c: { p: [0, .9, 0], s: .5 } },       // join — THE PICKET
+];
+const K = isMobile ? K_MOBILE : K_DESKTOP;
+
+/* post-processing bloom */
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+const bloom = new UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), .06, .5, .0);
+composer.addPass(bloom);
+composer.addPass(new OutputPass());
+
+/* ─────────── INTERACTION STATE ─────────── */
+const mouse = { x: 0, y: 0 };
+let scrollP = 0, targetScrollP = 0;
+let clock = new THREE.Clock();
+let running = true;
+
+addEventListener('mousemove', e => {
+  mouse.x = (e.clientX / innerWidth) * 2 - 1;
+  mouse.y = (e.clientY / innerHeight) * 2 - 1;
+}, { passive: true });
+
+/* ── SCROLL MORPH — scroll position IS the morph knob ──
+   No section detection, no spring. The K keyframe band (ki, s) that drives
+   the camera ALSO drives the particle shape: at band progress s the cloud is
+   exactly lerp(TARGET_ARRAYS[ki], TARGET_ARRAYS[ki+1], s). Scroll forward =
+   scatter/reassemble in sync; scroll back = it reverses. */
+
+/* verification hook (console-accessible) */
+window.__pMorph = () => ({
+  band: curTargets ? { from: curTargets.a, to: curTargets.b, s: +curTargets.s.toFixed(3) } : null,
+  gatherDone,
+  count: SAMPLES,
+  mobile: isMobile,
+  scrollP: +scrollP.toFixed(3),
+  cloudPos: [cloud.position.x, cloud.position.y, cloud.position.z].map(v => +v.toFixed(2)),
+  cloudScale: +cloud.scale.x.toFixed(2)
+});
+
+/* geometry probe: current position bbox */
+window.__pGeom = () => {
+  const P = geo.attributes.position.array;
+  let minX = 1e9, maxX = -1e9, minY = 1e9, maxY = -1e9;
+  for(let i = 0; i < SAMPLES; i++){
+    const ix = i * 3, iy = ix + 1;
+    if(P[ix] < minX) minX = P[ix]; if(P[ix] > maxX) maxX = P[ix];
+    if(P[iy] < minY) minY = P[iy]; if(P[iy] > maxY) maxY = P[iy];
+  }
+  return {
+    bbox: { w: +(maxX - minX).toFixed(2), h: +(maxY - minY).toFixed(2) }
+  };
+};
+
+addEventListener('scroll', () => {
+  const max = Math.max(1, document.documentElement.scrollHeight - innerHeight);
+  targetScrollP = Math.min(1, Math.max(0, scrollY / max));
+  const prog = document.getElementById('scrollprog');
+  prog.style.width = (targetScrollP * 100) + '%';
+}, { passive: true });
+
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+  composer.setSize(innerWidth, innerHeight);
+});
+
+document.addEventListener('visibilitychange', () => {
+  running = !document.hidden;
+  if(running) clock = new THREE.Clock();
+});
+
+/* ─────────── ANIMATE ─────────── */
+function animate(){
+  if(!running) return;
+  requestAnimationFrame(animate);
+  const dt = Math.min(clock.getDelta(), .05);
+  const t = clock.elapsedTime;
+
+  scrollP += (targetScrollP - scrollP) * .06;         // smooth scroll drive
+
+  /* resolve the K band once — camera AND particle morph share it */
+  let ki = 0, s = 0;
+  if(!reduced && !gatherDone){
+    updateGather(t);                                   // load: scatter → fist → hold
+  } else if(!reduced && TARGET_ARRAYS.length){
+    const p = scrollP;
+    for(let i = 0; i < K.length - 1; i++) if(p >= K[i].p) ki = i;
+    const a = K[ki], b = K[ki + 1];
+    const f = Math.min(1, Math.max(0, (p - a.p) / (b.p - a.p)));
+    s = f * f * (3 - 2 * f);                           // smoothstep — the morph knob
+    /* scroll-morph: cloud = lerp(shape[ki], shape[ki+1], s) — reversible, in sync */
+    const A = TARGET_ARRAYS[ki], B = TARGET_ARRAYS[ki + 1];
+    const P = geo.attributes.position.array;
+    for(let i = 0; i < SAMPLES * 3; i++) P[i] = A[i] + (B[i] - A[i]) * s;
+    geo.attributes.position.needsUpdate = true;
+    curTargets = { a: targets[ki].name, b: targets[ki + 1].name, s };
+  }
+
+  /* camera + cloud ride the keyframe timeline */
+  if(reduced){
+    const k0 = K[0];
+    camera.position.set(k0.cam.p[0], k0.cam.p[1], k0.cam.p[2]); camera.lookAt(k0.cam.l[0], k0.cam.l[1], k0.cam.l[2]);
+    cloud.position.set(k0.c.p[0], k0.c.p[1], k0.c.p[2]); cloud.scale.setScalar(k0.c.s);
+  } else {
+    const p = scrollP;
+    const lerp = (u, v) => u + (v - u) * s;
+    const lerpV = (u, v) => [lerp(u[0], v[0]), lerp(u[1], v[1]), lerp(u[2], v[2])];
+
+    const cp = lerpV(K[ki].cam.p, K[ki + 1].cam.p), cl = lerpV(K[ki].cam.l, K[ki + 1].cam.l);
+    camera.position.set(cp[0] + mouse.x * .3, cp[1] - mouse.y * .2, cp[2]);
+    camera.lookAt(cl[0], cl[1], cl[2]);
+
+    const ck = K[ki].c, ct = K[ki + 1].c;
+    cloud.position.set(lerp(ck.p[0], ct.p[0]), lerp(ck.p[1], ct.p[1]), lerp(ck.p[2], ct.p[2]));
+    cloud.scale.setScalar(lerp(ck.s, ct.s));
+  }
+
+  starsNear.rotation.y += dt * .006;
+  starsFar.rotation.y -= dt * .003;
+
+  composer.render();
+}
+animate();
+
+/* ─────────── REDUCED MOTION: still render one frame ─────────── */
+if(reduced){ setTimeout(() => composer.render(), 60); }
+
+/* ─────────── 2D FALLBACK if module/WebGL failed ─────────── */
+setTimeout(() => {
+  if(!window.__threeReady){
+    const fb = document.getElementById('fallback2d');
+    fb.style.display = 'block';
+    const ctx2 = fb.getContext('2d');
+    fb.width = innerWidth; fb.height = innerHeight;
+    const N = 240, pts = [];
+    for(let i = 0; i < N; i++){
+      pts.push({ x: Math.random()*fb.width, y: Math.random()*fb.height, r: Math.random()*1.4+.3, s: .15+Math.random()*.4, c: Math.random()<.3 ? '59,166,242' : '242,240,236' });
+    }
+    (function fbLoop(){
+      ctx2.fillStyle = 'rgba(5,10,24,.25)';
+      ctx2.fillRect(0,0,fb.width,fb.height);
+      for(const p of pts){
+        p.y -= p.s; if(p.y < -2){ p.y = fb.height + 2; p.x = Math.random()*fb.width; }
+        ctx2.beginPath(); ctx2.arc(p.x,p.y,p.r,0,Math.PI*2);
+        ctx2.fillStyle = `rgba(${p.c},.85)`; ctx2.fill();
+      }
+      requestAnimationFrame(fbLoop);
+    })();
+  }
+}, 3000);
+
+buildTargets();
+</script>
+
+
+
+<!-- classic interactions (no module deps — safe if CDN fails) -->
+<script>
+(function(){
+  'use strict';
+  const $  = (s, c=document) => c.querySelector(s);
+  const $$ = (s, c=document) => [...c.querySelectorAll(s)];
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const finePointer = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const body = document.body;
+
+  /* ── NAV ── */
+  const nav = $('#nav'), burger = $('#burger'), navmenu = $('#navmenu');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), { passive: true });
+  burger.addEventListener('click', () => {
+    const open = navmenu.classList.toggle('open');
+    burger.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open);
+  });
+  $$('nav a', navmenu).forEach(a => a.addEventListener('click', () => {
+    navmenu.classList.remove('open'); burger.classList.remove('open');
+  }));
+
+  /* ── CUSTOM CURSOR ── */
+  if (finePointer && !reduced){
+    const ring = $('#curRing'), dot = $('#curDot');
+    let rx = innerWidth/2, ry = innerHeight/2, tx = rx, ty = ry;
+    addEventListener('mousemove', e => { tx = e.clientX; ty = e.clientY; }, { passive: true });
+    (function curLoop(){
+      rx += (tx - rx) * .16; ry += (ty - ry) * .16;
+      ring.style.transform = `translate(${rx - 15}px,${ry - 15}px)`;
+      dot.style.transform  = `translate(${tx - 2}px,${ty - 2}px)`;
+      requestAnimationFrame(curLoop);
+    })();
+    const grow = e => e.target.closest('a,button,.tilt,[data-magnet]') && ring.classList.add('grow');
+    const shrink = e => ring.classList.remove('grow');
+    document.addEventListener('mouseover', grow); document.addEventListener('mouseout', shrink);
+  }
+
+  /* ── REVEALS ── */
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { threshold: .12 });
+  $$('[data-reveal]').forEach(el => io.observe(el));
+
+  /* ── SCRAMBLE DECODE ── */
+  const glyphs = '!<>-_\\/[]{}—=+*^?#01XF';
+  function scramble(el){
+    const target = el.dataset.txt || el.textContent;
+    let f = 0;
+    const id = setInterval(() => {
+      let out = '';
+      for (let i = 0; i < target.length; i++){
+        out += i < f ? target[i] : glyphs[(Math.random() * glyphs.length) | 0];
+      }
+      el.textContent = out;
+      f += Math.max(1, Math.ceil(target.length / 16));
+      if (f >= target.length){ el.textContent = target; clearInterval(id); }
+    }, 26);
+  }
+  const sio = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting){ scramble(en.target); sio.unobserve(en.target); }
+    });
+  }, { threshold: .5 });
+  $$('[data-scramble]').forEach(el => sio.observe(el));
+
+  /* ── CORRUPTION COUNTER ── */
+    const ccount = $('#ccount'), cbump = $('#cbump'), cstat = $('#cstat');
+    let corruption = 1234567, bumpTimer = null, LEDGER_LIVE = false;
+    const fmt = n => n.toLocaleString('en-US');
+    function bump(){
+      if (LEDGER_LIVE) return; // stop once real data arrives
+      corruption += 1 + ((Math.random() * 47) | 0);
+      const v = fmt(corruption);
+      ccount.textContent = v; cstat.textContent = '$' + v;
+      if (Math.random() < .16){
+        cbump.classList.remove('show'); void cbump.offsetWidth; cbump.classList.add('show');
+        setTimeout(() => cbump.classList.remove('show'), 2600);
+      }
+    }
+    if (!reduced) bumpTimer = setInterval(bump, 650 + Math.random() * 500); else bump();
+
+    /* ── CORRUPTION COUNTER (live total from the tracker) ── */
+  const API = ''; // same origin — SvelteKit proxies /api/* to the tracker
+  const shortMoney = n => !n ? '$0' :
+    n >= 1e9 ? '$' + (n/1e9).toFixed(2).replace(/\.?0+$/,'') + 'B' :
+    n >= 1e6 ? '$' + (n/1e6).toFixed(1).replace(/\.0$/,'') + 'M' :
+    '$' + Math.round(n).toLocaleString();
+
+  async function liveCounter(){
+    try{
+      const h = await (await fetch(API + '/api/hero')).json();
+      if (h && h.combined){
+        LEDGER_LIVE = true;                 // stop the fake ticker
+        const tot = h.combined;
+        if (ccount) ccount.textContent = shortMoney(tot).replace(/^\$/,'');
+        if (cstat) cstat.textContent = shortMoney(tot);
+      }
+    }catch(e){ /* keep the placeholder ticker if tracker is down */ }
+  }
+  liveCounter();
+  if (finePointer && !reduced) setInterval(liveCounter, 120000);
+
+    /* ── TILT CARDS ── */
+  if (finePointer && !reduced){
+    $$('.tilt').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const r = card.getBoundingClientRect();
+        const px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+        card.style.transform =
+          `rotateY(${(px - .5) * 12}deg) rotateX(${(.5 - py) * 12}deg) translateY(-4px)`;
+        card.style.setProperty('--gx', (px * 100) + '%');
+        card.style.setProperty('--gy', (py * 100) + '%');
+      });
+      card.addEventListener('mouseleave', () => { card.style.transform = ''; });
+    });
+  }
+
+  /* ── MAGNETIC BUTTONS ── */
+  if (finePointer && !reduced){
+    $$('[data-magnet]').forEach(btn => {
+      btn.addEventListener('mousemove', e => {
+        const r = btn.getBoundingClientRect();
+        const dx = (e.clientX - r.left - r.width/2) / r.width;
+        const dy = (e.clientY - r.top - r.height/2) / r.height;
+        btn.style.transform = `translate(${dx * 9}px,${dy * 9}px)`;
+      });
+      btn.addEventListener('mouseleave', () => { btn.style.transform = ''; });
+    });
+  }
+
+  /* ── TERMINAL ── */
+  const termBody = $('#termBody');
+  const CMDS = {
+    'ls /etc/revolution': [
+      ['candidates/   organizers/   tools/   shitposts/   victory/', 'out'],
+      ['you are here. keep going.', 'dim']
+    ],
+    'cat manifesto.txt': [
+      ['we build tech for a better world.', 'out'],
+      ['free for the people who fight for it.', 'out'],
+      ['no billionaire money. no dark patterns. just tools.', 'out'],
+      ['while(!free){ fight(); }', 'ok']
+    ],
+    'system.reclaim()': [
+      ['[ OK ] ruling-class bootloader bypassed', 'ok'],
+      ['[ OK ] welfare state restored (patch 1 of 1)', 'ok'],
+      ['[ OK ] the people now own the platform', 'ok']
+    ],
+    './organize --district=all --quiet': [
+      ['[ OK ] 12,847 neighbors contacted', 'ok'],
+      ['[ OK ] 3 town halls scheduled', 'ok'],
+      ['[ OK ] 1 incumbent sweating', 'err']
+    ],
+    'apt install justice': [
+      ['Reading package lists... done', 'dim'],
+      ['justice is already the newest version (0.1.0-revolution).', 'out'],
+      ['0 upgraded, 0 newly installed, 0 to remove. the struggle continues.', 'dim']
+    ],
+    'while(!free){fight();}': [
+      ['FIGHT MODE ENGAGED.', 'err'],
+      ['the means of production are now yours.', 'ok']
+    ],
+    'git push origin revolution': [
+      ['Enumerating objects: 1, done.', 'dim'],
+      ['Everything up-to-date. history is watching.', 'out']
+    ]
+  };
+  let termBusy = false;
+  function blip(freq = 640, dur = .04){
+    try {
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.type = 'square'; o.frequency.value = freq;
+      g.gain.setValueAtTime(.03, ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(.0001, ctx.currentTime + dur);
+      o.connect(g); g.connect(ctx.destination);
+      o.start(); o.stop(ctx.currentTime + dur);
+      ctx.close();
+    } catch(e){}
+  }
+  function addLine(text, cls){
+    const d = document.createElement('div');
+    d.className = 'tline ' + (cls || 'out');
+    d.textContent = text;
+    termBody.appendChild(d);
+    termBody.scrollTop = termBody.scrollHeight;
+    return d;
+  }
+  function showPrompt(){
+    const d = document.createElement('div');
+    d.className = 'tline prompt';
+    d.innerHTML = 'leftydevdad@leftydevkit:~$ <span class="cur"></span>';
+    termBody.appendChild(d);
+    termBody.scrollTop = termBody.scrollHeight;
+  }
+  function runCmd(cmd, buttons){
+    if (termBusy) return; termBusy = true;
+    buttons.forEach(b => b.disabled = true);
+    const out = CMDS[cmd] || [[cmd, 'dim'], ['command not found. the struggle continues.', 'err']];
+    const p = document.createElement('div');
+    p.className = 'tline prompt';
+    p.innerHTML = 'leftydevdad@leftydevkit:~$ <span></span>';
+    termBody.appendChild(p);
+    const span = p.querySelector('span');
+    let i = 0;
+    const typeId = setInterval(() => {
+      span.textContent = cmd.slice(0, ++i);
+      termBody.scrollTop = termBody.scrollHeight;
+      if (i >= cmd.length){
+        clearInterval(typeId);
+        blip(cmd.length > 14 ? 520 : 700);
+        if (cmd.includes('fight')) triggerFight();
+        let li = 0;
+        (function outLine(){
+          if (li >= out.length){
+            showPrompt();
+            termBusy = false;
+            buttons.forEach(b => b.disabled = false);
+            return;
+          }
+          addLine(out[li][0], out[li][1]);
+          li++;
+          setTimeout(outLine, 240);
+        })();
+      }
+    }, 26);
+  }
+  const tcmds = $$('.tcmd');
+  tcmds.forEach(b => b.addEventListener('click', () => {
+    runCmd(b.dataset.cmd, tcmds);
+  }));
+  /* laptop flips open + autoplays when scrolled into view */
+  const lapEl = $('#laptop');
+  if (lapEl){
+    const lio = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting && !reduced){
+          lio.unobserve(en.target);
+          en.target.classList.add('open');          // lid flips up (1.15s)
+          setTimeout(() => runCmd('ls /etc/revolution', tcmds), 1700);
+          setTimeout(() => runCmd('cat manifesto.txt', tcmds), 6400);
+        }
+      });
+    }, { threshold: .35 });
+    lio.observe(lapEl);
+  }
+
+  /* ── FIGHT MODE easter egg ── */
+  const toast = $('#toast');
+  let toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 3200);
+  }
+  let buffer = '';
+  const CODE = 'while(!free)';
+  let fightLock = false;
+  function triggerFight(){
+    if (fightLock) return; fightLock = true;
+    body.classList.add('fight');
+    showToast('🔥 FIGHT MODE ENGAGED — the means of production are now yours');
+    blip(120, .1);
+    setTimeout(() => {
+      body.classList.remove('fight');
+      fightLock = false;
+    }, 700);
+  }
+  addEventListener('keydown', e => {
+    const k = e.key.toLowerCase();
+    if (k.length !== 1) return;
+    if (document.activeElement && /input|textarea/i.test(document.activeElement.tagName)) return;
+    buffer = (buffer + k).slice(-CODE.length);
+    if (buffer === CODE){ buffer = ''; triggerFight(); }
+  });
+  window.triggerFight = triggerFight;
+
+  /* ── countdown / misc ── */
+  addEventListener('load', () => {
+    if (!window.__threeReady){
+      showToast('⚠ 3D engine offline — running 2D fallback mode');
+    }
+  });
+})();
+</script>
+</body>
+</html>
