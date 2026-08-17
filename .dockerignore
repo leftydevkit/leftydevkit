@@ -1,0 +1,8 @@
+.git
+.gitignore
+**/node_modules
+**/build
+**/.svelte-kit
+**/package-lock.json.tmp
+brand
+*.log
