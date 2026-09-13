@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>voice-studio — leftydevkit</title>
+<style>
+  :root {
+    --ink:#16130E; --paper:#F1ECE0; --blood:#FF5A5F; --gold:#E5C158;
+    --panel:#211D16; --line:#3a3327; --dim:#9a917f; --ok:#6fbf73;
+    --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; background:var(--ink); color:var(--paper);
+    font:15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif;
+    display:grid; grid-template-columns: 340px 1fr; min-height:100vh;
+  }
+  aside {
+    background:var(--panel); border-right:1px solid var(--line);
+    padding:18px 18px 40px; overflow-y:auto; max-height:100vh;
+  }
+  main { padding:18px 26px 60px; max-width:900px; }
+  h1 { font-size:15px; letter-spacing:.14em; text-transform:uppercase;
+       margin:0 0 2px; color:var(--gold); }
+  h2 { font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+       color:var(--dim); margin:22px 0 10px; border-top:1px solid var(--line);
+       padding-top:14px; }
+  h2:first-of-type { border-top:0; padding-top:0; }
+  .sub { color:var(--dim); font-size:12px; margin:0 0 18px; }
+  label { display:block; margin:0 0 14px; }
+  .row { display:flex; align-items:baseline; justify-content:space-between;
+         font-size:12px; color:var(--dim); margin-bottom:4px; }
+  .row b { color:var(--paper); font-family:var(--mono); font-size:12px;
+           font-weight:600; }
+  input[type=range] { width:100%; accent-color:var(--blood); }
+  input[type=text], select, textarea {
+    width:100%; background:#0f0d09; color:var(--paper);
+    border:1px solid var(--line); border-radius:6px; padding:9px 10px;
+    font:inherit; font-size:14px;
+  }
+  textarea { min-height:150px; resize:vertical; line-height:1.65; font-size:15px; }
+  select { font-size:13px; }
+  button {
+    background:var(--blood); color:#fff; border:0; border-radius:6px;
+    padding:11px 18px; font:inherit; font-weight:650; cursor:pointer;
+  }
+  button.ghost { background:transparent; color:var(--paper);
+                 border:1px solid var(--line); font-weight:500; }
+  button:disabled { opacity:.45; cursor:default; }
+  button:hover:not(:disabled) { filter:brightness(1.08); }
+  .bar { display:flex; gap:10px; align-items:center; margin:14px 0; }
+  .status { font-family:var(--mono); font-size:12px; color:var(--dim); }
+  .status.err { color:var(--blood); }
+  .status.ok  { color:var(--ok); }
+  audio { width:100%; margin:6px 0 4px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { color:var(--dim); font-weight:500; font-size:11px;
+       letter-spacing:.1em; text-transform:uppercase; }
+  td.n { font-family:var(--mono); color:var(--gold); white-space:nowrap; }
+  .hint { color:var(--dim); font-size:12px; margin-top:10px; }
+  .warn { color:var(--gold); }
+  .presets { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+  .presets button { font-size:12px; padding:6px 11px; }
+</style>
+</head>
+<body>
+
+<aside>
+  <h1>voice-studio</h1>
+  <p class="sub">toggle to taste &middot; synthesis is the slow step, sliders are not</p>
+
+  <h2>Source</h2>
+  <label>
+    <div class="row"><span>voice</span></div>
+    <select id="voice"></select>
+  </label>
+  <label>
+    <div class="row"><span>engine</span></div>
+    <select id="model">
+      <option value="kokoro-tts">kokoro-tts</option>
+      <option value="pocket-tts">pocket-tts</option>
+    </select>
+  </label>
+
+  <h2>Voice</h2>
+  <div id="voiceSliders"></div>
+
+  <h2>Timing</h2>
+  <div id="timeSliders"></div>
+
+  <h2>Output</h2>
+  <div id="outSliders"></div>
+
+  <h2>Presets</h2>
+  <div class="presets" id="presetList"></div>
+  <div class="bar">
+    <input type="text" id="presetName" placeholder="name this setting" />
+    <button class="ghost" id="savePreset">save</button>
+  </div>
+</aside>
+
+<main>
+  <h1>leftydevkit &middot; voice bench</h1>
+  <p class="sub">
+    Write it. <b>Speak</b> synthesises each phrase separately &mdash; that is the only
+    way to get a real pause, because Kokoro <i>speaks</i> <code>[pause]</code> tags
+    instead of honouring them. After that the sliders re-process in place, no re-synthesis.
+  </p>
+
+  <textarea id="text">Greatest country on earth. You have told me.
+At the airport. At the Olympics. At the gas station.
+Flag on the lawn. Flag on the truck. No idea what's in the Constitution.
+Every immigrant who ever sat this test knows more about your country than you do. They had to.
+You want to be number one? Learn what number one is.</textarea>
+
+  <div class="bar">
+    <button id="speak">Speak</button>
+    <button class="ghost" id="resynth" disabled>Re-speak</button>
+    <button class="ghost" id="download" disabled>Download WAV</button>
+    <span class="status" id="status">&mdash;</span>
+  </div>
+
+  <audio id="player" controls></audio>
+
+  <h2>Timeline &mdash; for card sync</h2>
+  <table>
+    <thead><tr><th>#</th><th>phrase</th><th>start</th><th>end</th><th>gap</th></tr></thead>
+    <tbody id="timeline"><tr><td colspan="5" class="hint">not rendered yet</td></tr></tbody>
+  </table>
+  <p class="hint">
+    Gaps come from the punctuation of each phrase &times; <b>gap scale</b>, so a full stop
+    earns more silence than a comma. Newlines force a hard break when the automatic
+    sentence split guesses wrong.
+  </p>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let DEFAULTS = {}, jobId = null, lastBlobUrl = null, inFlight = false, pending = false;
+
+// slider definitions: [key, label, min, max, step, fmt]
+const VOICE_SLIDERS = [
+  ["pitch", "pitch",        0.80, 1.20, 0.005, v => v.toFixed(3) + (v<1?" lower":"")],
+  ["tempo", "speed",        0.75, 1.25, 0.005, v => v.toFixed(3) + (v<1?" slower":"")],
+  ["low",   "chest 180Hz",  -12,  12,   0.5,   v => v.toFixed(1) + " dB"],
+  ["mid",   "presence 2.5k",-12,  12,   0.5,   v => v.toFixed(1) + " dB"],
+  ["high",  "air 6kHz",     -12,  12,   0.5,   v => v.toFixed(1) + " dB"],
+  ["comp",  "compression",   0,    1,   0.01,  v => v.toFixed(2)],
+  ["room",  "booth echo",    0,    1,   0.01,  v => v.toFixed(2)],
+];
+const TIME_SLIDERS = [
+  ["gap_base", "base pause (after .)", 0, 1.5, 0.01, v => v.toFixed(2) + "s"],
+  ["gap",      "gap scale",            0, 2.5, 0.01, v => v.toFixed(2) + "x"],
+];
+const OUT_SLIDERS = [
+  ["loudness", "loudness target", -24, -9, 0.5, v => v.toFixed(1) + " LUFS"],
+];
+
+function buildSliders(host, defs) {
+  host.innerHTML = "";
+  for (const [key, label, min, max, step, fmt] of defs) {
+    const wrap = document.createElement("label");
+    wrap.innerHTML =
+      `<div class="row"><span>${label}</span><b id="v_${key}"></b></div>` +
+      `<input type="range" id="s_${key}" min="${min}" max="${max}" step="${step}">`;
+    host.appendChild(wrap);
+    const s = wrap.querySelector("input");
+    s.value = DEFAULTS[key];
+    const show = () => { $("v_" + key).textContent = fmt(parseFloat(s.value)); };
+    show();
+    s.addEventListener("input", show);
+    s.addEventListener("input", () => scheduleProcess());
+  }
+}
+
+function params() {
+  const p = {};
+  for (const [key] of [...VOICE_SLIDERS, ...TIME_SLIDERS, ...OUT_SLIDERS])
+    p[key] = parseFloat($("s_" + key).value);
+  return p;
+}
+
+function setStatus(msg, cls) {
+  const el = $("status");
+  el.textContent = msg;
+  el.className = "status" + (cls ? " " + cls : "");
+}
+
+async function loadVoices() {
+  const r = await fetch("/api/voices");
+  const d = await r.json();
+  DEFAULTS = d.defaults;
+  const sel = $("voice");
+  sel.innerHTML = "";
+  const groups = [["Local · Arc A770 · Kokoro", d.kokoro],
+                  ["Local · Arc A770 · Pocket TTS", d.pocket]];
+  for (const [label, list] of groups) {
+    const og = document.createElement("optgroup");
+    og.label = label;
+    for (const v of list) {
+      const o = document.createElement("option");
+      o.value = v;
+      o.textContent = v + (v === d.defaults.voice ? "  ← Petrakis" : "");
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+  sel.value = d.defaults.voice;
+  buildSliders($("voiceSliders"), VOICE_SLIDERS);
+  buildSliders($("timeSliders"), TIME_SLIDERS);
+  buildSliders($("outSliders"), OUT_SLIDERS);
+  $("model").value = d.defaults.model;
+  if (d.crashWords) $("text").title =
+    "avoid: " + d.crashWords.join(", ") + " — they 500 the Kokoro server";
+  loadPresets();
+}
+
+async function loadPresets() {
+  const r = await fetch("/api/presets");
+  const d = await r.json();
+  const host = $("presetList");
+  host.innerHTML = "";
+  const names = Object.keys(d);
+  if (!names.length) { host.innerHTML = '<span class="hint">none saved</span>'; return; }
+  for (const name of names) {
+    const b = document.createElement("button");
+    b.className = "ghost";
+    b.textContent = name;
+    b.onclick = () => {
+      const p = d[name];
+      for (const [key] of [...VOICE_SLIDERS, ...TIME_SLIDERS, ...OUT_SLIDERS])
+        if (key in p) {
+          $("s_" + key).value = p[key];
+          $("s_" + key).dispatchEvent(new Event("input"));
+        }
+      if (p.voice) $("voice").value = p.voice;
+      setStatus("preset: " + name, "ok");
+    };
+    host.appendChild(b);
+  }
+}
+
+async function speak() {
+  const text = $("text").value.trim();
+  if (!text) return;
+  $("speak").disabled = true;
+  setStatus("synthesising each phrase…");
+  try {
+    const r = await fetch("/api/speak", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text, voice: $("voice").value, model: $("model").value }),
+    });
+    const d = await r.json();
+    if (d.error) { setStatus(d.error, "err"); return; }
+    jobId = d.id;
+    $("resynth").disabled = false;
+    await process(true);
+  } catch (e) {
+    setStatus(String(e), "err");
+  } finally {
+    $("speak").disabled = false;
+  }
+}
+
+// Sliders fire far faster than ffmpeg runs, so collapse bursts: one in flight,
+// and if more arrive while it is running, queue exactly one more.
+function scheduleProcess() { process(false); }
+
+async function process(force) {
+  if (!jobId) return;
+  if (inFlight) { pending = true; return; }
+  inFlight = true;
+  const t0 = performance.now();
+  try {
+    const r = await fetch("/api/process", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id: jobId, params: params() }),
+    });
+    const d = await r.json();
+    if (d.error) { setStatus(d.error, "err"); return; }
+    const bytes = Uint8Array.from(atob(d.audio), c => c.charCodeAt(0));
+    const blob = new Blob([bytes], { type: "audio/wav" });
+    if (lastBlobUrl) URL.revokeObjectURL(lastBlobUrl);
+    lastBlobUrl = URL.createObjectURL(blob);
+    const wasPlaying = !$("player").paused;
+    const at = $("player").currentTime;
+    $("player").src = lastBlobUrl;
+    if (wasPlaying) { $("player").currentTime = at; $("player").play().catch(()=>{}); }
+    $("download").disabled = false;
+    $("download").onclick = () => {
+      const a = document.createElement("a");
+      a.href = lastBlobUrl;
+      a.download = `${$("voice").value}-${$("s_tempo").value}x.wav`;
+      a.click();
+    };
+    render(d);
+    const ms = Math.round(performance.now() - t0);
+    setStatus(`${d.duration.toFixed(2)}s  ·  ${d.timeline.length} phrases  ·  ${ms} ms`, "ok");
+  } catch (e) {
+    setStatus(String(e), "err");
+  } finally {
+    inFlight = false;
+    if (pending) { pending = false; process(false); }
+  }
+}
+
+function render(d) {
+  const body = $("timeline");
+  body.innerHTML = "";
+  for (const t of d.timeline) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td class="n">${t.i}</td><td>${t.text.replace(/</g,"&lt;")}</td>` +
+      `<td class="n">${t.start.toFixed(2)}</td><td class="n">${t.end.toFixed(2)}</td>` +
+      `<td class="n">${t.gap ? t.gap.toFixed(2) : "—"}</td>`;
+    body.appendChild(tr);
+  }
+}
+
+$("speak").onclick = speak;
+$("resynth").onclick = speak;
+$("voice").onchange = () => setStatus("voice changed — press Re-speak", "warn");
+$("model").onchange = () => setStatus("engine changed — press Re-speak", "warn");
+$("savePreset").onclick = async () => {
+  const name = $("presetName").value.trim();
+  if (!name) { setStatus("name it first", "err"); return; }
+  await fetch("/api/presets", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, params: { ...params(), voice: $("voice").value } }),
+  });
+  $("presetName").value = "";
+  setStatus("saved: " + name, "ok");
+  loadPresets();
+};
+
+loadVoices();
+</script>
+</body>
+</html>
