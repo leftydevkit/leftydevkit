@@ -5,7 +5,7 @@ Brand-wide rather than project-specific: any leftydevkit output that needs a
 narrated voice tunes it here, and the presets live with the tool. amitheidiot is
 the first consumer, not the owner.
 
-Sits in front of audio.cpp (:8920) and adds the five things it cannot do:
+Sits in front of audio.cpp (:8920) and adds what it cannot do:
 
   1. phrase chunking with real stitched silence. Kokoro *speaks* `[pause]` tags
      rather than honouring them (measured: `[pause 500ms]` alone renders 2.25s of
@@ -19,6 +19,16 @@ Sits in front of audio.cpp (:8920) and adds the five things it cannot do:
      concatenation would stretch the silence too, making the two sliders fight;
      so tempo is applied per phrase, BEFORE the gaps are inserted, and a gap of
      0.40s stays 0.40s at any speed.
+  6. cloned voices. A clone entry (clones.json) supplies audio.cpp's `voice_ref` +
+     `reference_text`, so a VoxCPM2 voice can be driven from the same UI; a `tone`
+     field carries the model's parenthetical instruct prefix.
+  7. pitch matching. Phrases generated separately drift in register — measured
+     32-54 Hz jumps between adjacent phrases on one script, which reads as the
+     speaker changing at every pause. Each phrase is pulled to the reference's own
+     median F0 (autocorrelation), which brings those jumps down to 2-20 Hz.
+  8. an ASR check per render: audio.cpp ships Qwen3-ASR but does not load it, so the
+     CLI transcribes the rendered WAV and shows what was actually said. This is what
+     catches a phrase the model dropped.
 
 Design note: synthesis is the slow step (~3s) and processing is the fast one
 (~50ms). Text is therefore synthesised once and staged as per-phrase WAVs; the
@@ -35,8 +45,10 @@ that has the models, and pulling a web framework in for one page is not worth it
 from __future__ import annotations
 
 import argparse
+import array
 import base64
 import json
+import math
 import re
 import shutil
 import subprocess
@@ -52,6 +64,25 @@ HERE = Path(__file__).resolve().parent
 AUDIOCPP = "http://127.0.0.1:8920"
 STAGE = Path(tempfile.gettempdir()) / "voice-studio"
 PRESETS = HERE / "presets.json"
+
+# Cloned voices, as data beside the tool (the presets.json pattern) because a
+# reference path is machine-specific. A clone entry sends voice_ref +
+# reference_text to audio.cpp instead of a built-in voice id.
+CLONES = HERE / "clones.json"
+DEFAULT_CLONES = {
+    "petrakis-seed11": {
+        "label": "Mr. Petrakis — locked seed11 (VoxCPM2)",
+        "model": "voxcpm2",
+        "voice_ref": str(Path.home() / "Documents/voice-candidates/locked-voice/reference.wav"),
+        "reference_text": "Ma'am, this is a checkpoint, not a suggestion box.",
+    },
+}
+
+# Local ASR, for verifying a take actually says what the script asked for.
+# audio.cpp ships the model but server-arc.json does not load it — the CLI runs it.
+ASR_CLI = Path.home() / "Projects/audio.cpp/build-vulkan/bin/audiocpp_cli"
+ASR_MODEL = (Path.home() / "Projects/audio.cpp/models/ASR-dl"
+             "/Qwen3-ASR-0.6B-GGUF/qwen3-asr-0.6b-q8_0.gguf")
 
 # Kokoro 82M voice ids, as registered by audio.cpp. Kept explicit rather than
 # discovered because there is no list endpoint (/v1/audio/voices returns the
@@ -92,6 +123,8 @@ DEFAULT_PARAMS = {
     "gap": 1.00,        # scales every punctuation-derived pause
     "gap_base": 0.40,   # seconds after a full stop, before scaling
     "loudness": -14.0,  # LUFS; -14 is YouTube's own target
+    "style": "",        # VoxCPM2 instruct prefix, e.g. "(tired, deadpan contempt)"
+    "pitch_match": True,  # cloned phrases drift in register; pull each to the reference F0
 }
 
 # How much pause each punctuation mark earns, relative to gap_base. This is the
@@ -158,10 +191,20 @@ def silence(seconds: float, dest: Path, rate: int = 24000) -> None:
         check=True)
 
 
-def synth(text: str, dest: Path, voice: str, model: str) -> None:
-    """One phrase -> WAV, via audio.cpp. Raises with the server's message on 4xx/5xx."""
-    body = json.dumps({"model": model, "input": text, "voice": voice,
-                       "response_format": "wav"}).encode()
+def synth(text: str, dest: Path, voice: str, model: str,
+          clone: dict | None = None) -> None:
+    """One phrase -> WAV, via audio.cpp. Raises with the server's message on 4xx/5xx.
+
+    A clone entry sends `voice_ref` + `reference_text` (VoxCPM2's continuation
+    mode) instead of a built-in voice id.
+    """
+    payload = {"model": model, "input": text, "response_format": "wav"}
+    if clone:
+        payload["voice_ref"] = clone["voice_ref"]
+        payload["reference_text"] = clone["reference_text"]
+    else:
+        payload["voice"] = voice
+    body = json.dumps(payload).encode()
     req = urllib.request.Request(f"{AUDIOCPP}/v1/audio/speech", data=body,
                                  headers={"Content-Type": "application/json"})
     try:
@@ -174,6 +217,107 @@ def synth(text: str, dest: Path, voice: str, model: str) -> None:
         except Exception:
             pass
         raise RuntimeError(detail) from None
+
+
+def load_clones() -> dict:
+    """Clone entries are data, not code — the reference path is machine-specific."""
+    if CLONES.exists():
+        try:
+            d = json.loads(CLONES.read_text())
+            if isinstance(d, dict) and d:
+                return d
+        except Exception:
+            pass
+    return DEFAULT_CLONES
+
+
+def f0_median(path: Path, rate: int = 16000) -> float | None:
+    """Median voiced F0 by autocorrelation.
+
+    Crude on purpose: it only has to be good enough to catch the 30-50 Hz
+    register drift between phrases that were generated separately. Measured
+    against a locked reference, phrase medians land within ~15 Hz.
+    """
+    raw = subprocess.run(
+        ["ffmpeg", "-v", "error", "-i", str(path), "-ac", "1", "-ar", str(rate),
+         "-f", "s16le", "-"], capture_output=True, check=True).stdout
+    a = array.array("h")
+    a.frombytes(raw)
+    n, step = int(0.040 * rate), int(0.020 * rate)
+    lo, hi = int(rate / 350), int(rate / 70)
+    vals: list[float] = []
+    for off in range(0, len(a) - n, step):
+        fr = a[off:off + n]
+        if math.sqrt(sum(v * v for v in fr) / n) < 150:      # silence / breath
+            continue
+        e0 = sum(v * v for v in fr)
+        best, blag = 0.0, 0
+        for lag in range(lo, hi):
+            num = sum(fr[i] * fr[i + lag] for i in range(n - lag))
+            if num > best:
+                best, blag = num, lag
+        if blag:
+            e1 = sum(fr[i + blag] * fr[i + blag] for i in range(n - blag))
+            if best / math.sqrt(e0 * e1 + 1e-9) > 0.45:
+                vals.append(rate / blag)
+    if not vals:
+        return None
+    vals.sort()
+    return vals[len(vals) // 2]
+
+
+_REFERENCE_F0: dict[str, float] = {}
+
+
+def reference_f0(voice_ref: str) -> float | None:
+    """The clone's own median F0, measured once per process."""
+    if voice_ref not in _REFERENCE_F0:
+        f = f0_median(Path(voice_ref))
+        if f:
+            _REFERENCE_F0[voice_ref] = f
+    return _REFERENCE_F0.get(voice_ref)
+
+
+def match_pitch(src: Path, dest: Path, target: float) -> bool:
+    """Pull one phrase to the reference's F0. False when it is already close
+    enough, or when the measurement looks like a tracking error rather than drift."""
+    f = f0_median(src)
+    if not f or abs(target - f) < 6:
+        return False
+    ratio = target / f
+    if not 0.6 < ratio < 1.7:
+        return False
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src),
+                    "-af", f"rubberband=pitch={ratio:.4f}:tempo=1.0", str(dest)],
+                   check=True)
+    return True
+
+
+def transcribe(wav: Path) -> str:
+    """Local Qwen3-ASR through audio.cpp's CLI — what the take actually says.
+
+    The render arrives as a WAV written to a pipe, so its header carries a
+    placeholder data-chunk size; the CLI rejects that ("failed to read WAV data
+    chunk"). Re-encoding to a real file first gives ffmpeg a seekable target and a
+    correct header, and normalises to the 16 kHz mono the model wants.
+    """
+    if not ASR_CLI.exists() or not ASR_MODEL.exists():
+        raise RuntimeError(
+            f"ASR unavailable: expected {ASR_CLI} and the Qwen3-ASR GGUF under "
+            f"{ASR_MODEL.parent}")
+    norm = wav.with_name(wav.stem + "-asr.wav")
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(wav), "-ar", "16000",
+                    "-ac", "1", "-c:a", "pcm_s16le", str(norm)], check=True)
+    out = subprocess.run(
+        [str(ASR_CLI), "--task", "asr", "--family", "qwen3_asr",
+         "--model", str(ASR_MODEL), "--backend", "vulkan", "--audio", str(norm)],
+        capture_output=True, text=True, timeout=900)
+    for line in out.stdout.splitlines():
+        if line.startswith("text_output="):
+            return line.split("=", 1)[1].strip()
+    detail = (out.stderr or "").strip().splitlines()
+    raise RuntimeError("ASR produced no transcript"
+                       + (f" — {detail[-1]}" if detail else ""))
 
 
 def tune_chain(p: dict) -> str:
@@ -205,16 +349,24 @@ class Bench:
     def __init__(self) -> None:
         self.jobs: dict[str, dict] = {}
 
-    def speak(self, text: str, voice: str, model: str) -> dict:
+    def speak(self, text: str, voice: str, model: str, clone: dict | None = None,
+              style: str = "", pitch_match: bool = False) -> dict:
         phrases = split_phrases(text)
         if not phrases:
             raise RuntimeError("nothing to say")
-        hit = [w for w in CRASH_WORDS
-               if re.search(rf"\b{w}\b", text, re.IGNORECASE)]
-        if hit:
+        style = (style or "").strip()
+        if style and not clone:
             raise RuntimeError(
-                f"{', '.join(hit)} will 500 the Kokoro server "
-                "(syllabic-consonant phoneme it has no glyph for) — reword it")
+                "style text is a VoxCPM2 instruct prefix — a built-in voice reads "
+                "it aloud. Pick a cloned voice first")
+        # A Kokoro-only problem: the cloned path never touches its vocab.
+        if not clone:
+            hit = [w for w in CRASH_WORDS
+                   if re.search(rf"\b{w}\b", text, re.IGNORECASE)]
+            if hit:
+                raise RuntimeError(
+                    f"{', '.join(hit)} will 500 the Kokoro server "
+                    "(syllabic-consonant phoneme it has no glyph for) — reword it")
 
         job_id = uuid.uuid4().hex[:12]
         d = STAGE / job_id
@@ -222,16 +374,26 @@ class Bench:
             shutil.rmtree(d)
         d.mkdir(parents=True)
 
+        # Separately generated phrases drift in register (measured: 32-54 Hz jumps
+        # between adjacent phrases). Pulling each to the reference's own F0 is what
+        # makes a cloned voice usable phrase-by-phrase instead of in one lump.
+        target = reference_f0(clone["voice_ref"]) if (clone and pitch_match) else None
+
         meta = []
         for i, ph in enumerate(phrases):
             dest = d / f"{i:03d}.wav"
-            synth(ph, dest, voice, model)
-            meta.append({"i": i, "text": ph, "raw": dest.name,
-                         "raw_dur": probe_duration(dest)})
+            synth(f"{style} {ph}" if style else ph, dest, voice, model, clone)
+            entry = {"i": i, "text": ph, "raw": dest.name,
+                     "raw_dur": probe_duration(dest), "pitched": None}
+            if target:
+                pdest = d / f"{i:03d}.pitched.wav"
+                if match_pitch(dest, pdest, target):
+                    entry["pitched"] = pdest.name
+            meta.append(entry)
 
-        self.jobs[job_id] = {"dir": d, "phrases": meta,
-                             "voice": voice, "model": model}
-        return {"id": job_id, "phrases": meta}
+        self.jobs[job_id] = {"dir": d, "phrases": meta, "voice": voice,
+                             "model": model, "target_f0": target}
+        return {"id": job_id, "phrases": meta, "targetF0": target}
 
     def render(self, job_id: str, params: dict) -> tuple[bytes, dict]:
         job = self.jobs.get(job_id)
@@ -245,7 +407,10 @@ class Bench:
 
         timeline, pieces, cursor = [], [], 0.0
         for ph in job["phrases"]:
-            src = d / ph["raw"]
+            name = ph["raw"]
+            if params.get("pitch_match") and ph.get("pitched"):
+                name = ph["pitched"]
+            src = d / name
             tuned = d / f"{ph['i']:03d}.tuned.wav"
             # No cache here, deliberately. Keying it on the phrase index alone made
             # every settings change return the first render's audio (both takes came
@@ -312,8 +477,10 @@ class Handler(BaseHTTPRequestHandler):
                        "text/html; charset=utf-8")
         elif self.path == "/api/voices":
             self._json({"kokoro": KOKORO_VOICES, "pocket": POCKET_VOICES,
+                        "clones": load_clones(),
                         "defaults": DEFAULT_PARAMS,
-                        "crashWords": CRASH_WORDS})
+                        "crashWords": CRASH_WORDS,
+                        "asr": ASR_CLI.exists() and ASR_MODEL.exists()})
         elif self.path == "/api/presets":
             self._json(json.loads(PRESETS.read_text()) if PRESETS.exists() else {})
         else:
@@ -323,9 +490,23 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if self.path == "/api/speak":
                 b = self._body()
-                self._json(BENCH.speak(b.get("text", ""),
-                                       b.get("voice", DEFAULT_PARAMS["voice"]),
-                                       b.get("model", DEFAULT_PARAMS["model"])))
+                clones = load_clones()
+                clone = clones.get(b.get("clone") or "")
+                self._json(BENCH.speak(
+                    b.get("text", ""),
+                    b.get("voice", DEFAULT_PARAMS["voice"]),
+                    clone.get("model", b.get("model", DEFAULT_PARAMS["model"])) if clone
+                    else b.get("model", DEFAULT_PARAMS["model"]),
+                    clone,
+                    b.get("style", ""),
+                    bool(b.get("pitchMatch", DEFAULT_PARAMS["pitch_match"]))))
+            elif self.path == "/api/asr":
+                b = self._body()
+                params = {**DEFAULT_PARAMS, **b.get("params", {})}
+                wav, info = BENCH.render(b["id"], params)
+                tmp = STAGE / "asr-check.wav"
+                tmp.write_bytes(wav)
+                self._json({"text": transcribe(tmp), **info})
             elif self.path == "/api/process":
                 b = self._body()
                 params = {**DEFAULT_PARAMS, **b.get("params", {})}
@@ -337,6 +518,18 @@ class Handler(BaseHTTPRequestHandler):
                 if b.get("name"):
                     store[b["name"]] = b.get("params", {})
                     PRESETS.write_text(json.dumps(store, indent=2) + "\n")
+                self._json(store)
+            elif self.path == "/api/clones":
+                b = self._body()
+                store = load_clones()
+                if b.get("name") and b.get("voice_ref") and b.get("reference_text"):
+                    store[b["name"]] = {
+                        "label": b.get("label") or b["name"],
+                        "model": b.get("model", "voxcpm2"),
+                        "voice_ref": b["voice_ref"],
+                        "reference_text": b["reference_text"],
+                    }
+                    CLONES.write_text(json.dumps(store, indent=2) + "\n")
                 self._json(store)
             else:
                 self._json({"error": "not found"}, 404)

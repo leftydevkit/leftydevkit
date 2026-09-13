@@ -61,6 +61,13 @@
   td.n { font-family:var(--mono); color:var(--gold); white-space:nowrap; }
   .hint { color:var(--dim); font-size:12px; margin-top:10px; }
   .warn { color:var(--gold); }
+  label.check { display:flex; align-items:center; gap:8px; margin-top:10px;
+                font-size:12px; color:var(--dim); }
+  label.check input { accent-color:var(--gold); }
+  #tone { font-family:var(--mono); font-size:12px; }
+  pre.asr { margin-top:12px; padding:12px; border-radius:8px; background:rgba(255,255,255,.04);
+            color:var(--ink); font-family:var(--mono); font-size:12px;
+            white-space:pre-wrap; word-break:break-word; }
   .presets { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
   .presets button { font-size:12px; padding:6px 11px; }
 </style>
@@ -81,7 +88,17 @@
     <select id="model">
       <option value="kokoro-tts">kokoro-tts</option>
       <option value="pocket-tts">pocket-tts</option>
+      <option value="voxcpm2">voxcpm2 (clone)</option>
     </select>
+  </label>
+  <label>
+    <div class="row"><span>tone (clone only)</span></div>
+    <input type="text" id="tone"
+      placeholder="(tired, deadpan contempt; flat and level)" />
+  </label>
+  <label class="check">
+    <input type="checkbox" id="pitchMatch" checked />
+    <span>match pitch to reference</span>
   </label>
 
   <h2>Voice</h2>
@@ -106,7 +123,10 @@
   <p class="sub">
     Write it. <b>Speak</b> synthesises each phrase separately &mdash; that is the only
     way to get a real pause, because Kokoro <i>speaks</i> <code>[pause]</code> tags
-    instead of honouring them. After that the sliders re-process in place, no re-synthesis.
+    instead of honouring them. After that the sliders re-process in place, no
+    re-synthesis. Pick a <b>cloned</b> voice for the VoxCPM2 path: a <b>tone</b>
+    line steers its delivery, <b>match pitch</b> keeps the register steady across
+    phrases, and <b>Verify with ASR</b> reads back what the take actually says.
   </p>
 
   <textarea id="text">Greatest country on earth. You have told me.
@@ -118,9 +138,12 @@ You want to be number one? Learn what number one is.</textarea>
   <div class="bar">
     <button id="speak">Speak</button>
     <button class="ghost" id="resynth" disabled>Re-speak</button>
+    <button class="ghost" id="asr" disabled>Verify with ASR</button>
     <button class="ghost" id="download" disabled>Download WAV</button>
     <span class="status" id="status">&mdash;</span>
   </div>
+
+  <pre id="asrOut" class="asr" hidden></pre>
 
   <audio id="player" controls></audio>
 
@@ -139,6 +162,7 @@ You want to be number one? Learn what number one is.</textarea>
 <script>
 const $ = (id) => document.getElementById(id);
 let DEFAULTS = {}, jobId = null, lastBlobUrl = null, inFlight = false, pending = false;
+let CLONES = {}, ASR_OK = false;
 
 // slider definitions: [key, label, min, max, step, fmt]
 const VOICE_SLIDERS = [
@@ -179,6 +203,7 @@ function params() {
   const p = {};
   for (const [key] of [...VOICE_SLIDERS, ...TIME_SLIDERS, ...OUT_SLIDERS])
     p[key] = parseFloat($("s_" + key).value);
+  p.pitch_match = $("pitchMatch").checked;
   return p;
 }
 
@@ -192,6 +217,8 @@ async function loadVoices() {
   const r = await fetch("/api/voices");
   const d = await r.json();
   DEFAULTS = d.defaults;
+  CLONES = d.clones || {};
+  ASR_OK = d.asr === true;
   const sel = $("voice");
   sel.innerHTML = "";
   const groups = [["Local · Arc A770 · Kokoro", d.kokoro],
@@ -207,6 +234,18 @@ async function loadVoices() {
     }
     sel.appendChild(og);
   }
+  const names = Object.keys(CLONES);
+  if (names.length) {
+    const og = document.createElement("optgroup");
+    og.label = "Cloned · VoxCPM2";
+    for (const name of names) {
+      const o = document.createElement("option");
+      o.value = "clone:" + name;
+      o.textContent = CLONES[name].label || name;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
   sel.value = d.defaults.voice;
   buildSliders($("voiceSliders"), VOICE_SLIDERS);
   buildSliders($("timeSliders"), TIME_SLIDERS);
@@ -215,6 +254,11 @@ async function loadVoices() {
   if (d.crashWords) $("text").title =
     "avoid: " + d.crashWords.join(", ") + " — they 500 the Kokoro server";
   loadPresets();
+}
+
+function selectedClone() {
+  const v = $("voice").value;
+  return v.startsWith("clone:") ? CLONES[v.slice(6)] || null : null;
 }
 
 async function loadPresets() {
@@ -248,9 +292,13 @@ async function speak() {
   $("speak").disabled = true;
   setStatus("synthesising each phrase…");
   try {
+    const v = $("voice").value;
+    const clone = v.startsWith("clone:") ? v.slice(6) : null;
     const r = await fetch("/api/speak", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, voice: $("voice").value, model: $("model").value }),
+      body: JSON.stringify({ text, voice: clone ? "" : v, model: $("model").value,
+                             clone, style: $("tone").value,
+                             pitchMatch: $("pitchMatch").checked }),
     });
     const d = await r.json();
     if (d.error) { setStatus(d.error, "err"); return; }
@@ -289,6 +337,8 @@ async function process(force) {
     $("player").src = lastBlobUrl;
     if (wasPlaying) { $("player").currentTime = at; $("player").play().catch(()=>{}); }
     $("download").disabled = false;
+    $("asr").disabled = !ASR_OK;
+    $("asr").title = ASR_OK ? "transcribe the current render" : "local ASR not found";
     $("download").onclick = () => {
       const a = document.createElement("a");
       a.href = lastBlobUrl;
@@ -320,8 +370,34 @@ function render(d) {
 
 $("speak").onclick = speak;
 $("resynth").onclick = speak;
-$("voice").onchange = () => setStatus("voice changed — press Re-speak", "warn");
+$("voice").onchange = () => {
+  const c = selectedClone();
+  if (c) { $("model").value = c.model; setStatus("cloned voice — press Re-speak", "warn"); }
+  else setStatus("voice changed — press Re-speak", "warn");
+};
 $("model").onchange = () => setStatus("engine changed — press Re-speak", "warn");
+$("asr").onclick = async () => {
+  if (!jobId) return;
+  $("asr").disabled = true;
+  setStatus("transcribing the current render…");
+  try {
+    const r = await fetch("/api/asr", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id: jobId, params: params() }),
+    });
+    const d = await r.json();
+    const out = $("asrOut");
+    out.hidden = false;
+    out.textContent = d.error
+      ? d.error
+      : `heard in ${d.duration.toFixed(2)}s:\n${d.text}`;
+    setStatus(d.error ? "ASR failed" : "ASR done", d.error ? "err" : "ok");
+  } catch (e) {
+    setStatus(String(e), "err");
+  } finally {
+    $("asr").disabled = false;
+  }
+};
 $("savePreset").onclick = async () => {
   const name = $("presetName").value.trim();
   if (!name) { setStatus("name it first", "err"); return; }
