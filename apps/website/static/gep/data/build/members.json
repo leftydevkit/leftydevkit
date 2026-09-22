@@ -1,0 +1,1613 @@
+[
+  {
+    "name": "Albritton, Ben",
+    "first": "Ben",
+    "last": "Albritton",
+    "district": 27,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Arrington, Kristen Aston",
+    "first": "Kristen Aston",
+    "last": "Arrington",
+    "district": 25,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Berman, Lori",
+    "first": "Lori",
+    "last": "Berman",
+    "district": 26,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Bernard, Mack",
+    "first": "Mack",
+    "last": "Bernard",
+    "district": 24,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Boyd, Jim",
+    "first": "Jim",
+    "last": "Boyd",
+    "district": 20,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Bracy Davis, LaVon",
+    "first": "LaVon",
+    "last": "Bracy Davis",
+    "district": 15,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Bradley, Jennifer",
+    "first": "Jennifer",
+    "last": "Bradley",
+    "district": 6,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Brodeur, Jason",
+    "first": "Jason",
+    "last": "Brodeur",
+    "district": 10,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Burgess, Danny",
+    "first": "Danny",
+    "last": "Burgess",
+    "district": 23,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Burton, Colleen",
+    "first": "Colleen",
+    "last": "Burton",
+    "district": 12,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Calatayud, Alexis",
+    "first": "Alexis",
+    "last": "Calatayud",
+    "district": 38,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Davis, Tracie",
+    "first": "Tracie",
+    "last": "Davis",
+    "district": 5,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "DiCeglie, Nick",
+    "first": "Nick",
+    "last": "DiCeglie",
+    "district": 18,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Gaetz, Don",
+    "first": "Don",
+    "last": "Gaetz",
+    "district": 1,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Garcia, Ileana",
+    "first": "Ileana",
+    "last": "Garcia",
+    "district": 36,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Grall, Erin",
+    "first": "Erin",
+    "last": "Grall",
+    "district": 29,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Gruters, Joe",
+    "first": "Joe",
+    "last": "Gruters",
+    "district": 22,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Harrell, Gayle",
+    "first": "Gayle",
+    "last": "Harrell",
+    "district": 31,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Hooper, Ed",
+    "first": "Ed",
+    "last": "Hooper",
+    "district": 21,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Jones, Shevrin D. \"Shev\"",
+    "first": "Shevrin D. \"Shev\"",
+    "last": "Jones",
+    "district": 34,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Leek, Thomas J. \"Tom\"",
+    "first": "Thomas J. \"Tom\"",
+    "last": "Leek",
+    "district": 7,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Martin, Jonathan",
+    "first": "Jonathan",
+    "last": "Martin",
+    "district": 33,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Massullo, Ralph E., Jr.",
+    "first": "Ralph E., Jr.",
+    "last": "Massullo",
+    "district": 11,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Mayfield, Debbie",
+    "first": "Debbie",
+    "last": "Mayfield",
+    "district": 19,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "McClain, Stan",
+    "first": "Stan",
+    "last": "McClain",
+    "district": 9,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Nathan, Brian",
+    "first": "Brian",
+    "last": "Nathan",
+    "district": 14,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Osgood, Rosalind",
+    "first": "Rosalind",
+    "last": "Osgood",
+    "district": 32,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Passidomo, Kathleen",
+    "first": "Kathleen",
+    "last": "Passidomo",
+    "district": 28,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Pizzo, Jason W. B.",
+    "first": "Jason W. B.",
+    "last": "Pizzo",
+    "district": 37,
+    "party": "NPA",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Polsky, Tina Scott",
+    "first": "Tina Scott",
+    "last": "Polsky",
+    "district": 30,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Rodriguez, Ana Maria",
+    "first": "Ana Maria",
+    "last": "Rodriguez",
+    "district": 40,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Rouson, Darryl Ervin",
+    "first": "Darryl Ervin",
+    "last": "Rouson",
+    "district": 16,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Sharief, Barbara",
+    "first": "Barbara",
+    "last": "Sharief",
+    "district": 35,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Simon, Corey",
+    "first": "Corey",
+    "last": "Simon",
+    "district": 3,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Smith, Carlos Guillermo",
+    "first": "Carlos Guillermo",
+    "last": "Smith",
+    "district": 17,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Truenow, Keith L.",
+    "first": "Keith L.",
+    "last": "Truenow",
+    "district": 13,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Trumbull, Jay",
+    "first": "Jay",
+    "last": "Trumbull",
+    "district": 2,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Wright, Tom A.",
+    "first": "Tom A.",
+    "last": "Wright",
+    "district": 8,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Yarborough, Clay",
+    "first": "Clay",
+    "last": "Yarborough",
+    "district": 4,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Avila, Bryan",
+    "first": "Bryan",
+    "last": "Avila",
+    "district": 39,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": "Resigned 8/25/2026"
+  },
+  {
+    "name": "Collins, Jay",
+    "first": "Jay",
+    "last": "Collins",
+    "district": 14,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": "Resigned 8/12/2025"
+  },
+  {
+    "name": "Fine, Randy",
+    "first": "Randy",
+    "last": "Fine",
+    "district": 19,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": "Resigned 3/31/2025"
+  },
+  {
+    "name": "Ingoglia, Blaise",
+    "first": "Blaise",
+    "last": "Ingoglia",
+    "district": 11,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": "Resigned 7/21/2025"
+  },
+  {
+    "name": "Thompson, Geraldine F. \"Geri\"",
+    "first": "Geraldine F. \"Geri\"",
+    "last": "Thompson",
+    "district": 15,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": "Died in Office 2/13/2025"
+  },
+  {
+    "name": "Baxley, Dennis",
+    "first": "Dennis",
+    "last": "Baxley",
+    "district": 13,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Book, Lauren",
+    "first": "Lauren",
+    "last": "Book",
+    "district": 35,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Broxson, Doug",
+    "first": "Doug",
+    "last": "Broxson",
+    "district": 1,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Hutson, Travis",
+    "first": "Travis",
+    "last": "Hutson",
+    "district": 7,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Perry, Keith",
+    "first": "Keith",
+    "last": "Perry",
+    "district": 9,
+    "party": "Republican",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Powell, Bobby",
+    "first": "Bobby",
+    "last": "Powell",
+    "district": 24,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Stewart, Linda",
+    "first": "Linda",
+    "last": "Stewart",
+    "district": 17,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Torres, Victor M., Jr.",
+    "first": "Victor M., Jr.",
+    "last": "Torres",
+    "district": 25,
+    "party": "Democrat",
+    "chamber": "senate",
+    "status": null
+  },
+  {
+    "name": "Abbott, Shane G.",
+    "first": "Shane G.",
+    "last": "Abbott",
+    "district": 5,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Albert, Jon",
+    "first": "Jon",
+    "last": "Albert",
+    "district": 48,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Alvarez, Daniel Antonio \"Danny\"",
+    "first": "Daniel Antonio \"Danny\"",
+    "last": "Alvarez",
+    "district": 69,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Alvarez, Jose",
+    "first": "Jose",
+    "last": "Alvarez",
+    "district": 46,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Anderson, Adam",
+    "first": "Adam",
+    "last": "Anderson",
+    "district": 57,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Andrade, Robert Alexander \"Alex\"",
+    "first": "Robert Alexander \"Alex\"",
+    "last": "Andrade",
+    "district": 2,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Antone, Bruce Hadley",
+    "first": "Bruce Hadley",
+    "last": "Antone",
+    "district": 41,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Aristide, Wallace",
+    "first": "Wallace",
+    "last": "Aristide",
+    "district": 107,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Baker, Jessica",
+    "first": "Jessica",
+    "last": "Baker",
+    "district": 17,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Bankson, Douglas Michael \"Doug\"",
+    "first": "Douglas Michael \"Doug\"",
+    "last": "Bankson",
+    "district": 39,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Barnaby, Webster",
+    "first": "Webster",
+    "last": "Barnaby",
+    "district": 29,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Bartleman, Robin",
+    "first": "Robin",
+    "last": "Bartleman",
+    "district": 103,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Basabe, Fabi\u00e1n",
+    "first": "Fabi\u00e1n",
+    "last": "Basabe",
+    "district": 106,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Benarroch, Yvette",
+    "first": "Yvette",
+    "last": "Benarroch",
+    "district": 81,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Berfield, Kimberly",
+    "first": "Kimberly",
+    "last": "Berfield",
+    "district": 58,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Black, Dean",
+    "first": "Dean",
+    "last": "Black",
+    "district": 15,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Blanco, Omar",
+    "first": "Omar",
+    "last": "Blanco",
+    "district": 115,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Booth, Erika",
+    "first": "Erika",
+    "last": "Booth",
+    "district": 35,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Borrero, David",
+    "first": "David",
+    "last": "Borrero",
+    "district": 111,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Botana, Adam",
+    "first": "Adam",
+    "last": "Botana",
+    "district": 80,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Boyles, Nathan",
+    "first": "Nathan",
+    "last": "Boyles",
+    "district": 3,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Brackett, Robert A. \"Robbie\"",
+    "first": "Robert A. \"Robbie\"",
+    "last": "Brackett",
+    "district": 34,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Brannan III, Robert Charles \"Chuck\"",
+    "first": "Robert Charles \"Chuck\"",
+    "last": "Brannan III",
+    "district": 10,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Buchanan, James",
+    "first": "James",
+    "last": "Buchanan",
+    "district": 74,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Busatta, Demi",
+    "first": "Demi",
+    "last": "Busatta",
+    "district": 114,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Campbell, Daryl",
+    "first": "Daryl",
+    "last": "Campbell",
+    "district": 99,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Canady, Jennifer",
+    "first": "Jennifer",
+    "last": "Canady",
+    "district": 50,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Cassel, Hillary",
+    "first": "Hillary",
+    "last": "Cassel",
+    "district": 101,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Chamberlin, Ryan",
+    "first": "Ryan",
+    "last": "Chamberlin",
+    "district": 24,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Chambliss, Kevin D.",
+    "first": "Kevin D.",
+    "last": "Chambliss",
+    "district": 117,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Chaney, Linda",
+    "first": "Linda",
+    "last": "Chaney",
+    "district": 61,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Cobb, Nan",
+    "first": "Nan",
+    "last": "Cobb",
+    "district": 26,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Conerly, William \"Bill\"",
+    "first": "William \"Bill\"",
+    "last": "Conerly",
+    "district": 72,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Cross, Lindsay",
+    "first": "Lindsay",
+    "last": "Cross",
+    "district": 60,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Daley, Dan",
+    "first": "Dan",
+    "last": "Daley",
+    "district": 96,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Daniels, Kimberly",
+    "first": "Kimberly",
+    "last": "Daniels",
+    "district": 14,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Driskell, Fentrice",
+    "first": "Fentrice",
+    "last": "Driskell",
+    "district": 67,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Duggan, Wyman",
+    "first": "Wyman",
+    "last": "Duggan",
+    "district": 12,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Dunkley, Lisa",
+    "first": "Lisa",
+    "last": "Dunkley",
+    "district": 97,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Edmonds, Jervonte \"Tae\"",
+    "first": "Jervonte \"Tae\"",
+    "last": "Edmonds",
+    "district": 88,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Eskamani, Dr. Anna V.",
+    "first": "Dr. Anna V.",
+    "last": "Eskamani",
+    "district": 42,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Esposito, Tiffany",
+    "first": "Tiffany",
+    "last": "Esposito",
+    "district": 77,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Fabricio, Tom",
+    "first": "Tom",
+    "last": "Fabricio",
+    "district": 110,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Franklin II, Gallop",
+    "first": "Gallop",
+    "last": "Franklin II",
+    "district": 8,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gantt, Ashley Viola",
+    "first": "Ashley Viola",
+    "last": "Gantt",
+    "district": 109,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Garrison, Sam",
+    "first": "Sam",
+    "last": "Garrison",
+    "district": 11,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gentry, Richard",
+    "first": "Richard",
+    "last": "Gentry",
+    "district": 27,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gerwig, Anne",
+    "first": "Anne",
+    "last": "Gerwig",
+    "district": 93,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Giallombardo, Mike",
+    "first": "Mike",
+    "last": "Giallombardo",
+    "district": 79,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gonzalez Pittman, Karen",
+    "first": "Karen",
+    "last": "Gonzalez Pittman",
+    "district": 65,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gossett-Seidman, Peggy",
+    "first": "Peggy",
+    "last": "Gossett-Seidman",
+    "district": 91,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gottlieb, Michael \"Mike\"",
+    "first": "Michael \"Mike\"",
+    "last": "Gottlieb",
+    "district": 102,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Greco, Sam",
+    "first": "Sam",
+    "last": "Greco",
+    "district": 19,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Gregory, Emily",
+    "first": "Emily",
+    "last": "Gregory",
+    "district": 87,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Griffitts Jr., Philip Wayne \"Griff\"",
+    "first": "Philip Wayne \"Griff\"",
+    "last": "Griffitts Jr.",
+    "district": 6,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Grow, J.J.",
+    "first": "J.J.",
+    "last": "Grow",
+    "district": 23,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Harris, Jennifer \"Rita\"",
+    "first": "Jennifer \"Rita\"",
+    "last": "Harris",
+    "district": 44,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Hart-Lowman, Dianne \"Ms Dee\"",
+    "first": "Dianne \"Ms Dee\"",
+    "last": "Hart-Lowman",
+    "district": 63,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Hinson, Yvonne Hayes",
+    "first": "Yvonne Hayes",
+    "last": "Hinson",
+    "district": 21,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Hodgers, Brian",
+    "first": "Brian",
+    "last": "Hodgers",
+    "district": 32,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Holcomb, Jeff",
+    "first": "Jeff",
+    "last": "Holcomb",
+    "district": 53,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Holley, Hilary",
+    "first": "Hilary",
+    "last": "Holley",
+    "district": 51,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Hunschofsky, Christine",
+    "first": "Christine",
+    "last": "Hunschofsky",
+    "district": 95,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Jacques, Berny",
+    "first": "Berny",
+    "last": "Jacques",
+    "district": 59,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Johnson, Chad",
+    "first": "Chad",
+    "last": "Johnson",
+    "district": 22,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Joseph, Dotie",
+    "first": "Dotie",
+    "last": "Joseph",
+    "district": 108,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Kendall, Kim",
+    "first": "Kim",
+    "last": "Kendall",
+    "district": 18,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Kincart Jonsson, Jennifer",
+    "first": "Jennifer",
+    "last": "Kincart Jonsson",
+    "district": 49,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Koster, Traci",
+    "first": "Traci",
+    "last": "Koster",
+    "district": 66,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "LaMarca, Chip",
+    "first": "Chip",
+    "last": "LaMarca",
+    "district": 100,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Long, Rob",
+    "first": "Rob",
+    "last": "Long",
+    "district": 90,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "L\u00f3pez, Johanna",
+    "first": "Johanna",
+    "last": "L\u00f3pez",
+    "district": 43,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Maggard, Randall Scott \"Randy\"",
+    "first": "Randall Scott \"Randy\"",
+    "last": "Maggard",
+    "district": 54,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Maney, Patt",
+    "first": "Patt",
+    "last": "Maney",
+    "district": 4,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "McClure, Lawrence",
+    "first": "Lawrence",
+    "last": "McClure",
+    "district": 68,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "McFarland, Fiona",
+    "first": "Fiona",
+    "last": "McFarland",
+    "district": 73,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Melo, Lauren",
+    "first": "Lauren",
+    "last": "Melo",
+    "district": 82,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Michael, Kiyan",
+    "first": "Kiyan",
+    "last": "Michael",
+    "district": 16,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Miller, Monique",
+    "first": "Monique",
+    "last": "Miller",
+    "district": 33,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Mooney Jr., James Vernon \"Jim\"",
+    "first": "James Vernon \"Jim\"",
+    "last": "Mooney Jr.",
+    "district": 120,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Nix Jr., Danny",
+    "first": "Danny",
+    "last": "Nix Jr.",
+    "district": 75,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Nixon, Angela \"Angie\"",
+    "first": "Angela \"Angie\"",
+    "last": "Nixon",
+    "district": 13,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Oliver, Vanessa",
+    "first": "Vanessa",
+    "last": "Oliver",
+    "district": 76,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Overdorf, Tobin Rogers \"Toby\"",
+    "first": "Tobin Rogers \"Toby\"",
+    "last": "Overdorf",
+    "district": 85,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Owen, Michael",
+    "first": "Michael",
+    "last": "Owen",
+    "district": 70,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Partington, Bill",
+    "first": "Bill",
+    "last": "Partington",
+    "district": 28,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Plakon, Rachel Saunders",
+    "first": "Rachel Saunders",
+    "last": "Plakon",
+    "district": 36,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Plasencia, Susan",
+    "first": "Susan",
+    "last": "Plasencia",
+    "district": 37,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Porras, Juan Carlos",
+    "first": "Juan Carlos",
+    "last": "Porras",
+    "district": 119,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Rayner, Michele K.",
+    "first": "Michele K.",
+    "last": "Rayner",
+    "district": 62,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Redondo, Mike",
+    "first": "Mike",
+    "last": "Redondo",
+    "district": 118,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Rizo, Alex",
+    "first": "Alex",
+    "last": "Rizo",
+    "district": 112,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Robinson, Felicia Simone",
+    "first": "Felicia Simone",
+    "last": "Robinson",
+    "district": 104,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Robinson Jr., William Cloud \"Will\"",
+    "first": "William Cloud \"Will\"",
+    "last": "Robinson Jr.",
+    "district": 71,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Rosenwald, Mitch",
+    "first": "Mitch",
+    "last": "Rosenwald",
+    "district": 98,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Salzman, Michelle",
+    "first": "Michelle",
+    "last": "Salzman",
+    "district": 1,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Sapp, Judson",
+    "first": "Judson",
+    "last": "Sapp",
+    "district": 20,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Scott, Samantha",
+    "first": "Samantha",
+    "last": "Scott",
+    "district": 52,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Shoaf, Jason",
+    "first": "Jason",
+    "last": "Shoaf",
+    "district": 7,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Sirois, Tyler I.",
+    "first": "Tyler I.",
+    "last": "Sirois",
+    "district": 31,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Skidmore, Kelly",
+    "first": "Kelly",
+    "last": "Skidmore",
+    "district": 92,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Smith, David",
+    "first": "David",
+    "last": "Smith",
+    "district": 38,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Snyder, John",
+    "first": "John",
+    "last": "Snyder",
+    "district": 86,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Spencer, Leonard",
+    "first": "Leonard",
+    "last": "Spencer",
+    "district": 45,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Stark, Paula A.",
+    "first": "Paula A.",
+    "last": "Stark",
+    "district": 47,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Tant, Allison",
+    "first": "Allison",
+    "last": "Tant",
+    "district": 9,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Tendrich, Debra",
+    "first": "Debra",
+    "last": "Tendrich",
+    "district": 89,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Trabulsy, Dana",
+    "first": "Dana",
+    "last": "Trabulsy",
+    "district": 84,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Tramont, Chase",
+    "first": "Chase",
+    "last": "Tramont",
+    "district": 30,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Tuck, Kaylee",
+    "first": "Kaylee",
+    "last": "Tuck",
+    "district": 83,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Vald\u00e9s, Susan L.",
+    "first": "Susan L.",
+    "last": "Vald\u00e9s",
+    "district": 64,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Weinberger, Meg",
+    "first": "Meg",
+    "last": "Weinberger",
+    "district": 94,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Woodson, Marie Paule",
+    "first": "Marie Paule",
+    "last": "Woodson",
+    "district": 105,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Yarkosky, Taylor Michael",
+    "first": "Taylor Michael",
+    "last": "Yarkosky",
+    "district": 25,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Yeager, Bradford Troy \"Brad\"",
+    "first": "Bradford Troy \"Brad\"",
+    "last": "Yeager",
+    "district": 56,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Young, RaShon",
+    "first": "RaShon",
+    "last": "Young",
+    "district": 40,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Bracy Davis, LaVon",
+    "first": "LaVon",
+    "last": "Bracy Davis",
+    "district": 40,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Caruso, Michael A. \"Mike\"",
+    "first": "Michael A. \"Mike\"",
+    "last": "Caruso",
+    "district": 87,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "* Casello, Joe",
+    "first": "Joe",
+    "last": "* Casello",
+    "district": 90,
+    "party": "Democrat",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Lopez, Vicki L.",
+    "first": "Vicki L.",
+    "last": "Lopez",
+    "district": 113,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Mayfield, Debbie",
+    "first": "Debbie",
+    "last": "Mayfield",
+    "district": 32,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Perez, Daniel",
+    "first": "Daniel",
+    "last": "Perez",
+    "district": 116,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Persons-Mulicka, Jenna",
+    "first": "Jenna",
+    "last": "Persons-Mulicka",
+    "district": 78,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Rudman, Dr. Joel",
+    "first": "Dr. Joel",
+    "last": "Rudman",
+    "district": 3,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Steele, Kevin M.",
+    "first": "Kevin M.",
+    "last": "Steele",
+    "district": 55,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Temple, John Paul",
+    "first": "John Paul",
+    "last": "Temple",
+    "district": 52,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  },
+  {
+    "name": "Tomkow, Josie",
+    "first": "Josie",
+    "last": "Tomkow",
+    "district": 51,
+    "party": "Republican",
+    "chamber": "house",
+    "status": null
+  }
+]

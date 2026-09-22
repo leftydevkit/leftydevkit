@@ -7,6 +7,8 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
+# God's Eye app data lives under static/gep/data/build/ — keep tracked
+!/static/gep/**/
 
 # OS
 .DS_Store

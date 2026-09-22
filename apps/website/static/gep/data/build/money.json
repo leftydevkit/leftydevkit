@@ -1,0 +1,2392 @@
+[
+  {
+    "amount": 30629.22,
+    "district": 18,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KALE, ANDREA DORIA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SHERIDAN, CHARLES MARTIN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FUGATE, DEMETRIUS (D.B.) BURNS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FUGATE, DEMETRIUS (D.B.) BURNS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, OTH",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "TOULME, ALIX CHRISTOPHER MR. JR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RUDMAN, JOEL DR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, NNE",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CHINNASWAMY, JOSH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "COBA, ANGEL LUIS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 127638.3,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "QUINONES, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LENSSEN, MATHIAS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JOHNSTON, CLAYTON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WALLS-WINDHAUSER, ANGELA MARIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 330552.0,
+    "district": 13,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WEINKRANTZ, MARK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 68155.74,
+    "district": 14,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PETERS, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 69457.1,
+    "district": 17,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MONTAVON, MATTHEW",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 260904.62,
+    "district": 21,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WILES, RICK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 3,
+    "owner": "US-House, Libertarian",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "STEBBINS, ANTHONY JAMES",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "O''DELL, SHANNON MAY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 26,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MEDINA, IAN ANTHONY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KAUFMAN, JOSEPH JOE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 31819.91,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JOSEPH, ROD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 25899.64,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "COLUMBUS, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 28,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BOULIN ROMAIN, JACQUELINE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 402244.51,
+    "district": 13,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DAHAN, LIZ",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 4,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SCHAEFER, TODD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 28,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "REYES, MARCOS ANTONIO",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GADDIS, STEPHANIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 100.0,
+    "district": 11,
+    "owner": "US-House, Libertarian",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GROVES, RALPH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 27,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LARA, ROYLAND",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 5,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MAY, JAMES ANTHONY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 69448.01,
+    "district": 17,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LOPEZ, MANNY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 41502.78,
+    "district": 7,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PASTRANA, ALLEK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 15,
+    "owner": "US-House, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PETERSON, ALEXANDER J",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 14065.42,
+    "district": 9,
+    "owner": "US-House, NON",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CARTER, GREGORY MARCUS MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 33224.76,
+    "district": 24,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "NAVARRO, JESUS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2820255.6,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WALTZ, MICHAEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1735999.36,
+    "district": 17,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "STEUBE, GREG",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 639178.7,
+    "district": 20,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CHERFILUS-MCCORMICK, SHEILA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 3230463.98,
+    "district": 27,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SALAZAR, MARIA ELVIRA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 378035.27,
+    "district": 11,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SABATINI, ANTHONY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 37656.68,
+    "district": 15,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BARBOSA, JENNIFER MS.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "VAZQUEZ, RUDY KASSIME",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 16,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FANCERA, NICHOLAS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 416343.66,
+    "district": 25,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EDDY, CHRISTOPHER",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 265397.71,
+    "district": 21,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WITKOP, THOMAS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 12,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MARTIN, JACK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 73455.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HORAN, DONALD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 104.1,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PITTMAN, BERNADETTE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 13700.0,
+    "district": 26,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EVANS, RICHARD MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 10,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WILLIAMS, SAMUEL LEE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 17,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HARTMAN, RALPH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 6,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DEMBINSKY, RICHARD PAUL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 25,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GOLDFARB, EDDIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "VAN CLEEF, ALEXANDRA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 25780.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MILLS, RALPH JOHN III",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 499475.78,
+    "district": 8,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "POSEY, BILL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 58506.44,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MOORE, SCOTTY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 24,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GONZALEZ, PATRICIA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BEDI, SURINDAR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 467506.67,
+    "district": 25,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PERELMAN, JENNIFER PILCHICK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 12632.98,
+    "district": 12,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DUNLAP, HARRY WILLIAM",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1509617.41,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CAMPBELL, STANLEY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 14,
+    "owner": "US-House, Libertarian",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SNYDER, NATHANIEL T.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2993.24,
+    "district": 13,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "OWEN, PETER",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 20354.19,
+    "district": 2,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WOODWARD, RHONDA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MCPHILLIPS, WILLIAM J MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SMITH, JOE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KRENTCIL, PATRICIA MARIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 4,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ALVERO, ROBERT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2623989.25,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GROSS, KEITH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 28,
+    "owner": "US-House, AIP",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "VYSKOCIL, ELAN JAKUB",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 14,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MARSELLA, RENEE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 6772979.08,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GAETZ, MATT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1648134.72,
+    "district": 2,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DUNN, NEAL PATRICK MD, FACS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Unknown",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GRANDA, GRACE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2433.39,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RIVERA, ANGEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 36696093.1,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SCOTT, RICK SEN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 94647.05,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "THELUSCA, JOE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HERNANDEZ, SALOMON SR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 5,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BOULIN ROMAIN, JACQUELINE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 27,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ARIAS, VINCENT MICHAEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2159165.71,
+    "district": 9,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SOTO, DARREN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1166739.26,
+    "district": 14,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CASTOR, KATHY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1824538.71,
+    "district": 16,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BUCHANAN, VERNON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ROMAGNANO, CHASE ANDERSON MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "REYES, MARCO",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "REYES, MARCO",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2623989.25,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GROSS, KEITH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 54190.77,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EKPETE KAMA, ULOMA DR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 379855.51,
+    "district": 8,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HEARTON, JOHN L MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1759340.7,
+    "district": 8,
+    "owner": "US-House, Unknown",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HARIDOPOLOS, MIKE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JENNINGS, TODD EDWARD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SANSCRAINTE, MATTHEW ALEXANDER MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, GRE",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CYSEWSKI, MASON VICENT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ORTIZ, SERGIO E",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SUN, KATY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 166713.53,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KAUFMAN, JOE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 371529.13,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WEINROTH, ROBERT S.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 654171.35,
+    "district": 27,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BAEZ-GELLER, LUCIA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, GRE",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "TOLER, RANDY MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 24494.82,
+    "district": 10,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MONTAGUE, WILLIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 897299.59,
+    "district": 5,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RUTHERFORD, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 26,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MEDINA, IAN ANTHONY MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DAVIS, JAMES",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 11,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FARLEY, STEVE EDWARD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 11,
+    "owner": "US-House, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ALCANTARA, CHRISTOPHER MANUEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 22530.0,
+    "district": null,
+    "owner": "US-Senate, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "NGUYEN, QUOC TUAN MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 759649.76,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SPALDING, CARLA A",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Libertarian",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "INSTERVIL, WILSON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 18,
+    "owner": "US-House, NON",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RICHARDSON, JOHN WILLIAM MR JR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1019865.25,
+    "district": 11,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WEBSTER, DANIEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 11,
+    "owner": "US-House, AIC",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "OSTA, SAMI MICHEL N/A",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SANSCRAINTE, MATTHEW ALEXANDER MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CYSEWSKI, MASON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 7,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BRANTLEY, DERRICK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BOSWELL, MATT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 16624.4,
+    "district": 7,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FERNANDEZ, HLSIA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 22,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HALPER, DEAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 2,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ANDERSON, WILLIE JEFFEERSON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 2,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ANDERSON, WILLIE JEFFEERSON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ORTIZ, RAFAEL ARTURO MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KORN, BERNARD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 19775.0,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MORALES, ADIANIS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 76285.62,
+    "district": 11,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HALL, BARBARA HARDEN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 36675.0,
+    "district": 26,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ATKINS, JOEY DAVID",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1199607.63,
+    "district": 28,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EHR, PHIL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 9700.0,
+    "district": 2,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HOVEY, MEGHANN K",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1199607.63,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EHR, PHILLIP",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 16624.4,
+    "district": 7,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FERNANDEZ, HILSIA TATIANA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 57609.3,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GROW, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 11525.46,
+    "district": 25,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "YOUNG, RUBIN MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2559343.8,
+    "district": 13,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FOX, WHITNEY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 76862.0,
+    "district": 16,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MILLER, TRENT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LAROSE, JOSUE DR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 30743.02,
+    "district": 6,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JOARDER, EHSAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 18204.42,
+    "district": 3,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WELLS, TOM",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 37786.81,
+    "district": 26,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FRATTO, JOHN ROBERT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 542647.03,
+    "district": 15,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KEMP, PATRICIA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 11,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SORIANO, GAVRIEL ELIYAHU",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 113833.63,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CEREZO SWAFFAR, DARLENE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 71789.84,
+    "district": 5,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MACIE, MARA HEATHER",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1738170.86,
+    "district": 4,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BEAN, AARON P.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 277066.1,
+    "district": 7,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ADAMS, JENNIFER",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1628886.82,
+    "district": 7,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MILLS, CORY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 4065838.78,
+    "district": 10,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FROST, MAXWELL ALEJANDRO",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 10,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RAMBARANSINGH, MAHENDRANATH TROY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 3998823.63,
+    "district": 21,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MAST, BRIAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 32722.75,
+    "district": 16,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SCHNEIDER, JAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1887170.43,
+    "district": 22,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FRANKEL, LOIS J.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 6600931.63,
+    "district": 19,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DONALDS, BYRON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 24,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "NAVARRO, JESUS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 39961.75,
+    "district": 10,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LE, TUAN A",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 10105.0,
+    "district": 14,
+    "owner": "US-House, NNE",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BRADLEY, CHRISTOPHER",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 30107.5,
+    "district": 10,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DARIUS, WADESON WADE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 33549.47,
+    "district": 6,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "STOCKTON, JAMES D",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1776993.98,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FRANZESE, DANIEL JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 77058.52,
+    "district": 8,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JONES, BRIAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2162709.67,
+    "district": 15,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LEE, LAUREL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 190509.87,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ADEIMY, DEBORAH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2363025.68,
+    "district": 26,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DIAZ-BALART, MARIO",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 20000.0,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CHESS, STEVEN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 32057.51,
+    "district": 4,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HOLLOWAY, LASHONDA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 16900.0,
+    "district": 3,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "STEVENS, ALEC",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 16900.0,
+    "district": 3,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "STEVENS, ALEC",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2358065.32,
+    "district": 23,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MOSKOWITZ, JARED",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 29153.73,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BARVE, GARY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 19716.9,
+    "district": null,
+    "owner": "US-Senate, Libertarian",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BONOAN, FEENA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 222681.71,
+    "district": 13,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BOUSBAR, SABRINA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 759649.76,
+    "district": 23,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SPALDING, CARLA ARLENE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 44584.4,
+    "district": 5,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MCGOVERN, JAY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 20,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HOLNESS, DALE V.C. MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 30107.5,
+    "district": 10,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DARIUS, WADESON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 53926.0,
+    "district": 10,
+    "owner": "US-House, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WHITE, VIBERT DR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 28,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EHR, PHILLIP",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 5,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KONIZ, GARY L",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 21,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FELTON, ELIZABETH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "EVERIDGE, BEN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 24066.43,
+    "district": 24,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SPICER, LAVERN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KNEPPER, HOWARD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 51852.87,
+    "district": 2,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BAILEY, HUY-YEN CAM MS.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 14,
+    "owner": "US-House, W",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HERNANDEZ, SALOMON SR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "HAZZA, SAMIR RAMZI MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 325.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "STERN, EVERETT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 102742.74,
+    "district": 11,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MCCLOY, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 56949.32,
+    "district": 12,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ABOUJAOUDE, ROCK ADEL MR. JR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 184066.35,
+    "district": 19,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LERNER, KARI",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2896300.36,
+    "district": 25,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WASSERMAN SCHULTZ, DEBBIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 752101.69,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GUTMANN, ANDREW",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 75241.38,
+    "district": 25,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LEIB, BRYAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BENNETT, SHANTELE RENEE MS N/A",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BRANDA, PAOLA DR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SANTIAGO, CHRISTINE MARIA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 12820.0,
+    "district": 18,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BRAUNSTON, PETER ALAN MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 7,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MESTAS, KAREN JAY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 7,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MESTAS, KAREN JAY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 24,
+    "owner": "US-House, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FARCA, SHIMON MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2040.0,
+    "district": 14,
+    "owner": "US-House, No Party Affiliation",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PERRY, NEELAM TANEJA DR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 155803.15,
+    "district": 8,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BABITS, JOSEPH",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 18066.31,
+    "district": 15,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FITZGERALD, KRIS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "TOULME, ALIX CHRISTOPHER MR. JR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 86135.46,
+    "district": 15,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JUDGE, JAMES MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 21,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SKRBIC, LJUBO DR MD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 20,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PIPER, MARK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 23,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PIPER, MARK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 9,
+    "owner": "US-House, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FARBER, STUART DR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 16,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RICHARDSON, JOHN WILLIAM JR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RAMSAROOP, JOEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 285967.0,
+    "district": 13,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LICCIONE, JOHN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 32722.75,
+    "district": 16,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SCHNEIDER, JAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 488827.68,
+    "district": 24,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "WILSON, FREDERICA S.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 577359.73,
+    "district": 27,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DAVEY, MICHAEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 15,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PERRAS, BRIAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 36616416.21,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MUCARSEL-POWELL, DEBBIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1585275.74,
+    "district": 1,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "VALIMONT, JENNIFER GAY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 4,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MCMANUS, GARY",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 86535.57,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CASTILLO, JOSE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2647816.47,
+    "district": 3,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CAMMACK, KAT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 3697834.71,
+    "district": 13,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "PAULINA LUNA, ANNA",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 815897.15,
+    "district": 18,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "FRANKLIN, SCOTT MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 393586.05,
+    "district": 1,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DIMMOCK, AARON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 85508.96,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RUSH, BRIAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 530.0,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JONES, LATERESA ANN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1127145.82,
+    "district": 28,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GIMENEZ, CARLOS",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 510.25,
+    "district": 27,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "POLO, FRANK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 8,
+    "owner": "US-House, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DIEPPA, JOSE ARNALDO MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 20,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RIVERA, HECTOR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 21,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "LLOYD, JOHNNIE",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 20,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CAMPBELL, LUTHER MR.",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": 22,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "DAVES, CHRISTIAN S. PATY MR",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 72882.58,
+    "district": 14,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "ROCHFORD, ROBERT ANTHONY ROCKY CAPT",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 0.0,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "RUSH, BRIAN",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 1804425.78,
+    "district": 12,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "BILIRAKIS, GUS M",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 72559.3,
+    "district": 8,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "MCDOW, DANIEL",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 49400.0,
+    "district": 13,
+    "owner": "US-House, Independent",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "D'ARRIGO, TONY C",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 550041.33,
+    "district": 16,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "SPEIR, JASON EDWARD",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 37566.32,
+    "district": 8,
+    "owner": "US-House, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "KENNEDY, SANDRA (SANDY) DENISE MS. ESQ",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 73050.68,
+    "district": 7,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "JOHNSON, MICHAEL DON",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 832018.1,
+    "district": null,
+    "owner": "US-Senate, Democratic",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "GRAYSON, ALAN MARK",
+    "sponsor": null,
+    "state": "FL"
+  },
+  {
+    "amount": 2684792.44,
+    "district": 9,
+    "owner": "US-House, Republican",
+    "role": "candidate",
+    "source": "fec",
+    "spender": "CHALIFOUX, THOMAS E. COLONEL JR.",
+    "sponsor": null,
+    "state": "FL"
+  }
+]

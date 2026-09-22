@@ -1,0 +1,3887 @@
+{
+ "members": {
+  "house:57": {
+   "name": "Adam Anderson",
+   "party": "R",
+   "email": "adam.anderson@flhouse.gov",
+   "phones": [
+    "850-717-5057",
+    "727-382-8300"
+   ],
+   "offices": [
+    {
+     "address": "Room 209, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5057",
+     "classification": "capitol"
+    },
+    {
+     "address": "682 E. Klosterman Road Suite BB038, Tarpon Springs, FL 34689",
+     "voice": "727-382-8300",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4885.jpg",
+   "openstates_url": "https://openstates.org/person/adam-anderson-3EUHwR5pv456z8MMnIz7sG/",
+   "committees": []
+  },
+  "house:80": {
+   "name": "Adam Botana",
+   "party": "R",
+   "email": "adam.botana@flhouse.gov",
+   "phones": [
+    "850-717-5080",
+    "239-317-8600"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5080",
+     "classification": "capitol"
+    },
+    {
+     "address": "Sunshine Professional Center 9240 Bonita Beach Road SE, Suite 2215, Bonita Springs, FL 34135",
+     "voice": "239-317-8600",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4782.jpg",
+   "openstates_url": "https://openstates.org/person/adam-botana-67plLnPC6qQqKUD4ehxLZh/",
+   "committees": []
+  },
+  "house:2": {
+   "name": "Alex Andrade",
+   "party": "R",
+   "email": "alex.andrade@flhouse.gov",
+   "phones": [
+    "850-717-5002",
+    "850-542-1980"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5002",
+     "classification": "capitol"
+    },
+    {
+     "address": "226 S. Palafox Place Suite 401B, Pensacola, FL 32502",
+     "voice": "850-542-1980",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4710.jpg",
+   "openstates_url": "https://openstates.org/person/alex-andrade-6lbBlXxwEesk0cmBnjlPyO/",
+   "committees": []
+  },
+  "house:112": {
+   "name": "Alex Rizo",
+   "party": "R",
+   "email": "alex.rizo@flhouse.gov",
+   "phones": [
+    "850-717-5112",
+    "305-364-3114"
+   ],
+   "offices": [
+    {
+     "address": "Room 313, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5112",
+     "classification": "capitol"
+    },
+    {
+     "address": "3798 W. 12th Ave. Suite A, Hialeah, FL 33012",
+     "voice": "305-364-3114",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4796.jpg",
+   "openstates_url": "https://openstates.org/person/alex-rizo-5RkCU1oHYXogGSQ7OFgrU7/",
+   "committees": []
+  },
+  "senate:38": {
+   "name": "Alexis Calatayud",
+   "party": "R",
+   "email": "calatayud.alexis.web@flsenate.gov",
+   "phones": [
+    "850-487-5038",
+    "305-596-3002"
+   ],
+   "offices": [
+    {
+     "address": "Room 305, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5038",
+     "classification": "capitol"
+    },
+    {
+     "address": "Kendall Campus 11011 SW 104th St., Suite 5101, Miami, FL 33176",
+     "voice": "305-596-3002",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s38_5525.jpg",
+   "openstates_url": "https://openstates.org/person/alexis-calatayud-3rrya2aQgU3IWcwrwT9QcX/",
+   "committees": []
+  },
+  "house:9": {
+   "name": "Allison Tant",
+   "party": "D",
+   "email": "allison.tant@flhouse.gov",
+   "phones": [
+    "850-717-5009"
+   ],
+   "offices": [
+    {
+     "address": "Room 329, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5009",
+     "classification": "capitol"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4765.jpg",
+   "openstates_url": "https://openstates.org/person/allison-tant-5uowUBEorjyn4gtgCiQvk6/",
+   "committees": []
+  },
+  "senate:40": {
+   "name": "Ana Maria Rodriguez",
+   "party": "R",
+   "email": "rodriguez.anamaria.web@flsenate.gov",
+   "phones": [
+    "850-487-5040",
+    "305-470-2552"
+   ],
+   "offices": [
+    {
+     "address": "Room 410, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5040",
+     "classification": "capitol"
+    },
+    {
+     "address": "Miami-Dade College, West Campus 3800 NW 115th Ave., Suite 1112, Doral, FL 33178",
+     "voice": "305-470-2552",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s40_5379.jpg",
+   "openstates_url": "https://openstates.org/person/ana-maria-rodriguez-5Ln9uBYMxYvKnM41eVuMI1/",
+   "committees": []
+  },
+  "house:13": {
+   "name": "Angie Nixon",
+   "party": "D",
+   "email": "angela.nixon@flhouse.gov",
+   "phones": [
+    "850-717-5013",
+    "904-667-0340"
+   ],
+   "offices": [
+    {
+     "address": "Room 1102, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5013",
+     "classification": "capitol"
+    },
+    {
+     "address": "3939 Roosevelt Blvd. Suite G-121, Jacksonville, FL 32205",
+     "voice": "904-667-0340",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4766.jpg",
+   "openstates_url": "https://openstates.org/person/angie-nixon-37ucRobbjxT3HSd7yyFNIL/",
+   "committees": []
+  },
+  "house:42": {
+   "name": "Anna Eskamani",
+   "party": "D",
+   "email": "anna.eskamani@flhouse.gov",
+   "phones": [
+    "850-717-5042",
+    "407-228-1451"
+   ],
+   "offices": [
+    {
+     "address": "Room 407, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5042",
+     "classification": "capitol"
+    },
+    {
+     "address": "1507 E. Concord St., Orlando, FL 32803",
+     "voice": "407-228-1451",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4746.jpg",
+   "openstates_url": "https://openstates.org/person/anna-eskamani-xXgXJiyRZTNpr1YG9X1Yo/",
+   "committees": []
+  },
+  "house:93": {
+   "name": "Anne Gerwig",
+   "party": "R",
+   "email": "anne.gerwig@flhouse.gov",
+   "phones": [
+    "850-717-5093",
+    "561-785-0630"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5093",
+     "classification": "capitol"
+    },
+    {
+     "address": "6685 Forest Hill Blvd. Suite 208, Greenacres, FL 33413",
+     "voice": "561-785-0630",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.hlcpbc.org/wp-content/uploads/2021/01/Anne_Gerwig.jpg",
+   "openstates_url": "https://openstates.org/person/anne-gerwig-5HRaOmVQX21MG3JmEbfbsK/",
+   "committees": []
+  },
+  "house:109": {
+   "name": "Ashley Gantt",
+   "party": "D",
+   "email": "ashley.gantt@flhouse.gov",
+   "phones": [
+    "850-717-5109",
+    "786-435-9410"
+   ],
+   "offices": [
+    {
+     "address": "Room 1101, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5109",
+     "classification": "capitol"
+    },
+    {
+     "address": "5400 NW 22nd Ave. Suite 101, Building C, Miami, FL 33142",
+     "voice": "786-435-9410",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4897.jpg",
+   "openstates_url": "https://openstates.org/person/ashley-gantt-1Lko83QzatJb19tT1lwzJu/",
+   "committees": []
+  },
+  "senate:35": {
+   "name": "Barbara Sharief",
+   "party": "D",
+   "email": "sharief.barbara.web@flsenate.gov",
+   "phones": [
+    "850-487-5035",
+    "954-424-6674"
+   ],
+   "offices": [
+    {
+     "address": "Room 205, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5035",
+     "classification": "capitol"
+    },
+    {
+     "address": "3351 N. University Drive Suite A, Davie, FL 33024",
+     "voice": "954-424-6674",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/_oMaIez3_400x400.jpg",
+   "openstates_url": "https://openstates.org/person/barbara-sharief-1J4tVghQxDWRuqtJq2C8FJ/",
+   "committees": []
+  },
+  "senate:27": {
+   "name": "Ben Albritton",
+   "party": "R",
+   "email": "albritton.ben@flsenate.gov",
+   "phones": [
+    "850-487-5027",
+    "863-534-0073",
+    "941-575-5717"
+   ],
+   "offices": [
+    {
+     "address": "Room 409, The Capitol 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5027",
+     "classification": "capitol"
+    },
+    {
+     "address": "150 N. Central Ave., Bartow, FL 33830",
+     "voice": "863-534-0073",
+     "classification": "district"
+    },
+    {
+     "address": "410 Taylor St. Suite 106, Punta Gorda, FL 33950",
+     "voice": "941-575-5717",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s27_5342.jpg",
+   "openstates_url": "https://openstates.org/person/ben-albritton-2oYe6sKJPblPg3Sf9T4gpM/",
+   "committees": []
+  },
+  "house:59": {
+   "name": "Berny Jacques",
+   "party": "R",
+   "email": "berny.jacques@flhouse.gov",
+   "phones": [
+    "850-717-5059",
+    "727-558-4230"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5059",
+     "classification": "capitol"
+    },
+    {
+     "address": "4625 E. Bay Drive Suite 207, Clearwater, FL 33764",
+     "voice": "727-558-4230",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4886.jpg",
+   "openstates_url": "https://openstates.org/person/berny-jacques-4KN9KQdYkCFlVNPrFxVRbJ/",
+   "committees": []
+  },
+  "house:72": {
+   "name": "Bill Conerly",
+   "party": "R",
+   "email": "bill.conerly@flhouse.gov",
+   "phones": [
+    "850-717-5072",
+    "941-327-0150"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5072",
+     "classification": "capitol"
+    },
+    {
+     "address": "Mailbox 311 11523 Palmbrush Trail, Lakewood Ranch, FL 34202",
+     "voice": "941-327-0150",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/BillConerly2024.jpg",
+   "openstates_url": "https://openstates.org/person/bill-conerly-23GihdhfclGhe2kmKnPwJZ/",
+   "committees": []
+  },
+  "house:28": {
+   "name": "Bill Partington",
+   "party": "R",
+   "email": "bill.partington@flhouse.gov",
+   "phones": [
+    "850-717-5028",
+    "386-230-1960"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5028",
+     "classification": "capitol"
+    },
+    {
+     "address": "444 Seabreeze Blvd. Suite 645, Daytona Beach, FL 32118",
+     "voice": "386-230-1960",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.billpartington.com/images/Partington,-Bill-WEB-FILE.jpg",
+   "openstates_url": "https://openstates.org/person/bill-partington-4TD9ecvYmxPMffIkc1SPOg/",
+   "committees": []
+  },
+  "house:56": {
+   "name": "Brad Yeager",
+   "party": "R",
+   "email": "brad.yeager@flhouse.gov",
+   "phones": [
+    "850-717-5056",
+    "727-274-9280"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5056",
+     "classification": "capitol"
+    },
+    {
+     "address": "5509 Grand Blvd. Suite 200, New Port Richey, FL 34652",
+     "voice": "727-274-9280",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4882.jpg",
+   "openstates_url": "https://openstates.org/person/brad-yeager-4Iv82xWzoFeruJSqHayYoZ/",
+   "committees": []
+  },
+  "house:32": {
+   "name": "Brian Hodgers",
+   "party": "R",
+   "email": "brian.hodgers@flhouse.gov",
+   "phones": [
+    "850-717-5032",
+    "321-497-8200"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5032",
+     "classification": "capitol"
+    },
+    {
+     "address": "2725 Judge Fran Jamieson Way Building B, Unit 202, Viera, FL 32940",
+     "voice": "321-497-8200",
+     "classification": "district"
+    }
+   ],
+   "image": "",
+   "openstates_url": "https://openstates.org/person/brian-hodgers-2AO1Tc4LjXhLCgPmeB1te2/",
+   "committees": []
+  },
+  "senate:14": {
+   "name": "Brian Nathan",
+   "party": "D",
+   "email": "nathan.brian.web@flsenate.gov",
+   "phones": [
+    "850-487-5014",
+    "813-281-2538"
+   ],
+   "offices": [
+    {
+     "address": "Room 224, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5014",
+     "classification": "capitol"
+    },
+    {
+     "address": "701 W. Dr. Martin Luther King Jr. Blvd. Suite 2, Tampa, FL 33603",
+     "voice": "813-281-2538",
+     "classification": "district"
+    }
+   ],
+   "image": "",
+   "openstates_url": "https://openstates.org/person/brian-nathan-2VlFAmBgvJ42g4uGR9TPiY/",
+   "committees": []
+  },
+  "house:41": {
+   "name": "Bruce Antone",
+   "party": "D",
+   "email": "bruce.antone@flhouse.gov",
+   "phones": [
+    "850-717-5041",
+    "407-472-9820"
+   ],
+   "offices": [
+    {
+     "address": "Room 1101, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5041",
+     "classification": "capitol"
+    },
+    {
+     "address": "1003 S. Kirkman Road Suite 201, Orlando, FL 32811",
+     "voice": "407-472-9820",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4269.jpg",
+   "openstates_url": "https://openstates.org/person/bruce-antone-2xvL4xYX4SCRW44xZpigNW/",
+   "committees": []
+  },
+  "senate:39": {
+   "name": "Bryan \u00c1vila",
+   "party": "R",
+   "email": "avila.bryan.web@flsenate.gov",
+   "phones": [
+    "850-487-5039",
+    "305-364-3073"
+   ],
+   "offices": [
+    {
+     "address": "Room 309, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5039",
+     "classification": "capitol"
+    },
+    {
+     "address": "10001 NW 87th Ave., Hialeah Gardens, FL 33016",
+     "voice": "305-364-3073",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s39_5459.jpg",
+   "openstates_url": "https://openstates.org/person/bryan-avila-50gagMNTQlTSmyt8zMcpQq/",
+   "committees": []
+  },
+  "senate:17": {
+   "name": "Carlos Smith",
+   "party": "D",
+   "email": "smith.carlos.web@flsenate.gov",
+   "phones": [
+    "850-487-5017",
+    "407-893-2422"
+   ],
+   "offices": [
+    {
+     "address": "Room 218, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5017",
+     "classification": "capitol"
+    },
+    {
+     "address": "508 N. Mills Ave. Suite A, Orlando, FL 32803",
+     "voice": "407-893-2422",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4642.jpg",
+   "openstates_url": "https://openstates.org/person/carlos-smith-6n0jPYoSGs5wmgEHSQyAEJ/",
+   "committees": []
+  },
+  "house:22": {
+   "name": "Chad Johnson",
+   "party": "R",
+   "email": "chad.johnson@flhouse.gov",
+   "phones": [
+    "850-717-5022",
+    "352-496-3700"
+   ],
+   "offices": [
+    {
+     "address": "Room 1302, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5022",
+     "classification": "capitol"
+    },
+    {
+     "address": "105 SW 140th Court Suite 1, Newberry, FL 32669",
+     "voice": "352-496-3700",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Chad_Johnson_20240808_095012.jpg",
+   "openstates_url": "https://openstates.org/person/chad-johnson-1ISTzYUzrrjqR9e4h6Z1PZ/",
+   "committees": []
+  },
+  "house:30": {
+   "name": "Chase Tramont",
+   "party": "R",
+   "email": "chase.tramont@flhouse.gov",
+   "phones": [
+    "850-717-5030",
+    "386-278-1640"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5030",
+     "classification": "capitol"
+    },
+    {
+     "address": "5889 S. Williamson Blvd. Suite 201D, Port Orange, FL 32128",
+     "voice": "386-278-1640",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4867.jpg",
+   "openstates_url": "https://openstates.org/person/chase-tramont-2BUB9GHW3XMqNrX67ck3Kx/",
+   "committees": []
+  },
+  "house:100": {
+   "name": "Chip LaMarca",
+   "party": "R",
+   "email": "chip.lamarca@flhouse.gov",
+   "phones": [
+    "850-717-5100",
+    "954-953-2640"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5100",
+     "classification": "capitol"
+    },
+    {
+     "address": "1827 NE 24th St., Lighthouse Point, FL 33064",
+     "voice": "954-953-2640",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4722.jpg",
+   "openstates_url": "https://openstates.org/person/chip-lamarca-2a149gJfurp4YgpH2xUUiA/",
+   "committees": []
+  },
+  "house:95": {
+   "name": "Christine Hunschofsky",
+   "party": "D",
+   "email": "christine.hunschofsky@flhouse.gov",
+   "phones": [
+    "850-717-5095",
+    "954-953-2760"
+   ],
+   "offices": [
+    {
+     "address": "Room 329, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5095",
+     "classification": "capitol"
+    },
+    {
+     "address": "4800 W. Copans Road, Coconut Creek, FL 33063",
+     "voice": "954-953-2760",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4799.jpg",
+   "openstates_url": "https://openstates.org/person/christine-hunschofsky-4C6aComS9727KodZKtQwh3/",
+   "committees": []
+  },
+  "house:10": {
+   "name": "Chuck Brannan",
+   "party": "R",
+   "email": "chuck.brannan@flhouse.gov",
+   "phones": [
+    "850-717-5010",
+    "386-400-1980",
+    "386-400-1980"
+   ],
+   "offices": [
+    {
+     "address": "Room 317, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5010",
+     "classification": "capitol"
+    },
+    {
+     "address": "1262 SE Baya Drive, Lake City, FL 32025",
+     "voice": "386-400-1980",
+     "classification": "district"
+    },
+    {
+     "address": "Baker County Courthouse 339 E. Macclenny Ave., Suite 117, Macclenny, FL 32063",
+     "voice": "386-400-1980",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4708.jpg",
+   "openstates_url": "https://openstates.org/person/chuck-brannan-6B0PJoHeDfULJgAZOQMmCm/",
+   "committees": []
+  },
+  "senate:4": {
+   "name": "Clay Yarborough",
+   "party": "R",
+   "email": "yarborough.clay.web@flsenate.gov",
+   "phones": [
+    "850-487-5004",
+    "904-723-2035"
+   ],
+   "offices": [
+    {
+     "address": "Room 308, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5004",
+     "classification": "capitol"
+    },
+    {
+     "address": "1615 Huffingham Road Suite 1, Jacksonville, FL 32216",
+     "voice": "904-723-2035",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s04_5394.jpg",
+   "openstates_url": "https://openstates.org/person/clay-yarborough-7MVl9zRQhfXn9ZaPuAsnd0/",
+   "committees": []
+  },
+  "senate:12": {
+   "name": "Colleen Burton",
+   "party": "R",
+   "email": "burton.colleen.web@flsenate.gov",
+   "phones": [
+    "850-487-5012",
+    "863-413-1529"
+   ],
+   "offices": [
+    {
+     "address": "Room 408, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5012",
+     "classification": "capitol"
+    },
+    {
+     "address": "1375 Havendale Blvd. NW, Winter Haven, FL 33881",
+     "voice": "863-413-1529",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s12_5414.jpg",
+   "openstates_url": "https://openstates.org/person/colleen-burton-2SWyAF7QjcZX2bMlwUtqCi/",
+   "committees": []
+  },
+  "senate:3": {
+   "name": "Corey Simon",
+   "party": "R",
+   "email": "simon.corey.web@flsenate.gov",
+   "phones": [
+    "850-487-5003"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5003",
+     "classification": "capitol"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s03_5522.jpg",
+   "openstates_url": "https://openstates.org/person/corey-simon-7gjpYxg42fUQppphELEjQM/",
+   "committees": []
+  },
+  "house:96": {
+   "name": "Dan Daley",
+   "party": "D",
+   "email": "dan.daley@flhouse.gov",
+   "phones": [
+    "850-717-5096",
+    "954-697-4390"
+   ],
+   "offices": [
+    {
+     "address": "Room 403, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5096",
+     "classification": "capitol"
+    },
+    {
+     "address": "9500 W. Sample Road, Coral Springs, FL 33065",
+     "voice": "954-697-4390",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4757.jpg",
+   "openstates_url": "https://openstates.org/person/dan-daley-36pNpaGrLZJxkS8G2z8brR/",
+   "committees": []
+  },
+  "house:84": {
+   "name": "Dana Trabulsy",
+   "party": "R",
+   "email": "dana.trabulsy@flhouse.gov",
+   "phones": [
+    "850-717-5084",
+    "772-710-1410"
+   ],
+   "offices": [
+    {
+     "address": "Room 313, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5084",
+     "classification": "capitol"
+    },
+    {
+     "address": "2300 Virginia Ave., Fort Pierce, FL 34982",
+     "voice": "772-710-1410",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4788.jpg",
+   "openstates_url": "https://openstates.org/person/dana-trabulsy-3baINJeaU3bUD34wW1BVya/",
+   "committees": []
+  },
+  "house:116": {
+   "name": "Daniel Perez",
+   "party": "R",
+   "email": "daniel.perez@flhouse.gov",
+   "phones": [
+    "305-463-1230"
+   ],
+   "offices": [
+    {
+     "address": "Room 420, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "",
+     "classification": "capitol"
+    },
+    {
+     "address": "FIU MARC Building 1550 SW 109th Ave., Suite 322, Miami, FL 33199",
+     "voice": "305-463-1230",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4690.jpg",
+   "openstates_url": "https://openstates.org/person/daniel-perez-7DZQoFTSUCUawxB5dgxn6O/",
+   "committees": []
+  },
+  "house:69": {
+   "name": "Danny Alvarez",
+   "party": "R",
+   "email": "danny.alvarez@flhouse.gov",
+   "phones": [
+    "850-717-5069",
+    "813-768-0940"
+   ],
+   "offices": [
+    {
+     "address": "Room 412, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5069",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 1159, Riverview, FL 33568",
+     "voice": "813-768-0940",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4889.jpg",
+   "openstates_url": "https://openstates.org/person/danny-alvarez-2ko9dVuf8PEc0FvlBgA0kr/",
+   "committees": []
+  },
+  "senate:23": {
+   "name": "Danny Burgess",
+   "party": "R",
+   "email": "burgess.danny.web@flsenate.gov",
+   "phones": [
+    "850-487-5023",
+    "813-779-7059"
+   ],
+   "offices": [
+    {
+     "address": "Room 411, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5023",
+     "classification": "capitol"
+    },
+    {
+     "address": "38507 5th Ave., Zephyrhills, FL 33542",
+     "voice": "813-779-7059",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s23_5169.jpg",
+   "openstates_url": "https://openstates.org/person/danny-burgess-2bLS56xFBKYZMuvEBQPHdw/",
+   "committees": []
+  },
+  "house:75": {
+   "name": "Danny Nix",
+   "party": "R",
+   "email": "danny.nix@flhouse.gov",
+   "phones": [
+    "850-717-5075",
+    "941-899-0810"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5075",
+     "classification": "capitol"
+    },
+    {
+     "address": "B200 18500 Murdock Circle, Port Charlotte, FL 33948",
+     "voice": "941-899-0810",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Danny_Nix.jpg",
+   "openstates_url": "https://openstates.org/person/danny-nix-4bAL4TP4IQWeRqh0uO4R5X/",
+   "committees": []
+  },
+  "senate:16": {
+   "name": "Darryl Rouson",
+   "party": "D",
+   "email": "rouson.darryl.web@flsenate.gov",
+   "phones": [
+    "850-487-5016",
+    "727-822-6828"
+   ],
+   "offices": [
+    {
+     "address": "Room 212, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5016",
+     "classification": "capitol"
+    },
+    {
+     "address": "535 Central Ave. Suite 302, St. Petersburg, FL 33701",
+     "voice": "727-822-6828",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s16_5203.jpg",
+   "openstates_url": "https://openstates.org/person/darryl-rouson-1slOwFmQ6yxQgbgmXjEgYJ/",
+   "committees": []
+  },
+  "house:99": {
+   "name": "Daryl Campbell",
+   "party": "D",
+   "email": "daryl.campbell@flhouse.gov",
+   "phones": [
+    "850-717-5099",
+    "954-697-4270"
+   ],
+   "offices": [
+    {
+     "address": "Room 1102, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5099",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 679, Fort Lauderdale, FL 33302",
+     "voice": "954-697-4270",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4843.jpg",
+   "openstates_url": "https://openstates.org/person/daryl-campbell-1LEYadT0OqLvGqErklEq1m/",
+   "committees": []
+  },
+  "house:38": {
+   "name": "Dave Smith",
+   "party": "R",
+   "email": "david.smith@flhouse.gov",
+   "phones": [
+    "850-717-5038",
+    "407-604-4070"
+   ],
+   "offices": [
+    {
+     "address": "Room 402, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5038",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 455 5840 Red Bug Lake Road, Winter Springs, FL 32708",
+     "voice": "407-604-4070",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4718.jpg",
+   "openstates_url": "https://openstates.org/person/dave-smith-6xdYAbrAEs1vBwJ2KdjweE/",
+   "committees": []
+  },
+  "house:111": {
+   "name": "David Borrero",
+   "party": "R",
+   "email": "david.borrero@flhouse.gov",
+   "phones": [
+    "850-717-5111",
+    "786-984-8910"
+   ],
+   "offices": [
+    {
+     "address": "Room 412, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5111",
+     "classification": "capitol"
+    },
+    {
+     "address": "9600 NW 25th St. Suite 4C, Doral, FL 33172",
+     "voice": "786-984-8910",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4794.jpg",
+   "openstates_url": "https://openstates.org/person/david-borrero-3B1kmu2qLWabroLNwc2UHY/",
+   "committees": []
+  },
+  "house:15": {
+   "name": "Dean Black",
+   "party": "R",
+   "email": "dean.black@flhouse.gov",
+   "phones": [
+    "850-717-5015",
+    "904-717-9750",
+    "904-530-9730"
+   ],
+   "offices": [
+    {
+     "address": "Room 402, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5015",
+     "classification": "capitol"
+    },
+    {
+     "address": "12400 Yellow Bluff Road Suite 108, Jacksonville, FL 32226",
+     "voice": "904-717-9750",
+     "classification": "district"
+    },
+    {
+     "address": "Room 1-071, 76347 Veterans Way, Yulee, FL 32097",
+     "voice": "904-530-9730",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4865.jpg",
+   "openstates_url": "https://openstates.org/person/dean-black-5rGKiP3guYE4zABxO58dGA/",
+   "committees": []
+  },
+  "senate:19": {
+   "name": "Debbie Mayfield",
+   "party": "R",
+   "email": "mayfield.debbie.web@flsenate.gov",
+   "phones": [
+    "850-487-5019",
+    "321-409-2025"
+   ],
+   "offices": [
+    {
+     "address": "Room 302, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5019",
+     "classification": "capitol"
+    },
+    {
+     "address": "Room 408, 900 E. Strawbridge Ave., Melbourne, FL 32901",
+     "voice": "321-409-2025",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s19_5199.jpg",
+   "openstates_url": "https://openstates.org/person/debbie-mayfield-4zgWsezdPc3r0ENoQoWUFJ/",
+   "committees": []
+  },
+  "house:89": {
+   "name": "Debra Tendrich",
+   "party": "D",
+   "email": "debra.tendrich@flhouse.gov",
+   "phones": [
+    "850-717-5089",
+    "561-954-0850"
+   ],
+   "offices": [
+    {
+     "address": "Room 1402, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5089",
+     "classification": "capitol"
+    },
+    {
+     "address": "1850 Forest Hill Blvd. Suite 200, Lake Clarke Shores, FL 33406",
+     "voice": "561-954-0850",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Debra__Tendrich__20241023_121011.jpg",
+   "openstates_url": "https://openstates.org/person/debra-tendrich-49yLlqBIrJpGB1cjYNSxE5/",
+   "committees": []
+  },
+  "house:114": {
+   "name": "Demi Busatta",
+   "party": "R",
+   "email": "demi.busatta@flhouse.gov",
+   "phones": [
+    "850-717-5114",
+    "305-686-6840"
+   ],
+   "offices": [
+    {
+     "address": "Room 222, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5114",
+     "classification": "capitol"
+    },
+    {
+     "address": "2020 Ponce de Leon Blvd. Suite 1007, Coral Gables, FL 33134",
+     "voice": "305-686-6840",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4800.jpg",
+   "openstates_url": "https://openstates.org/person/demi-busatta-418VUZ3WW7L4SBNmsqDu8y/",
+   "committees": []
+  },
+  "house:63": {
+   "name": "Dianne Hart-Lowman",
+   "party": "D",
+   "email": "dianne.hart-lowman@flhouse.gov",
+   "phones": [
+    "850-717-5063",
+    "813-738-0410"
+   ],
+   "offices": [
+    {
+     "address": "Room 403, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5063",
+     "classification": "capitol"
+    },
+    {
+     "address": "3911 N. Tampa St., Tampa, FL 33603",
+     "voice": "813-738-0410",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4736.jpg",
+   "openstates_url": "https://openstates.org/person/dianne-hart-lowman-qfdOUWbPR3sw4y8oqd9Sx/",
+   "committees": []
+  },
+  "senate:1": {
+   "name": "Don Gaetz",
+   "party": "R",
+   "email": "gaetz.don.web@flsenate.gov",
+   "phones": [
+    "850-487-5001",
+    "850-595-1036"
+   ],
+   "offices": [
+    {
+     "address": "Room 405, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5001",
+     "classification": "capitol"
+    },
+    {
+     "address": "418 W. Garden St. Fourth Floor, Pensacola, FL 32502",
+     "voice": "850-595-1036",
+     "classification": "district"
+    }
+   ],
+   "image": "http://www.flsenate.gov/PublishedContent/Senators/2014-2016/Photos/s01_4804.jpg",
+   "openstates_url": "https://openstates.org/person/don-gaetz-5yWsc0gS1cez67V9vX3Xjo/",
+   "committees": []
+  },
+  "house:108": {
+   "name": "Dotie Joseph",
+   "party": "D",
+   "email": "dotie.joseph@flhouse.gov",
+   "phones": [
+    "850-717-5108",
+    "305-564-5060"
+   ],
+   "offices": [
+    {
+     "address": "Room 407, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5108",
+     "classification": "capitol"
+    },
+    {
+     "address": "735 NE 125th St., North Miami, FL 33161",
+     "voice": "305-564-5060",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4716.jpg",
+   "openstates_url": "https://openstates.org/person/dotie-joseph-5k4ftGf6pPnO25hJHfn9nJ/",
+   "committees": []
+  },
+  "house:39": {
+   "name": "Doug Bankson",
+   "party": "R",
+   "email": "doug.bankson@flhouse.gov",
+   "phones": [
+    "850-717-5039",
+    "407-598-8470"
+   ],
+   "offices": [
+    {
+     "address": "Room 200, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5039",
+     "classification": "capitol"
+    },
+    {
+     "address": "10 N. Park Ave., Apopka, FL 32703",
+     "voice": "407-598-8470",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4873.jpg",
+   "openstates_url": "https://openstates.org/person/doug-bankson-60ibGoYrMVmHHOiaNVT42Y/",
+   "committees": []
+  },
+  "senate:21": {
+   "name": "Ed Hooper",
+   "party": "R",
+   "email": "hooper.ed.web@flsenate.gov",
+   "phones": [
+    "850-487-5021",
+    "727-771-2102"
+   ],
+   "offices": [
+    {
+     "address": "Room 202, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5021",
+     "classification": "capitol"
+    },
+    {
+     "address": "3450 E. Lake Road South Suite 305, Palm Harbor, FL 34685",
+     "voice": "727-771-2102",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s21_5344.jpg",
+   "openstates_url": "https://openstates.org/person/ed-hooper-QpBFi8I4RRmoNiCwCkxD8/",
+   "committees": []
+  },
+  "house:87": {
+   "name": "Emily Gregory",
+   "party": "D",
+   "email": "emily.gregory@flhouse.gov",
+   "phones": [
+    "850-717-5087"
+   ],
+   "offices": [
+    {
+     "address": "Room 1101, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5087",
+     "classification": "capitol"
+    }
+   ],
+   "image": "https://www.sun-sentinel.com/wp-content/uploads/2025/10/TFL-L-Emily-Gregory-candidate-01.jpg?w=864",
+   "openstates_url": "https://openstates.org/person/emily-gregory-6tzyCLl4uaPIN9YJcLSBDC/",
+   "committees": []
+  },
+  "house:35": {
+   "name": "Erika Booth",
+   "party": "R",
+   "email": "erika.booth@flhouse.gov",
+   "phones": [
+    "850-717-5035",
+    "689-266-0290"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5035",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 780772, Orlando, FL 32878",
+     "voice": "689-266-0290",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Erika_Booth.jpg",
+   "openstates_url": "https://openstates.org/person/erika-booth-1TntEIi2e6nl2UCpR9Ejch/",
+   "committees": []
+  },
+  "senate:29": {
+   "name": "Erin Grall",
+   "party": "R",
+   "email": "grall.erin.web@flsenate.gov",
+   "phones": [
+    "850-487-5029",
+    "863-699-1080",
+    "772-595-1398"
+   ],
+   "offices": [
+    {
+     "address": "Room 316, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5029",
+     "classification": "capitol"
+    },
+    {
+     "address": "1069 U.S. Highway 27 North, Lake Placid, FL 33852",
+     "voice": "863-699-1080",
+     "classification": "district"
+    },
+    {
+     "address": "3209 Virginia Ave. Suite A149, Fort Pierce, FL 34981",
+     "voice": "772-595-1398",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s29_5426.jpg",
+   "openstates_url": "https://openstates.org/person/erin-grall-4m8bMw3lpifUrW6TPBHGFy/",
+   "committees": []
+  },
+  "house:106": {
+   "name": "Fabi\u00e1n Basabe",
+   "party": "R",
+   "email": "fabian.basabe@flhouse.gov",
+   "phones": [
+    "850-717-5106",
+    "305-564-4780"
+   ],
+   "offices": [
+    {
+     "address": "Room 200, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5106",
+     "classification": "capitol"
+    },
+    {
+     "address": "1521 Alton Road Suite 86, Miami Beach, FL 33139",
+     "voice": "305-564-4780",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4900.jpg",
+   "openstates_url": "https://openstates.org/person/fabian-basabe-1iQmcAuIjavrpJqMwpUhCh/",
+   "committees": []
+  },
+  "house:104": {
+   "name": "Felicia Robinson",
+   "party": "D",
+   "email": "felicia.robinson@flhouse.gov",
+   "phones": [
+    "850-717-5104",
+    "305-488-5490"
+   ],
+   "offices": [
+    {
+     "address": "Room 1003, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5104",
+     "classification": "capitol"
+    },
+    {
+     "address": "16405 NW 25th Ave., Miami Gardens, FL 33054",
+     "voice": "305-488-5490",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4791.jpg",
+   "openstates_url": "https://openstates.org/person/felicia-robinson-sy8sZrytsqzmFkSDObZgN/",
+   "committees": []
+  },
+  "house:67": {
+   "name": "Fentrice Driskell",
+   "party": "D",
+   "email": "fentrice.driskell@flhouse.gov",
+   "phones": [
+    "850-717-5067",
+    "813-535-8580"
+   ],
+   "offices": [
+    {
+     "address": "Room 316, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5067",
+     "classification": "capitol"
+    },
+    {
+     "address": "13220 N. 56th St. Suite A, Temple Terrace, FL 33617",
+     "voice": "813-535-8580",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4745.jpg",
+   "openstates_url": "https://openstates.org/person/fentrice-driskell-2jyECfJpldfyVoASXEmx4o/",
+   "committees": []
+  },
+  "house:73": {
+   "name": "Fiona McFarland",
+   "party": "R",
+   "email": "fiona.mcfarland@flhouse.gov",
+   "phones": [
+    "850-717-5073",
+    "941-899-0940"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5073",
+     "classification": "capitol"
+    },
+    {
+     "address": "2700 S. Tamiami Trail Unit 9, Sarasota, FL 34239",
+     "voice": "941-899-0940",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4780.jpg",
+   "openstates_url": "https://openstates.org/person/fiona-mcfarland-3X0Qaulqvu2GDoYVk9xz0e/",
+   "committees": []
+  },
+  "house:8": {
+   "name": "Gallop Franklin",
+   "party": "D",
+   "email": "gallop.franklin@flhouse.gov",
+   "phones": [
+    "850-717-5008"
+   ],
+   "offices": [
+    {
+     "address": "Room 1003, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5008",
+     "classification": "capitol"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4863.jpg",
+   "openstates_url": "https://openstates.org/person/gallop-franklin-1qNvQw8x0WYCSqFMes9qjs/",
+   "committees": []
+  },
+  "senate:31": {
+   "name": "Gayle Harrell",
+   "party": "R",
+   "email": "harrell.gayle.web@flsenate.gov",
+   "phones": [
+    "850-487-5031",
+    "772-221-4019"
+   ],
+   "offices": [
+    {
+     "address": "Room 404, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5031",
+     "classification": "capitol"
+    },
+    {
+     "address": "312 SE Denver Ave., Stuart, FL 34994",
+     "voice": "772-221-4019",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s31_5348.jpg",
+   "openstates_url": "https://openstates.org/person/gayle-harrell-6FGgscXTUI7qUuaNqrNWKm/",
+   "committees": []
+  },
+  "house:6": {
+   "name": "Griff Griffitts",
+   "party": "R",
+   "email": "griff.griffitts@flhouse.gov",
+   "phones": [
+    "850-717-5006",
+    "850-804-1950"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5006",
+     "classification": "capitol"
+    },
+    {
+     "address": "840 W. 11th St. Suite 3300, Panama City, FL 32401",
+     "voice": "850-804-1950",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4862.jpg",
+   "openstates_url": "https://openstates.org/person/griff-griffitts-18fxtqsRGikIBT826h5i7y/",
+   "committees": []
+  },
+  "house:51": {
+   "name": "Hilary Holley",
+   "party": "R",
+   "email": "hilary.holley@flhouse.gov",
+   "phones": [
+    "850-717-5051",
+    "863-656-8520"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5051",
+     "classification": "capitol"
+    },
+    {
+     "address": "209 Palmetto St., Auburndale, FL 33823",
+     "voice": "863-656-8520",
+     "classification": "district"
+    }
+   ],
+   "image": "https://floridapolitics.com/wp-content/uploads/2025/10/Hillary-Holley-copy.jpg",
+   "openstates_url": "https://openstates.org/person/hilary-holley-7iGcPQ77HfkcRo6Zkz7vWt/",
+   "committees": []
+  },
+  "house:101": {
+   "name": "Hillary Cassel",
+   "party": "R",
+   "email": "hillary.cassel@flhouse.gov",
+   "phones": [
+    "850-717-5101",
+    "954-872-0180"
+   ],
+   "offices": [
+    {
+     "address": "Room 212, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5101",
+     "classification": "capitol"
+    },
+    {
+     "address": "3475 Sheridan St. Suite 203, Hollywood, FL 33021",
+     "voice": "954-872-0180",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4895.jpg",
+   "openstates_url": "https://openstates.org/person/hillary-cassel-6RAbkQDC3QFNdS33lR4cNH/",
+   "committees": []
+  },
+  "senate:36": {
+   "name": "Ileana Garcia",
+   "party": "R",
+   "email": "garcia.ileana.web@flsenate.gov",
+   "phones": [
+    "850-487-5036",
+    "305-442-6841"
+   ],
+   "offices": [
+    {
+     "address": "Room 314, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5036",
+     "classification": "capitol"
+    },
+    {
+     "address": "2828 Coral Way Suite 208, Miami, FL 33145",
+     "voice": "305-442-6841",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s36_5515.jpg",
+   "openstates_url": "https://openstates.org/person/ileana-garcia-1o57rzopE4MZPBC9KeSgOt/",
+   "committees": []
+  },
+  "house:23": {
+   "name": "J.J. Grow",
+   "party": "R",
+   "email": "jj.grow@flhouse.gov",
+   "phones": [
+    "850-717-5023",
+    "352-654-0490"
+   ],
+   "offices": [
+    {
+     "address": "Room 1302, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5023",
+     "classification": "capitol"
+    },
+    {
+     "address": "106 E. Dampier St., Inverness, FL 34450",
+     "voice": "352-654-0490",
+     "classification": "district"
+    }
+   ],
+   "image": "https://assets.civicengine.com/uploads/candidate/headshot/841906/841906.jpg",
+   "openstates_url": "https://openstates.org/person/j-j-grow-5Y8LZc2UR1fW5Ot0mFfIum/",
+   "committees": []
+  },
+  "house:74": {
+   "name": "James Buchanan",
+   "party": "R",
+   "email": "james.buchanan@flhouse.gov",
+   "phones": [
+    "850-717-5074",
+    "941-732-0430"
+   ],
+   "offices": [
+    {
+     "address": "Room 418, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5074",
+     "classification": "capitol"
+    },
+    {
+     "address": "5900 Pan American Blvd. Building A, Unit 102, North Port, FL 34287",
+     "voice": "941-732-0430",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4731.jpg",
+   "openstates_url": "https://openstates.org/person/james-buchanan-3hCdgAyUXVmldTShm3ORzS/",
+   "committees": []
+  },
+  "senate:10": {
+   "name": "Jason Brodeur",
+   "party": "R",
+   "email": "brodeur.jason.web@flsenate.gov",
+   "phones": [
+    "850-487-5010",
+    "407-333-1802"
+   ],
+   "offices": [
+    {
+     "address": "Room 416, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5010",
+     "classification": "capitol"
+    },
+    {
+     "address": "110 Timberlachen Circle Suite 1012, Lake Mary, FL 32746",
+     "voice": "407-333-1802",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s10_5077.jpg",
+   "openstates_url": "https://openstates.org/person/jason-brodeur-5ObHk5aDCMuJtQ22DWcYaF/",
+   "committees": []
+  },
+  "senate:37": {
+   "name": "Jason Pizzo",
+   "party": "I",
+   "email": "pizzo.jason.web@flsenate.gov",
+   "phones": [
+    "850-487-5037",
+    "954-893-5045"
+   ],
+   "offices": [
+    {
+     "address": "Room 304, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5037",
+     "classification": "capitol"
+    },
+    {
+     "address": "3475 Sheridan St. Suite 211, Hollywood, FL 33021",
+     "voice": "954-893-5045",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s37_5345.jpg",
+   "openstates_url": "https://openstates.org/person/jason-pizzo-20pY3MtoRHAGlheblrbSGF/",
+   "committees": []
+  },
+  "house:7": {
+   "name": "Jason Shoaf",
+   "party": "R",
+   "email": "jason.shoaf@flhouse.gov",
+   "phones": [
+    "850-717-5007",
+    "850-295-5680",
+    "850-295-5680"
+   ],
+   "offices": [
+    {
+     "address": "Room 222, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5007",
+     "classification": "capitol"
+    },
+    {
+     "address": "103 E. Ellis St., Perry, FL 32347",
+     "voice": "850-295-5680",
+     "classification": "district"
+    },
+    {
+     "address": "202 Marina Drive Suite 303, Port St. Joe, FL 32456",
+     "voice": "850-295-5680",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4756.jpg",
+   "openstates_url": "https://openstates.org/person/jason-shoaf-1KQHxX5Y5PpVGi68e2zBCK/",
+   "committees": []
+  },
+  "senate:2": {
+   "name": "Jay Trumbull",
+   "party": "R",
+   "email": "trumbull.jay.web@flsenate.gov",
+   "phones": [
+    "850-487-5002",
+    "850-747-5454"
+   ],
+   "offices": [
+    {
+     "address": "Room 415, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5002",
+     "classification": "capitol"
+    },
+    {
+     "address": "840 W. 11th St., Panama City, FL 32401",
+     "voice": "850-747-5454",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s02_5389.jpg",
+   "openstates_url": "https://openstates.org/person/jay-trumbull-1Go2jCYa1oXixfmJ8iJVWm/",
+   "committees": []
+  },
+  "house:53": {
+   "name": "Jeff Holcomb",
+   "party": "R",
+   "email": "jeff.holcomb@flhouse.gov",
+   "phones": [
+    "850-717-5053",
+    "352-675-0100"
+   ],
+   "offices": [
+    {
+     "address": "Room 315, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5053",
+     "classification": "capitol"
+    },
+    {
+     "address": "2955 Landover Blvd., Spring Hill, FL 34608",
+     "voice": "352-675-0100",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4890.jpg",
+   "openstates_url": "https://openstates.org/person/jeff-holcomb-2nG66G1rMMu4H15lcGhhv6/",
+   "committees": []
+  },
+  "house:78": {
+   "name": "Jenna Persons-Mulicka",
+   "party": "R",
+   "email": "jenna.persons@flhouse.gov",
+   "phones": [
+    "850-717-5078",
+    "239-327-0810"
+   ],
+   "offices": [
+    {
+     "address": "Room 222, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5078",
+     "classification": "capitol"
+    },
+    {
+     "address": "2120 Main St. Suite 208, Fort Myers, FL 33901",
+     "voice": "239-327-0810",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4785.jpg",
+   "openstates_url": "https://openstates.org/person/jenna-persons-mulicka-5jNF6n7pxwj7kcW9F2fhQq/",
+   "committees": []
+  },
+  "senate:6": {
+   "name": "Jennifer Bradley",
+   "party": "R",
+   "email": "bradley.jennifer.web@flsenate.gov",
+   "phones": [
+    "850-487-5006",
+    "904-278-2085"
+   ],
+   "offices": [
+    {
+     "address": "Room 406, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5006",
+     "classification": "capitol"
+    },
+    {
+     "address": "1845 EW Parkway Unit #5, Fleming Island, FL 32003",
+     "voice": "904-278-2085",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s06_5476.jpg",
+   "openstates_url": "https://openstates.org/person/jennifer-bradley-3BtrEQCdeAUWC9fCsxoHzp/",
+   "committees": []
+  },
+  "house:50": {
+   "name": "Jennifer Canady",
+   "party": "R",
+   "email": "jennifer.canady@flhouse.gov",
+   "phones": [
+    "850-717-5050",
+    "863-450-4795"
+   ],
+   "offices": [
+    {
+     "address": "Room 418, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5050",
+     "classification": "capitol"
+    },
+    {
+     "address": "101 W. Main St. Suite 230, Lakeland, FL 33815",
+     "voice": "863-450-4795",
+     "classification": "district"
+    },
+    {
+     "address": "P.O. Box 5211, Lakeland, FL 33807",
+     "voice": "",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4879.jpg",
+   "openstates_url": "https://openstates.org/person/jennifer-canady-3sz2L8gvycIhl1HVGOEVtc/",
+   "committees": []
+  },
+  "house:49": {
+   "name": "Jennifer Kincart Jonsson",
+   "party": "R",
+   "email": "jennifer.jonsson@flhouse.gov",
+   "phones": [
+    "850-717-5049",
+    "863-486-0440"
+   ],
+   "offices": [
+    {
+     "address": "Room 1302, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5049",
+     "classification": "capitol"
+    },
+    {
+     "address": "210 E. Main St., Bartow, FL 33830",
+     "voice": "863-486-0440",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.theledger.com/gcdn/authoring/authoring-images/2024/04/17/NLED/73359809007-jen.jpg?width=660&height=981&fit=crop&format=pjpg&auto=webp",
+   "openstates_url": "https://openstates.org/person/jennifer-kincart-jonsson-1F9Xk40bY1oAkACeOHa8OG/",
+   "committees": []
+  },
+  "house:17": {
+   "name": "Jessica Baker",
+   "party": "R",
+   "email": "jessica.baker@flhouse.gov",
+   "phones": [
+    "850-717-5017",
+    "904-667-0280"
+   ],
+   "offices": [
+    {
+     "address": "Room 300, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5017",
+     "classification": "capitol"
+    },
+    {
+     "address": "8833 Perimeter Park Blvd. Suite 801, Jacksonville, FL 32216",
+     "voice": "904-667-0280",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4866.jpg",
+   "openstates_url": "https://openstates.org/person/jessica-baker-4JeBB82DwwFJim6zIYE7zv/",
+   "committees": []
+  },
+  "senate:20": {
+   "name": "Jim Boyd",
+   "party": "R",
+   "email": "boyd.jim.web@flsenate.gov",
+   "phones": [
+    "850-487-5020",
+    "941-742-6445"
+   ],
+   "offices": [
+    {
+     "address": "Room 318, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5020",
+     "classification": "capitol"
+    },
+    {
+     "address": "717 Manatee Ave. West Suite 100, Bradenton, FL 34205",
+     "voice": "941-742-6445",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s20_5070.jpg",
+   "openstates_url": "https://openstates.org/person/jim-boyd-63cOECH7MgZlRcSzSXGKfX/",
+   "committees": []
+  },
+  "house:120": {
+   "name": "Jim Mooney",
+   "party": "R",
+   "email": "james.mooney@flhouse.gov",
+   "phones": [
+    "850-717-5120",
+    "305-315-9040",
+    "305-315-0780"
+   ],
+   "offices": [
+    {
+     "address": "Room 334, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5120",
+     "classification": "capitol"
+    },
+    {
+     "address": "44 NE 16th St., Homestead, FL 33030",
+     "voice": "305-315-9040",
+     "classification": "district"
+    },
+    {
+     "address": "Murray Nelson Government Center 102050 Overseas Highway, Key Largo, FL 33037",
+     "voice": "305-315-0780",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4797.jpg",
+   "openstates_url": "https://openstates.org/person/jim-mooney-6KvbdENozUGgx6SgePQdtB/",
+   "committees": []
+  },
+  "senate:22": {
+   "name": "Joe Gruters",
+   "party": "R",
+   "email": "gruters.joe.web@flsenate.gov",
+   "phones": [
+    "850-487-5022",
+    "941-378-6309"
+   ],
+   "offices": [
+    {
+     "address": "Room 413, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5022",
+     "classification": "capitol"
+    },
+    {
+     "address": "381 Interstate Blvd., Sarasota, FL 34240",
+     "voice": "941-378-6309",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s22_5347.jpg",
+   "openstates_url": "https://openstates.org/person/joe-gruters-17G6hhytr2DEQSHHaiJ3Dn/",
+   "committees": []
+  },
+  "house:43": {
+   "name": "Johanna L\u00f3pez",
+   "party": "D",
+   "email": "johanna.lopez@flhouse.gov",
+   "phones": [
+    "850-717-5043",
+    "407-751-1060"
+   ],
+   "offices": [
+    {
+     "address": "Room 407, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5043",
+     "classification": "capitol"
+    },
+    {
+     "address": "5575 S. Semoran Blvd. Suite 2, Orlando, FL 32822",
+     "voice": "407-751-1060",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4875.jpg",
+   "openstates_url": "https://openstates.org/person/johanna-lopez-7cXKU2ZIXJUWlHLef7KcM4/",
+   "committees": []
+  },
+  "house:86": {
+   "name": "John Snyder",
+   "party": "R",
+   "email": "john.snyder@flhouse.gov",
+   "phones": [
+    "850-717-5086",
+    "772-510-0120",
+    "772-510-0120"
+   ],
+   "offices": [
+    {
+     "address": "Room 222, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5086",
+     "classification": "capitol"
+    },
+    {
+     "address": "4239 SW High Meadow Ave. #201, Palm City, FL 34990",
+     "voice": "772-510-0120",
+     "classification": "district"
+    },
+    {
+     "address": "Room 110, 200 Military Trail, Jupiter, FL 33458",
+     "voice": "772-510-0120",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4787.jpg",
+   "openstates_url": "https://openstates.org/person/john-snyder-2RagFogzIGCHJXiv7Xjq30/",
+   "committees": []
+  },
+  "house:48": {
+   "name": "Jon Albert",
+   "party": "R",
+   "email": "jon.albert@flhouse.gov",
+   "phones": [
+    "850-717-5048",
+    "863-500-8310"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5048",
+     "classification": "capitol"
+    },
+    {
+     "address": "337 Ave. C SW, Winter Haven, FL 33880",
+     "voice": "863-500-8310",
+     "classification": "district"
+    }
+   ],
+   "image": "https://assets.civicengine.com/uploads/candidate/headshot/828599/828599.jpg",
+   "openstates_url": "https://openstates.org/person/jon-albert-65GF0zknEqdadDidMyPYfF/",
+   "committees": []
+  },
+  "senate:33": {
+   "name": "Jonathan Martin",
+   "party": "R",
+   "email": "martin.jonathan.web@flsenate.gov",
+   "phones": [
+    "850-487-5033",
+    "239-338-2570"
+   ],
+   "offices": [
+    {
+     "address": "Room 315, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5033",
+     "classification": "capitol"
+    },
+    {
+     "address": "2000 Main St. Suite 401, Fort Myers, FL 33901",
+     "voice": "239-338-2570",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s33_5524.jpg",
+   "openstates_url": "https://openstates.org/person/jonathan-martin-6zmVjltnvKsUzFt3sgD9VN/",
+   "committees": []
+  },
+  "house:46": {
+   "name": "Jose Alvarez",
+   "party": "D",
+   "email": "jose.alvarez@flhouse.gov",
+   "phones": [
+    "850-717-5046",
+    "407-964-8050"
+   ],
+   "offices": [
+    {
+     "address": "Room 1402, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5046",
+     "classification": "capitol"
+    },
+    {
+     "address": "Kissimmee City Hall 101 Church St., Suite 305, Kissimmee, FL 34741",
+     "voice": "407-964-8050",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.voterfocus.com/CampaignFinance/photo_osceola/cand_345.jpg",
+   "openstates_url": "https://openstates.org/person/jose-alvarez-5xfog46qoqaLpHK3EYMWb0/",
+   "committees": []
+  },
+  "house:119": {
+   "name": "Juan Porras",
+   "party": "R",
+   "email": "juancarlos.porras@flhouse.gov",
+   "phones": [
+    "850-717-5119",
+    "305-252-4307"
+   ],
+   "offices": [
+    {
+     "address": "Room 334, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5119",
+     "classification": "capitol"
+    },
+    {
+     "address": "13372 SW 128th St., Miami, FL 33186",
+     "voice": "305-252-4307",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4898.jpg",
+   "openstates_url": "https://openstates.org/person/juan-porras-3IYM1B4Kzt3R4Zl2KDungp/",
+   "committees": []
+  },
+  "house:20": {
+   "name": "Judson Sapp",
+   "party": "R",
+   "email": "judson.sapp@flhouse.gov",
+   "phones": [
+    "850-717-5020",
+    "352-496-3430",
+    "386-249-7060"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5020",
+     "classification": "capitol"
+    },
+    {
+     "address": "115 SE 25th Ave., Ocala, FL 34471",
+     "voice": "352-496-3430",
+     "classification": "district"
+    },
+    {
+     "address": "620 S. State Road 19 Suite 4, Palatka, FL 32177",
+     "voice": "386-249-7060",
+     "classification": "district"
+    }
+   ],
+   "image": "https://static.wixstatic.com/media/239f01_44bd85c8941a4875a3e3f89d1cf01db3~mv2.jpeg/v1/fill/w_490,h_591,al_t,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/239f01_44bd85c8941a4875a3e3f89d1cf01db3~mv2.jpeg",
+   "openstates_url": "https://openstates.org/person/judson-sapp-IrduxJguK8caecqyZ3Zz2/",
+   "committees": []
+  },
+  "house:65": {
+   "name": "Karen Gonzalez Pittman",
+   "party": "R",
+   "email": "karen.pittman@flhouse.gov",
+   "phones": [
+    "850-717-5065",
+    "813-726-1940"
+   ],
+   "offices": [
+    {
+     "address": "Room 212, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5065",
+     "classification": "capitol"
+    },
+    {
+     "address": "1101 Channelside Drive Suite 210, Tampa, FL 33602",
+     "voice": "813-726-1940",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4888.jpg",
+   "openstates_url": "https://openstates.org/person/karen-gonzalez-pittman-6MgJMpzq34cONlezggYge7/",
+   "committees": []
+  },
+  "senate:28": {
+   "name": "Kathleen Passidomo",
+   "party": "R",
+   "email": "passidomo.kathleen.web@flsenate.gov",
+   "phones": [
+    "850-487-5028",
+    "239-417-6205",
+    "863-674-7122"
+   ],
+   "offices": [
+    {
+     "address": "Room 400, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5028",
+     "classification": "capitol"
+    },
+    {
+     "address": "3299 E. Tamiami Trail Suite 203, Naples, FL 34112",
+     "voice": "239-417-6205",
+     "classification": "district"
+    },
+    {
+     "address": "Room J-101, 25 E. Hickpoochee Ave., LaBelle, FL 33935",
+     "voice": "863-674-7122",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s28_5196.jpg",
+   "openstates_url": "https://openstates.org/person/kathleen-passidomo-5IT01XGHDxww7A7YX8NcQn/",
+   "committees": []
+  },
+  "house:83": {
+   "name": "Kaylee Tuck",
+   "party": "R",
+   "email": "kaylee.tuck@flhouse.gov",
+   "phones": [
+    "850-717-5083",
+    "863-304-9500",
+    "863-462-5019"
+   ],
+   "offices": [
+    {
+     "address": "Room 209, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5083",
+     "classification": "capitol"
+    },
+    {
+     "address": "205 S. Commerce Ave. Suite B, Sebring, FL 33870",
+     "voice": "863-304-9500",
+     "classification": "district"
+    },
+    {
+     "address": "55 S. Parrott Ave., Okeechobee, FL 34974",
+     "voice": "863-462-5019",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4776.jpg",
+   "openstates_url": "https://openstates.org/person/kaylee-tuck-22otuh4uX69ZlMKMdTWdig/",
+   "committees": []
+  },
+  "senate:13": {
+   "name": "Keith Truenow",
+   "party": "R",
+   "email": "truenow.keith.web@flsenate.gov",
+   "phones": [
+    "850-487-5013",
+    "352-750-3133"
+   ],
+   "offices": [
+    {
+     "address": "Room 306, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5013",
+     "classification": "capitol"
+    },
+    {
+     "address": "16207 State Road 50 Suite 401, Clermont, FL 34711",
+     "voice": "",
+     "classification": "district"
+    },
+    {
+     "address": "Lake County Agricultural Center 1951 Woodlea Road, Tavares, FL 32778",
+     "voice": "352-750-3133",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4772.jpg",
+   "openstates_url": "https://openstates.org/person/keith-truenow-4lMVpgaypmP0MY6ddbTvgE/",
+   "committees": []
+  },
+  "house:92": {
+   "name": "Kelly Skidmore",
+   "party": "D",
+   "email": "kelly.skidmore@flhouse.gov",
+   "phones": [
+    "850-717-5092",
+    "561-407-6490"
+   ],
+   "offices": [
+    {
+     "address": "Room 316, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5092",
+     "classification": "capitol"
+    },
+    {
+     "address": "7499 W. Atlantic Ave. Suite 200, Delray Beach, FL 33446",
+     "voice": "561-407-6490",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4786.jpg",
+   "openstates_url": "https://openstates.org/person/kelly-skidmore-4LpUWaTN1hcNPzWFdyZEjO/",
+   "committees": []
+  },
+  "house:117": {
+   "name": "Kevin Chambliss",
+   "party": "D",
+   "email": "kevin.chambliss@flhouse.gov",
+   "phones": [
+    "850-717-5117",
+    "305-237-5968"
+   ],
+   "offices": [
+    {
+     "address": "Room 407, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5117",
+     "classification": "capitol"
+    },
+    {
+     "address": "500 College Terrace Suite F212, Homestead, FL 33030",
+     "voice": "305-237-5968",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4798.jpg",
+   "openstates_url": "https://openstates.org/person/kevin-chambliss-1UvBmXgNmvpGKdNVDE0Z9Z/",
+   "committees": []
+  },
+  "house:55": {
+   "name": "Kevin Steele",
+   "party": "R",
+   "email": "kevin.steele@flhouse.gov",
+   "phones": [
+    "850-717-5055",
+    "727-766-0190"
+   ],
+   "offices": [
+    {
+     "address": "Room 315, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5055",
+     "classification": "capitol"
+    },
+    {
+     "address": "12121 Little Road Private Mailbox 288, Hudson, FL 34667",
+     "voice": "727-766-0190",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4881.jpg",
+   "openstates_url": "https://openstates.org/person/kevin-steele-3nlqjvDsKAbL1hWGXD5eR6/",
+   "committees": []
+  },
+  "house:58": {
+   "name": "Kim Berfield",
+   "party": "R",
+   "email": "kim.berfield@flhouse.gov",
+   "phones": [
+    "850-717-5058",
+    "727-351-8820"
+   ],
+   "offices": [
+    {
+     "address": "Room 313, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5058",
+     "classification": "capitol"
+    },
+    {
+     "address": "2189 Cleveland St. Suite 229, Clearwater, FL 33765",
+     "voice": "727-351-8820",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4210.jpg",
+   "openstates_url": "https://openstates.org/person/kim-berfield-6XEUu2j5uEd4APk0lyakPK/",
+   "committees": []
+  },
+  "house:14": {
+   "name": "Kim Daniels",
+   "party": "D",
+   "email": "kimberly.daniels@flhouse.gov",
+   "phones": [
+    "850-717-5014",
+    "904-659-7180"
+   ],
+   "offices": [
+    {
+     "address": "Room 400, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5014",
+     "classification": "capitol"
+    },
+    {
+     "address": "728 Blanche St. Suite 216, Jacksonville, FL 32204",
+     "voice": "904-659-7180",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4652.jpg",
+   "openstates_url": "https://openstates.org/person/kim-daniels-29EY0BwNuQPMRG61wDaOsH/",
+   "committees": []
+  },
+  "house:18": {
+   "name": "Kim Kendall",
+   "party": "R",
+   "email": "kim.kendall@flhouse.gov",
+   "phones": [
+    "850-717-5018",
+    "904-295-1620"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5018",
+     "classification": "capitol"
+    },
+    {
+     "address": "PMB 223 2220 County Road 210 West, Suite 108, St. Johns, FL 32259",
+     "voice": "904-295-1620",
+     "classification": "capitol-mail"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KimKendall2024.jpg",
+   "openstates_url": "https://openstates.org/person/kim-kendall-73qjeB5ZXqk5kBlmjXqIYv/",
+   "committees": []
+  },
+  "house:16": {
+   "name": "Kiyan Michael",
+   "party": "R",
+   "email": "kiyan.michael@flhouse.gov",
+   "phones": [
+    "850-717-5016",
+    "904-561-1010"
+   ],
+   "offices": [
+    {
+     "address": "Room 300, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5016",
+     "classification": "capitol"
+    },
+    {
+     "address": "421 3rd St. North, Jacksonville Beach, FL 32250",
+     "voice": "904-561-1010",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4869.jpg",
+   "openstates_url": "https://openstates.org/person/kiyan-michael-7ID04D4mY6VXn3i5ooDBHv/",
+   "committees": []
+  },
+  "senate:25": {
+   "name": "Kristen Arrington",
+   "party": "D",
+   "email": "arrington.kristen.web@flsenate.gov",
+   "phones": [
+    "850-487-5025",
+    "407-846-5187"
+   ],
+   "offices": [
+    {
+     "address": "Room 210, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5025",
+     "classification": "capitol"
+    },
+    {
+     "address": "3 Courthouse Square Suites 218-219, Kissimmee, FL 34741",
+     "voice": "407-846-5187",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4774.jpg",
+   "openstates_url": "https://openstates.org/person/kristen-arrington-6xT8l5TzSPQRKl4cls5BML/",
+   "committees": []
+  },
+  "senate:15": {
+   "name": "LaVon Bracy Davis",
+   "party": "D",
+   "email": "bracydavis.lavon.web@flsenate.gov",
+   "phones": [
+    "850-487-5015",
+    "407-245-0194"
+   ],
+   "offices": [
+    {
+     "address": "Room 226, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5015",
+     "classification": "capitol"
+    },
+    {
+     "address": "801 N. Magnolia Ave. Suite 305, Orlando, FL 32803",
+     "voice": "407-245-0194",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4874.jpg",
+   "openstates_url": "https://openstates.org/person/lavon-bracy-davis-1RgJDBM5HdwwhVoe3q5s3g/",
+   "committees": []
+  },
+  "house:82": {
+   "name": "Lauren Melo",
+   "party": "R",
+   "email": "lauren.melo@flhouse.gov",
+   "phones": [
+    "850-717-5082",
+    "239-423-0510",
+    "863-674-8600"
+   ],
+   "offices": [
+    {
+     "address": "Room 209, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5082",
+     "classification": "capitol"
+    },
+    {
+     "address": "Harmon Turner Building 3299 Tamiami Trail E., Suite 212, Naples, FL 34112",
+     "voice": "239-423-0510",
+     "classification": "district"
+    },
+    {
+     "address": "Hendry County Courthouse 25 E. Hickpochee Ave., LaBelle, FL 33935",
+     "voice": "863-674-8600",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4784.jpg",
+   "openstates_url": "https://openstates.org/person/lauren-melo-7YMPxjEiKeTQXXqz6q28bH/",
+   "committees": []
+  },
+  "house:68": {
+   "name": "Lawrence McClure",
+   "party": "R",
+   "email": "lawrence.mcclure@flhouse.gov",
+   "phones": [
+    "850-717-5068",
+    "813-730-8600"
+   ],
+   "offices": [
+    {
+     "address": "Room 418, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5068",
+     "classification": "capitol"
+    },
+    {
+     "address": "110 W. Reynolds St. Suite 204, Plant City, FL 33563",
+     "voice": "813-730-8600",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4686.jpg",
+   "openstates_url": "https://openstates.org/person/lawrence-mcclure-2cYoiGNe3XrDGNDgtL10n0/",
+   "committees": []
+  },
+  "house:45": {
+   "name": "Leonard Spencer",
+   "party": "D",
+   "email": "leonard.spencer@flhouse.gov",
+   "phones": [
+    "850-717-5045",
+    "407-598-8680"
+   ],
+   "offices": [
+    {
+     "address": "Room 1402, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5045",
+     "classification": "capitol"
+    },
+    {
+     "address": "12200 W. Colonial Drive Suite 300H, Winter Garden, FL 34787",
+     "voice": "407-598-8680",
+     "classification": "district"
+    }
+   ],
+   "image": "https://floridapolitics.com/wp-content/uploads/2024/05/Spencer-Leonars.jpeg",
+   "openstates_url": "https://openstates.org/person/leonard-spencer-3Dp6wcppmTP7IPMpImBiFW/",
+   "committees": []
+  },
+  "house:61": {
+   "name": "Linda Chaney",
+   "party": "R",
+   "email": "linda.chaney@flhouse.gov",
+   "phones": [
+    "850-717-5061",
+    "727-387-8600"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5061",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 40134, St. Petersburg, FL 33743",
+     "voice": "727-387-8600",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4778.jpg",
+   "openstates_url": "https://openstates.org/person/linda-chaney-3oX0Wn1UpOg0vhCgdIQJji/",
+   "committees": []
+  },
+  "house:60": {
+   "name": "Lindsay Cross",
+   "party": "D",
+   "email": "lindsay.cross@flhouse.gov",
+   "phones": [
+    "850-717-5060",
+    "727-629-6770"
+   ],
+   "offices": [
+    {
+     "address": "Room 1101, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5060",
+     "classification": "capitol"
+    },
+    {
+     "address": "425 N. 22nd Ave. Suite C, St. Petersburg, FL 33704",
+     "voice": "727-629-6770",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4887.jpg",
+   "openstates_url": "https://openstates.org/person/lindsay-cross-4FnffqtLHEQYkZIq7karDr/",
+   "committees": []
+  },
+  "house:97": {
+   "name": "Lisa Dunkley",
+   "party": "D",
+   "email": "lisa.dunkley@flhouse.gov",
+   "phones": [
+    "850-717-5097",
+    "954-910-2360"
+   ],
+   "offices": [
+    {
+     "address": "Room 1003, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5097",
+     "classification": "capitol"
+    },
+    {
+     "address": "7491 W. Oakland Park Blvd. Suite 219, Lauderhill, FL 33319",
+     "voice": "954-910-2360",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4893.jpg",
+   "openstates_url": "https://openstates.org/person/lisa-dunkley-1V30HpqdEoO9b7Z0HiyD66/",
+   "committees": []
+  },
+  "senate:26": {
+   "name": "Lori Berman",
+   "party": "D",
+   "email": "berman.lori.web@flsenate.gov",
+   "phones": [
+    "850-487-5026",
+    "561-292-6014"
+   ],
+   "offices": [
+    {
+     "address": "Room 228, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5026",
+     "classification": "capitol"
+    },
+    {
+     "address": "2300 High Ridge Road Suite 161, Boynton Beach, FL 33426",
+     "voice": "561-292-6014",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s26_5339.jpg",
+   "openstates_url": "https://openstates.org/person/lori-berman-3azkRWxa3076oE1tREvrsL/",
+   "committees": []
+  },
+  "senate:24": {
+   "name": "Mack Bernard",
+   "party": "D",
+   "email": "bernard.mack.web@flsenate.gov",
+   "phones": [
+    "850-487-5024",
+    "561-650-6880"
+   ],
+   "offices": [
+    {
+     "address": "Room 216, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5024",
+     "classification": "capitol"
+    },
+    {
+     "address": "1715 E. Tiffany Drive, West Palm Beach, FL 33407",
+     "voice": "561-650-6880",
+     "classification": "district"
+    }
+   ],
+   "image": "http://www.flhouse.gov/FileStores/Web/Imaging/Member/4422.jpg",
+   "openstates_url": "https://openstates.org/person/mack-bernard-1SzDvvuE94Eguwd0LTW2SE/",
+   "committees": []
+  },
+  "house:105": {
+   "name": "Marie Woodson",
+   "party": "D",
+   "email": "marie.woodson@flhouse.gov",
+   "phones": [
+    "850-717-5105",
+    "954-250-6010"
+   ],
+   "offices": [
+    {
+     "address": "Room 223, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5105",
+     "classification": "capitol"
+    },
+    {
+     "address": "7200 Pines Blvd. Building #73, Suite 120, Pembroke Pines, FL 33024",
+     "voice": "954-250-6010",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4789.jpg",
+   "openstates_url": "https://openstates.org/person/marie-woodson-2shMOxCkkaAvoQ3KZdDPPl/",
+   "committees": []
+  },
+  "house:94": {
+   "name": "Meg Weinberger",
+   "party": "R",
+   "email": "meg.weinberger@flhouse.gov",
+   "phones": [
+    "850-717-5094",
+    "561-576-0340"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5094",
+     "classification": "capitol"
+    },
+    {
+     "address": "9200 Belvedere Road Suite 214, West Palm Beach, FL 33411",
+     "voice": "561-576-0340",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Nick_Ward_20240808_093359.jpg",
+   "openstates_url": "https://openstates.org/person/meg-weinberger-3QEaNnQ71LqjSrSirulR85/",
+   "committees": []
+  },
+  "house:70": {
+   "name": "Michael Owen",
+   "party": "R",
+   "email": "michael.owen@flhouse.gov",
+   "phones": [
+    "850-717-5070",
+    "656-333-9530"
+   ],
+   "offices": [
+    {
+     "address": "Room 1302, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5070",
+     "classification": "capitol"
+    },
+    {
+     "address": "PMB 432 235 Apollo Beach Blvd., Apollo Beach, FL 33572",
+     "voice": "656-333-9530",
+     "classification": "capitol-mail"
+    }
+   ],
+   "image": "https://www.porttb.com/?a=Files.Serve&File_id=DEAE221B-6C8A-4865-BE9F-9C16F892E47C",
+   "openstates_url": "https://openstates.org/person/michael-owen-7gHhochotUWLMU3wBkok0e/",
+   "committees": []
+  },
+  "house:62": {
+   "name": "Michele Rayner",
+   "party": "D",
+   "email": "michele.rayner@flhouse.gov",
+   "phones": [
+    "850-717-5062",
+    "727-629-6820"
+   ],
+   "offices": [
+    {
+     "address": "Room 407, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5062",
+     "classification": "capitol"
+    },
+    {
+     "address": "3833 Central Ave., St. Petersburg, FL 33713",
+     "voice": "727-629-6820",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4781.jpg",
+   "openstates_url": "https://openstates.org/person/michele-rayner-4jIZzopgDG7IQarkrK0mDL/",
+   "committees": []
+  },
+  "house:1": {
+   "name": "Michelle Salzman",
+   "party": "R",
+   "email": "michelle.salzman@flhouse.gov",
+   "phones": [
+    "850-717-5001",
+    "850-988-1160"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5001",
+     "classification": "capitol"
+    },
+    {
+     "address": "3212 S. Highway 95-A, Cantonment, FL 32533",
+     "voice": "850-988-1160",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4763.jpg",
+   "openstates_url": "https://openstates.org/person/michelle-salzman-4yznU22h3q21gg2XXIOiGI/",
+   "committees": []
+  },
+  "house:79": {
+   "name": "Mike Giallombardo",
+   "party": "R",
+   "email": "mike.giallombardo@flhouse.gov",
+   "phones": [
+    "850-717-5079",
+    "239-475-9310"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5079",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 152388, Cape Coral, FL 33915",
+     "voice": "239-475-9310",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4783.jpg",
+   "openstates_url": "https://openstates.org/person/mike-giallombardo-4h6FebWGDWnSwiWFppRmXC/",
+   "committees": []
+  },
+  "house:102": {
+   "name": "Mike Gottlieb",
+   "party": "D",
+   "email": "mike.gottlieb@flhouse.gov",
+   "phones": [
+    "850-717-5102",
+    "954-655-5498"
+   ],
+   "offices": [
+    {
+     "address": "Room 403, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5102",
+     "classification": "capitol"
+    },
+    {
+     "address": "PMB 302 8958 W. State Road 84, Davie, FL 33324",
+     "voice": "954-655-5498",
+     "classification": "capitol-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4724.jpg",
+   "openstates_url": "https://openstates.org/person/mike-gottlieb-r0J42W2wHi77tSwEKFFp0/",
+   "committees": []
+  },
+  "house:118": {
+   "name": "Mike Redondo",
+   "party": "R",
+   "email": "mike.redondo@flhouse.gov",
+   "phones": [
+    "850-717-5118",
+    "305-564-4730"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5118",
+     "classification": "capitol"
+    },
+    {
+     "address": "Miami Dade College, Kendall Campus 11011 SW 104th St., Suite M207, Miami, FL 33176",
+     "voice": "305-564-4730",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4902.jpg",
+   "openstates_url": "https://openstates.org/person/mike-redondo-50e9zz8PAi99yqTb4tg25i/",
+   "committees": []
+  },
+  "house:98": {
+   "name": "Mitch Rosenwald",
+   "party": "D",
+   "email": "mitch.rosenwald@flhouse.gov",
+   "phones": [
+    "850-717-5098",
+    "954-481-0340"
+   ],
+   "offices": [
+    {
+     "address": "Room 1402, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5098",
+     "classification": "capitol"
+    },
+    {
+     "address": "3411 North Dixie Highway, Oakland Park, FL 33334",
+     "voice": "954-481-0340",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MitchRosenwald.jpg",
+   "openstates_url": "https://openstates.org/person/mitch-rosenwald-8j9jq8OkZKvHmPH0TgjWu/",
+   "committees": []
+  },
+  "house:33": {
+   "name": "Monique Miller",
+   "party": "R",
+   "email": "monique.miller@flhouse.gov",
+   "phones": [
+    "850-717-5033",
+    "321-497-8170"
+   ],
+   "offices": [
+    {
+     "address": "Room 1301, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5033",
+     "classification": "capitol"
+    },
+    {
+     "address": "2539 Palm Bay Road NE Suite 5, Palm Bay, FL 32905",
+     "voice": "321-497-8170",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Monique_Miller.jpg",
+   "openstates_url": "https://openstates.org/person/monique-miller-2FdTyIdksqdYLqi0oheAUm/",
+   "committees": []
+  },
+  "house:26": {
+   "name": "Nan Cobb",
+   "party": "R",
+   "email": "nan.cobb@flhouse.gov",
+   "phones": [
+    "850-717-5026",
+    "352-747-1540"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5026",
+     "classification": "capitol"
+    },
+    {
+     "address": "343 N. Bay St. Suite 204, Eustis, FL 32726",
+     "voice": "352-747-1540",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.eustis.org/files/assets/public/v/3/city-hall-mgrs-office/images/commissioner-cobb.jpg?dimension=pageimage&w=480",
+   "openstates_url": "https://openstates.org/person/nan-cobb-2wJFGMLierXkWFpax27Vq3/",
+   "committees": []
+  },
+  "house:3": {
+   "name": "Nathan Boyles",
+   "party": "R",
+   "email": "nathan.boyles@flhouse.gov",
+   "phones": [
+    "850-717-5003",
+    "850-750-4470",
+    "850-750-4470"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5003",
+     "classification": "capitol"
+    },
+    {
+     "address": "Northwest Florida State College 805 E. James Lee Blvd. (Highway 90), Crestview, FL 32539",
+     "voice": "850-750-4470",
+     "classification": "district"
+    },
+    {
+     "address": "Room 4013, Pensacola State College, Milton Campus 5988 Highway 90, Milton, FL 32583",
+     "voice": "850-750-4470",
+     "classification": "district"
+    }
+   ],
+   "image": "",
+   "openstates_url": "https://openstates.org/person/nathan-boyles-3spUI9GNcHJrJ6EVu2g0do/",
+   "committees": []
+  },
+  "senate:18": {
+   "name": "Nick DiCeglie",
+   "party": "R",
+   "email": "diceglie.nick.web@flsenate.gov",
+   "phones": [
+    "850-487-5018",
+    "727-563-1910"
+   ],
+   "offices": [
+    {
+     "address": "Room 414, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5018",
+     "classification": "capitol"
+    },
+    {
+     "address": "9800 4th St. North #200, St. Petersburg, FL 33702",
+     "voice": "727-563-1910",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s18_5365.jpg",
+   "openstates_url": "https://openstates.org/person/nick-diceglie-2xznFAB1wBjg5EPkg4T6SS/",
+   "committees": []
+  },
+  "house:115": {
+   "name": "Omar Blanco",
+   "party": "R",
+   "email": "omar.blanco@flhouse.gov",
+   "phones": [
+    "850-717-5115",
+    "305-850-6410"
+   ],
+   "offices": [
+    {
+     "address": "Room 1302, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5115",
+     "classification": "capitol"
+    },
+    {
+     "address": "7380 SW 48th St., Miami, FL 33155",
+     "voice": "305-850-6410",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Omar__Blanco.PNG",
+   "openstates_url": "https://openstates.org/person/omar-blanco-2Io9TnDkhdp0TrOhUqKfwd/",
+   "committees": []
+  },
+  "house:4": {
+   "name": "Patt Maney",
+   "party": "R",
+   "email": "patt.maney@flhouse.gov",
+   "phones": [
+    "850-717-5004",
+    "850-904-1020"
+   ],
+   "offices": [
+    {
+     "address": "Room 222, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5004",
+     "classification": "capitol"
+    },
+    {
+     "address": "115 Miracle Strip Parkway SE Suite 201, Fort Walton Beach, FL 32548",
+     "voice": "850-904-1020",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4764.jpg",
+   "openstates_url": "https://openstates.org/person/patt-maney-7DqpqsV0rPJoS5zuf8QgjR/",
+   "committees": []
+  },
+  "house:47": {
+   "name": "Paula Stark",
+   "party": "R",
+   "email": "paula.stark@flhouse.gov",
+   "phones": [
+    "850-717-5047",
+    "407-548-1930"
+   ],
+   "offices": [
+    {
+     "address": "Room 200, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5047",
+     "classification": "capitol"
+    },
+    {
+     "address": "1300 9th St. Building A, St. Cloud, FL 34769",
+     "voice": "407-548-1930",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4878.jpg",
+   "openstates_url": "https://openstates.org/person/paula-stark-IyfEwQLeX3lBTzPzxXfD6/",
+   "committees": []
+  },
+  "house:91": {
+   "name": "Peggy Gossett-Seidman",
+   "party": "R",
+   "email": "peggy.gossettseidman@flhouse.gov",
+   "phones": [
+    "850-717-5091",
+    "561-571-4670"
+   ],
+   "offices": [
+    {
+     "address": "Room 212, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5091",
+     "classification": "capitol"
+    },
+    {
+     "address": "4400 N. Federal Highway Suite 40, Boca Raton, FL 33431",
+     "voice": "561-571-4670",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4891.jpg",
+   "openstates_url": "https://openstates.org/person/peggy-gossett-seidman-5DPyVCZkQI32w1qqjvNF6U/",
+   "committees": []
+  },
+  "house:40": {
+   "name": "RaShon Young",
+   "party": "D",
+   "email": "rashon.young@flhouse.gov",
+   "phones": [
+    "850-717-5040",
+    "407-557-4530"
+   ],
+   "offices": [
+    {
+     "address": "Room 1402, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5040",
+     "classification": "capitol"
+    },
+    {
+     "address": "801 N. Magnolia Ave. Suite 301, Orlando, FL 32803",
+     "voice": "407-557-4530",
+     "classification": "district"
+    }
+   ],
+   "image": "",
+   "openstates_url": "https://openstates.org/person/rashon-young-7laFChlT6KKM6CKXJXS2aI/",
+   "committees": []
+  },
+  "house:36": {
+   "name": "Rachel Plakon",
+   "party": "R",
+   "email": "rachel.plakon@flhouse.gov",
+   "phones": [
+    "850-717-5036",
+    "407-263-3931"
+   ],
+   "offices": [
+    {
+     "address": "Room 200, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5036",
+     "classification": "capitol"
+    },
+    {
+     "address": "1855 W. State Road 434 Suite 222, Longwood, FL 32750",
+     "voice": "407-263-3931",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4871.jpg",
+   "openstates_url": "https://openstates.org/person/rachel-plakon-pE2st1g3oPljuAQg5DVzN/",
+   "committees": []
+  },
+  "senate:11": {
+   "name": "Ralph Massullo",
+   "party": "R",
+   "email": "massullo.ralph.web@flsenate.gov",
+   "phones": [
+    "850-487-5011",
+    "352-666-5707"
+   ],
+   "offices": [
+    {
+     "address": "Room 313, Senate Office Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5011",
+     "classification": "capitol"
+    },
+    {
+     "address": "104 E. Dampier St., Inverness, FL 34450",
+     "voice": "352-666-5707",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4624.jpg",
+   "openstates_url": "https://openstates.org/person/ralph-massullo-3JqHRYuCmw2tpafBBNIuSO/",
+   "committees": []
+  },
+  "house:54": {
+   "name": "Randy Maggard",
+   "party": "R",
+   "email": "randy.maggard@flhouse.gov",
+   "phones": [
+    "850-717-5054",
+    "813-768-0030"
+   ],
+   "offices": [
+    {
+     "address": "Room 322, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5054",
+     "classification": "capitol"
+    },
+    {
+     "address": "Creekside Center 35358 State Road 54, Zephyrhills, FL 33541",
+     "voice": "813-768-0030",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4758.jpg",
+   "openstates_url": "https://openstates.org/person/randy-maggard-1HjXv6M0ncazFqUK8wg2iW/",
+   "committees": []
+  },
+  "house:27": {
+   "name": "Richard Gentry",
+   "party": "R",
+   "email": "richard.gentry@flhouse.gov",
+   "phones": [
+    "850-717-5027",
+    "386-251-1100"
+   ],
+   "offices": [
+    {
+     "address": "Room 1302, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5027",
+     "classification": "capitol"
+    },
+    {
+     "address": "275 S. Charles Richard Beall Blvd. Unit 108, DeBary, FL 32713",
+     "voice": "386-251-1100",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Richard_Gentry_20240811_121405.png",
+   "openstates_url": "https://openstates.org/person/richard-gentry-67wbp3WqqS0O6erhKKfd1E/",
+   "committees": []
+  },
+  "house:44": {
+   "name": "Rita Harris",
+   "party": "D",
+   "email": "rita.harris@flhouse.gov",
+   "phones": [
+    "850-717-5044",
+    "407-751-1380"
+   ],
+   "offices": [
+    {
+     "address": "Room 1102, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5044",
+     "classification": "capitol"
+    },
+    {
+     "address": "2151 Consulate Drive Suite 15-3, Orlando, FL 32837",
+     "voice": "407-751-1380",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4877.jpg",
+   "openstates_url": "https://openstates.org/person/rita-harris-69h4iaHSrPNfMIYkEvu6Qf/",
+   "committees": []
+  },
+  "house:90": {
+   "name": "Rob Long",
+   "party": "D",
+   "email": "rob.long@flhouse.gov",
+   "phones": [
+    "850-717-5090",
+    "561-903-1310"
+   ],
+   "offices": [
+    {
+     "address": "Room 1102, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5090",
+     "classification": "capitol"
+    },
+    {
+     "address": "9770 S. Military Trail Suite B4, Mailbox 386, Boynton Beach, FL 33436",
+     "voice": "561-903-1310",
+     "classification": "district"
+    }
+   ],
+   "image": "",
+   "openstates_url": "https://openstates.org/person/rob-long-2SMIJ7zmRG2xSeunghP3EB/",
+   "committees": []
+  },
+  "house:34": {
+   "name": "Robbie Brackett",
+   "party": "R",
+   "email": "robert.brackett@flhouse.gov",
+   "phones": [
+    "850-717-5034",
+    "772-365-9230"
+   ],
+   "offices": [
+    {
+     "address": "Room 209, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5034",
+     "classification": "capitol"
+    },
+    {
+     "address": "1800 27th St. Suite B2-203, Vero Beach, FL 32960",
+     "voice": "772-365-9230",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4870.jpg",
+   "openstates_url": "https://openstates.org/person/robbie-brackett-623hH0kSYtqp5Xfa3f6V9W/",
+   "committees": []
+  },
+  "house:103": {
+   "name": "Robin Bartleman",
+   "party": "D",
+   "email": "robin.bartleman@flhouse.gov",
+   "phones": [
+    "850-717-5103",
+    "954-872-1770"
+   ],
+   "offices": [
+    {
+     "address": "Room 407, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5103",
+     "classification": "capitol"
+    },
+    {
+     "address": "1792 Bell Tower Lane Suite 102, Weston, FL 33326",
+     "voice": "954-872-1770",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4793.jpg",
+   "openstates_url": "https://openstates.org/person/robin-bartleman-39ms0jsngLysXHzesgWDSF/",
+   "committees": []
+  },
+  "senate:32": {
+   "name": "Rosalind Osgood",
+   "party": "D",
+   "email": "osgood.rosalind.web@flsenate.gov",
+   "phones": [
+    "850-487-5032",
+    "954-321-2705"
+   ],
+   "offices": [
+    {
+     "address": "Room 213, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5032",
+     "classification": "capitol"
+    },
+    {
+     "address": "8491 W. Commercial Blvd., Tamarac, FL 33351",
+     "voice": "954-321-2705",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s32_5520.jpg",
+   "openstates_url": "https://openstates.org/person/rosalind-osgood-1VYSXfT3WaJRO1pHKgmcQg/",
+   "committees": []
+  },
+  "house:24": {
+   "name": "Ryan Chamberlin",
+   "party": "R",
+   "email": "ryan.chamberlin@flhouse.gov",
+   "phones": [
+    "850-717-5024",
+    "352-635-0450"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5024",
+     "classification": "capitol"
+    },
+    {
+     "address": "315 SE 25th Ave., Ocala, FL 34471",
+     "voice": "352-635-0450",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4901.jpg",
+   "openstates_url": "https://openstates.org/person/ryan-chamberlin-5g9o31nSVj2FP3LnwgEpNo/",
+   "committees": []
+  },
+  "house:11": {
+   "name": "Sam Garrison",
+   "party": "R",
+   "email": "sam.garrison@flhouse.gov",
+   "phones": [
+    "850-717-5011",
+    "904-375-3300"
+   ],
+   "offices": [
+    {
+     "address": "Room 422, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5011",
+     "classification": "capitol"
+    },
+    {
+     "address": "1835 EW Parkway Suite 18, Fleming Island, FL 32003",
+     "voice": "904-375-3300",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4767.jpg",
+   "openstates_url": "https://openstates.org/person/sam-garrison-4ZjqhiPopIPQ3lnb6ut3Dy/",
+   "committees": []
+  },
+  "house:19": {
+   "name": "Sam Greco",
+   "party": "R",
+   "email": "sam.greco@flhouse.gov",
+   "phones": [
+    "850-717-5019",
+    "386-446-7644"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5019",
+     "classification": "capitol"
+    },
+    {
+     "address": "4877 Palm Coast Parkway NW Suite 1, Palm Coast, FL 32137",
+     "voice": "386-446-7644",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/SamGreco2024.png",
+   "openstates_url": "https://openstates.org/person/sam-greco-1OA49O1AdgJL87JTWGaUAV/",
+   "committees": []
+  },
+  "house:52": {
+   "name": "Samantha Scott",
+   "party": "R",
+   "email": "samantha.scott@flhouse.gov",
+   "phones": [
+    "850-717-5052"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5052",
+     "classification": "capitol"
+    }
+   ],
+   "image": "https://lakeandsumterstyle.com/wp-content/uploads/2025/09/548330102_10238294438960625_7665889559183237490_n-e1758302240695-1200x730.jpg",
+   "openstates_url": "https://openstates.org/person/samantha-scott-3MH5onxGj9fswSLOmhfhNt/",
+   "committees": []
+  },
+  "house:5": {
+   "name": "Shane Abbott",
+   "party": "R",
+   "email": "shane.abbott@flhouse.gov",
+   "phones": [
+    "850-717-5005",
+    "850-635-3470",
+    "850-633-5180"
+   ],
+   "offices": [
+    {
+     "address": "Room 200, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5005",
+     "classification": "capitol"
+    },
+    {
+     "address": "NWFSC Chautauqua Center 908 U.S. Highway 90 West, DeFuniak Springs, FL 32433",
+     "voice": "850-635-3470",
+     "classification": "district"
+    },
+    {
+     "address": "Room 187, Chipola College 3094 Indian Circle, Marianna, FL 32446",
+     "voice": "850-633-5180",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4864.jpg",
+   "openstates_url": "https://openstates.org/person/shane-abbott-65twj381u68M836bnYJCpQ/",
+   "committees": []
+  },
+  "senate:34": {
+   "name": "Shev Jones",
+   "party": "D",
+   "email": "jones.shevrin.web@flsenate.gov",
+   "phones": [
+    "850-487-5034",
+    "305-493-6002"
+   ],
+   "offices": [
+    {
+     "address": "Room 214, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5034",
+     "classification": "capitol"
+    },
+    {
+     "address": "606 NW 183rd St., Miami Gardens, FL 33169",
+     "voice": "305-493-6002",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s34_5453.jpg",
+   "openstates_url": "https://openstates.org/person/shev-jones-58DAAT6UKYBnGzIOckqwTB/",
+   "committees": []
+  },
+  "senate:9": {
+   "name": "Stan McClain",
+   "party": "R",
+   "email": "mcclain.stan.web@flsenate.gov",
+   "phones": [
+    "850-487-5009",
+    "352-732-1249",
+    "352-264-4040"
+   ],
+   "offices": [
+    {
+     "address": "Room 312, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5009",
+     "classification": "capitol"
+    },
+    {
+     "address": "315 SE 25th Ave., Ocala, FL 34471",
+     "voice": "352-732-1249",
+     "classification": "district"
+    },
+    {
+     "address": "5700 SW 34th St. Suite 225, Gainesville, FL 32608",
+     "voice": "352-264-4040",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4658.jpg",
+   "openstates_url": "https://openstates.org/person/stan-mcclain-2gYqkSj8rVicejAgEliAva/",
+   "committees": []
+  },
+  "house:37": {
+   "name": "Susan Plasencia",
+   "party": "R",
+   "email": "susan.plasencia@flhouse.gov",
+   "phones": [
+    "850-717-5037",
+    "407-633-3730"
+   ],
+   "offices": [
+    {
+     "address": "Room 334, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5037",
+     "classification": "capitol"
+    },
+    {
+     "address": "10151 University Blvd. Private Mailbox 130, Orlando, FL 32817",
+     "voice": "407-633-3730",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4872.jpg",
+   "openstates_url": "https://openstates.org/person/susan-plasencia-52dtUYcEjhg7rG62XMOjff/",
+   "committees": []
+  },
+  "house:64": {
+   "name": "Susan Vald\u00e9s",
+   "party": "R",
+   "email": "susan.valdes@flhouse.gov",
+   "phones": [
+    "850-717-5064",
+    "813-726-1070"
+   ],
+   "offices": [
+    {
+     "address": "Room 334, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5064",
+     "classification": "capitol"
+    },
+    {
+     "address": "2221 N. Himes Ave. Suite B, Tampa, FL 33607",
+     "voice": "813-726-1070",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4752.jpg",
+   "openstates_url": "https://openstates.org/person/susan-valdes-3vdi27CLWhEPGwLgKOu7Ze/",
+   "committees": []
+  },
+  "house:88": {
+   "name": "Tae Edmonds",
+   "party": "D",
+   "email": "jervonte.edmonds@flhouse.gov",
+   "phones": [
+    "850-717-5088",
+    "561-242-5530"
+   ],
+   "offices": [
+    {
+     "address": "Room 1101, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5088",
+     "classification": "capitol"
+    },
+    {
+     "address": "5725 Corporate Way Suite 206, West Palm Beach, FL 33407",
+     "voice": "561-242-5530",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4842.jpg",
+   "openstates_url": "https://openstates.org/person/tae-edmonds-5hBAmfWe4JInXttDGo7UjY/",
+   "committees": []
+  },
+  "house:25": {
+   "name": "Taylor Yarkosky",
+   "party": "R",
+   "email": "taylor.yarkosky@flhouse.gov",
+   "phones": [
+    "850-717-5025",
+    "352-995-0130"
+   ],
+   "offices": [
+    {
+     "address": "Room 319, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5025",
+     "classification": "capitol"
+    },
+    {
+     "address": "16207 State Road 50 Suite 402, Clermont, FL 34711",
+     "voice": "352-995-0130",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4868.jpg",
+   "openstates_url": "https://openstates.org/person/taylor-yarkosky-2IiAj3cA7MxsAiK920Ddm4/",
+   "committees": []
+  },
+  "house:77": {
+   "name": "Tiffany Esposito",
+   "party": "R",
+   "email": "tiffany.esposito@flhouse.gov",
+   "phones": [
+    "850-717-5077",
+    "239-445-0150"
+   ],
+   "offices": [
+    {
+     "address": "Room 313, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5077",
+     "classification": "capitol"
+    },
+    {
+     "address": "FL",
+     "voice": "239-445-0150",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4892.jpg",
+   "openstates_url": "https://openstates.org/person/tiffany-esposito-1e8wRQfU61oeRXiwBOBLlE/",
+   "committees": []
+  },
+  "senate:30": {
+   "name": "Tina Polsky",
+   "party": "D",
+   "email": "polsky.tina.web@flsenate.gov",
+   "phones": [
+    "850-487-5030",
+    "561-443-8170"
+   ],
+   "offices": [
+    {
+     "address": "Room 220, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5030",
+     "classification": "capitol"
+    },
+    {
+     "address": "5301 N. Federal Highway Suite 135, Boca Raton, FL 33487",
+     "voice": "561-443-8170",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s30_5371.jpg",
+   "openstates_url": "https://openstates.org/person/tina-polsky-4H1HOpYsfXWdtNRmPHZylc/",
+   "committees": []
+  },
+  "house:85": {
+   "name": "Toby Overdorf",
+   "party": "R",
+   "email": "toby.overdorf@flhouse.gov",
+   "phones": [
+    "850-717-5085",
+    "772-403-9560"
+   ],
+   "offices": [
+    {
+     "address": "Room 402, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5085",
+     "classification": "capitol"
+    },
+    {
+     "address": "151 SW Flagler Ave., Stuart, FL 34994",
+     "voice": "772-403-9560",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4728.jpg",
+   "openstates_url": "https://openstates.org/person/toby-overdorf-4zwg3GhDqVbvJaYCp2T72w/",
+   "committees": []
+  },
+  "house:110": {
+   "name": "Tom Fabricio",
+   "party": "R",
+   "email": "tom.fabricio@flhouse.gov",
+   "phones": [
+    "850-717-5110",
+    "305-564-4980"
+   ],
+   "offices": [
+    {
+     "address": "Room 319, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5110",
+     "classification": "capitol"
+    },
+    {
+     "address": "7480 Fairway Drive Suite 206, Miami Lakes, FL 33014",
+     "voice": "305-564-4980",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4792.jpg",
+   "openstates_url": "https://openstates.org/person/tom-fabricio-1dpFHCIFbW3zbw5diwZ7da/",
+   "committees": []
+  },
+  "senate:7": {
+   "name": "Tom Leek",
+   "party": "R",
+   "email": "leek.tom.web@flsenate.gov",
+   "phones": [
+    "850-487-5007",
+    "386-446-7610"
+   ],
+   "offices": [
+    {
+     "address": "Room 310, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5007",
+     "classification": "capitol"
+    },
+    {
+     "address": "4475 U.S. 1 South Suite 404, St. Augustine, FL 32086",
+     "voice": "386-446-7610",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4662.jpg",
+   "openstates_url": "https://openstates.org/person/tom-leek-7auNYVBnKJRzL3jQCeEdT/",
+   "committees": []
+  },
+  "senate:8": {
+   "name": "Tommy Wright",
+   "party": "R",
+   "email": "wright.tom.web@flsenate.gov",
+   "phones": [
+    "850-487-5008",
+    "386-304-7630"
+   ],
+   "offices": [
+    {
+     "address": "Room 412, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5008",
+     "classification": "capitol"
+    },
+    {
+     "address": "4606 S. Clyde Morris Blvd. Suite 2-J, Port Orange, FL 32129",
+     "voice": "386-304-7630",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s08_5346.jpg",
+   "openstates_url": "https://openstates.org/person/tommy-wright-2HJ2yPkqYpQ7yrdtpMozDu/",
+   "committees": []
+  },
+  "house:66": {
+   "name": "Traci Koster",
+   "party": "R",
+   "email": "traci.koster@flhouse.gov",
+   "phones": [
+    "850-717-5066",
+    "813-730-8010"
+   ],
+   "offices": [
+    {
+     "address": "Room 412, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5066",
+     "classification": "capitol"
+    },
+    {
+     "address": "P.O. Box 220, Safety Harbor, FL 34695",
+     "voice": "813-730-8010",
+     "classification": "district-mail"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4779.jpg",
+   "openstates_url": "https://openstates.org/person/traci-koster-11D1OnnYVZZ304F7moDUd4/",
+   "committees": []
+  },
+  "senate:5": {
+   "name": "Tracie Davis",
+   "party": "D",
+   "email": "davis.tracie.web@flsenate.gov",
+   "phones": [
+    "850-487-5005",
+    "904-359-2575"
+   ],
+   "offices": [
+    {
+     "address": "Room 222, Senate Building 404 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-487-5005",
+     "classification": "capitol"
+    },
+    {
+     "address": "2933 N. Myrtle Ave. Suite 201, Jacksonville, FL 32209",
+     "voice": "904-359-2575",
+     "classification": "district"
+    }
+   ],
+   "image": "https://flsenate.gov/PublishedContent/Senators/2022-2024/Photos/s05_5385.jpg",
+   "openstates_url": "https://openstates.org/person/tracie-davis-63jBKdQvM0iGa0YltyJTJ/",
+   "committees": []
+  },
+  "house:31": {
+   "name": "Tyler Sirois",
+   "party": "R",
+   "email": "tyler.sirois@flhouse.gov",
+   "phones": [
+    "850-717-5031",
+    "321-447-2060"
+   ],
+   "offices": [
+    {
+     "address": "Room 322, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5031",
+     "classification": "capitol"
+    },
+    {
+     "address": "260 N. Tropical Trail Suite 206, Merritt Island, FL 32953",
+     "voice": "321-447-2060",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4748.jpg",
+   "openstates_url": "https://openstates.org/person/tyler-sirois-5EqLkxVaRRll8cFOgeI2W4/",
+   "committees": []
+  },
+  "house:76": {
+   "name": "Vanessa Oliver",
+   "party": "R",
+   "email": "vanessa.oliver@flhouse.gov",
+   "phones": [
+    "850-717-5076",
+    "941-621-0480"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5076",
+     "classification": "capitol"
+    },
+    {
+     "address": "4355 Pinnacle St. Suite C, Punta Gorda, FL 33980",
+     "voice": "941-621-0480",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/VanessaOliver2024.jpg",
+   "openstates_url": "https://openstates.org/person/vanessa-oliver-1N7V3MkOO8EmfTfUe58Rb3/",
+   "committees": []
+  },
+  "house:107": {
+   "name": "Wallace Aristide",
+   "party": "D",
+   "email": "wallace.aristide@flhouse.gov",
+   "phones": [
+    "850-717-5107",
+    "305-488-5530"
+   ],
+   "offices": [
+    {
+     "address": "Room 1402, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5107",
+     "classification": "capitol"
+    },
+    {
+     "address": "16901 NE 19th Ave. Suite A, North Miami Beach, FL 33162",
+     "voice": "305-488-5530",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/WallaceAristide.png",
+   "openstates_url": "https://openstates.org/person/wallace-aristide-3nMBrQmHzlNQVgqDFopNdr/",
+   "committees": []
+  },
+  "house:29": {
+   "name": "Webster Barnaby",
+   "party": "R",
+   "email": "webster.barnaby@flhouse.gov",
+   "phones": [
+    "850-717-5029",
+    "386-736-5042"
+   ],
+   "offices": [
+    {
+     "address": "Room 317, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5029",
+     "classification": "capitol"
+    },
+    {
+     "address": "120 S. Florida Ave., Deland, FL 32720",
+     "voice": "386-736-5042",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4770.jpg",
+   "openstates_url": "https://openstates.org/person/webster-barnaby-7NxaZWwoBehFoJHIL4V9nL/",
+   "committees": []
+  },
+  "house:71": {
+   "name": "Will Robinson",
+   "party": "R",
+   "email": "will.robinson@flhouse.gov",
+   "phones": [
+    "850-717-5071",
+    "941-242-8430"
+   ],
+   "offices": [
+    {
+     "address": "Room 303, House Office Building 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5071",
+     "classification": "capitol"
+    },
+    {
+     "address": "1051 Manatee Ave. West #305, Bradenton, FL 34205",
+     "voice": "941-242-8430",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4733.jpg",
+   "openstates_url": "https://openstates.org/person/will-robinson-7rgsmbVFg16DVTtEO4J7e/",
+   "committees": []
+  },
+  "house:12": {
+   "name": "Wyman Duggan",
+   "party": "R",
+   "email": "wyman.duggan@flhouse.gov",
+   "phones": [
+    "850-717-5012",
+    "904-659-6920"
+   ],
+   "offices": [
+    {
+     "address": "Room 422, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5012",
+     "classification": "capitol"
+    },
+    {
+     "address": "4530 Saint Johns Ave., Suite 15 Private Mailbox 409, Jacksonville, FL 32210",
+     "voice": "904-659-6920",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4712.jpg",
+   "openstates_url": "https://openstates.org/person/wyman-duggan-igRv9dJIWk4MZLyDAxrsM/",
+   "committees": []
+  },
+  "house:81": {
+   "name": "Yvette Benarroch",
+   "party": "R",
+   "email": "yvette.benarroch@flhouse.gov",
+   "phones": [
+    "850-717-5081",
+    "239-232-8810"
+   ],
+   "offices": [
+    {
+     "address": "Room 1401, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5081",
+     "classification": "capitol"
+    },
+    {
+     "address": "3299 Tamiami Trail East Suite 304, Naples, FL 34112",
+     "voice": "239-232-8810",
+     "classification": "district"
+    }
+   ],
+   "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/YvetteBennaroch24.JPG",
+   "openstates_url": "https://openstates.org/person/yvette-benarroch-49t0xlEEoPflzqm0KQzWfr/",
+   "committees": []
+  },
+  "house:21": {
+   "name": "Yvonne Hinson",
+   "party": "D",
+   "email": "yvonne.hinson@flhouse.gov",
+   "phones": [
+    "850-717-5021",
+    "352-663-1140"
+   ],
+   "offices": [
+    {
+     "address": "Room 1102, The Capitol 402 S. Monroe St., Tallahassee, FL 32399",
+     "voice": "850-717-5021",
+     "classification": "capitol"
+    },
+    {
+     "address": "2815 NW 13th St. Suite 202, Gainesville, FL 32609",
+     "voice": "352-663-1140",
+     "classification": "district"
+    }
+   ],
+   "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/4768.jpg",
+   "openstates_url": "https://openstates.org/person/yvonne-hinson-SzSFwDghRetQJASqgJU78/",
+   "committees": []
+  }
+ },
+ "bills": [],
+ "session": "2025",
+ "fetched_at": "2026-09-22T01:27:58.456377+00:00",
+ "source": "OpenStates API v3 (members only \u2014 committees/bills pending rate limit)"
+}
