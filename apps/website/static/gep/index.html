@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GOD'S EYE · FL ORGANIZING CONSOLE</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+<style>
+  :root{
+    --bg:#05070c; --panel:#0b111c; --panel2:#111a2c; --line:#1c2b44;
+    --txt:#cfe0f4; --dim:#5c7196; --cyan:#35e0d5; --amber:#ffb454; --red:#ff4d6d; --green:#7ee08a; --blue:#4d9fff;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{height:100%; background:var(--bg); color:var(--txt); font-family:'JetBrains Mono',ui-monospace,monospace; overflow:hidden;}
+  #map{position:absolute; inset:0; background:#070a12;}
+
+  /* top HUD bar */
+  #hud{position:absolute; top:12px; left:12px; right:12px; display:flex; align-items:center; gap:14px;
+       padding:10px 16px; background:rgba(7,11,20,.9); border:1px solid var(--line); border-radius:10px;
+       backdrop-filter:blur(8px); z-index:10; flex-wrap:wrap;}
+  #hud .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.12em; font-size:13px;}
+  #hud .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--cyan); box-shadow:0 0 12px var(--cyan); animation:pulse 1.6s infinite;}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .spacer{flex:1;}
+  /* address lookup */
+  #findreps{display:flex; gap:6px; align-items:center;}
+  #addr{background:var(--panel2); border:1px solid var(--line); color:var(--txt); padding:7px 10px;
+        border-radius:6px; font-family:inherit; font-size:11px; width:250px; outline:none;}
+  #addr:focus{border-color:var(--cyan);}
+  .btn{border:1px solid var(--cyan); background:transparent; color:var(--cyan); padding:7px 12px; border-radius:6px;
+       font-family:inherit; font-size:10px; letter-spacing:.12em; cursor:pointer; transition:.15s; text-transform:uppercase;}
+  .btn:hover{background:var(--cyan); color:#04121a;}
+  .btn:disabled{opacity:.4; cursor:wait;}
+  /* view tabs */
+  #views{display:flex; gap:6px; flex-wrap:wrap;}
+  .view-tab{border:1px solid var(--line); background:var(--panel); color:var(--dim); padding:6px 11px;
+            border-radius:6px; font-size:10px; letter-spacing:.12em; cursor:pointer; user-select:none; transition:.15s; text-transform:uppercase;}
+  .view-tab.on{background:var(--cyan); border-color:var(--cyan); color:#04121a; font-weight:700;}
+  #views .vt-margins.on{background:var(--blue); border-color:var(--blue); color:#04101f;}
+  #views .vt-shift.on{background:var(--amber); border-color:var(--amber); color:#1a1004;}
+  #views .vt-money.on{background:var(--amber); border-color:var(--amber); color:#1a1004;}
+  /* chamber toggle for margins */
+  #chamber{display:none; gap:6px;}
+  #chamber .view-tab.on{background:var(--blue); border-color:var(--blue); color:#04101f;}
+  #status{position:absolute; top:74px; left:12px; z-index:9; color:var(--dim); font-size:10px; letter-spacing:.14em;
+          background:rgba(7,11,20,.75); padding:4px 10px; border:1px solid var(--line); border-radius:12px;}
+
+  /* target board (left) */
+  #board{position:absolute; left:12px; top:100px; bottom:12px; width:290px; z-index:9; display:flex; flex-direction:column;
+         background:rgba(7,11,20,.92); border:1px solid var(--line); border-radius:10px; backdrop-filter:blur(8px); overflow:hidden;}
+  #board .bhead{padding:12px 14px; border-bottom:1px solid var(--line);}
+  #board .bhead h3{font-size:11px; letter-spacing:.18em; color:var(--cyan); text-transform:uppercase;}
+  #board .bhead p{font-size:10px; color:var(--dim); margin-top:4px; line-height:1.5;}
+  #board .blist{overflow-y:auto; flex:1; padding:6px 8px;}
+  .trow{display:flex; align-items:center; gap:8px; padding:8px 8px; border-radius:6px; cursor:pointer; border-bottom:1px solid rgba(28,43,68,.35);}
+  .trow:hover{background:var(--panel2);}
+  .trow .rank{font-size:9px; color:var(--dim); width:18px; text-align:right;}
+  .trow .info{flex:1; min-width:0;}
+  .trow .info .n{font-size:11px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .trow .info .d{font-size:9px; color:var(--dim); letter-spacing:.08em; text-transform:uppercase;}
+  .trow .marg{font-size:12px; font-weight:700; width:52px; text-align:right;}
+  .trow .marg.flippable{color:var(--green);}
+  .trow .marg.held{color:var(--amber);}
+  .trow .marg.dem{color:var(--blue);}
+  .chip{font-size:8px; padding:2px 5px; border-radius:3px; letter-spacing:.08em; border:1px solid;}
+  .chip.flip{color:var(--green); border-color:var(--green);}
+  .chip.defend{color:var(--amber); border-color:var(--amber);}
+
+  /* legend */
+  #legend{position:absolute; right:12px; top:100px; z-index:9; background:rgba(7,11,20,.9); border:1px solid var(--line);
+          border-radius:10px; padding:12px 14px; font-size:11px; min-width:190px; backdrop-filter:blur(8px);}
+  #legend h4{font-size:10px; letter-spacing:.18em; color:var(--dim); margin-bottom:8px; text-transform:uppercase;}
+  #legend .row{display:flex; align-items:center; gap:8px; margin:5px 0;}
+  #legend .sw{width:14px;height:10px;border-radius:2px;}
+  #legend .bar{height:10px; width:100%; border-radius:2px; margin:4px 0 2px;
+    background:linear-gradient(90deg,#2166ac,#67a9cf,#d1e5f0,#f7f7f7,#fddbc7,#ef8a62,#b2182b);}
+  #legend .barlabels{display:flex; justify-content:space-between; font-size:9px; color:var(--dim);}
+
+  /* intel panel (bottom-right) */
+  #focus{position:absolute; right:12px; bottom:12px; z-index:11; width:400px; max-height:72vh; overflow:hidden;
+         background:rgba(7,11,20,.95); border:1px solid var(--line); border-radius:10px; display:none; flex-direction:column; backdrop-filter:blur(8px);}
+  #focus .head{padding:12px 14px; border-bottom:1px solid var(--line); position:relative;}
+  #focus .head .t{font-weight:700; font-size:13px; letter-spacing:.05em; padding-right:20px;}
+  #focus .head .s{color:var(--dim); font-size:10px; margin-top:3px; letter-spacing:.08em;}
+  #focus .body{padding:10px 14px 14px; overflow-y:auto; font-size:12px; line-height:1.5;}
+  #focus .close{position:absolute; top:10px; right:12px; cursor:pointer; color:var(--dim); font-size:14px;}
+  #focus .close:hover{color:var(--red);}
+  #focus h4{color:var(--cyan); letter-spacing:.12em; font-size:9px; margin:14px 0 6px; text-transform:uppercase;}
+  #focus h4.money{color:var(--amber);}
+  #focus h4.act{color:var(--green);}
+  #focus .kpi{display:flex; gap:8px; margin:10px 0;}
+  #focus .kpi .box{flex:1; border:1px solid var(--line); border-radius:6px; padding:8px 4px; text-align:center; background:var(--panel);}
+  #focus .kpi .n{font-size:16px; font-weight:700; color:var(--cyan);}
+  #focus .kpi .l{font-size:8px; color:var(--dim); letter-spacing:.08em; text-transform:uppercase; margin-top:2px;}
+  #focus ul{list-style:none;}
+  #focus li{padding:5px 0; border-bottom:1px solid rgba(28,43,68,.35); font-size:11px;}
+  #focus li b{color:var(--amber);}
+  #focus .contact{display:flex; flex-wrap:wrap; gap:6px; margin-top:6px;}
+  #focus .contact a, #focus .contact span{font-size:10px; padding:4px 8px; border:1px solid var(--line); border-radius:5px;
+        color:var(--txt); text-decoration:none; background:var(--panel);}
+  #focus .contact a:hover{border-color:var(--cyan); color:var(--cyan);}
+  #focus .script{background:var(--panel); border:1px solid var(--line); border-left:2px solid var(--green); border-radius:4px;
+        padding:8px 10px; font-size:10.5px; color:var(--txt); line-height:1.55; margin-top:6px; white-space:pre-wrap;}
+  #focus .verdict{font-size:10px; padding:5px 8px; border-radius:5px; margin:8px 0; letter-spacing:.06em;}
+  .verdict.target{background:rgba(126,224,138,.1); border:1px solid var(--green); color:var(--green);}
+  .verdict.defend{background:rgba(255,180,84,.1); border:1px solid var(--amber); color:var(--amber);}
+  .verdict.safe{background:rgba(92,113,150,.1); border:1px solid var(--line); color:var(--dim);}
+  .maplibregl-popup-content{background:#0b111c;color:var(--txt);border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:11px;padding:8px 10px;}
+  .maplibregl-popup-tip{border-top-color:var(--line)!important;border-bottom-color:var(--line)!important;}
+  .maplibregl-ctrl-group{background:#0b111c!important;border:1px solid var(--line)!important;}
+  ::-webkit-scrollbar{width:8px} ::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div id="hud">
+  <div class="brand"><span class="dot"></span>GOD'S EYE <span style="color:var(--dim);font-weight:400">· FL ORGANIZING CONSOLE</span></div>
+  <div id="findreps">
+    <input id="addr" type="text" placeholder="STREET ADDRESS, CITY — FIND YOUR REPS" autocomplete="off" />
+    <button class="btn" id="findbtn">LOCATE</button>
+  </div>
+  <div class="spacer"></div>
+  <div id="views">
+    <div class="view-tab on" data-view="districts">Districts</div>
+    <div class="view-tab vt-margins" data-view="margins">Margins '22</div>
+    <div class="view-tab vt-shift" data-view="shift">County Shift</div>
+    <div class="view-tab vt-money" data-view="money">Money</div>
+  </div>
+  <div id="chamber">
+    <div class="view-tab on" data-ch="house">House</div>
+    <div class="view-tab" data-ch="senate">Senate</div>
+  </div>
+</div>
+
+<div id="status">INITIALIZING…</div>
+
+<div id="board">
+  <div class="bhead">
+    <h3>⚑ Target Board</h3>
+    <p id="board-desc">2022 general margins. FLIP = Dem-held or within 8pts — where organizing moves seats. DEFEND = vulnerable Dem seats.</p>
+  </div>
+  <div class="blist" id="blist"></div>
+</div>
+
+<div id="legend">
+  <h4 id="legend-title">DISTRICT CHAMBERS</h4>
+  <div id="legend-body"></div>
+</div>
+
+<div id="focus">
+  <div class="head">
+    <span class="close" onclick="closeFocus()">✕</span>
+    <div class="t" id="f-title">—</div>
+    <div class="s" id="f-sub">—</div>
+  </div>
+  <div class="body" id="f-body"></div>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>window.GEP_API_BASE = '/gep/api';</script>
+<script src="/gep/app.js?v=3"></script>
+</body>
+</html>

@@ -32,10 +32,11 @@
 		</a>
 		<div class="nav-links">
 			<a href="/ledger">Corruption Ledger</a>
+			<a href="/gep">God's Eye</a>
 			<a href="#projects">Projects</a>
 			<a href="#mission">Mission</a>
 			<a href="#stream">Stream</a>
-			<a href="https://github.com/techydad05/leftydevkit" target="_blank">GitHub</a>
+			      <a href="https://github.com/leftydevkit/leftydevkit" target="_blank">GitHub</a>
 		</div>
 	</div>
 </nav>
@@ -46,7 +47,7 @@
 
 <footer>
 	<div class="container">
-		<p>LeftyDevKit — <a href="https://github.com/techydad05/leftydevkit">open source</a> &bull; MIT license &bull; Free for progressive candidates and organizers</p>
-		<p style="margin-top: 8px; font-size: 0.8rem;">Built in public on stream. Every line of code, every shitpost, every build failure — <a href="https://github.com/techydad05/leftydevkit">watch it happen</a>.</p>
+		    <p>LeftyDevKit — <a href="https://github.com/leftydevkit/leftydevkit">open source</a> &bull; MIT license &bull; Free for progressive candidates and organizers</p>
+		    <p style="margin-top: 8px; font-size: 0.8rem;">Built in public on stream. Every line of code, every shitpost, every build failure — <a href="https://github.com/leftydevkit/leftydevkit">watch it happen</a>.</p>
 	</div>
 </footer>
