@@ -1,7 +1,7 @@
 .git
 .gitignore
 **/node_modules
-**/build
+apps/website/build
 **/.svelte-kit
 **/package-lock.json.tmp
 brand
