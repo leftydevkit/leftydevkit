@@ -105,6 +105,12 @@
   .verdict.target{background:rgba(126,224,138,.1); border:1px solid var(--green); color:var(--green);}
   .verdict.defend{background:rgba(255,180,84,.1); border:1px solid var(--amber); color:var(--amber);}
   .verdict.safe{background:rgba(92,113,150,.1); border:1px solid var(--line); color:var(--dim);}
+  /* site nav (single header menu, styled to match the app HUD) */
+  #sitenav{display:flex; gap:12px; align-items:center;}
+  #sitenav a{color:var(--dim); text-decoration:none; font-size:11px; letter-spacing:.08em; padding:4px 0; transition:color .15s;}
+  #sitenav a:hover{color:var(--txt);}
+  #sitenav a::before{content:""; display:none;}
+  #sitenav a[data-here]{color:var(--cyan); font-weight:700; }
   .maplibregl-popup-content{background:#0b111c;color:var(--txt);border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:11px;padding:8px 10px;}
   .maplibregl-popup-tip{border-top-color:var(--line)!important;border-bottom-color:var(--line)!important;}
   .maplibregl-ctrl-group{background:#0b111c!important;border:1px solid var(--line)!important;}
@@ -116,6 +122,12 @@
 
 <div id="hud">
   <div class="brand"><span class="dot"></span>GOD'S EYE <span style="color:var(--dim);font-weight:400">· FL ORGANIZING CONSOLE</span></div>
+  <nav id="sitenav" aria-label="Site">
+    <a href="/" class="nav-home">Home</a>
+    <a href="/ledger">Ledger</a>
+    <a href="/gep" data-here="1">God's Eye</a>
+    <a href="https://github.com/leftydevkit/leftydevkit" target="_blank">GitHub</a>
+  </nav>
   <div id="findreps">
     <input id="addr" type="text" placeholder="STREET ADDRESS, CITY — FIND YOUR REPS" autocomplete="off" />
     <button class="btn" id="findbtn">LOCATE</button>
