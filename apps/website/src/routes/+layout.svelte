@@ -31,12 +31,10 @@
 			<span class="logo-text">Lefty<span>DevKit</span></span>
 		</a>
 		<div class="nav-links">
+			<a href="/">Home</a>
 			<a href="/ledger">Corruption Ledger</a>
 			<a href="/gep">God's Eye</a>
-			<a href="#projects">Projects</a>
-			<a href="#mission">Mission</a>
-			<a href="#stream">Stream</a>
-			      <a href="https://github.com/leftydevkit/leftydevkit" target="_blank">GitHub</a>
+			<a href="https://github.com/leftydevkit/leftydevkit" target="_blank">GitHub</a>
 		</div>
 	</div>
 </nav>
