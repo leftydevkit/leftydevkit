@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LDK Counter — stream overlay</title>
+<style>
+  :root{ --amber:#ffd166; --paper:#f2f0ec; --dim:#a7adba; --blue:#3ba6f2; }
+  html,body{ margin:0; height:100%; background:transparent; overflow:hidden; }
+  body{ font-family:ui-monospace,'JetBrains Mono',Consolas,monospace; color:var(--paper);
+        display:flex; align-items:center; justify-content:center; }
+  .wrap{ width:min(92vw,1200px); display:flex; flex-direction:column; gap:2.2vh; }
+  .block{ padding:1.7vh 2vw; border-left:4px solid var(--blue); background:rgba(5,10,24,.55); }
+  .block.acc{ border-left-color:var(--amber); }
+  .lab{ font-size:clamp(12px,1.4vw,20px); letter-spacing:.14em; text-transform:uppercase; color:var(--dim); }
+  .num{ font-size:clamp(34px,6.2vw,92px); font-weight:800; letter-spacing:-.02em;
+        font-variant-numeric:tabular-nums; line-height:1.05; }
+  .block.acc .num{ color:var(--amber); }
+  .sub{ font-size:clamp(10px,1.1vw,16px); color:var(--dim); margin-top:.7vh; }
+  .sub b{ color:var(--paper); font-weight:600; }
+  @media (orientation:portrait){
+    .wrap{ width:92vw; gap:2.6vh; }
+    .num{ font-size:clamp(30px,7.4vw,86px); }
+    .sub{ font-size:clamp(11px,2.2vw,18px); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="block">
+    <div class="lab">Documented corruption</div>
+    <div class="num" id="total">$3,336,410,000</div>
+    <div class="sub"><b>44</b> verified incidents &middot; <b>66</b> citations &middot; since Jan 16 2025 &middot; <b>71</b> awaiting verification</div>
+  </div>
+  <div class="block acc">
+    <div class="lab">Interest accrued on the money</div>
+    <div class="num" id="accrued">$60,650,288</div>
+    <div class="sub">+<b id="perday">$229,731</b>/day &middot; <b id="persec">$2.66</b>/sec &middot; 3-month Treasury 3.87%</div>
+  </div>
+</div>
+<script>
+  const $ = s => document.querySelector(s);
+  const fmt = n => '$' + Math.round(n).toLocaleString('en-US');
+  let perSec = 2.65892, accrued = 60650288, last = performance.now();
+  fetch('/data/counter.json', { cache: 'no-cache' })
+    .then(r => r.json())
+    .then(c => {
+      $('#total').textContent = fmt(c.verified.total);
+      $('#perday').textContent = '$' + Math.round(c.interest.per_day).toLocaleString('en-US');
+      $('#persec').textContent = '$' + c.interest.per_second.toFixed(2);
+      perSec = c.interest.per_second;
+      const baseAt = new Date(c.interest.accrued_base_as_of + 'T00:00:00Z').getTime();
+      accrued = c.interest.accrued_base + perSec * Math.max(0, (Date.now() - baseAt) / 1000);
+    })
+    .catch(() => { /* keep the baked-in values */ });
+  setInterval(() => {
+    const now = performance.now();
+    accrued += perSec * (now - last) / 1000;
+    last = now;
+    $('#accrued').textContent = fmt(accrued);
+  }, 1000);
+</script>
+</body>
+</html>

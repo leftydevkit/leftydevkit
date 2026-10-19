@@ -1,0 +1,50 @@
+{
+  "verified": {
+    "total": 3336410000,
+    "flow_to_trump": 2166710000,
+    "public_cost": 1169700000,
+    "incidents": 49,
+    "citations": 67,
+    "pending": 71,
+    "since": "2025-01-16",
+    "data_through": "2026-10-09",
+    "snapshot": "2026-10-19"
+  },
+  "crypto": {
+    "family_proceeds": 2300000000,
+    "wlf_to_family": 1600000000,
+    "oge_2025_income": 1435000000,
+    "source": "Reuters 2026-08-17 (family crypto proceeds); OGE 2025 filing via Reuters 2026-06-30"
+  },
+  "stocks": {
+    "trades_year_one": 21000,
+    "q1_2026_trades": 3642,
+    "q1_2026_value": 220000000,
+    "aug_2026_trades": 517,
+    "portfolio_max": 269400000,
+    "biden_trades_tenure": 13,
+    "estimate_unrealized_gain": 41300000,
+    "estimate_source": "Quantellect estimate, trailing 12 months to 2026-10-16 — unrealized, not in the verified total",
+    "sources": [
+      "ABC News 2026-06-30 (21,000 trades, first year)",
+      "OGE 278-T via TMGM/Yahoo 2026-05-16 (3,642 trades, $220M, Q1 2026)",
+      "Standing Record 2026-10-08 (517 August trades, up to $25M Meta)"
+    ]
+  },
+  "rate": {
+    "pct": 3.87,
+    "as_of": "2026-09-30",
+    "source": "U.S. Treasury, average interest rate on 3-month bills"
+  },
+  "interest": {
+    "principal": 2166710000,
+    "per_day": 229730.62,
+    "per_second": 2.65892,
+    "per_hour": 9572.11,
+    "per_40h": 382884.37,
+    "household_years_per_40h": 4.38,
+    "accrued_base": 60650288,
+    "accrued_base_as_of": "2026-10-18",
+    "method": "simple interest at the 3-month Treasury rate, no compounding; accrues from each incident's documented date"
+  }
+}

@@ -26,10 +26,10 @@
 	// Bundled snapshot = instant render even if tracker is down. Live API refreshes it.
 	let data = $state<LedgerData>({
 		counter: {
-			verified_incidents: 44, unverified_pending: 71,
+			verified_incidents: 49, unverified_pending: 71,
 			total_flow_to_trump: 2166710000, total_cost_to_public: 1169700000,
 			documented_deal_value: 567416100000, first_date: '2025-01-16',
-			last_date: '2026-06-30', citation_count: 66
+			last_date: '2026-10-09', citation_count: 67
 		},
 		by_category: {}, incidents: []
 	});

@@ -25,10 +25,12 @@ function findHome(): string {
   throw new Error('3d-home.html not found');
 }
 
-const HOME = readFileSync(findHome(), 'utf8');
+const HOME = findHome();
 
 export function GET() {
-  return new Response(HOME, {
+  // Re-read per request so local edits show up without restarting the dev server.
+  const html = readFileSync(HOME, 'utf8');
+  return new Response(html, {
     headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, max-age=60' }
   });
 }

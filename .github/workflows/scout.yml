@@ -1,0 +1,31 @@
+name: corruption-scout
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # daily, 11:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run scout
+        run: python tools/scout.py --days 2
+      - name: Commit candidates
+        run: |
+          git config user.name "ldk-scout"
+          git config user.email "scout@leftydevkit.local"
+          git add apps/website/static/data/candidates.json
+          if git diff --cached --quiet; then
+            echo "no new candidates"
+          else
+            git commit -m "scout: candidates $(date -u +%F)"
+            git push
+          fi

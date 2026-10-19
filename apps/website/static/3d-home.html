@@ -230,10 +230,15 @@ h2.display em{font-style:normal;color:var(--blue)}
 .counter-body .note{font-size:11px;color:var(--dim);margin-top:8px;line-height:1.6}
 .counter-bump{display:none;margin-top:12px;font-size:11px;color:var(--amber);animation:flashIn .5s var(--ease)}
 .counter-bump.show{display:block}
+/* real-data counter: accrued interest block */
+.counter-body .accrual{margin-top:18px;padding-top:14px;border-top:1px solid var(--line-2)}
+.accrual .acc-l{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);line-height:1.5}
+.accrual .acc-n{font-size:clamp(1.35rem,2.2vw,1.75rem);font-weight:800;color:var(--amber);font-variant-numeric:tabular-nums;margin-top:5px}
+.accrual .acc-r{font-size:10px;color:var(--dim);margin-top:5px}
+.accrual .acc-r b{color:var(--amber)}
+.accrual .acc-r span{color:var(--amber)}
 @keyframes flashIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
-.hero-scrollhint{position:absolute;bottom:74px;left:50%;transform:translateX(-50%);font-family:var(--font-m);font-size:10px;letter-spacing:.3em;color:var(--dim);text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:8px}
-.hero-scrollhint::after{content:"▼";font-size:12px;animation:drop 1.6s infinite}
-@keyframes drop{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(6px);opacity:1}}
+
 
 /* ═══════════ TICKER (fixed bottom) ═══════════ */
 #ticker{
@@ -360,83 +365,6 @@ h2.display em{font-style:normal;color:var(--blue)}
 
 @media(max-width:640px){.li-body{grid-template-columns:1fr}}
 
-/* ═══════════ MANIFESTO TERMINAL ═══════════ */
-#manifesto .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,5vw,80px);align-items:start}
-.term{
-  background:#070d1f;border:1px solid var(--line);border-radius:10px;overflow:hidden;
-  box-shadow:0 30px 90px rgba(0,0,0,.65),0 0 0 1px rgba(0,0,0,.5);
-}
-.term-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:var(--ink-2);border-bottom:1px solid var(--line-2)}
-.term-bar i{width:11px;height:11px;border-radius:50%}
-.term-bar i:nth-child(1){background:#ff5f57} .term-bar i:nth-child(2){background:#febc2e} .term-bar i:nth-child(3){background:#28c840}
-.term-bar .tt{margin-left:10px;font-family:var(--font-m);font-size:11px;color:var(--dim)}
-.term-body{
-  padding:20px 20px 24px;font-family:var(--font-m);font-size:13px;line-height:1.85;
-  min-height:340px;max-height:420px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--blue) transparent;
-}
-.term-body::-webkit-scrollbar{width:6px}
-.term-body::-webkit-scrollbar-thumb{background:var(--blue);border-radius:3px}
-.tline{white-space:pre-wrap;word-break:break-word}
-.tline.prompt{color:var(--green)}
-.tline.out{color:var(--paper)}
-.tline.dim{color:var(--muted)}
-.tline.err{color:var(--amber)}
-.tline.ok{color:var(--green)}
-.tline .cur{display:inline-block;width:9px;height:14px;background:var(--green);vertical-align:-2px;animation:blink 1.1s infinite}
-.term-cmds{display:flex;flex-wrap:wrap;gap:10px;padding:14px 16px;border-top:1px solid var(--line-2);background:rgba(255,255,255,.015)}
-.tcmd{
-  font-family:var(--font-m);font-size:11px;color:var(--blue);
-  border:1px solid var(--line);border-radius:4px;padding:8px 12px;
-  transition:background .2s,color .2s;white-space:nowrap;
-}
-.tcmd:hover{background:var(--blue);color:var(--ink)}
-.tcmd:disabled{opacity:.4;cursor:default;pointer-events:none}
-
-/* ── THE LAPTOP — a terminal laptop that flips open into a section ── */
-.laptop{
-  position:relative; margin-top:34px;
-  perspective:1500px;
-}
-.laptop-lid{
-  position:relative;
-  transform-origin:50% 100%;
-  transform:rotateX(-88deg);
-  transform-style:preserve-3d;
-  transition:transform 1.15s cubic-bezier(.19,1,.22,1);
-  will-change:transform;
-}
-.laptop.open .laptop-lid{ transform:rotateX(0deg); }
-.laptop-lid .term{ border-radius:14px 14px 2px 2px; }
-.laptop-lid::after{ /* screen glass rim */
-  content:""; position:absolute; inset:0; z-index:2;
-  border:1px solid rgba(125,211,252,.4); border-radius:14px 14px 2px 2px;
-  pointer-events:none;
-}
-.lid-boot{
-  position:absolute; inset:0; z-index:3; pointer-events:none;
-  background:linear-gradient(115deg, transparent 28%, rgba(125,211,252,.3) 50%, transparent 72%);
-  transform:translateX(-130%); opacity:0;
-}
-.laptop.open .lid-boot{ animation:lidShine 1.5s ease .55s forwards; }
-@keyframes lidShine{
-  0%{transform:translateX(-130%); opacity:0}
-  22%{opacity:1}
-  100%{transform:translateX(130%); opacity:0}
-}
-.laptop-base{
-  position:relative; margin-top:9px; height:76px;
-  background:linear-gradient(180deg,#18243c,#0d1526);
-  border:1px solid var(--line-2); border-radius:10px 10px 20px 20px;
-  box-shadow:0 24px 60px rgba(0,0,0,.5);
-  display:flex; align-items:center; justify-content:center;
-}
-.laptop-base::before{ /* trackpad */
-  content:""; position:absolute; width:190px; height:36px; bottom:9px;
-  background:#0a1120; border:1px solid var(--line-2); border-radius:9px;
-}
-.kb{ display:flex; gap:5px; margin-top:-8px; opacity:.92; }
-.kb i{ width:17px; height:16px; border-radius:3px; background:#22324d; border:1px solid #2f435f; }
-
 /* ═══════════ JOIN ═══════════ */
 #join .panel{padding:clamp(34px,5vw,70px);text-align:left;position:relative;overflow:hidden}
 #join .panel::before{
@@ -497,7 +425,6 @@ body.fight #fightflash{animation:fflash .5s}
   #manifesto .wrap,#stack .wrap,#mission .wrap{grid-template-columns:1fr}
   .hero-grid{grid-template-columns:1fr}
   .counter-panel{margin-left:0;margin-top:30px}
-  .hero-scrollhint{display:none}
   /* shrink the laptop/terminal so it fits single-column mobile layouts */
   .laptop{margin-top:24px}
   .term-body{min-height:0;max-height:340px;padding:16px 16px 20px;font-size:12px;line-height:1.75}
@@ -523,6 +450,85 @@ body.fight #fightflash{animation:fflash .5s}
   .laptop-base::before{width:92px;height:18px;bottom:5px;border-radius:6px}
   .kb{max-width:200px;gap:3px;margin-top:-4px}
   .kb i{width:9px;height:9px;border-radius:2px}
+}
+
+/* ═══════════ 2026-10-18 REDESIGN ═══════════ */
+/* hero: copy left, particle art in the open right half, ledger becomes a bar */
+.hero-grid{grid-template-columns:minmax(0,1.02fr) .98fr;align-items:center;min-height:min(48vh,440px)}
+.hero-copy{max-width:60ch}
+.hero-title{font-size:clamp(2.45rem,6.6vw,4.6rem)}
+.hero-sub{margin-top:14px}
+.hero-cta{margin-top:16px}
+#hero{padding-top:clamp(52px,7.4vh,84px);padding-bottom:clamp(10px,2vh,20px)}
+.ledger-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-2);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:clamp(12px,2vh,20px)}
+.lb-cell{background:rgba(5,10,24,.55);padding:11px 16px;font-family:var(--font-m)}
+.lb-l{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+.lb-n{display:block;font-size:clamp(1.15rem,2.1vw,1.7rem);font-weight:800;font-variant-numeric:tabular-nums;margin-top:5px;letter-spacing:-.01em}
+.lb-cell.acc .lb-n{color:var(--amber)}
+
+/* section headers with a number chip */
+.sec-head{display:flex;gap:clamp(14px,2.4vw,30px);align-items:flex-start;margin-bottom:clamp(20px,4vh,36px)}
+.sec-no{font-family:var(--font-m);font-size:11px;color:var(--blue);border:1px solid var(--line);
+  padding:7px 10px;border-radius:99px;line-height:1;margin-top:12px}
+.note{font-size:11.5px;color:var(--dim);line-height:1.8;margin-top:18px;max-width:74ch}
+.note a{color:var(--blue)}
+
+/* receipts: hairline ledger table instead of cards */
+.ledger-table{border-top:1px solid var(--line);margin-top:clamp(22px,4vh,40px)}
+.lt-row{display:grid;grid-template-columns:1.05fr .85fr 1.5fr;gap:clamp(12px,2vw,28px);
+  align-items:baseline;padding:16px 4px;border-bottom:1px solid var(--line-2);
+  background:rgba(5,10,24,.22);transition:background .2s}
+.lt-row:hover{background:rgba(59,166,242,.055)}
+.lt-k{font-family:var(--font-m);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim)}
+.lt-v{font-size:clamp(1.25rem,2.4vw,2rem);font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.lt-s{font-family:var(--font-m);font-size:11px;color:var(--muted);line-height:1.6}
+.lt-row.acc .lt-v{color:var(--amber)}
+
+/* work: numbered editorial rows */
+.work-list{border-top:1px solid var(--line);margin-top:clamp(22px,4vh,40px)}
+.work-row{display:grid;grid-template-columns:48px 1.05fr 1.6fr auto;gap:clamp(12px,2vw,26px);
+  align-items:baseline;padding:20px 4px;border-bottom:1px solid var(--line-2);
+  background:rgba(5,10,24,.24);transition:background .2s}
+.work-row:hover{background:rgba(59,166,242,.06)}
+.wr-n{font-family:var(--font-m);font-size:11px;color:var(--blue)}
+.work-row h3{font-size:clamp(1rem,1.6vw,1.3rem);font-weight:700;line-height:1.25}
+.work-row p{color:var(--muted);font-size:.95rem;line-height:1.6}
+.wr-tag{font-family:var(--font-m);font-size:10px;color:var(--green);white-space:nowrap;justify-self:end}
+
+/* join band */
+.join-band{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(24px,4vw,56px);align-items:center}
+.join-band .display{font-size:clamp(2rem,4.6vw,3.6rem)}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tag-row span{font-family:var(--font-m);font-size:11px;color:var(--muted);
+  border:1px solid var(--line-2);padding:5px 10px;border-radius:99px}
+.btn.big{padding:16px 26px;font-size:.98rem;letter-spacing:.02em}
+.stamp{font-family:var(--font-m);font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--dim);margin-top:18px}
+
+/* panels translucent so the particle art reads through the page */
+:root{--panel:rgba(6,12,28,.32)}
+
+@media (max-width:1020px){
+  .hero-grid{grid-template-columns:1fr;min-height:0}
+  .hero-copy{max-width:100%}
+  .ledger-bar{grid-template-columns:1fr 1fr}
+  .lt-row{grid-template-columns:1fr;gap:5px;padding:14px 2px}
+  .work-row{grid-template-columns:34px 1fr;gap:6px 12px;padding:16px 2px}
+  .work-row p{grid-column:2}
+  .wr-tag{grid-column:2;justify-self:start;margin-top:4px}
+  .join-band{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .nav-cta{display:none}
+  .brand .w{font-size:18px}
+  .brand-fist{width:28px;height:42px}
+  .hero-title{font-size:clamp(2.2rem,9.5vw,3rem)}
+  #hero{padding-top:clamp(74px,10vh,92px)}
+  .lb-cell{padding:10px 12px}
+  .lb-n{font-size:1.1rem}
+  .work-row h3{font-size:1rem}
+  .join-band .display{font-size:clamp(1.8rem,8vw,2.4rem)}
 }
 </style>
 </head>
@@ -559,17 +565,16 @@ window.addEventListener('unhandledrejection', function(e){
   <button id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
   <nav id="navmenu" aria-label="Primary">
     <ul>
-      <li><a href="#mission">Mission</a></li>
-      <li><a href="#stack">The Machine</a></li>
-      <li><a href="#arsenal">Arsenal</a></li>
+      <li><a href="#receipts">Receipts</a></li>
+      <li><a href="#work">What I do</a></li>
       <li><a href="/ledger">Ledger</a></li>
       <li><a href="/gep">God's Eye</a></li>
-      <li><a href="#manifesto">Manifesto</a></li>
+      <li><a href="#join">Join</a></li>
     </ul>
   </nav>
   <div class="nav-cta">
     <span class="live-pill"><i></i>BUILT IN PUBLIC</span>
-    <a class="btn ghost" href="#join" data-magnet>Join</a>
+    <a class="btn ghost" href="https://discord.gg/nT48mNZ53" target="_blank" rel="noopener" data-magnet>Discord</a>
   </div>
 </header>
 
@@ -577,7 +582,7 @@ window.addEventListener('unhandledrejection', function(e){
   <!-- SECTION: HERO -->
   <section id="hero">
     <div class="wrap hero-grid">
-      <div>
+      <div class="hero-copy">
         <div class="kicker" data-scramble>system.reclaim();</div>
         <h1 class="hero-title" aria-label="Code. Organize. Resist.">
           <span class="misreg" data-txt="CODE." data-scramble>CODE.</span>
@@ -585,243 +590,178 @@ window.addEventListener('unhandledrejection', function(e){
           <span class="m3 misreg" data-txt="RESIST." data-scramble>RESIST.</span>
         </h1>
         <p class="hero-sub">
-          Open-source <b>progressive civic-tech</b> — free for candidates and organizers
-          who align with our values. The right wing pours billionaire money into political
-          tech infrastructure. <b>We compete with people who believe in something bigger
-          than themselves.</b>
+          I build the tools the left is missing — <b>in public, on stream, on hardware you
+          already own</b>. No VC. No dark money. No surveillance. Free for anyone aligned.
         </p>
         <div class="hero-cta">
-          <a class="btn solid" href="#arsenal" data-magnet>Enter the Arsenal</a>
-          <a class="btn" href="#manifesto" data-magnet>Read the Manifesto</a>
-        </div>
-        <div class="hero-cmd" aria-hidden="true">
-          <span class="p">leftydevdad@leftydevkit:~$</span> <span class="c">./organize --all --quiet</span><span class="blink"></span>
-        </div>
-      </div>
-      <!-- LIVE corruption counter (it only goes up) -->
-      <div class="counter-panel brk panel" data-reveal>
-        <div class="counter-head">
-          <span class="t">Corruption Counter</span>
-          <span class="st">▲ LIVE</span>
-        </div>
-        <div class="counter-body">
-          <div class="amt"><b>$</b><span id="ccount">1,234,567</span></div>
-          <div class="note">estimated lobbyist dollars spent since this page loaded.<br>tracked in public by the <b>corruption-counter</b> project.</div>
-          <div class="counter-bump" id="cbump">⚠ lobbyist detected</div>
+          <a class="btn solid" href="https://discord.gg/nT48mNZ53" target="_blank" rel="noopener" data-magnet>Join the Discord</a>
+          <a class="btn" href="#receipts" data-magnet>See the receipts</a>
         </div>
       </div>
     </div>
-    <div class="hero-scrollhint">scroll to breach the firewall</div>
-  </section>
-
-  <!-- SECTION: MISSION -->
-  <section id="mission">
     <div class="wrap">
-      <div data-reveal>
-        <div class="kicker" data-scramble>/ why we build</div>
-        <p class="quote">
-          The right wing pours <span class="r">billionaire money</span> into political
-          tech infrastructure. The left competes with people who believe in something
-          <span class="g">bigger than themselves</span>.
-        </p>
-        <p class="lede" style="margin-top:28px" data-reveal>
-          LeftyDevKit is the toolkit for that fight — <b>built in public, one stream at a
-          time</b>. Every repo, every pull request, every build failure on stream. No dark
-          patterns. No surveillance. Just tools for the people who need them.
-        </p>
-      </div>
-      <div class="stat-grid" style="margin-top:8px">
-        <div class="stat panel brk" data-reveal style="--d:.05s">
-          <div class="n r" id="cstat">$1,234,567</div>
-          <div class="l">lobbyist dollars <b>tracked</b></div>
+      <div class="ledger-bar" data-reveal>
+        <div class="lb-cell">
+          <span class="lb-l">documented · 49 incidents</span>
+          <span class="lb-n" id="ccount">$3,336,410,000</span>
         </div>
-        <div class="stat panel brk" data-reveal style="--d:.12s">
-          <div class="n g">12,847</div>
-          <div class="l">neighbors <b>organized</b></div>
+        <div class="lb-cell">
+          <span class="lb-l">interest / day</span>
+          <span class="lb-n" id="perday">$229,731</span>
         </div>
-        <div class="stat panel brk" data-reveal style="--d:.19s">
-          <div class="n am">∞</div>
-          <div class="l">lines of code <b>(one stream at a time)</b></div>
+        <div class="lb-cell">
+          <span class="lb-l">interest / 40-hr week</span>
+          <span class="lb-n">$382,884</span>
         </div>
-        <div class="stat panel brk" data-reveal style="--d:.26s">
-          <div class="n">100%</div>
-          <div class="l">built <b>in public</b></div>
+        <div class="lb-cell acc">
+          <span class="lb-l">accrued on the money</span>
+          <span class="lb-n" id="accrued">$60,650,288</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION: STACK -->
-  <section id="stack">
+  <!-- SECTION: RECEIPTS -->
+  <section id="receipts">
     <div class="wrap">
-      <div data-reveal>
-        <div class="kicker" data-scramble>/ the machine</div>
-        <h2 class="display">A stack that <em>fights back</em></h2>
-        <p class="lede">
-          Everything runs on free and open tools. Local-first where it matters — your
-          data, your hardware, your movement. No VC-backed surveillance cloud required.
-        </p>
-        <p class="mono" style="margin-top:22px;font-size:12px;color:var(--dim)">
-          $ uname -a<br>linux resistance 6.1.0-revolution #1 SMP PREEMPT_DYNAMIC<br>built in public on stream, every thursday night
-        </p>
+      <div class="sec-head" data-reveal>
+        <span class="sec-no">01</span>
+        <div>
+          <div class="kicker" data-scramble>the receipts</div>
+          <h2 class="display">The number is a <em>floor</em></h2>
+        </div>
       </div>
-      <div class="stack-grid" style="margin-top:8px">
-        <div class="schip panel brk" data-reveal><div class="nm">SvelteKit</div><div class="tg">web</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.04s"><div class="nm">Three.js</div><div class="tg">this page</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.08s"><div class="nm">Python</div><div class="tg">backbone</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.12s"><div class="nm">Freqtrade</div><div class="tg">the fund</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.16s"><div class="nm">OBS Studio</div><div class="tg">broadcast</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.2s"><div class="nm">Kokoro TTS</div><div class="tg">cohost voice</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.24s"><div class="nm">llama.cpp</div><div class="tg">local brain</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.28s"><div class="nm">Coolify</div><div class="tg">deploy</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.32s"><div class="nm">YouTube Live</div><div class="tg">the stream</div></div>
-        <div class="schip panel brk" data-reveal style="--d:.36s"><div class="nm">GitHub</div><div class="tg">history</div></div>
+      <p class="lede" data-reveal style="max-width:64ch">
+        Verified incidents only, each with a primary-source citation — the part that
+        survives a fact-check. Everything else is documented separately.
+      </p>
+      <div class="ledger-table" data-reveal>
+        <div class="lt-row">
+          <span class="lt-k">verified total</span>
+          <span class="lt-v">$3,336,410,000</span>
+          <span class="lt-s">49 incidents · 67 citations · 2025-01-16 → 2026-10-09</span>
+        </div>
+        <div class="lt-row">
+          <span class="lt-k">to Trump &amp; family</span>
+          <span class="lt-v">$2,166,710,000</span>
+          <span class="lt-s">8 incidents carry the money · the rest is public cost</span>
+        </div>
+        <div class="lt-row acc">
+          <span class="lt-k">interest / day</span>
+          <span class="lt-v">$229,731</span>
+          <span class="lt-s">$2.66/sec at the 3-month Treasury rate · simple, no compounding</span>
+        </div>
+        <div class="lt-row">
+          <span class="lt-k">interest / 40-hour week</span>
+          <span class="lt-v">$382,884</span>
+          <span class="lt-s">40 of the week's 168 hours · 4.4 years of median household income ($87,460)</span>
+        </div>
+        <div class="lt-row">
+          <span class="lt-k">crypto to the family</span>
+          <span class="lt-v">$2.3B</span>
+          <span class="lt-s">Reuters, Aug 2026 · WLF $1.6B · OGE 2025 income $1.435B</span>
+        </div>
+        <div class="lt-row">
+          <span class="lt-k">securities trades, year one</span>
+          <span class="lt-v">21,000</span>
+          <span class="lt-s">3,642 in Q1 2026 alone ($220M+) · Biden: 13 in four years</span>
+        </div>
+        <div class="lt-row">
+          <span class="lt-k">est. trading gains</span>
+          <span class="lt-v">$41.3M</span>
+          <span class="lt-s">unrealized, third-party estimate (Quantellect, Oct 2026) — not in the total</span>
+        </div>
+        <div class="lt-row">
+          <span class="lt-k">awaiting verification</span>
+          <span class="lt-v">71</span>
+          <span class="lt-s">including the stock and bond trades, tracked separately</span>
+        </div>
       </div>
+      <p class="mono note" data-reveal>
+        interest = the $2,166,710,000 that went to Trump &amp; family × the 3-month Treasury
+        rate (3.87%, 2026-09-30) — a counterfactual floor, not a claim about his account.
+        sources: OGE filings · U.S. Treasury · Reuters · ABC · ProPublica · NYT · WSJ.
+        <a href="/ledger">full receipts →</a>
+      </p>
     </div>
   </section>
 
-  <!-- SECTION: ARSENAL -->
-  <section id="arsenal">
+  <!-- SECTION: WORK -->
+  <section id="work">
     <div class="wrap">
-      <div class="head">
-        <div data-reveal>
-          <div class="kicker" data-scramble>/ the arsenal</div>
-          <h2 class="display" style="margin-bottom:0">Tools for the <em>fight</em></h2>
+      <div class="sec-head" data-reveal>
+        <span class="sec-no">02</span>
+        <div>
+          <div class="kicker" data-scramble>what i can do</div>
+          <h2 class="display">Six things I can <em>ship</em></h2>
         </div>
-        <p class="mono" data-reveal style="font-size:12px;color:var(--dim)">hover to inspect // click to deploy</p>
       </div>
-      <div class="card-grid">
-        <article class="card panel brk tilt" data-reveal>
-          <span class="status live">live</span>
-          <span class="icon" aria-hidden="true">📈</span>
-          <h3>Corruption Counter</h3>
-          <p>a public ticker for the grift. every lobbyist dollar, every dark-money PAC — tracked in the open, because the receipts should embarrass them.</p>
-          <div class="foot">you can see it running above</div>
-          <div class="glare" aria-hidden="true"></div>
+      <p class="mono note" data-reveal>free for anyone aligned // donations keep the server on</p>
+      <div class="work-list" data-reveal>
+        <article class="work-row">
+          <span class="wr-n">01</span>
+          <h3>Campaign &amp; cause sites &amp; apps</h3>
+          <p>a candidate site, a quiz, a ledger, an organizing console — SvelteKit sites and static web apps on hardware you control. no vendor lock, no platform tax.</p>
+          <span class="wr-tag">live · amitheidiot.com · /ledger · /gep</span>
         </article>
-        <article class="card panel brk tilt" data-reveal style="--d:.06s">
-          <span class="status live">live</span>
-          <span class="icon" aria-hidden="true">🎛️</span>
-          <h3>Stream Overlay + AI Cohost</h3>
-          <p>a broadcast-grade battlefield HUD for the stream — chat, cam, tickers — plus a cohost who reads theory aloud so you can keep working.</p>
-          <div class="foot">the machine reads; you build</div>
-          <div class="glare" aria-hidden="true"></div>
+        <article class="work-row">
+          <span class="wr-n">02</span>
+          <h3>Stream production</h3>
+          <p>overlays, chat, ticker, scene control, vertical + landscape, background removal. the whole broadcast stack.</p>
+          <span class="wr-tag">live · stream-command-center</span>
         </article>
-        <article class="card panel brk tilt" data-reveal style="--d:.12s">
-          <span class="status beta">beta</span>
-          <span class="icon" aria-hidden="true">🛰️</span>
-          <h3>Social Ops Dashboard</h3>
-          <p>a left-twitter operations center — monitor the discourse, organize replies in formation, spot the bots, keep the receipts.</p>
-          <div class="foot">signal over noise</div>
-          <div class="glare" aria-hidden="true"></div>
+        <article class="work-row">
+          <span class="wr-n">03</span>
+          <h3>Local AI on your own GPU</h3>
+          <p>a cohost voice and a local LLM on hardware you already own. zero per-call fees, no cloud, no terms of service.</p>
+          <span class="wr-tag">live · Arc A770</span>
         </article>
-        <article class="card panel brk tilt" data-reveal style="--d:.18s">
-          <span class="status dev">in dev</span>
-          <span class="icon" aria-hidden="true">🗿</span>
-          <h3>amitheidiot</h3>
-          <p>a monument to the idiot. every dumb thing, archived forever, with receipts. built live on stream — the judge's ruling is final.</p>
-          <div class="foot">appeals not accepted</div>
-          <div class="glare" aria-hidden="true"></div>
+        <article class="work-row">
+          <span class="wr-n">04</span>
+          <h3>Clip → vertical short</h3>
+          <p>quote-timed cuts, captions, voiceover, music beds. a news clip becomes a 30–45s short the same evening.</p>
+          <span class="wr-tag">live · weekly</span>
         </article>
-        <article class="card panel brk tilt" data-reveal style="--d:.24s">
-          <span class="status dev">in dev</span>
-          <span class="icon" aria-hidden="true">📣</span>
-          <h3>Neighborhood Billboard</h3>
-          <p>hyperlocal organizing — put the message on the corner, not in the feed. flyers, meetups, mutual aid, all in one board.</p>
-          <div class="foot">offline-first, by design</div>
-          <div class="glare" aria-hidden="true"></div>
+        <article class="work-row">
+          <span class="wr-n">05</span>
+          <h3>Receipts &amp; trackers</h3>
+          <p>sourced data pages with a citation per row — the ledger on this site is one. built to survive someone checking.</p>
+          <span class="wr-tag">live · /ledger</span>
         </article>
-        <article class="card panel brk tilt" data-reveal style="--d:.3s">
-          <span class="status dev">in dev</span>
-          <span class="icon" aria-hidden="true">🛡️</span>
-          <h3>Protection Ring</h3>
-          <p>community safety tooling for mutual-aid crews — check-ins, alerts, and coordination that never routes through a cop.</p>
-          <div class="foot">care, not cages</div>
-          <div class="glare" aria-hidden="true"></div>
+        <article class="work-row">
+          <span class="wr-n">06</span>
+          <h3>Self-hosting &amp; deploy</h3>
+          <p>Coolify, TLS, access control, backups. your stack on your server — including this one, on a 1-vCPU cloud box.</p>
+          <span class="wr-tag">live · this server</span>
         </article>
-        <article class="card panel brk tilt" data-reveal style="--d:.36s">
-          <span class="status beta">yours?</span>
-          <span class="icon" aria-hidden="true">➕</span>
-          <h3>Your Project Here</h3>
-          <p>running for office? organizing a district? need a site, a tool, a scraper? free for progressive candidates and organizers. reach out on the stream.</p>
-          <div class="foot">built on stream, for you</div>
-          <div class="glare" aria-hidden="true"></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: MANIFESTO -->
-  <section id="manifesto">
-    <div class="wrap">
-      <div data-reveal>
-        <div class="kicker" data-scramble>/ the manifesto</div>
-        <h2 class="display">Read the <em>doctrine</em></h2>
-        <p class="lede">
-          No billionaire money. No dark patterns. Just tools — free for the people who
-          fight for a better world. The terminal below is real: click a command and watch
-          it run.
-        </p>
-        <p class="mono" style="margin-top:22px;font-size:12px;color:var(--dim)">
-          tip: type <b style="color:var(--blue)">while(!free)</b> anywhere on the page
-        </p>
-      </div>
-      <div class="laptop brk" data-reveal style="--d:.1s" id="laptop">
-        <div class="laptop-lid">
-          <div class="lid-boot"></div>
-          <div class="term">
-            <div class="term-bar">
-              <i></i><i></i><i></i>
-              <span class="tt">leftydevdad@leftydevkit: ~/revolution — bash</span>
-            </div>
-            <div class="term-body" id="termBody" role="log" aria-live="polite">
-              <div class="tline dim">LeftyDevKit OS 0.1.0-revolution — session opened</div>
-              <div class="tline prompt">leftydevdad@leftydevkit:~$ <span class="cur"></span></div>
-            </div>
-            <div class="term-cmds">
-              <button class="tcmd" data-cmd="ls /etc/revolution">ls /etc/revolution</button>
-              <button class="tcmd" data-cmd="cat manifesto.txt">cat manifesto.txt</button>
-              <button class="tcmd" data-cmd="system.reclaim()">system.reclaim()</button>
-              <button class="tcmd" data-cmd="./organize --district=all --quiet">./organize --district=all</button>
-              <button class="tcmd" data-cmd="apt install justice">apt install justice</button>
-              <button class="tcmd" data-cmd="while(!free){fight();}">while(!free){fight();}</button>
-              <button class="tcmd" data-cmd="git push origin revolution">git push origin revolution</button>
-            </div>
-          </div>
-        </div>
-        <div class="laptop-base">
-          <div class="kb">
-            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
   <!-- SECTION: JOIN -->
   <section id="join">
-    <div class="wrap">
-      <div class="panel join-grid" data-reveal>
-        <div>
-          <div class="kicker">/ deploy yourself</div>
-          <h2>Free for candidates &amp; <em>organizers</em></h2>
-          <p>
-            Need a website, a tool, or tech help? If you're building toward a better world,
-            it's free. These tools are built in public, on stream — come watch them get made,
-            or come get one made for you.
-          </p>
-          <div class="row">
-            <a class="btn solid" href="https://github.com/leftydevkit/leftydevkit" target="_blank" rel="noopener" data-magnet>★ Star the Repo</a>
-            <a class="btn" href="https://ldk.idevsites.com" target="_blank" rel="noopener" data-magnet>See the Kit</a>
-            <a class="btn ghost" href="#hero" data-magnet>Back to Top</a>
-          </div>
+    <div class="wrap join-band">
+      <div data-reveal>
+        <div class="kicker">join</div>
+        <h2 class="display">Free for anyone <em>aligned</em></h2>
+        <p class="lede">
+          If you're building toward a better world, the tools and the help are free —
+          donations keep the server on.
+        </p>
+        <div class="tag-row">
+          <span>web dev</span><span>marketing</span><span>social ad campaigns</span>
+          <span>brainstorming</span><span>learning</span><span>activism from home</span>
         </div>
-        <figure class="join-poster" data-reveal style="--d:.15s">
-          <img src="assets/reg-logo.jpg" alt="LeftyDevKit poster: a raised fist over a developer at a desk, a crowd behind them, SYSTEM.RECLAIM();">
-          <figcaption>the poster — <b>system.reclaim();</b></figcaption>
-        </figure>
+        <div class="hero-cta" style="margin-top:28px">
+          <a class="btn solid big" href="https://discord.gg/nT48mNZ53" target="_blank" rel="noopener" data-magnet>Join the Discord →</a>
+          <a class="btn" href="https://github.com/leftydevkit/leftydevkit" target="_blank" rel="noopener" data-magnet>★ The repo</a>
+        </div>
+        <p class="stamp">no right-wingers · no corporate democrats</p>
       </div>
+      <figure class="join-poster" data-reveal style="--d:.15s">
+        <img src="assets/reg-logo.jpg" alt="LeftyDevKit poster: a raised fist over a developer at a desk, a crowd behind them, SYSTEM.RECLAIM();">
+        <figcaption>the poster — <b>system.reclaim();</b></figcaption>
+      </figure>
     </div>
   </section>
 </main>
@@ -829,12 +769,14 @@ window.addEventListener('unhandledrejection', function(e){
 <!-- fixed bottom broadcast ticker -->
 <div id="ticker" aria-hidden="true">
   <div class="track">
-    <span>organize()</span><span>built in public</span><span>free for candidates &amp; organizers</span>
-    <span>seize the means of production</span><span>while(!free){fight();}</span><span>one stream at a time</span>
-    <span>code. organize. resist.</span><span>no billionaire money</span>
-    <span>organize()</span><span>built in public</span><span>free for candidates &amp; organizers</span>
-    <span>seize the means of production</span><span>while(!free){fight();}</span><span>one stream at a time</span>
-    <span>code. organize. resist.</span><span>no billionaire money</span>
+    <span>$3,336,410,000 documented</span><span>49 verified incidents</span><span>71 awaiting verification</span>
+    <span>$229,731/day in interest</span><span>$382,884 per 40-hour week</span><span>21,000 trades in year one</span><span>$2.3B crypto to the family</span>
+    <span>free for anyone aligned</span><span>donations keep the server on</span>
+    <span>code. organize. resist.</span><span>no right-wingers. no corporate dems.</span>
+    <span>$3,336,410,000 documented</span><span>49 verified incidents</span><span>71 awaiting verification</span>
+    <span>$229,731/day in interest</span><span>$382,884 per 40-hour week</span><span>21,000 trades in year one</span><span>$2.3B crypto to the family</span>
+    <span>free for anyone aligned</span><span>donations keep the server on</span>
+    <span>code. organize. resist.</span><span>no right-wingers. no corporate dems.</span>
   </div>
 </div>
 
@@ -844,7 +786,7 @@ window.addEventListener('unhandledrejection', function(e){
     <div class="mono">
       <div>LeftyDevKit — MIT licensed. <b style="color:var(--blue)">system.reclaim();</b></div>
       <div class="mit">"<b>do what you want, just make the world better.</b>"</div>
-      <div style="margin-top:6px">stream live — <b style="color:var(--blue)">@leftydevdad</b></div>
+      <div style="margin-top:6px">stream live — <b style="color:var(--blue)">@leftydevkit</b></div>
     </div>
     <div class="mono" style="text-align:right">
       <div>every line of code, every shitpost, every build failure —</div>
@@ -852,8 +794,8 @@ window.addEventListener('unhandledrejection', function(e){
     </div>
     <div class="links">
       <a href="https://github.com/leftydevkit/leftydevkit" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://ldk.idevsites.com" target="_blank" rel="noopener">Site</a>
-      <a href="#manifesto">Manifesto</a>
+      <a href="https://discord.gg/nT48mNZ53" target="_blank" rel="noopener">Discord</a>
+      <a href="#receipts">Receipts</a>
       <a href="#join">Join</a>
     </div>
   </div>
@@ -1006,8 +948,8 @@ const geo = new THREE.BufferGeometry();
 geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
 geo.setAttribute('color', new THREE.BufferAttribute(colA, 3));
 const mat = new THREE.PointsMaterial({
-  size: isMobile ? .05 : .045, vertexColors: true, transparent: true,
-  opacity: isMobile ? .52 : .6,          // mobile: cloud sits behind single-column text → keep it a faint hologram
+  size: isMobile ? .05 : .052, vertexColors: true, transparent: true,
+  opacity: isMobile ? .38 : .72,         // mobile: cloud sits behind single-column text → keep it a faint hologram
   blending: THREE.AdditiveBlending, depthWrite: false, sizeAttenuation: true
 });
 const cloud = new THREE.Points(geo, mat); scene.add(cloud);
@@ -1079,21 +1021,18 @@ function updateGather(t){
    Mobile: single-col layout — cloud CENTERED and scaled to the narrow
    viewport (wide shapes like THE PICKET 8.65u / reclaim() 9.79u would be
    badly cropped at phone aspect; camera also pulls back a touch). */
+const SHAPE_IDX = [0, 1, 2, 5];   // targets order: FIST, DESK, GEAR, COURTHOUSE, reclaim(), PICKET
 const K_DESKTOP = [
-  { p: 0.00, cam: { p: [0, .7, 8.6], l: [0, 1.2, 0] },  c: { p: [2.6, .7, 0], s: 1.00 } },   // hero — FIST
-  { p: 0.16, cam: { p: [1.4, .8, 7.4], l: [.4, 1.1, 0] }, c: { p: [2.4, .8, 0], s: .92 } },   // mission — AT THE DESK
-  { p: 0.35, cam: { p: [.2, 1.2, 6.4], l: [0, 1.2, 0] }, c: { p: [2.2, 1.0, 0], s: 1.02 } },  // stack — GEAR
-  { p: 0.52, cam: { p: [-1.2, .9, 6.0], l: [.5, 1.1, 0] }, c: { p: [2.4, .9, 0], s: 1.06 } }, // arsenal — COURTHOUSE
-  { p: 0.74, cam: { p: [.2, 1.0, 5.6], l: [0, 1.0, 0] },  c: { p: [0, 1.0, 0], s: .85 } },  // manifesto — reclaim() (wide text: center it)
-  { p: 1.00, cam: { p: [0, .9, 8.2], l: [0, 1.0, 0] },    c: { p: [2.4, .9, 0], s: .90 } },   // join — THE PICKET
+  { p: 0.00, cam: { p: [0, .7, 8.6], l: [0, 1.2, 0] },  c: { p: [2.85, .78, 0], s: 1.04 } },  // hero — FIST
+  { p: 0.34, cam: { p: [-1.2, .9, 6.0], l: [.5, 1.1, 0] }, c: { p: [2.3, 1.30, 0], s: .80 } }, // receipts — AT THE DESK
+  { p: 0.67, cam: { p: [.2, 1.2, 6.4], l: [0, 1.2, 0] }, c: { p: [-2.3, 1.10, 0], s: .86 } },  // work — GEAR
+  { p: 1.00, cam: { p: [0, .9, 8.2], l: [0, 1.0, 0] },   c: { p: [2.2, .95, 0], s: .92 } },    // join — PICKET
 ];
 const K_MOBILE = [
   { p: 0.00, cam: { p: [0, .8, 9.4], l: [0, 1.0, 0] },  c: { p: [0, .85, 0], s: .72 } },     // hero — FIST centered
-  { p: 0.16, cam: { p: [0, .9, 8.8], l: [0, 1.0, 0] },  c: { p: [0, .95, 0], s: .62 } },     // mission — AT THE DESK
-  { p: 0.35, cam: { p: [0, 1.1, 8.2], l: [0, 1.1, 0] }, c: { p: [0, 1.05, 0], s: .66 } },    // stack — GEAR
-  { p: 0.52, cam: { p: [0, .95, 7.8], l: [0, 1.0, 0] }, c: { p: [0, .95, 0], s: .7 } },      // arsenal — COURTHOUSE
-  { p: 0.74, cam: { p: [0, 1.0, 7.6], l: [0, 1.0, 0] }, c: { p: [0, .95, 0], s: .42 } },     // manifesto — reclaim() (very wide)
-  { p: 1.00, cam: { p: [0, .95, 9.2], l: [0, 1.0, 0] }, c: { p: [0, .9, 0], s: .5 } },       // join — THE PICKET
+  { p: 0.34, cam: { p: [0, .95, 7.8], l: [0, 1.0, 0] }, c: { p: [0, .95, 0], s: .70 } },     // receipts — THE COURTHOUSE
+  { p: 0.67, cam: { p: [0, 1.1, 8.2], l: [0, 1.1, 0] }, c: { p: [0, 1.05, 0], s: .66 } },    // work — GEAR
+  { p: 1.00, cam: { p: [0, .95, 9.2], l: [0, 1.0, 0] }, c: { p: [0, .9, 0], s: .50 } },      // join — THE PICKET
 ];
 const K = isMobile ? K_MOBILE : K_DESKTOP;
 
@@ -1185,11 +1124,11 @@ function animate(){
     const f = Math.min(1, Math.max(0, (p - a.p) / (b.p - a.p)));
     s = f * f * (3 - 2 * f);                           // smoothstep — the morph knob
     /* scroll-morph: cloud = lerp(shape[ki], shape[ki+1], s) — reversible, in sync */
-    const A = TARGET_ARRAYS[ki], B = TARGET_ARRAYS[ki + 1];
+    const A = TARGET_ARRAYS[SHAPE_IDX[ki]], B = TARGET_ARRAYS[SHAPE_IDX[ki + 1]];
     const P = geo.attributes.position.array;
     for(let i = 0; i < SAMPLES * 3; i++) P[i] = A[i] + (B[i] - A[i]) * s;
     geo.attributes.position.needsUpdate = true;
-    curTargets = { a: targets[ki].name, b: targets[ki + 1].name, s };
+    curTargets = { a: targets[SHAPE_IDX[ki]].name, b: targets[SHAPE_IDX[ki + 1]].name, s };
   }
 
   /* camera + cloud ride the keyframe timeline */
@@ -1318,42 +1257,33 @@ buildTargets();
   }, { threshold: .5 });
   $$('[data-scramble]').forEach(el => sio.observe(el));
 
-  /* ── CORRUPTION COUNTER ── */
-    const ccount = $('#ccount'), cbump = $('#cbump'), cstat = $('#cstat');
-    let corruption = 1234567, bumpTimer = null, LEDGER_LIVE = false;
-    const fmt = n => n.toLocaleString('en-US');
-    function bump(){
-      if (LEDGER_LIVE) return; // stop once real data arrives
-      corruption += 1 + ((Math.random() * 47) | 0);
-      const v = fmt(corruption);
-      ccount.textContent = v; cstat.textContent = '$' + v;
-      if (Math.random() < .16){
-        cbump.classList.remove('show'); void cbump.offsetWidth; cbump.classList.add('show');
-        setTimeout(() => cbump.classList.remove('show'), 2600);
-      }
-    }
-    if (!reduced) bumpTimer = setInterval(bump, 650 + Math.random() * 500); else bump();
+  /* ── COUNTER: verified ledger + interest ticker (static data file) ── */
+  const ccount = $('#ccount'), accruedEl = $('#accrued');
+  const fmtInt = n => Math.round(n).toLocaleString('en-US');
+  let COUNTER = null, accrued = 0, perSec = 0, lastTick = performance.now();
 
-    /* ── CORRUPTION COUNTER (live total from the tracker) ── */
-  const API = ''; // same origin — SvelteKit proxies /api/* to the tracker
-  const shortMoney = n => !n ? '$0' :
-    n >= 1e9 ? '$' + (n/1e9).toFixed(2).replace(/\.?0+$/,'') + 'B' :
-    n >= 1e6 ? '$' + (n/1e6).toFixed(1).replace(/\.0$/,'') + 'M' :
-    '$' + Math.round(n).toLocaleString();
-
-  async function liveCounter(){
-    try{
-      const h = await (await fetch(API + '/api/hero')).json();
-      if (h && h.combined){
-        LEDGER_LIVE = true;                 // stop the fake ticker
-        const tot = h.combined;
-        if (ccount) ccount.textContent = shortMoney(tot).replace(/^\$/,'');
-        if (cstat) cstat.textContent = shortMoney(tot);
-      }
-    }catch(e){ /* keep the placeholder ticker if tracker is down */ }
+  function tick(){
+    if (!COUNTER) return;
+    const now = performance.now();
+    accrued += perSec * (now - lastTick) / 1000;
+    lastTick = now;
+    if (accruedEl) accruedEl.textContent = '$' + fmtInt(accrued);
   }
-  liveCounter();
-  if (finePointer && !reduced) setInterval(liveCounter, 120000);
+  async function loadCounter(){
+    try{
+      const c = await (await fetch('/data/counter.json', { cache: 'no-cache' })).json();
+      COUNTER = c;
+      perSec = c.interest.per_second;
+      if (ccount) ccount.textContent = fmtInt(c.verified.total);
+      /* accrued base is dated; advance it to now */
+      const baseAt = new Date(c.interest.accrued_base_as_of + 'T00:00:00Z').getTime();
+      accrued = c.interest.accrued_base + perSec * Math.max(0, (Date.now() - baseAt) / 1000);
+      lastTick = performance.now();
+      if (accruedEl) accruedEl.textContent = '$' + fmtInt(accrued);
+      if (!reduced) setInterval(tick, 1000);
+    }catch(e){ /* static markup values stay if the JSON is missing */ }
+  }
+  loadCounter();
 
     /* ── TILT CARDS ── */
   if (finePointer && !reduced){
@@ -1383,44 +1313,7 @@ buildTargets();
     });
   }
 
-  /* ── TERMINAL ── */
-  const termBody = $('#termBody');
-  const CMDS = {
-    'ls /etc/revolution': [
-      ['candidates/   organizers/   tools/   shitposts/   victory/', 'out'],
-      ['you are here. keep going.', 'dim']
-    ],
-    'cat manifesto.txt': [
-      ['we build tech for a better world.', 'out'],
-      ['free for the people who fight for it.', 'out'],
-      ['no billionaire money. no dark patterns. just tools.', 'out'],
-      ['while(!free){ fight(); }', 'ok']
-    ],
-    'system.reclaim()': [
-      ['[ OK ] ruling-class bootloader bypassed', 'ok'],
-      ['[ OK ] welfare state restored (patch 1 of 1)', 'ok'],
-      ['[ OK ] the people now own the platform', 'ok']
-    ],
-    './organize --district=all --quiet': [
-      ['[ OK ] 12,847 neighbors contacted', 'ok'],
-      ['[ OK ] 3 town halls scheduled', 'ok'],
-      ['[ OK ] 1 incumbent sweating', 'err']
-    ],
-    'apt install justice': [
-      ['Reading package lists... done', 'dim'],
-      ['justice is already the newest version (0.1.0-revolution).', 'out'],
-      ['0 upgraded, 0 newly installed, 0 to remove. the struggle continues.', 'dim']
-    ],
-    'while(!free){fight();}': [
-      ['FIGHT MODE ENGAGED.', 'err'],
-      ['the means of production are now yours.', 'ok']
-    ],
-    'git push origin revolution': [
-      ['Enumerating objects: 1, done.', 'dim'],
-      ['Everything up-to-date. history is watching.', 'out']
-    ]
-  };
-  let termBusy = false;
+  /* ── blip (fight-mode sound) ── */
   function blip(freq = 640, dur = .04){
     try {
       const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -1433,73 +1326,6 @@ buildTargets();
       ctx.close();
     } catch(e){}
   }
-  function addLine(text, cls){
-    const d = document.createElement('div');
-    d.className = 'tline ' + (cls || 'out');
-    d.textContent = text;
-    termBody.appendChild(d);
-    termBody.scrollTop = termBody.scrollHeight;
-    return d;
-  }
-  function showPrompt(){
-    const d = document.createElement('div');
-    d.className = 'tline prompt';
-    d.innerHTML = 'leftydevdad@leftydevkit:~$ <span class="cur"></span>';
-    termBody.appendChild(d);
-    termBody.scrollTop = termBody.scrollHeight;
-  }
-  function runCmd(cmd, buttons){
-    if (termBusy) return; termBusy = true;
-    buttons.forEach(b => b.disabled = true);
-    const out = CMDS[cmd] || [[cmd, 'dim'], ['command not found. the struggle continues.', 'err']];
-    const p = document.createElement('div');
-    p.className = 'tline prompt';
-    p.innerHTML = 'leftydevdad@leftydevkit:~$ <span></span>';
-    termBody.appendChild(p);
-    const span = p.querySelector('span');
-    let i = 0;
-    const typeId = setInterval(() => {
-      span.textContent = cmd.slice(0, ++i);
-      termBody.scrollTop = termBody.scrollHeight;
-      if (i >= cmd.length){
-        clearInterval(typeId);
-        blip(cmd.length > 14 ? 520 : 700);
-        if (cmd.includes('fight')) triggerFight();
-        let li = 0;
-        (function outLine(){
-          if (li >= out.length){
-            showPrompt();
-            termBusy = false;
-            buttons.forEach(b => b.disabled = false);
-            return;
-          }
-          addLine(out[li][0], out[li][1]);
-          li++;
-          setTimeout(outLine, 240);
-        })();
-      }
-    }, 26);
-  }
-  const tcmds = $$('.tcmd');
-  tcmds.forEach(b => b.addEventListener('click', () => {
-    runCmd(b.dataset.cmd, tcmds);
-  }));
-  /* laptop flips open + autoplays when scrolled into view */
-  const lapEl = $('#laptop');
-  if (lapEl){
-    const lio = new IntersectionObserver(entries => {
-      entries.forEach(en => {
-        if (en.isIntersecting && !reduced){
-          lio.unobserve(en.target);
-          en.target.classList.add('open');          // lid flips up (1.15s)
-          setTimeout(() => runCmd('ls /etc/revolution', tcmds), 1700);
-          setTimeout(() => runCmd('cat manifesto.txt', tcmds), 6400);
-        }
-      });
-    }, { threshold: .35 });
-    lio.observe(lapEl);
-  }
-
   /* ── FIGHT MODE easter egg ── */
   const toast = $('#toast');
   let toastTimer = null;

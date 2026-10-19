@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-16T20:01:50+00:00",
+  "generated_at": "2026-10-19T00:00:00+00:00",
   "counter": {
-    "verified_incidents": 44,
+    "verified_incidents": 49,
     "unverified_pending": 71,
     "total_flow_to_trump": 2166710000.0,
     "total_cost_to_public": 1169700000.0,
     "documented_deal_value": 567416100000.0,
     "first_date": "2025-01-16",
-    "last_date": "2026-06-30",
-    "citation_count": 66
+    "last_date": "2026-10-09",
+    "citation_count": 67
   },
   "by_category": {
     "appointments": 3,
@@ -18,9 +18,144 @@
     "other": 8,
     "oversight": 4,
     "pardons": 2,
-    "selfdeal": 7
+    "selfdeal": 7,
+    "trades": 5
   },
   "incidents": [
+    {
+      "id": 127,
+      "slug": "q1-2026-stock-trades-3642",
+      "title": "3,642 securities trades in Q1 2026, $220M+ disclosed",
+      "summary": "The Office of Government Ethics released a 113-page 278-T filing showing 3,642 securities transactions in the first quarter of 2026 — roughly 60 per trading day — with disclosed values above $220 million. Senators Warren, Blumenthal, Hirono, Crow and Levin demanded answers about trading while the administration writes policy.",
+      "date": "2026-05-15",
+      "category": "trades",
+      "status": "verified",
+      "confidence": 95,
+      "flow_to_trump": 0.0,
+      "cost_to_public": 0.0,
+      "deal_value": 0.0,
+      "amount_basis": "Trade volume, not profit — the 278-T reports transaction amounts in ranges; nothing here is a realized gain.",
+      "is_estimated": false,
+      "citations": [
+        {
+          "url": "https://www.yahoo.com/news/articles/trump-discloses-220m-financial-transactions-030159314.html",
+          "publisher": "yahoo.com",
+          "title": "Trump discloses $220M in financial transactions",
+          "published_at": "2026-05-16",
+          "tier": 2
+        },
+        {
+          "url": "https://www.warren.senate.gov/wp-content/uploads/2026/08/2026.8.12-Letter-to-Trump-re-Stock-Trades-final.pdf",
+          "publisher": "warren.senate.gov",
+          "title": "Letter to the President re: stock trades",
+          "published_at": "2026-08-12",
+          "tier": 3
+        },
+        {
+          "url": "https://www.tmgm.com/en/analysis/market-insight/trump-trading-disclosures-spark-insider-trading-debate",
+          "publisher": "tmgm.com",
+          "title": "Single-quarter trading reaches 3,642 transactions",
+          "published_at": "2026-05-16",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "slug": "q2-2026-stock-trades-1051",
+      "title": "1,051 more securities trades disclosed for Q2 2026 ($78M–$263M)",
+      "summary": "The 278-T filed in August discloses 1,051 securities transactions in the second quarter of 2026, with disclosed ranges totaling $78 million to $263 million. The accounts are trustee-managed; the filing reports transactions, not profit or loss.",
+      "date": "2026-08-12",
+      "category": "trades",
+      "status": "verified",
+      "confidence": 85,
+      "flow_to_trump": 0.0,
+      "cost_to_public": 0.0,
+      "deal_value": 0.0,
+      "amount_basis": "Trade volume, not profit — 278-T ranges, trustee-managed accounts.",
+      "is_estimated": false,
+      "citations": [
+        {
+          "url": "https://tracefour.com/trackers/trump-portfolio",
+          "publisher": "tracefour.com",
+          "title": "Q2 2026 Form 278-T: 1,051 transactions",
+          "published_at": "2026-08-12",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "slug": "august-2026-stock-trades-517",
+      "title": "517 August trades disclosed, including up to $25M of Meta stock",
+      "summary": "An 18-page periodic transaction report made public on October 8 shows 517 securities trades in August 2026, including a purchase of up to $25 million in Meta shares.",
+      "date": "2026-10-08",
+      "category": "trades",
+      "status": "verified",
+      "confidence": 85,
+      "flow_to_trump": 0.0,
+      "cost_to_public": 0.0,
+      "deal_value": 0.0,
+      "amount_basis": "Trade volume, not profit — periodic transaction report.",
+      "is_estimated": false,
+      "citations": [
+        {
+          "url": "https://standingrecord.com/abuses/self-dealing",
+          "publisher": "standingrecord.com",
+          "title": "October 8: 517 August securities trades disclosed",
+          "published_at": "2026-10-08",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "slug": "first-year-securities-trades-21000",
+      "title": "21,000 securities trades in the first year back in office",
+      "summary": "An ABC News review of the disclosures counted roughly 21,000 securities trades in Trump's first year back in office. Joe Biden made 13 stock trades during his entire presidency.",
+      "date": "2026-06-30",
+      "category": "trades",
+      "status": "verified",
+      "confidence": 80,
+      "flow_to_trump": 0.0,
+      "cost_to_public": 0.0,
+      "deal_value": 0.0,
+      "amount_basis": "Trade count, not profit.",
+      "is_estimated": false,
+      "citations": [
+        {
+          "url": "https://www-cdn.abcnews.com/Politics/trump-discloses-21000-securities-trades-year-office/story?id=134427666",
+          "publisher": "abcnews.com",
+          "title": "Trump discloses 21,000 securities trades during first year in office",
+          "published_at": "2026-06-30",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "slug": "spacex-debt-before-space-order",
+      "title": "Trump bought SpaceX debt before a space order; White House denies conflict",
+      "summary": "The president purchased debt issued by SpaceX before his administration issued a space-related order. The White House said there was 'no conflict of interest'.",
+      "date": "2026-10-09",
+      "category": "trades",
+      "status": "verified",
+      "confidence": 75,
+      "flow_to_trump": 0.0,
+      "cost_to_public": 0.0,
+      "deal_value": 0.0,
+      "amount_basis": "Undisclosed purchase size; the conflict is documented, the gain is not.",
+      "is_estimated": false,
+      "citations": [
+        {
+          "url": "https://thehill.com/homenews/administration/6138851-white-house-denies-spacex-conflict-of-interest",
+          "publisher": "thehill.com",
+          "title": "White House on Trump purchasing SpaceX debt before space order: 'No conflicts of interest'",
+          "published_at": "2026-10-09",
+          "tier": 3
+        }
+      ]
+    },
     {
       "id": 106,
       "slug": "oge-2025-disclosure-memecoin-royalties",
