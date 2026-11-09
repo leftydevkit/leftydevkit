@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T16:57:46+00:00",
+  "generated_at": "2026-11-09T21:21:22+00:00",
   "window_days": 2,
   "queries": [
     "Trump corruption OR self-dealing OR \"conflict of interest\"",
@@ -10,11 +10,431 @@
     "site:reuters.com Trump investigation"
   ],
   "stats": {
-    "fetched": 158,
-    "new": 31,
+    "fetched": 219,
+    "new": 60,
     "kept": 300
   },
   "items": [
+    {
+      "title": "Senator Blumenthal demands records from Binance, Tether, and Trump-linked crypto firms by 2027 for Senate probes. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNm1UX0ZQTjcyNjlBMTNvUjg3V1hVU3dpM3haQWtFN3BWSUJmZmNxaktGcFdBN1pMX0RWMFFjNVdDWTU3RkZTZVJDVzFQS2MwLWdtSjIwOUpDRFBjanFPVGtUb002eC0teVZMdmlZb2RQTTR2c1N4MXEybEFzMUR1YV9rTHp4czVVN3dvN3B6VE9XWGQzeUFaSDJyb1VsWmtoeUViVFVYRV9vTF92SXo4WFlB?oc=5",
+      "source": "Pluang",
+      "published": "2026-11-09T21:07:16+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Defends WLFI Stake, Says Every President Faces Conflicts Over Business Interests - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjUxbXpCVGJxaERxZXA5MDdkNnhMM1cwd0h3MG9xQ2g4SEpCR0dwblBnUG9ZWmNDNUhyOTRYbzl3VmwwZEQ2ci1xWDFqTFduUDk3OFlkQ2tDR1YzanhPZFRtOGtRYVJrZUxlSW9md091T0VYYm5Cc3puLU5sQnJja2s3ajVDU2FhazE1eElSWXJSMEs5bXllRWtkZWZYTXlPT0hPbTRleTl2MEpFT3A4UA?oc=5",
+      "source": "CryptoPotato",
+      "published": "2026-11-09T20:19:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair - The Block",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWkM4WmNnMUJCbnloQjNnejYybHRBdi04dGl2MldlU2twZXhCcUpNX01WbnhkVEVHU0Rsd3VtYmRuWk9CLVVOOExkQlBfaVIxMUlOUWpCWDNkTTg0R2tvWFVveEZ0MlJrLUw4V0pwTF90ZkV2Sng0VTNLeHFZbWxOeUhTMmR0UEN0TFFNMlpFOW5MTUVlNzhaR3h6Q3Q1V1o2YkpxY2FCWFZKQVU5VTMwcG5RdVZRS28tSkg3ek8wNXJEV3dNNkdIR2RIaDRqXzhNbGpOb0ZR?oc=5",
+      "source": "The Block",
+      "published": "2026-11-09T20:04:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Crypto Firms Face Senate Records Deadline as Democrats Prepare to Take Control - Brave New Coin",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN1ViaVh4dGM0Vi1KSWxoQ0R1elMxX3NHRnNJMDM3QUc0R1hGbFIxMzM0dG9kYVNKcXFnZzE5ZDFBTGpqT0p0RjZkdE5JWmx1dFk5aENyRFVDNk92ekpDVkhRZ3JxZUt4TkVoUU1wR1g2VEY0WVpjTUpnRlNuMTBYSVdR?oc=5",
+      "source": "Brave New Coin",
+      "published": "2026-11-09T19:23:46+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "No, most of Trump\u2019s $3 billion gains aren\u2019t from stocks - PolitiFact",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRm5pM1VRT1phclZJWXB0MjBHOWJ1OWd2aS1seDE1bk5XUlVMVzBBY2pqNGlHdkN6Zmp1cWowdWxlNTFUSlZpNG5TLVpwNFZsTWFkbzJxaHBCY0FWUzIzdzlnZG5mdUdKb2RVeHlSb2VoUjFLZWVlUTB0RUUzWDRaVnR0eWlZc2tlQmFyTEtlQnd4aUtoTllYb0dmQ2NoQ0p5N0Fkb25xOA?oc=5",
+      "source": "PolitiFact",
+      "published": "2026-11-09T19:09:58+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Oversight Dem says party plans to probe corruption in Trump admin: 'The rats are jumping ship' - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb01IcWxjUmlsSndFWllyUGdiVFFUU1lwSHh2VWJEWFY2U3BsVk93OHBNS0YtTHgxM3ZsWDhYYXdhOGtJZy11c05qQ1p3UkRaMU1DOHNhVUExLS1xY2RLVmpoQVRBTVR3akw0dUVaVk1jWmRsZ1pqa2ZNbFpCT2Y3Zm5YaXl5UHpQUU14aHFSX0I4Sll0MWxGZ2NlYUtvU3A5cl94X2J1czYzQk9hMkpTbUhjdEoxX1ZVSUd2SEoxWVROLVVUX3NiWUdtcTRJbmhIVHk2NUhveWM2dw?oc=5",
+      "source": "MS NOW",
+      "published": "2026-11-09T18:37:54+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Democrats, don\u2019t let anyone bully you out of fighting Trump\u2019s corruption - Paul Waldman | Substack",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4VmxHS24xU0NLeVZFTS05V1R3elFKdzdmWjlVMFdnMG5VbUp2TmNnendXaDNHNlhmRktONEo2WnVlSFVZckJvRkFQby1RMnF0bzVORDRIcjBFeVFLVm0zcXBVNXA3T2RCM0xQdGp4MEN2X3BmTlZwcU1n?oc=5",
+      "source": "Paul Waldman | Substack",
+      "published": "2026-11-09T17:58:48+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Democrats vow major probes into Trump\u2019s family and his \u2018tentacles of corruption\u2019 - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWRvWFJ5Tm9XMlZuWlpNMEJ5N2M3aTBRNDBJc1FHZFoyTWtEeEttZjhhYnhhVXJNUjZlUUJpU2tTMmZNbGJtM3B3dE1tTGdySDIwVXNCMHB4bDhPcUg3Vld1VklNZXg5bWNTamlJUHRad0Q4ZFNfQ29IczJ3NEZnbHJmSTVkLXBLSGdleDRTN2prVGVodUUyWlJJWmFyRVNNWTQydU1WMzlYSlFJajNiV090c3EwRTJ4NDRHR2tsdnZYVTdjSjIyTkpYX05XODV2enNZN3M4dFlldVBBakpuZUNIQQ?oc=5",
+      "source": "WKYC",
+      "published": "2026-11-09T17:41:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Binance, Tether, Trump-Linked Crypto Firms Face Senate Probe - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRENrSEI0TnJhcW5ha2xvWmI0TTcxTV90RU1FM0JPajlVMm9fWjhJUmUxRVNlS0kwTDJ1NGJEcHBWYzkwZnFhUjBEaVUtMEhwTUw0QnZBTDJEOXRRbUwwekRkRjFXakhPVVJjZkY1d0VWRHp0VWNSWjFvUkxqR3hvMm5xTWpzSGF5TlpRcUJ0N2EtbWNySkNCLTdrbzBiajRxYXZKNjY2X25iY08zdlVYcTFKNXBtUnY0WGd1WQ?oc=5",
+      "source": "Benzinga",
+      "published": "2026-11-09T17:23:06+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "What $1,000 investment into Trump's crypto coin is worth now after mammoth collapse - UNILAD Tech",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOG5fUTBWMnZCcDFGeUFPSmhQVFpreWxFQzVFZW9mVFV4R0IzV3dYWEYzbzhIcGdPRWttZzFaM0xqdzE5bm5fd0hnenJsOWtiV3ZYWk1ZdjE5SU95S0J3cENJUXBfRXhtYWtGTGFFYzhzN3EyckdSQ2N3NFh2N0hfckhRY0ZYYUxoTHBwTk9XdFk4d0J2VXlMY2tmRGxCcEdZbmxQdDNqMHJGQWhheUE?oc=5",
+      "source": "UNILAD Tech",
+      "published": "2026-11-09T16:33:22+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "The New York Times. . Democrats are preparing to open wide-ranging investigations into President Trump, his family and his administration. Michael Gold, our congressional reporter, breaks down some of the Democrats\u2019 biggest targets following their victories - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMU13RTF1a2xjQXg2bFo3Vlg3b0xCS0FBbE1mTklnWGZnWWo3bjZFXzd4aFdmdGhsQU1YVUVXZG5tSDJPYVZJRl92Y2J4ZVd1SHlSS0ZYSjF5UFZBdlRfUGYwbFdyUkxYeUFuNDJ3a1FkM3Y1czVvWENOSlJGQ1l0QkdPVnlVcjFGSEEtTTFTUHdqZWgxRlBESVpRbmFDNnNnS3p3clBNdDZLb08xMUY5eEZXUW5BaGh3WDZsdFB3MW5PUDBtb2F3ZVVJMThaYkoxbi0teg?oc=5",
+      "source": "Facebook",
+      "published": "2026-11-09T16:30:35+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Former top HHS official raises corruption allegations after exiting Trump administration - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV1FMZzhlb3FPZVR6MDBBMHNIMWZwVmo3bENtMG4tVWQ3YUR0N2lWWWtDdEplNzV6WjJwa1N4MzdRRUdkVDI4TXNISHhCUTRpVUFEOTF3RW5RLVk1cUJXeXZrNkowT016Um5EMkdiZGZEbGRTUkJqZWI2dGc5d28wTXJ2V0NzX0tienFsLUFGWUNJUlBsZmstUGxLa1ZCLXJmRWdvSU1jdmxETjNU?oc=5",
+      "source": "MS NOW",
+      "published": "2026-11-09T16:04:32+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump\u2019s wealth rises to $6 billion as disclosures show $1 billion in crypto income and millions from foreign deals | Hindustan Times - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZnZDV2hnam9xNE1BUFBzMEgxdWxUbjJOWjRSZTJxOWY4bFk2OHFUYjZrSWpUZUhla3FGdFBQR01PN0xVUlg3VVBxaFZJZm1UM3dkbGZtc0pjcHhlZUU4TWJEem1NVTE1WW9tMzZfTnNhNUNrZGNvaEhMb055c2pqY0o4LUVneEdVTzdnYW5yN3JESjBIdVFmOHNoaEx2VXlLMHRFSTV0VmJKOHZHbkEyeXV3QURITFZqOWxmaV9Rbm04NkRWS1RkZUhqSlZWc0lWaGJfaEVGT1pEeThtck0zNmpOZTRoVk9OUU1lMDFlcHUzN3lyekRZQVJXdU1Ta1Q4TEI4aDRkTVhkcVRMNTF30gGUAkFVX3lxTFBIbG5tN3JoYVQ3UjdtLW9RLWZjbkJrT1NQVHhCVm10S0IxQXlmd3pHcVJzZkwtWXdTcHpLSlczUmdnQzY3czE3TmNHMDBjdDhUT20wY3piczNEeEozUXE3T2RRM1Y4VDF0LWhXTHNGd2NVd2lpYVRfbE85dzVQUUpoTEx0R1NhVWh4TXhWbGhvMGNPNXAzbGpTR3FWa0JRRVpnUjBMTy1iTUdzNFJsZXUzZmhSaEFxSS02T2R0b1htWW90Q05Xd2U0bDlsUXhEdmZEY2JEN3lGeDE0T2MtSnB3WnRzdnFUSWlpWHNJLUpUOTlJQ2FnbjE1bGJ0RFdrWm5NakNBR29ELVNYQnBMZEl0Y3NfNA?oc=5",
+      "source": "Hindustan Times",
+      "published": "2026-11-09T15:19:42+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump was pressed on why he co-owns crypto company with ties to the Middle East - gets slammed for response - UNILAD",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMDh1cUxmYm1XZ3luUHRmSWJzTHNsMDdYY0FUd01aTEJtcGdEd3A2MHQtYXBMQ28zRkxoS2pQMDNXY1RNM3BqSFk3SWdCRmdneEpaWnhuRDVwallTVS1ZTThhc0VYZjEwWXk3WDJnT05YNzN6cC1oVW84MUhFM0lwNVJuVXhYY3YwTU9udXRZQWM5VHZkUlE?oc=5",
+      "source": "UNILAD",
+      "published": "2026-11-09T15:15:55+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Are Republicans finally accusing Trump of being corrupt? - We Got This Covered",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORmVjcWk2MU8ya2gxMWVFZGQ2X2pqVllvSXBoVVV2X29tbmktUVdxNDVHZHJSNFVGVFlrQ2tKOURxdmpvU3hCeDNnaGNzekVZWEUwYzU3R2p2SUtjb3h4cHNlYkp3WXdLNDU1THRUY3k1Ni1jM0ZjX19fWXpLM0xDQWJRWEsyclRYNThpck02OGhHTC1UdzAyNGlhZ3hwOXo4cGVKMW1FeXg1UmN3LXplaWxyOHp1Qko2XzlyVk16SWQ5aXhCZFZhS0FMck1JRTF6Q2JtajM0Nk9UZVRyWTBFeGJGb0xhMHJBZE9tMFFYR2Rnc3lyVXhvaTNB?oc=5",
+      "source": "We Got This Covered",
+      "published": "2026-11-09T15:00:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Pressed on his expanding wealth and alleged corruption, Trump says all the wrong things - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdTUwX3JTU0VKZ0w5TU9UdHhDQnVrX1YyNGd0SHBlTkdiZ3VQWm9aR3VDbHZRZ1lad05McVlFR0VxdnFmY3BUbFVVQjJubDJaN3k3c2o0VUVVZWpsY0xvVjZIYjFNMVJndWZ5WFlHWDVzLWVPZnptbkg5X2tobVlYRS1LcUJKU3haRHRlN25ybHRIS0RLZDluRTJHRzE0MXVVSGpNOV9DU2l4Zw?oc=5",
+      "source": "MS NOW",
+      "published": "2026-11-09T14:56:54+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Bitcoin Faces $57K Risk as Trump\u2019s Political Power Weakens and Democrats Take Congress - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZXJqVXJiQ0tsdzN3M2pfcExEUElSUldKT0t6TlhWbERRdXBlaHV3ZlZwS1JCUW9yam9WTzVwQ2dWajFnNDdGM3lKeXNqLUdnT2J5NVc4anJ2T21MaUFPS3FqaDVIUk5hZjJBa3NyNDJONkZ4cE9BZXktbmNOSWg5V2FYVm93RnFjbU5JZDVidGxoUG5KRmxTREkxMmRpcjFYVmNUOUplSWdFYWFSM0NtQk91ZmJSalRRT1hDTjFsbw?oc=5",
+      "source": "CryptoRank",
+      "published": "2026-11-09T14:04:55+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Could Blumenthal\u2019s Trump Crypto Probe Shake Bitcoin? Four Firms Face Jan. 4 Deadline - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZFhoaXhYZFZmQXFsRW1jcDFsZDFablI0dkxTSHpMVExSR1JyRUYtMXZzbDBpTXduS255Qlk1ems0NkpsVndHVEs4SUJXZ2JYSVdBdzVBZGdoUGh3M3NKaTZlcjRyM0JIUEtsNlUzdlhEUVNzcjVGNTJ1bm9rS0QxWk5jWEh1LWVhR2xTYldIV1N5SlJ4R2hjX0tZX29NTkcxTHpaZnVJOGVQT2U5UGd1OXg1bnBEN1ZEWm9B?oc=5",
+      "source": "CryptoRank",
+      "published": "2026-11-09T14:02:52+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "TRUMP token hits record low of $1.13 amid weak U.S. crypto demand and rising inflation. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3V2eDdoc0ptSG9vVjdQbGdNOFRXaThvZks3aEhneDBueGJZUkFQUGpMakQ4VnJ0MUZESGJCV0ZZU0RSSk1Ld2d3QzN0dk1EVnRmSE5wOC05Q2RvUXBQOU5qSEhoQngwYVR3UGQtenpYNzZFZ19RTlJsMDExeWQycm1nRlZjR0Z5UldnV1RoS2huUHZ6Qnc3MzlzUQ?oc=5",
+      "source": "Pluang",
+      "published": "2026-11-09T13:49:13+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Binance, Tether and Trump-Linked Crypto Firms Face January 4 Senate Deadline - FinanceFeeds",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZjBnMTNXVlNYLWJWTTViVTZITlZvX3BzUUhHX0N0bzBlWE9HcVdpZGhhUkdZVHA2UHphYmZGVEM0QlVucmdzVzNIZWxXXzViejg4Vk0wS2JEWDZVaW1qRjk1UC1EZ1JPSDRTVUVydnNEWDRBVDhSUU9xU2pOZWVjY2pLZG9TS3liLTI1UGN6eHQ0bVB0c1hKNlJ1ZDFLZWZQT1lr?oc=5",
+      "source": "FinanceFeeds",
+      "published": "2026-11-09T13:35:30+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Will US President Donald Trump\u2019s Cryptocurrency and WLFI Projects Turn into a Political Crisis? Trump Answers! Here Are the Details - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZam9RdlNiUzNLdWQzaVllaENiOVdfaktLaC1Denk2SDc2Z1JWYmhDT2dxcjVXYVNISERIc1RVX1JHMXo4SnVOUjBQeE9RVTBITmhlWFp3?oc=5",
+      "source": "Cryptonews.net",
+      "published": "2026-11-09T12:59:04+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump explains $3B net worth jump in \u201860 Minutes\u2019 interview: \u2018You should\u2019ve had stock\u2019 - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcVpzamVobWNMcWNDSDQxVGdyVmMtWjFUWHFFZjJsLTZISXpQNmx5YmFBR1FwVnY5ckNqNUpBOFpuYXROM3gyQjl4T1MwN0R0SC1ZTzhhSlA0clBwQ3ZIRkhRWjdUalJjckhGeXZXV3J4UXlFcWlPeWlCbEptWkE4UnJxcVFmWTF2eVNSUER4cjJDdWpLU2ZpVGVsV2stdzFGQWU3T0VhZjBXbmxxb2N3NFRyWllmRkEtaEE?oc=5",
+      "source": "New York Post",
+      "published": "2026-11-09T12:27:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Blumenthal Sets Jan. 4 Deadline for Binance, Tether and Trump Crypto Firms - The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORkk4ZHZiNGRvbTlhXzBvYUFvY2ZRd3VaY2ZSYnBNVlVqZ1ZFMllPUjBjWGxkTWszdHFUc0hfcno1cWNrbzlLMG9FekZKRHhCWnJtZXlNNk5pUmlLRklQZnByWnc1clJ3bVVHVTNnSmNaM1pEekp2WllnZ0FtUy1XMnBaYlRvMkJPMzdrd2xZRHBfMG9RWVdydVgxdk1GOFRPZ0dNZ1F2Z2VyNHBfNVJv?oc=5",
+      "source": "The Defiant",
+      "published": "2026-11-09T12:16:14+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Defends World Liberty Stake, Says Past Presidents Owned 'Whatever Crypto Was at the Time' - unchainedcrypto.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMnItMzBNYTRuNVpSclF2eV9hd1NiMVltOG12NWRTM2J3bHpZYlVUZlN3NC1abURPOUg0dzQ5MzRxd3FJdXhxcVA3cXhOa2RSWnRVaVhNR2wybGxDWXNuc2ZKUU1jWGZfVXJqczlLN0d5UEhfSkNxR3c5bDhDUGRIWGpmWm1IQUdDM1FLQ3ZpNXYyck5SOUdzejZmZ3RrY3kyVWZwMFdQbmVNYTJTLW1OVEIzMzREakFiUDBVU25n?oc=5",
+      "source": "unchainedcrypto.com",
+      "published": "2026-11-09T12:07:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Says He Was Unaware of World Liberty Financial\u2019s $500M UAE Deal - Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0xzamF3Q19iOXozemhMVlBPZjJ4VEl5R1RydkhBSVBqMzRZVEwyLXhjSklvSWJjNU1aT2VFd3I4WS05aDFLQzFua2xPRzZJUU1iNldnVjJSTFltRzFsZ215MVNsSlhxeTRTZnRVVFdQUDVvbHYzUXVlSDhOSWNZODR3STVnOXB1c2RJNEMzb3JBdFVlWGQta2JuaVBzX2UwUU1UcFlQWVB2MzI2cFRjVlZOOA?oc=5",
+      "source": "Bitcoin Foundation",
+      "published": "2026-11-09T12:01:37+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Democrats Make Their First Post-Victory Move in the US! Binance, Tether, and Trump-Linked Altcoins Targeted! - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpNHQ5V3NSUVd0SlFRWlhEMzB5cHZWT0xESU5JTzg2cVZLbE1vR2V1TVBLeENxbjFUeHdtTHhGTUtHVGdjaEstUW9Xc0tNa0xjTmtxaUVR?oc=5",
+      "source": "Cryptonews.net",
+      "published": "2026-11-09T11:59:38+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Democrats Plan Senate Probe of Trump Family's World Liberty Financial - TOKENPOST",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yNzhETTFiNVV1dThhMERYdGdNaUw0VGtta1pKbEVlRjRhUUhUNnpxTm5FUW1icXo2dmV4MkNPOTlWOXFOdTVWS3N0UjFNMkd3RUtFMUdkeGV5NG8?oc=5",
+      "source": "TOKENPOST",
+      "published": "2026-11-09T11:52:35+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Blumenthal Gives Binance, Tether and Trump-Linked Crypto Firms Until January 4 to Hand Over Records - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR0stQWZhZko3bExGdWtSVlhZc2RBZ0VXUWRZbjUzMjViaVE3akFockxnTmZhcGt4RldUMmFJbU1WME1tNWt0Y3hwWGNGdWk4QWJSSm1UdEdvWGFwOTR1b05weTZBRXpsbDNCOGY2UGI0NHBnR2xHTjdMNU1RcTFjbDVGRzQ4ZUpna1Z1TEFqbmpHRTR4QnZmQWZQQnFNc20wb2Vva2NLd1VJRzNvaVhvTUZLNm10YWFtUXFqaUQyN3JsR2c2ay1sUzFRczVPb3FsZ2c?oc=5",
+      "source": "CryptoRank",
+      "published": "2026-11-09T11:32:12+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Firm Linked to Trump\u2019s Sons Got Nearly $40 Million in Federal Contracts to Screen for Ebola and Other Diseases - ProPublica",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPejVXdkNDcm5Vb2ZPYXI0STdhXzAweVNCdTB3dmdqRFJXMnY3VVNucVNlZWlnRWNrcjdlMDdUbXFRdnlWU2UzT28xb1BYbXh3UnBBdE1vNEJTeHp5cnlEZ2ctc0J1djVzRVNoY0ppWURyQVl5dGNONTJQdzlMc2tBUXVwdTN3aWhPWHc?oc=5",
+      "source": "ProPublica",
+      "published": "2026-11-09T11:00:00+00:00",
+      "query": "site:propublica.org Trump"
+    },
+    {
+      "title": "A US Senator Threatened Binance, Tether, and Trump\u2019s Crypto Projects With Sanctions - Incrypted",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTzhFMVFOR3BLMVNtT1lqYnlRNkhyRVFJRFFsbldHcWg3Rk5ZTG1NMGhXWXVUR0htT2V5QUMzU2xYbWY3OGN3MklLYTB4RnlKbDJVNHRzcXNCV2Zka21rdTI1U2owQXZ5b3luZGo5TjQyNThOQjBralRLXzdEU3otYVJyTzEwTThlNkFUZTQzZzlJbHhOb0ktWDJmQjBUaU5sOG5Pa1NUWWdUZw?oc=5",
+      "source": "Incrypted",
+      "published": "2026-11-09T10:54:15+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump says he knows 'nothing' about UAE-linked investment in his crypto firm - The Block",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNME8waWp0TlVxaXlkcHdRU0VtUl9mTG1lUENtZFpfc3NNREFaWHdrMDQ3TVZtYXcyeUlJbFNFdzFFNGxieGFCYnVtVXhxeHc2QXhLcnRTbElZS3k1UjZxMUItdUVrTWRvTG52dnpZMkRKb0xvYjVzSExUUjRWdThZZHBvLTFpSlpqd2ZnTWc3czdJOV9OVFJLUmYyR0FvdlhJSDFzaWVJUS1UT2lQcWtGcnRDdzhXOW51U0VRTnJNRWZqUUFZYWJWYXFB?oc=5",
+      "source": "The Block",
+      "published": "2026-11-09T10:33:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Asked if Foreign Investors Are Buying Influence Through His Family's Crypto Firm: 'I Don't Know' - inkl",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUlF0NTdBRHVFeVVJaFBWZE1LMWxmUmRJVU02b29fTDA4ckZZQXczQTlNSUNxdzZKVXZqUmU5VnVmWjlPN0ZBTUwyVnAzYmx0a1ZYcFVNREtKQmdVbXVoenVMWTZMM3pXdnU4czBkbnQ3dzU1Z1d3SzZGUXI2ZVB3b0Q0ZUR2WEV1MFYyQURISkJBMmxtbjVnZnFzSkQ2RXdWTjVrSklxeTA1RURhd1JrRjBaVEhidFI5dUY5Y1pZVGw?oc=5",
+      "source": "inkl",
+      "published": "2026-11-09T10:28:05+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "US Senator Blumenthal demands Binance, Tether, and Trump-linked crypto firms hand over records by 2027. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQjZJSmIzaTRRNG1qNUEyWTZ5c2FHbTA5cjg1RzdoN2lBT3QyS3dPR3VSVGVWdkVRVHZLeU95bzEzVDJ6MEZGeEZKc3JmR0hMNHJuWWhTYWhETTUtVU8zeVdkVDVYUGU2VkJpaVNjazB4bGNqaURvaUwta2d0T1JnYk5iS2VQVG5YUzRwWWRCSXItUzd6Z2w1T29CSGlhMmsxaUdUck5XVUFSVnJnRWww?oc=5",
+      "source": "Pluang",
+      "published": "2026-11-09T10:23:59+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Senate Democrats Set Jan. 4 Deadline for Binance, Tether and Trump-Linked Crypto Firms - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5NkpDN2dYcVlsMHR0SkRNRk44OFBwLUIyczZsX1prLXpkZS1jaHdwbzQ4VkFKaDloc25iUVVOeEl1Z2VtaUw4RnFCVWtsRV95QzJ2OWF4VkhVdXhfeWRUOWdIWGFGclUxaEE5anRORkRmZ1JRX1E?oc=5",
+      "source": "BigGo Finance",
+      "published": "2026-11-09T10:15:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "U.S. Senate Seeks Records From Binance, Tether, Trump-Linked Crypto Firms - bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhcUF4SE5ud3Mza1llUXdUenVJY2tWdENGbFFvSEJmZTZpck5vSlZzTERNMS1KUHVXQWRJR2Fld1V0MUFyNWZaRzlpU0h3bjczNldaNw?oc=5",
+      "source": "bloomingbit",
+      "published": "2026-11-09T09:20:44+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Blumenthal Gives Binance, Tether, and Trump Crypto Firms January 4 Deadline - CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHFlLTczWlctX1pnTkxIeWlZbUw1TXVIVHI3U2xQSEdqVFlTWkJha204U0ppcmtkbHdNOTZBQ2tMakViay0zX3RUTTEyUlVWNjBLZ0hZSTY0OURzTVYxZ1hwM25Nb2xYOURkd1NXQnU1bzJWVDREeVdzUGNkWG9ES2ZqR0FBSG5wWUNB?oc=5",
+      "source": "CoinGape",
+      "published": "2026-11-09T09:03:28+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "WLFI falls 16% in 2 days \u2013 Will World Liberty Financial\u2019s buyback announcement fix prices? - AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUGxLWlVKb0paaUwwcVZad0tGUTZIQXFib2F4T28tcjRXNmZ3clQyUms0WkVvSXNIWmhQYW1BcENINWlFTHB1MEpQaW1YTzV0empjQ1dtTXRTUXcydUtJZGJ2WllFRHpKWG9LUm00S0xmYUZDN1p2bUtGMVo1WTNoUDNFV1ZmYThnSkViS3Btck45dWFILTREcUk4OFF0UlRNMTA0ekx3czVBYjg5?oc=5",
+      "source": "AMBCrypto",
+      "published": "2026-11-09T09:00:49+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Binance, Tether and Trump crypto firms face Senate records deadline - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUDRaUV9WWlNnaFBtUjh0Tjh5bHdkejdUYng3WnpMYnhtbjJPSXhzWGZKRnJ5RGctRlZFbGJSNGN6Mzc3REVXMS12MjZhNndreTUtN0F6WW9PRFFURXVfdkZpbWFlTmZPSm80LWNiRzZFMmhiTUV4WUhzSkYza0hNMUNYTFpwd2hQWmxWVF95QlRfczZCVG1YSndNNUlZcks0XzU4SnhpeHNvSTFYUE1LakhpekkxLVRkdWZOLTNRRVZRSkJxbEd0Sm1n?oc=5",
+      "source": "TradingView",
+      "published": "2026-11-09T09:00:17+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Says \u2018I Know Nothing\u2019 About WLFI as UAE Investment Faces Fresh Scrutiny - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWNpVE5zV2o0QTJQcmFrUkVnaGxCNE15YkU2YWd2elNJWERUMF8tUFRPZi1BWmFfNVNJNW5KeU5UeGdXVmQxSV9ndWQydUtma003RmNRUmtFSzgtWGlLTkg2SVFOUDRZSkR5YkNZTHNyV1h2QnNCS1dMaUJiMzJtTmlhWlRTXzROZUR2NHhnYnhHRUFlSno3Q29rX2RCcENkb1kxWjBUTGpqNG5BblJUWFJ1TEw?oc=5",
+      "source": "The Crypto Times",
+      "published": "2026-11-09T08:07:37+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Struggles To Explain Why His Crypto Fortune Isn't Corrupt When Asked How It Differs From the Bidens - inkl",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeEgxeEtQQ2c2Y2ptdUV3ZWs1UTF0WUl1dVRVY0V1ekd2MGdKMFhYUTZuUmFkSkVPZlcxRVNQcGR1NFBnMjNST2Y4Y2xGejk1MzJ1YWFaSThUTThyRzlJNm1ya2U4YlViR3NHbDZmN3JBc3pDTVZYaFV6dXlyalZRbC12OE4wNGNZMmU2LUZHRXZjVGRqVUNlc1ZDNHptT1kxazlERU5lLUV4cjFWVkRmT2ZReTJRUHB6WVVBTzVxY2dNSGlkM1Q2M3hn?oc=5",
+      "source": "inkl",
+      "published": "2026-11-09T07:33:46+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump defends family crypto firm amid scrutiny over UAE-linked investments and potential conflicts of interest. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb3F0TlY0SHlvUnczRjZxQWlwWW96UzZkMDRZaTAtVVQyb1NpLXhVNjJiOVB2RzEtZjNsaW5CYUNKc2pqZUIxWXk0c3A0MUNlRUNhdUhSRUtQcVpPdHFmdExVMDN3cWh2dmNpVEpzUHVEb2VWRElHbExmN2ZCaTBpSG91NzRveFlXc19pTlBzOXlwaVB4ZGNraVVTb3hpcGVjUW5OdVJ3ajlIemw5M1dz?oc=5",
+      "source": "Pluang",
+      "published": "2026-11-09T07:07:12+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Says He Can't Tell His Sons to Stop Making Money While He's President, Shrugs Off Crypto Conflict-o - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTExHb0NJckxyOXNnZGFQU3BhUTg2ejNxdzJLZjlhNVNZbG9naVRINnVLWkxUcV9CZ0VZTl95Q2lKZmYtelBYa0VMQV9GWVFRNFdUT0hGRUtPTXFweTNuUHJMRmF5ZUFlbG92MFFRYUVYWnBZeUlSZFZMazdkWWVuOXZEeE91MElCVHQ3elZDdlNoUjJfNUViYkhjRXdPTFd2YzQzVFU5bjNDNFhQa2FZTlJSQQ?oc=5",
+      "source": "Benzinga",
+      "published": "2026-11-09T06:45:48+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Blumenthal Investigation Targets Binance, Tether and Trump Crypto Firms as Senate Sets January Deadline - Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWkzV09HeWd2NnlSeDdVaHUyQ3NhcGJVNlBrSmtCX3dnZk42bzJlN2NzWUg5VXFiZ0VBWmN5MllzdUVrdWx4ejB5SU5VRzE2S212QUlZN1I2eGk5dXRLOW5GV2dPWkpuWUZXUm4yQVBqMldNTzBNeTNyRS1OeURLSGFpX0R0MmhL?oc=5",
+      "source": "Cryptonews",
+      "published": "2026-11-09T06:31:29+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump says sons run World Liberty Financial as he denies role in crypto deals - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeExDUVJsNmJjbFhNb1BMS1UxdjBzeFVtZ2JWd1M5TXNWQ09Ya3NIYXFpdUNZR2o4bmlCOVRYT01GWk51aGk2anlGYVAza0ZFaEkzdjhjbnZYcjdTZnRZWWhtMTYtbFB6WV9sbHAxeDZZQ0RURGNQRDhBYzNzZzR0SGo0bmNTSVpTMVU5RDZsSDVkRFBWbzdrTWZMYWVrOWs?oc=5",
+      "source": "Crypto News",
+      "published": "2026-11-09T06:17:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Incoming Senate Investigations Chair Puts Binance, Tether, Trump Crypto Firms on the Clock - Cryptopolitan",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWF9XQ0dOLVFXMnVqaUxCOFFmWDNKUk9YSy1ydzlMWGZ6c1lVZ0xMY2dTX2Q3UEpJUko4NHRMLS1UQXUyem81S2hKdVh2ZnVnQkk3YjhheFhkQWc2N2tON3BaZEk0dVlOdndsSUpqLTF6QXlzOVFKOEZ4eDdiT2pzRg?oc=5",
+      "source": "Cryptopolitan",
+      "published": "2026-11-09T05:35:29+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Binance, Tether, Trump Crypto Firms Face Blumenthal\u2019s Jan 4 Records Deadline - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNclFuS2tmZlI2R3dpdjM0TV9fd2F3UGIwbDFjVnNFYm1kTmxPdVRFcm1ULU9RRTNNSVBpTmJmTTBMVnpJQldUZ1FFbzRJRTNqYVFtRkpZZzFTNEw2NnFzU3k0Rkk0bUJQa01sSklxeGdraV9MUkpqOWpYQXg3YjhZM281YU53SFYxZmZxODFZaDlSTDBiZWpYcGhJWWcwWjR0WnpaNFAtQ0JDd1ZjWUYza1hn?oc=5",
+      "source": "The Crypto Times",
+      "published": "2026-11-09T05:08:16+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Sanders and Warren look for deals with Trump as his attorney general threatens Democrats - World Socialist Web Site",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GTWFPZG9QLXNOOTFaOVl3VnhQZmRtdXZ6VkxXclQ2ZUdrclh3WUJfREFjZVEtYUlhY2U3dUFkODlPTzV3WVFiNTlxaWJmU0t1dFBvMzBwcW9JTUFsZEw1VEVHLUJwcmlJ?oc=5",
+      "source": "World Socialist Web Site",
+      "published": "2026-11-09T04:59:22+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Blumenthal Sets Jan. 4 Deadline for Binance, Tether and Trump Crypto Firms - LCX Exchange",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS2k4T2ZVdmtXUTVpSlc0UU5weWpneU1yX2ZhWEN5eVdDV1piLWZiNnZLdHR0NGk1Smx3NHNkWVpsdnF1QXdBWHJGZEQ4bnc0aFRYUDVQdjAwRlBiWVZRbVRYNTMzRUhUNW9ncVlWVW9fc1FOMkJTUk5TQ0RrNzlyT1VjWE9TZ05pcVVVUWNmc2JnOVJvMHlJWURsenc0S2xUbUJ3WA?oc=5",
+      "source": "LCX Exchange",
+      "published": "2026-11-09T04:24:35+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Senate Probe Puts Binance, Tether and Trump-Linked Crypto Firms on Notice - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZNV9lMkVoRzQ4eEhFcFRUdU5NQVlPNGVibVZaRG1KX1V6Tm15UWFiNktpeHB5RTVrZTNtSHFrVV9aYVM4T2xCYTRxMVQxLW80YmJrZV9JODI1M1pUXzVsVG5Zd1VIc0w2VHdPTnlWOV8?oc=5",
+      "source": "BeInCrypto",
+      "published": "2026-11-09T04:02:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Did Trump Want Anthropic CEO Dario Amodei Jailed? The Clues Are Adding Up - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4taUFoVHBhM2s4VnpHYlJ4U3ZQQ1ljdERUYmJaVUlfWDVVUWtvTFBkZlJWLWVhejZCM3duajJsZnRlZ1c2M3dHMTBqZTBPS0lLVzVVbUtHcDIwd2p3N2VwMm1KOE43Y0RMRVpaNEVlRF9GMHhVOHMzajZNcw?oc=5",
+      "source": "BeInCrypto",
+      "published": "2026-11-09T04:02:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Says He Isn\u2019t Involved in Family Crypto Business, Can\u2019t Stop Sons From Operating It - bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82SFV1emJSSWYyQ1RVWl81Rzdsbm4yTlFvcHRSWUpsSTlCeXVaNXFhX0pLem1OVmNJNnRwNzgwb1RtWjljZ3c0Rl8tblJxd1pPWEZRRA?oc=5",
+      "source": "bloomingbit",
+      "published": "2026-11-09T04:01:55+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "\ud83c\uddfa\ud83c\uddf8 Trump was pressed HARD over his family\u2019s crypto company, World Liberty Financial, and whether foreign investors could be buying influence. The point was that Trump is a co-owner while his sons help run it, and that investors have put money into the co - X",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJY3RmcEdWWVpsdHRTWjNiQTNycTlDeXpKNW1ham1JT2tKZ3Fiak1sN0c4WTBQQzY0c1NsUWxScVR6Yl9vanI5d3k2blpSb25adGJNajJLaE9sSE1WTERGb21ZRm1uSDBTOUtRaA?oc=5",
+      "source": "X",
+      "published": "2026-11-09T00:53:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump Just Got Hit with a New Problem: A Former Adviser\u2019s Corruption Claims Could Cost Him the MAHA Voters - National Security Journal",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV004bFhaMUxxN3hRUzBPamp3bHBLcUo0cnQ3MnZGdHhOUXFkbkpsYlU2dUpwZkNuV3FKdFgzblVPQ3dNNFRBb0c5VURfR2FzQVRPLUxoWXVJQVQxQ0U0SndqaHFJZWluaFBoYWxUcGFGVTNlN1N6WDlIdDRHZEZuZEVKbUVadHJNQ0lBT090a2dOSVBnT2pvdUhzNFZuSWNjajhWZWdhVHJrYVN4aWs0b2pzVTNMZ0Q0WGtWRzBYU0JDNV9YREVYRV9Xc1JzcDFWaEJKSTFXNkI?oc=5",
+      "source": "National Security Journal",
+      "published": "2026-11-09T00:09:34+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Democratic Senator Blumenthal Seeks Records From Binance, Tether in Trump Probe - bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhX0E3bW1YVjc5Rm5Uc2F2VzRIamdVYXhJNzdRUnZoaW83T1p2enkzSGJaQk9vWDhtN1dlVVdtU011OWxDRUt6dDdVb0ZmOEhuQzZUYw?oc=5",
+      "source": "bloomingbit",
+      "published": "2026-11-08T23:36:18+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Blumenthal sets Jan 4 deadline for Binance, Tether and Trump crypto firms as power shifts - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS25acWVBOEMwMUNKMVhNOWowOXZKa0tsNkJiUWFrSkNEV3dHUXdqbjQ5dWkta2NWYktEQXVvTWltUDhJU0wzbEhNRkVBVnBGc1QxV0hBRDVueEk5emFOYUxRSGctcktoa0k5dGVwd1daYmRQNlA2Rks1SURza1F4T1R3bmxYRGIybVdjUFg2c0ppNmI1eDNiXzh2WnhWUG1wVzVPdnUwbHR3YVk0NlJ3Q2ZMMzJfNUw5a0dGYU1xTFBtYXRkYlJrV1Fn?oc=5",
+      "source": "investingLive",
+      "published": "2026-11-08T22:54:53+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "US Senator Gives Binance, Tether and Trump-Linked Crypto Firms January 4 Deadline - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVVM4aVdoOTRoMzNYQklsS0tJWmJWY2VzN3ozN1k3dGNDbUpkM1F2Z0QyMi1HRmFLNHlPQjNaTS14b040SHA2OGpPbS12aEVNN3dQUXRJbWljTkduZXVFZmo1OEdCUDAwQ0ZUZVhibnFVSTdveWVQcjdYRU1UZjZGUVhoZ0JaVC1ld3F5M1YwUG9rNk84T3BfT29tcUQtYVpETzNKcnBlLU41TEdEbHlwZU1IZDNNY3FsOHc?oc=5",
+      "source": "CryptoRank",
+      "published": "2026-11-08T22:37:11+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Former RFK Jr. adviser accuses Susie Wiles, other Trump officials of corruption, blocking MAHA policies - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWFg1bXdpci03eldOQ21waU42a3hTNjhsWktIM2xSeTF2RmFlWFFIYjEwNXEwZG1ONnRHd3NHWnZWUW4za1ZiT3oyX292RDZmNjNlS1BBWnRSeGFMa2VpQlJRMXczQmF1di1UUkgzd0tJMFJXZHNYc3doU2k5R1FMQV8xSkxzZldoWnY5S0wyS0Y?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-08T21:46:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Why The Popular Backlash Against Trump\u2019s Corruption Didn\u2019t Surprise Malaysians - Sarawak Report",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaExuNW9KV2hCYk9ka0N4M0s1YjRPX2VOUzRzc3RBcVVjY3oyZ3ByQXJNdGxROEJ1dmpSVjY2UmlRXzNqUkpJNWxrZVBGaXBpWEN2QzRPZW5USHRJZFpkQ0pVS094M2E2Smw1bVdWOUVWUEQ1cWZmb1dsR1pRdmtETW9PeW8xODNpNjBwcU9aZ2I3dTRNSV9ZV3lSRlBBTXVMcGYzM2IwSWEyZlY5YW9WUHR4SThoQQ?oc=5",
+      "source": "Sarawak Report",
+      "published": "2026-11-08T17:37:50+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump on Corruption Allegations: Hard To Tell My Sons \"Don't Do Anything For Four Years Because I'm President\" - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUFREYnVjTHdHZVpNWG9Uc0VyU1lfYmJ1VVhkaWJXeEthWUlwekdKWkU5RzVQQVRJSVc5SC1nOHplemgtelhrXzlnTzdVNy0zSkFZUnBGMWs4M29NUHFKc3NMWE03UkVERlNENjlyVlBtZHFqSmp1V2JOdXBhcmM5Rkhqblk5YVZtT0p4MHZxN0JwLUhQXzdTR1JJQ3loUWs?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-08T14:00:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "What Would Bitcoin Look Like Without the Trump Effect? - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByOThHSjBuLTVaekhXeDU1YXIzQUdqMlRXdGRORDhSb2txT2F5V0VjTjE0Qk90Mmw4WGxYY2tER2s5S0xhMXhHcnpOTTU1VTJJVzBBSktlSDQ?oc=5",
+      "source": "Cryptonews.net",
+      "published": "2026-11-08T03:42:12+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
     {
       "title": "US Sen. Ron Johnson accuses the Trump administration of corruption - Milwaukee Journal Sentinel",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTDhwQjBlN0ltNTNCeldUY0RrMlgyT1NGc2xRY0hLSTdYQWlNLXl3cmdRTXpYd1BtREhFSFBXMUFsZ05lX1VWaWV4OC1JRUlrVHJveTNRWHN6N2tOWHBMd0k3Q3ZVRm05WGdRZTcyOVpsd0stVlJfY3BKaU4wVnFaQ25BN081bDJhQVcxVmM4UVpSc1p1NF84RFBYeHA4T0VsQ2F6bDg4emJlcjBiVWk0MkJ1RFZHSzVTSl81cXJGY2RyQkNZMUlBbUZieE5iOTQ?oc=5",
@@ -1694,426 +2114,6 @@
       "source": "KRIS 6 News Corpus Christi",
       "published": "2026-11-04T00:17:05+00:00",
       "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump, Iran and the MOAB: Oil and Gold After the Midterms - CryptoTicker.io",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZbXN1c0VMMGwwYTYwWjZKM1NkWWJIdXBGRFNaR2VKNUo4cGl3RkpGbm13YkxSNlRuUW9rSjI2VHVZbS02S2EwQzJVZU04WkNMcUY3NG8yTFppUGwwRi00XzRfT19LVEp6MXNobFBR?oc=5",
-      "source": "CryptoTicker.io",
-      "published": "2026-11-04T00:00:45+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump says US close to trade deal with Canada, Carney says work remains - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUpBTWJCc1lBeWhlaWFkSEFyYUtsbjg4THBRS3Z1cGs2ZE5BXzhiUGRpNFZsTnZtb2I0eHItTV9McE5BYm90TU5nZXJfMm9wLVc4TkhWNnBIZTlyYXhDX3ZRdzRGSnZCWS16Y0JpNnBYLWZwR2hrVmk3c3pIQXpxUVJ5ZGF4amN5ckhIUGdPS28yUjZkbHEtekFnVVVwQQ?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-03T23:14:05+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "Man pardoned by Trump over January 6 role charged with threatening judges - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQVVJTkZLajlDaW83VFh0T3hTVFpFc3NqendndGVaUkRYQkZXVWtrVzRYbmxNS09YVVNPMjZNdERuY3JSUlU3ZWUxcUZHYWdhUWR1MjhpdnYxRzIyaVBhUHc4QVlaVm5zOGVYTGRQRnZJem5IQU1iZU12ZDBKRU1Xc3BDUGxZSGYxRHRid0trQjBjT0RfaC14U2JSbEcyMDNJeWhTYVktU3RYdW9MYkMzR1d5MUlSS09iaHpZRkR3QlFKZHgw?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-03T23:09:44+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "Cost of living, corruption top issues and voters deeply unhappy with Trump: Early election - WZTV",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVplZmNCWjdNMzVBTlhUQnA3bU5VVGw0VVVRZkk2dERHS1U0Qm9neDhEb09kYm1ubWc5dWpMRGtPZzZGQ0ljaXFieTJzbk9nUS1qSzF4c0JBMUdpdjRTckZweXpJSGZwbDJiaXpfZEt3TnpMT2liRnd6R0w3X3Y1a0ZmRnJDajJBbU84c01YTmRfWEF3R2F0aUF0OGtuNVFpSmFXX2hMUUVSZlgxTkZ6b0hfcGtlSXVrUVA1OV9meFhvYmhadGRn?oc=5",
-      "source": "WZTV",
-      "published": "2026-11-03T22:56:28+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Cost of living, corruption top issues and voters deeply unhappy with Trump: Early election - WZTV",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT2FOZC1sb0d1Zzg5bWFZZmI1amh6S2JFTzZIazNLWThuc0pPOG5aZzBSejJDZVdueWEwNkZQZW9HTWpOLVBmYTYxWnN2MWJ2bzQwNVQxMjdPcUc0V1ZQUmlCekxqalc1WmFZSEJLbTV4RGw4NGxFeVl4VHc2VWZiY2wwWnRYcmxxdlB4Y3g2alNnV24xVENYeEJjU0ZGS09uY0tBMExMS09MVDJmamI4M19HcENDazk0?oc=5",
-      "source": "WZTV",
-      "published": "2026-11-03T22:50:08+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Cost of living, corruption top issues and voters deeply unhappy with Trump: Early election takeaways - Oskaloosa Herald",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQMVFIdXNiTVhDSFk0SE0zNTdFNExVY0NxbkhOeTVzLV9XQnl5TndGYVBXU2UtaC1DazVWbXFCS0hLNC1hd2Y5UlhtaWM2YmZTb21kTXBKZHlfNHJYUjRtckZuc3VQQUZISjJpT2pPbHlIcDhvRHQyQ2I5bFlMLVQ1cFEyX0NsOEg2Skt6UnozeV91aFkxa3A4TUs1STJYMWg5YXc5UmxxWHdFd3RJSU1XNm9PZGR0XzVUVlFrY213RDkxU2hqT0FBeHVMODBrYjVJS05wTFF6eTlva1NhZkZkNGM3WE9vaVAyUmwzOWZudVd5bWJpRFdDWE9XaGFKemxCa25EdWZjZDZuR3Jvb2QydXdfZ2szNnM?oc=5",
-      "source": "Oskaloosa Herald",
-      "published": "2026-11-03T22:18:04+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump's DOJ sends monitors overwhelmingly to Democratic areas, expands Alaska probe - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbGRoZ2w1TlIydE5odC15MjNOMlpTV3hMcFRwaDBPbmFVUzRBUkp4RXVpUnl3MHZuZmhVVFhXVDRkSFl4ZmUzVWsxczFwRHMzNU43WUhPbWlZTWUyTE1lQ3VzWko2SDBzLUMxc213T3ppaHlfcjl4MVdCNFY2TkZYWnJ2U1VWek9SckwzaG1zTXQwdDZTUmk3blZsQVFqMVdPN3Y0N05rOWU0MFJRc2xER25jcDBUeHp6Unhsd3JDLTJGekRjcTN3?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-03T21:06:09+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "Blockchain billionaire Justin Sun takes Trump family\u2019s crypto firm to court - DD News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaUhGQTk5SG05MDQ2Z0dRaV9Ub2EzQ0dEWU04YmI0cFBQT3Q2S3p0TDMzUEJIdFVua3V0VHhCRnN4elRUZl90M1BLWHNqS1dIdThqd1lhMWU0clRCV2ktaHdMa1pmeUowcGJITmZyd0R2TXFYRlVrMU1CTk5DTk56RnJtZlVBU0RLd0hoeGloaFJRSks5eGRUb0NQbFZCZkxBS0E?oc=5",
-      "source": "DD News",
-      "published": "2026-11-03T18:58:37+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "US midterms put Trump-era crypto boom and prediction markets at risk - inkl",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUE1leXNZUkUzTXpwY0ZpZmxPRUpDNy1iY0Q2VWdIVWpibFFjTW1QOXQ4V1FILTYxVXBFOTZ6LVNWSzBib09KN1V3WktvZTZrX0gtdjdKR3pvQ1VIVTlkNUR4MDNHdFRSZDdILVFjRVRiSUxZUFhaX1ZXaFZyWm1PbDYzdkhpZjhicENtR2N5REZoMVkyYlk3VFh3?oc=5",
-      "source": "inkl",
-      "published": "2026-11-03T18:09:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Greenland parliament ratifies security deal reached with Trump - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGs2NUJnQ1FjVkdfMVh5eDNKOXhoV042ckRlWFYyc05LSE5ncG9JMGNIZWJaMXhtUjZnMmp3ZVcweGJsT2RJeGdtNy0xZlRTaGg2Qm5rU2ZsSDNPWmV1NVRIc2Q3SmRwWTFJbmRfOVByLXI2bFpfOGY0eFgwT1pmaW5uT3ZvTm1BUnpSZTV6emJOQmNUUm9fUkV2bmkyVEVl?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-03T17:37:49+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "$1 Billion Flows Out of Bitcoin ETFs as Midterm Elections Put Trump's Crypto Agenda to the Test - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU3lmZG8zSGNqb3A1NmhVc1RwckxLSGZna0RmQkpXTTZfRzNPaUZ5OW52cXBLUVg5VDl5Zl9UYkZfem14V19tUTlhekhjSkVReGpJc2x1dzdKTlg2bDBkdTdpUmdvdkhMUVIzUkNtMzV5NVU2cVJtSGV3bGx1ZFRDb19zSGtJbTAtLTRjRExJdFpIcEk3RWh4aGJYaXBNVTdOMlJiQzhfWUlnVUM5dFdUcTVrZHRjSldydVdZSnRpdENXb1UtcG8wV3RmS1hXQVBYWXM4V1ZTeXlZQkFPbWlXaHlHLXFNdFNn?oc=5",
-      "source": "TradingView",
-      "published": "2026-11-03T17:31:37+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "\ud83d\udea8 CRYPTO MARKET ALERT: TRUMP\u2019S SENATE VOTE COULD SHAKE THE MARKET! - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4VGRvQWo5ZHRBVDFacU1wZDhJZ0Exa3FQRElESmJ0em1rUmpQMXZmdXNxRXIzY1R4LWM1ZW82TVJRbFAtRi0zYks1MWp6N2NEV2lVaUVNbjZQWEFhM2lTN0daTW0?oc=5",
-      "source": "Binance",
-      "published": "2026-11-03T16:48:46+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Iran, US still far apart on deal; Trump says ready but in no hurry for strikes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPalRYN3p3UkoxcmdQWFZuQ2xvU1FaZG0yX25XcTJreldvQmIyeDRCdWVKNVliZ1hHaTNweHpmRXpOWUZSVHRLMVdDVmJTOFdOTHRhOGFFS29HYlU1akVQdTFIdGNydjF2WWM3LXZVLUpOam5WeWxFaW0xMWUtRWhhMXdROWlXVFFuZnExdU5RVjlsRE0yMTBxUDh2bkVkeEk0QkwwU1Jxem50WU9yU3hmUHhvSEJyZ251OWM0cEM3dmJ0TzhaNzZrb1FHc3g?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-03T06:58:00+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "Trump Gives \u2018Exceptional\u2019 Greg Abbott His \u2018Complete and Total\u2019 Endorsement: Crypto Bettors Weigh Odds of Texas Governor\u2019s Record Fourth Term - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNSDBmS25MV0gwT1dubGFQeEsyYkh1bHdpb3ctdzBkTXJUbWpSMGhDd3YxYm0wWnYyVDk2M2FVekNzVUJaZGFfaUpSN240LXg1Mm9QMjFlVXNTQUM2V0NCaXFtQWZKSURwZ1ZockVhZkxKUC1WYUREdXdtMXNQQWl4RXNxTzFsOHBjMXBEdFcwQkdPUVlPam1ELUJwMk92OEc4VnA4T056cE9TRnZURlhSNUhzSUtUelhVNG8zOURod1lnZWJ0anQ5Z3ZJMC1zWFV3bm01OVdWT01uUGxZMHJPQWoyLU91anN4TWRLUTVZbHFCQnhjMnhWU25KM3NXUGRfVnJuLXZuRzZPcEhFemppR19yOUNRWUZhZExIUTJlcw?oc=5",
-      "source": "TradingView",
-      "published": "2026-11-03T04:13:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Justin Sun Says Trump's \u2018Proudly American' Crypto Firm Claimed UAE Roots to Exit US Court - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BTEpfWGVLN2ZqSUgxSzhCbWNlRzlTb0NrRzlva3ZPNTd5czdVTVg0NjJBaEFaUld0RTI5NzRmNWpBaHR1X2JadUNaM0dkSE1XZG1HWk81OEZnNHc5cGNvUWl1OWpSanhfaVp2R0Fvcw?oc=5",
-      "source": "BeInCrypto",
-      "published": "2026-11-03T18:00:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Bitcoin ETFs Lose $1B As Midterms Test Trump's Crypto Agenda - iShares Bitcoin Trust (NASDAQ:IBIT) - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWmp5amp1MFNlcjFKZTRsM2NhSHJlQkZKMUhpbFMyYkdkYUh5NlAyYWdMV1Z0ZXBGa0R3N0luMk16SlNHQ2tiSHIxNkx3MWtNTEpWXzlHM0trVFdoUHQ4ai1SOFpsdzFNX2FrWE5BM040bUxJc29vQTlZMnVVM3pSUjl4Y1d3RkxvTWkycFl1LWtJVDZ6S0Iwa01nTXdIMFFoSEFmbHMwUWJNbDNGck5yb0FJNGlGa3ZPUFpvRlBranNkMEJGT0hUN3RnWlJDR2ZXenJkOVpwcnViVmV6cUFzRVhuU2Q?oc=5",
-      "source": "Benzinga",
-      "published": "2026-11-03T17:31:37+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Family wealth, Epstein, \u2018vanity projects\u2019: How Democrats plan to investigate Trump after midterms - France 24",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbElPclozcHM3LXdlMlpVRTRHZHdLM2F6ZmxEWDJzM2tsT0twRDNxYWV1aFFxTjJfZ2F6UnVndm5aZW8wbndRLVBpWkt0YUlXVVlXbWJFRXV1Q0tEX1dNa1VRWTdPaGxBZkNCb0pJWkJva1VMSzdyYV9INGVlVEtjS1BsVnhiams5U0RYUmJ5bEZCdkJPMFVoUkZJSlFDTVNHWVM4TkNNWGZCOGR0QkloVU56WU1FanNrRTFGN0pmMFNDcUwyMWc3di04bWlac2c?oc=5",
-      "source": "France 24",
-      "published": "2026-11-03T17:30:16+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdTM1SHVybkV4MzdwUFBIQ3dWTndWNS1yQ1FqSEtUQ182T1hJQmhrR19uZTc2cUJkYWw2TW9kaXVQQUo5a2dnOVEyWG1HMVctNjBUbm9ZMGlKTnBZWkVCWkJ3NTZwdWFPbmlGUEd1SGV2LXZlRXZvelFxb25DOVRWVHNMRkdwME1JNTI4TS1VSHVGaVBkY0ZGLURGajRuZUNZNmM0OW9HNHdIbWxvR2tib21ZLXhvOW5ZNFlPdFVYTjRfVTIzZUlZ?oc=5",
-      "source": "CoinDesk",
-      "published": "2026-11-03T16:55:10+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Justin Sun Seeks Sanctions Against Trump-Backed World Liberty Financial Over Late UAE Disclosure - The Crypto Times",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNU24wSDZRbVMyQksxaXl6d3pvb2Nra1AzRUxHN05sUno2aGFWaGdnZkNxeG53NlZwOFNWb0NyMHJMTHhmcDlaUjFTLU00d05BQWMzUlVYWFQ4aDA5cFQxU3F2Y0VNWHMzbVZXTWFaY0FYZzBwR3pLZ2dPUGY3Rm1ORE15NzBheUZ3aHJVMFpBWFdMM2ZSSTg2OGdpaDRVRFVxeEhhemJGNVp0STNJQWhlaUFuTFA4Smh0MERCcFpydnhEZndIYTFNRlZ2a2F3c2d5?oc=5",
-      "source": "The Crypto Times",
-      "published": "2026-11-03T16:29:28+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Justin Sun seeks sanctions against World Liberty, alleging Trump-linked firm hid UAE ties - The Block",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmstTm5vR1RmU3JfWGx0SVNZQnI1YlJRbWdTSUlMZFBqbWNXUmI2YW0td290Z2lqSzFldmZZb3ZhVkN2MjYtRmpiSWt6TEgzQi1rUC1nQXJKLTlwMFEyQUpJTUpfODh5Q2UxUkRRUzVGTUdoOTFnYUJYU1pEdTY0R3VaVjczeFBtbk9TNVczY0RSSDZ0NGNEdjJBaHdNSmJ2NUEtMEhNR0ZvZw?oc=5",
-      "source": "The Block",
-      "published": "2026-11-03T16:08:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Tron founder sues Trump-backed crypto project o... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRS01RkR6MHBRUmxEZ0ZiTl90dFk3OTk2UURpeVhnZlJDNFhLNF9Od3dMS0wwWm1zTktnYjM2RkVOcUFvU3lpYXdYN0RBWVlKWlg1WnVxcjZ6YTlKdHU3MjFRWW1qcV9qbjZoaGJVcWZpSlFSaXQxM2xyYUlPSGpYM19rNVJKU0FMdmZNOFBQZUFtdU5SWTRyQzltODV5Q0tJa0xtVVpB?oc=5",
-      "source": "Pluang",
-      "published": "2026-11-03T15:47:14+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Justin Sun sues World Liberty Financial over frozen WLFI tokens - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wWHFaYmc5MmlQR1BnTVFmYjhMVjhUcDA2bFAwVnZ2ZkJjSGlnODdwdVc5TU83dElZdHk1MmFMTEltSElPTjZxNG5IQXYwUm1sR2wzNy16QlhOYlBTeDlfam4xSnlWZW9qYVpqWmpyQkxyUzNCWFRmQTctYVU?oc=5",
-      "source": "Crypto Briefing",
-      "published": "2026-11-03T15:23:42+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "'We'll have to protect them': Trump says he'd give SpaceX CEO Elon Musk a pardon if Dems win control of Congress - MoneyWise.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRjlkdVRVWjROdl9GVUc4SkNmSm1OZngyaWtXb3Z2TEJhRzVKQlBfbnNDWVI0d2V5ck9FRzRLUHdlSXcxUlR4T09MbXJEX2YwcExCTlJfYmVVZ0Y5MDJ5R2M4RGFHYUh6NldxVW1mYkwwM3Z2Nk9LZTNETGdiZ0hqcG5fY1JXOGFsT2xXMTZ5QkFicXc?oc=5",
-      "source": "MoneyWise.com",
-      "published": "2026-11-03T14:08:37+00:00",
-      "query": "Trump pardon OR donor OR super PAC"
-    },
-    {
-      "title": "Trump Iran Strikes Raise Tensions as Tehran Says War Deal Remains Far Off - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcm1udXZkLVRLT0IzU0pDZGdTUXlNdS1yY3hOdzRRNTNNcm9OeE1TbUs4RElJRDFmNW1BR2x6Q3RkWG10M3JqazR4UHREeDFYZkxXSkJTa2d5dzBMamVVUVMtZGVPQ3RFTjBkVTJ2RmJMS1lEeklobzVQMFVOc1N1YXBZd2xkQ0dwRU5JRG9LRWdJN3dxUDBXLUtES3hJbDZIenRoLXN5RFNIT2llV3VRUkY0M2tzckUt0gG4AUFVX3lxTE1ybW51dmQtVEtPQjNTSkNkZ1NReU11LXJjeE53NFE1M01yb054TVNtSzhESUlEMWY1bUFHbHpDdGRYbXQzcmprNHhQdER4MVhmTFdKQlNrZ3l3MExqZVVRUy1kZU9DdEVOMGRVMnZGYkxLWUR6SWhvNVAwVU5zU3VhcFl3bGRDR3BFTklEb0tFZ0k3d3FQMFctS0RLeElsNkh6dGgtc3lEU0hPaWVXdVFSRjQza3NyRS0?oc=5",
-      "source": "Coinpedia",
-      "published": "2026-11-03T12:00:49+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump Media & Technology Group Corp. Tokenized Stock (Coinbase) - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPanVuQVh6djFUYkRDZWxSeHpVd2NPdkZLX0J1UWNibS1UajlDMnZLcUl4Wm5FWnd4OTVybk44QmZCNk1KWUN2R0VjYU1GLW9uQWsxUDZFNVdmSndOWWF3Tmh0bEsyRTFDS3ptTDFqZEJDbDFzNnUtM0JuTUtFUXJPRHltSmp0bW9peEdBQzNtTldZNmIt?oc=5",
-      "source": "CryptoRank",
-      "published": "2026-11-03T11:58:47+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "The Critical Election Day Has Arrived for the US and Donald Trump! Is There a Threat for Bitcoin and Altcoins? Here Are the Details - Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NaW51Z1VvRTBvU2t0RllIRERyRlNadzMtX0ZieENNd25OZGFnekVwQkNXakJRMEc3S29sMmJKSWZ2MzExR0tLN2tZTkNNYjNJX3dWWjJB?oc=5",
-      "source": "Cryptonews.net",
-      "published": "2026-11-03T11:48:01+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "CA. Opposes Trump\u2019s Proposed SEC Rule That Would Spawn Scams, Strip States of Critical Oversight; Securities Investments Involving Crypto Assets Remain One Of The Riskiest Types Of Investments \u2014 Yet, The Federal Proposal Undermines Investor Prote - Sierra Sun Times",
-      "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxNUUl1eXJhaV9Hdnp2WmZEaW1XU283ODNSazNoSFY2RmhRcnJJMXFlZzdjVHNiY0toQjZtVmxjeU5vZlR5NDk4UXVtbElNQ1NNSE9XQmZFZGlVSm1oS0xTOHFBbi1YVi00ajAtUXdsNy12S0dkTGcxOFNuSHB4YUY3aURLbk9xNmgzU3VwYUVDQkpVR005bk85VFE3NjltYTFrQkxrUHpXblMtaEZ5TXpHcDdqUmljSklZcGhCeVhBUy1ILWY1dTlBRzE4cUVDVVI1a2N1eGFhODM4THBEVk5UU1NXSHc0dVdtODFoNllVay1hQm9SQldUOFBUQldZSndEVnBxZkxKb0RDWmdKMllRODBYNlhCdjhpMmtCa0l3ODlLb3owWDRuZlZXZHZDbmF2cG10Z0tPVDB5UV85b3JsSTNSOWVoQ0hJSmdEQVE4ck16am91VWlRcDhvUWxvRkJXOUNocDRDdmNqcVZKdVJFR0dNVEw5QW9PTzZuZDN4VEFkSW4zbFBuTUZWVmhHWXNmeVZhY0ZoSmJOdmF5VEdYajNEcWdodmFLSUQ2a2FYV3Y5NjNxLVlyQld3cmRPWk5zMEpV?oc=5",
-      "source": "Sierra Sun Times",
-      "published": "2026-11-03T11:26:40+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Cryptocurrencies endorsed by President Trump si... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWlk4SUtnOU41SEhEMk9DSHlhRjl3aERFMnFCM0s5REc2WHBRS1dCY3A1NHFBRFl4VmVaOHNiemMyb2hPVGdzZWRMQzFwZEZheGlETjhleU9LVE82aEpDd1ZGN0ZQdUN4eTFDcHBJVlZLWTVCZWhwaTF0dndLcXU5bmROTjhxV1FGdEVScDJzNDBfME5pOFhVYnBqQl9pQQ?oc=5",
-      "source": "Pluang",
-      "published": "2026-11-03T10:26:07+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump removes South Africa from AGOA, citing corruption, national security concerns - Peoples Gazette Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV0toUmpxbkRkRFdZUEc2VnFOTEMzMDRiX1hFTEJoZnFhbWtCRk44aVNLOTlwb0RIMVdmbWlvNFotLXpvLVI5bkFaWnJFa2pqTkZzVXpVbnVFZE9nSVVqbTNuaWdMVWtHUEVMSE15RDdwc0hwZ3hKaGN4dGsyS2hhbG9yZVdsMEl4Sk45WTNYTm03elk2TlRTRks5LXJTX3Q2enp2VkhYRWY?oc=5",
-      "source": "Peoples Gazette Nigeria",
-      "published": "2026-11-03T08:50:12+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Crypto and Midterm Election: 3 Risks From Trump\u2019s $5,000 Stimulus to Iran - Cryptonews",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcldkZURSVWVzNE9rQjhaNjExVEduSnhOSzJzSEJNUVVscEVSeWRFXzdyNGhRS1BxNUN5eV94eDlIdHB5aEw4emZxZFo5ZnJieHE3VUxGVWQ5NUJGVW5jX1hDenFGNEQycW9OeXpGdG9VUUQtVi1sQkJ3dm00Q0xXYV9hRkdLeW8?oc=5",
-      "source": "Cryptonews",
-      "published": "2026-11-03T08:23:48+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "US Congress Set to Lose \u2018Crypto Queen\u2019 as Trump Backs Harriet Hageman in Wyoming Senate Race - bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlR0VtdjZBUndQQkx0RnRrY0VXU3hwaGExcmE1eG9LVkJ2eUlIRGlIUEFVVlhKNmg4SC1OcXk3YjdaaHdwUGFOZkJab2NvY2FsTzcyQg?oc=5",
-      "source": "bloomingbit",
-      "published": "2026-11-03T07:53:23+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Binance Resumes More Crypto Withdrawals, Including Chainlink and Official Trump - bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kaVllQXNDRlVyejlNYncxWGtESGVGWHA5Z0RoVWtOc0laNGJ3QzVtaGV6cndPTng0TFV6QmVTN0xVTHc4UTJOdlV2VUg3bmFCSkNCeA?oc=5",
-      "source": "bloomingbit",
-      "published": "2026-11-03T07:19:01+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "'People are done with corruption': Anthony Scaramucci on Trump and the US mid-terms | The Indo Daily - Irish Independent",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcUE3SHVfZzJFdld1T1lWUWFLM1Nma0R0dUQwRDRvWXFaek9SeDRBeFRkbE95ZGpjdnZKdnVFdm1GVFZSbjBfY191bjI2Uk9UVmE4T1VlOFEzM3VJVTROSHBtX2IwdlB1ZWFpZjItZkZ6RUdKeW1DUGVhZi1FSFltMXE3eFRFVUpMNGVlYlN4Z2VuVXNLOW0zbERtMmg4ZHZPb2hmM3RMQ3RtYlEydjNIR21lQTlKd1NzbHpNQ1VUMUJ5Wmk5ZVJPQVl2SHBCTXBRdll6b29LSVhpcVZHSTlv?oc=5",
-      "source": "Irish Independent",
-      "published": "2026-11-03T05:30:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump Gives \u2018Exceptional\u2019 Greg Abbott His \u2018Complete and Total\u2019 Endorsement: Crypto Bettors Weigh Odds of - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOXQxUXZObHlfMDNXdzV1dmhsV0hTN2RRSFlfZktXcFVzajFTMGpHdEFjekdGTHhrdjdEaS1vN3Q2ZVEzX3RzVk1ueWtXOF9MRUdSS0ZGYklvRThUcXJ3WU1sOHVvUlMwOFpjMmdMU2dLUzZQMHdvV1N5aUgyc05lWHlldjdyMVZaa1JlQ3hVVkxuTTVYOGZES254YkVOLVFqUXpFMlJ5YjFwX2lrLVN0T0Zwby1tTE5FSTFqTVVwRkFhVmJJNDZz?oc=5",
-      "source": "Benzinga",
-      "published": "2026-11-03T04:13:31+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Kim Yo Jong Ties FBI\u2019s Binance Hack Blame to Trump\u2019s Crypto Reserve - unchainedcrypto.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ0o2SW1mMDVqMmxMSnlORG9vdWFIX2NYdkMzbWZGR3VmVHdEbmVncGJkZFRSN3BJV1VtaTNJWjFNX3NXdTduTzd4OVpXUGtuc2xkeFhTZTg3cDRDWDlyNUJsbDJhc1NhSUhzNFV5RzV4emNFY1R3Q0RkU1lGaHpfdEJxVDIyN0xUamt5cVdURzNjM0F4U2hyV0hB?oc=5",
-      "source": "unchainedcrypto.com",
-      "published": "2026-11-02T23:05:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "SBF Files Trump Pardon Bid While Serving 25-Year Term - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEVZamcxNEo2UE9EQldIQlpYQ0lFcUQzeFdMUUVPMVNrTmZtMEl2TUQ0dFZpN21tSDE3ZUxBN3JpeDFWSjh2UFdaVjljUEtrVUJqN0ZzQzcydzNqUzA1RHFpZUFGR0hseldfejBiRGdxenpfY1hnbkpwNldSdVE4MGxmR3pJcDFERDB3QWFLNHhyNGhxUnItd0J2MA?oc=5",
-      "source": "CoinMarketCap",
-      "published": "2026-11-02T22:55:48+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Bitcoin Rallies as Democrats Gain Election Momentum: Is Trump\u2019s Market Influence Starting to Fade? - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnhUZ2pwZHdBM0RIYk1BUDdFVTl2WkRDQTBGWmtQNVJGd3prSDZTRDkzY1UyYWtCZlhuSnhGM3pUbUM1bmRmN1A5cUlCemIzdEJucjNPWERyQWF3R3NPSkVpWVRmODBXN2o2ZWtnM0kyVXFFYTVacTY5c2ZXTVJFa19ZN0thajFUOVBjNUNyaFFEdWVPRDhQZTFCOUlyUHVMSndhYmdxMVE5UGJ3OFd5V2NTVFdoVTZhZU9HYm9mWDVkNThOS0xtaVg4eU1wUQ?oc=5",
-      "source": "CryptoRank",
-      "published": "2026-11-02T22:44:23+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Former Trump DHS Official Drops BOMBSHELL Doc EXPOSING Trump\u2019s CORRUPTION!! - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pVlNydHJtYWpKV1hzV2l2TlQ1SWtURVk2S1dONkl2MFB3bUh6ZEg0dTF1TkNFclRoWGNJS0VmSE55X1FMLVp6cUNodGNFVzVmOWRIOWdCbUZKaEdY?oc=5",
-      "source": "YouTube",
-      "published": "2026-11-02T18:30:35+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump to terminate South Africa\u2019s AGOA trade benefits - thenational.co.za",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaXBtanA4V2JWU1NTRVdjaG5uZUpJeEVhR1E0Q2dJdFBlUFZkQWUyUzB5cUxKdkFCcXFiMGRUTEFGbnNNcVM5VHJ4ZTVCSVZNMTEyRUg3X2phRElLamktQkhtUGowQjFLZ0Nzb3dHenlrSmprX1k4ZDF2b3YtTTU3MGdla19QREpudXJ0X2RmS3Bac1I2bm5tQzBvcEo?oc=5",
-      "source": "thenational.co.za",
-      "published": "2026-11-02T18:13:35+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump's answer about corruption is laughable - NewsBreak: Local News & Alerts",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQODBQd3FWTUw4RE1yYWxMUXRMMzFFbl9YMXZqN3ZZYVhXaVFsQlF3bXQ1V1lxT3BZWkZxWFFLRXdQOUJXOVJsLS1ZcGpCLVR0VnFfckgtVmljWUthLTBBdmxVM2pYeGRyTDRZdFFxMm5aYlU5NkI3QkxtQi1qdTc1akFLQVNGU245dktEVVNUamNObWtxRzdtd1l6b1Z5cUp0bFJRbA?oc=5",
-      "source": "NewsBreak: Local News & Alerts",
-      "published": "2026-11-02T16:13:22+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump Predicts Massive Bitcoin & Crypto Boom \ud83d\ude80 - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55UkhXaWVEcEgwQWZkMHpOWTNXZkF2bmo4MmdSY0txZURPYmVLcVVXaWg4TEhGdWtfWG4wUXV1dDlQbkpsT09uRTV0ZXQyRWNMd1RoNkFfeXE4dWVoTURFMG9va08?oc=5",
-      "source": "Binance",
-      "published": "2026-11-02T15:21:07+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump readies preemptive pardon for Elon Musk as midterm blowout looms - Raw Story",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VUU1ya1EzY0VVeVRmekprLUkwc1NJSW1heEVXcFBLemxUTm5SMmVOUWhsTGtfQkRCLTBUa0xRQ1dSb0lMeU8zdnZ1Ui1MVk8zcjltbDRzSHVybkZ0SXEwdHBNLXA4OHhtVW8zclY3V3BFOXl30gF0QVVfeXFMTVVRTXJrUTNjRVV5VGZ6SmstSTBzU0lJbWF4RVdwUEt6bFROblIyZU5RaGxMa19CREItMFRrTFFDV1JvSUx5TzN2dnVSLUxWTzNyOW1sNHNIdXJuRnRJcTB0cE0tcDg4eG1VbzNyVjdXcEU5eXc?oc=5",
-      "source": "Raw Story",
-      "published": "2026-11-02T12:49:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "US judge dismisses Trump administration's Harvard admissions probe case - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNG9xdEhOTE5YeDJQM2Z3Q0tEbk9hN3d2SkVGWnp3Z0FnYW9jOVQwc3dkRk9yek12M1dvWUlxb2NmeGtUelNxSEtMZEVVY29QMXdOS2JibnZndDBmY3o5VWlnMnlTcjFQZUxxTnNKSWU2WWxWbzAwaXJ1ZWtBOXBsbDRIN0pteVlnMXJyZGk2RUhiQTZvX3NBVnlZZndtaGwwYzJodFRZZlZCSFlad01BUFV3?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-02T19:22:24+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "Trump LOSES legal challenges as questions about CORRUPTION and his financial dealings 'linger' - Modern Ghana",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40WnRWT3VEVDRTeFl3Q2ZNZnYyUHplZGhnMUROaXFVVmYzRjJYamVDWUpMeXhsMHFiRUtMNEU4V1ZDYk14LS11cE1qX1V0WlpxUjlFZ1drWVdyMWYz0gFcQVVfeXFMTjRadFZPdURUNFN4WXdDZk1mdjJQemVkaGcxRE5pcVVWZjNGMlhqZUNZSkx5eGwwcWJFS0w0RThXVkNiTXgtLXVwTWpfVXRaWnFSOUVnV2tZV3IxZjM?oc=5",
-      "source": "Modern Ghana",
-      "published": "2026-11-02T18:30:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump\u2019s Pentagon rewards admitted fraudster with $400M no-bid deal - AlterNet",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vckxPOG1OSlppa01HOUFpb1phZGRoU1BTTGJqVlNVSGY1WkZXZUNLUzVjMXRRWUM2dEttbVRNdURuZGhTZHlXYkM4NG1HXzBOR1BTZlZ6VmhtWFVmU0tobQ?oc=5",
-      "source": "AlterNet",
-      "published": "2026-11-02T18:06:00+00:00",
-      "query": "Trump \"no-bid\" OR emolument OR \"pay to play\""
-    },
-    {
-      "title": "Trump loses legal challenges as questions about corruption and his financial dealings 'linger' - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWFZzbVFONGZPMmdkNXdqbDlHTGNTczVYTmlmaEQzZF9Lc1V4dWFmWjZRNjRjUnVONGlSM1pqWV9WUzFwTXM2UXZJTy11ZnNlV3R4MWJfMTJZN3RVQ3lyREF4RHdzVjRxblZQWDZZTkxySkxVTDlwMjFxOUN2bkMzRGNLZTJsc2ZtQmhRYWl4ZGZmY21RVGhqSXdxWGM5aXpPaE1WNDJPdjJsVzBJc2JUVVBWV2JGb1VZRzcyd0hTLWh0TXpuYmx3VVk2VDFSdlNFeEVNejRZLUd3SWc?oc=5",
-      "source": "MS NOW",
-      "published": "2026-11-02T17:56:48+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump loses more legal challenges as questions about corruption and his financial dealings 'linger' - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMW1fNzQ1anlqUUdEdmFucFdTU1p0OUJyQkR2S05MNlE0MUJCMWVNUURtT0ZOM2hvMHdGMVh5TXVvOFJodkVCdjhIeVZwT2ZDeVhYZlgzbUN1QmNCRGRpcWVxYlBTLV9WVDFuWXJBblZWWXdkWlhrUFZydVlibmpfQWpjUWtCVXpNdlE?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-02T17:55:11+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Donald Trump Torches Former Attorney's $50M Pardon Deal - OK Magazine",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3N3dVJMcXp3eTZOVWRDZEZ4S0FsNTNXVW1MaU9wd0c5R21qTXJwY3FOQjlHaGphSC1LbGFydlpsemtES05CQWI3UGVBMW9fY251LWM5QkEtMDZlXzJQZm52RlJtS0tjUkpMcUdGaURDTXp0LXBrbXo0dE9UZ0s2bV9iQUlrRUh6X0ZZWklpV19YREJBTy15dDRNdVFmd1U1cUY5dlBaMF9DWEpFUC16VnhYU1Q?oc=5",
-      "source": "OK Magazine",
-      "published": "2026-11-02T17:43:34+00:00",
-      "query": "Trump pardon OR donor OR super PAC"
-    },
-    {
-      "title": "From a Bahamas Wedding to a Sanctioned Stablecoin: Mapping Trump-Kremlin Business Ties - Kyiv Post",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBGQ3hNeFJob1EtdXBTSnhhcnZQQXRNRWtaREhEZTJjbnphYWhrY0RVamw4RkMxdmR1bFpxWlEwdzktNUE5UTBCMmF3dw?oc=5",
-      "source": "Kyiv Post",
-      "published": "2026-11-02T17:29:09+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Claude Predicts Official Trump and MemeCore's Next Move as This Best 1000x Crypto in 2026 Goes Parabolic - openPR.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSW9ZdnNtN0MwN08xc0FjSWQ5Mkp2LWNOZlhOcVdwVENjLTRmNVhKWHNQczlUSFRiXzZRek9IcVJjNEpWUnlWLVNUSTlzd3pJRlJRck1yS3lVVlp3VWF6MWNBeEpiU20wSDh3STlQQnp0T0RVXzRGZHNya3RkYWpGbGd0eHJJNGczTmtoM3pFaDQ0VzF3SzVLTVU2MUotOGxl?oc=5",
-      "source": "openPR.com",
-      "published": "2026-11-02T17:19:19+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Rejecting Donald Trump's Corruption Means Defeating Crooked Ken Paxton - National Memo",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Vek9zRHdKQTFJdFczR05KYmRRY1haSmprekQ0b2xnczl5WHROMl9iVmRoWmJlcld5dmtDc1NTX1FuMmw3S29yQmd2T2tZU0JCV2tWUTFLaUI0bWc2NzNMWlpB?oc=5",
-      "source": "National Memo",
-      "published": "2026-11-02T16:26:54+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Inflation, war and corruption: Will anger at Trump see Republicans punished at midterms? - France 24",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdU9IYWhfTVpvQUxoanZYQXNGMnZ2VG5QVUMzT1pBQ2k4eXdDVzRnSGlQZHAyTm9RcTFGMzYxZ1pJTmFkZFNNdWsxSllmWVdzcTZFVFpwRV83SlY1Ynl2S3YtWkg5WW5BaFp2NFQ5SDI2Z05rSHNrWk1OTHQ2WG5iSnc5RnpwYVBVZU5wQ2dQVDJTbXF6VFpDazVzLXFkNUk4eFE3eXFXX2RvbkdCZmFfd3ROSndRZnBDbG9XeC16RjI4SGtpYkVj?oc=5",
-      "source": "France 24",
-      "published": "2026-11-02T15:26:41+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "\u2018You Wrote the Book on Corruption\u2019: California Gov. Gavin Newsom\u2019s Post Calling Trump a \u2018Corruption Story\u2019 Sparks Hypocrisy Backlash - The Nerd Stash",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWkN1c25OOV9uNkFYZlh4MmxsR21HZ01MTkFEeXh0QWF0OFRpUEZVQkhseC00Tkk2RHdaZjZhLUsxWUJlNkxMdUpFYlRPNHZjOF81WHhqdnBWQlRKTkxzRXkyVUFQby1IX2FESDJHS3ZnQnpUbF81eVZCOVlLSlhvNXR6ODgyR1FlTThDNnhLcjZZd2pfTmF5aFpMbWdoTUV6S2xkcnZ6LVYtRmNNZnlqV1h6Q0UxQ1dGRXlsZnVPenZoZjNFVDRHR182Rmw5amY2X3N4Vl9QdWhOOXFWOTF6R2JyUFNiZw?oc=5",
-      "source": "The Nerd Stash",
-      "published": "2026-11-02T15:00:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "$TRUMP Made Their Mark: Is Apeing the Next 1000x Crypto? LIVE Stage 10 at $0.0008, Puts 1000x Potential in Focus - openPR.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeVdQdXFlV0prd29kQXVOd2Z4cmMtVkl5SHVISXNQNFFvN0dDRmo5MEhydElCUzhpOXpSVjRLcktGbFFYR0o4ekljY293aEttcno2YndjRTNrYnZtTk82WGU4V2lieG1yN21vcUpJRjlUdkhnby1yeDAxWEx6aERJZnlSSGszRlEtLUt2T0RrdEt4NVJoLUZQUUFn?oc=5",
-      "source": "openPR.com",
-      "published": "2026-11-02T14:45:21+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump\u2019s groveling billionaires sweat over corruption probes: Nobel economist - AlterNet",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pZmZnUUVIZW0wLTltMlJDQ2lrMjZTMWdHMDJOSmlzMmlrNmNDRTFNcWhNeTJCdWk1T1dVRGhRazN5ZHcwU1hxc3VBNE5qbkFLdkVRVWtjWlpKeXVZb1lBVjZYYmpINENjTDhINVBB?oc=5",
-      "source": "AlterNet",
-      "published": "2026-11-02T13:47:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "If Trump Loses the House, Will Bitcoin and Stocks Crash or Rally? - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYTMwSmt4ZzdSNzFrVnNOQzhjWjgxdlVWaUc3bWhsWjc3UkxLZ1JfN2tKa2FQamV2dGgtem9vRV9ydGdmME5YaTJmR2ZyZWw4SjRtQjdnTFBYZjEtYmJGeXgtMXZ4VHZMdDlPZkVmT1YtYzctcGlkX2tFMHN2XzVETUU4ZS1STHhOVnFjbHZaOTFCcWRobU1aaA?oc=5",
-      "source": "Coin Gabbar",
-      "published": "2026-11-02T11:40:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump's Midterm Struggles: Falling Approval Rating, Family Corruption Scandal And A Hanging Election - News18",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUWJMQV9DUlVKLWFPczhZYUxGU3gyQmMyRjZqZ3d3LTJMaDNJMXcwSnp3ZEJ3Z3hwTzJQbHFVWnJwWm5BaVFYaVJOcnRXMVhjQUFwTEdnSHdabm1xcnJ1NDJmR3VYSGZHMk9pLWNrNVA2d3lLT29KWngtZzVZUGF2VFNINkZzVHlFa0UzYXpSV1B1R1ZNeEFYcld5a19ZYnZMMlYtTWxySnpNdXc5amZ4amRSSzJPOHdSMjhVLWI4OVMyelhla3F2M2ZGbGVHZUdRSXNoYTh2NHZBYVB1RGxsRnRn0gHnAUFVX3lxTE8xMHBtdHhXYVhRMV95bkZWc1BOckR4NVZQSkRhUi1BRFF3ZU9MSVN5Z043WGMyZmxnOXpWNmMzbG9wTUNEbkRRS09ybFE1ZldHX0x0UkFPWlQwbU83LTlXZ0hKZU9QbW5TUmduOVdRYVFOUjBzT3pCVXQ3S3Y2aWFqVkhoeWI2U21LSkl0akFHN1Vlb1Y3RnhxbjBOQ09TR29CS0QzdGo4S3REa3JCMXlaZXQtekZqeWtaOVpsdVU0Nzh4aDRJcWdEMURpNE9GT2VBZExlVWlLNjQtZnJqek1UMjJwVFYwbw?oc=5",
-      "source": "News18",
-      "published": "2026-11-02T11:37:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump Questions FBI\u2019s Assertion That North Korea Was Behind The $6.3 Billion Binance Heist As Bitcoin Payment Tool BTCPay Server Warns Hot Wallets Are Being Drained - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdDNscmFJbFpMTWZEOTFGRmhZTDM2TjhzSlh3UC1ncmRCQjNRdnhIMUtQUm4zUUdnRmtsRDNsbUZSeEZxQ3RYcTI1UTdHc3k2eEFzUlNKTE1pYVBSbmI4WTdZZV9NRk1RMkFWemhYdzFmM3czTEFZUXF1R3Jza0hkRHhFbE5oWjBzVEJIa043SzVlVHRRWndSLVVURVZCd0s3X2c?oc=5",
-      "source": "Yahoo Finance",
-      "published": "2026-11-02T11:34:33+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump Questions FBI's Assertion That North Korea Was Behind The $6.3 Billion Binance Heist As Bitcoin Payment Tool BTCPay Server Warns Hot Wallets Are Being Drained - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQb2o0cTJqdlkxTk5nOTE3Qnp5RXN5QVZkU2JMSWdILVlzWndZSy1XNWoxdWVGeGtXcWN3OUk2SlUtRERDekZ4Z25yNFA3UWdEYjZwbTdXOWhOdjlfYVY1N3ZfRGxQMHJfZUZlTHpSYWpFbVBKSXAyeElKZ2FLNnZaclBUeEpkYXhFZVpuUFVJcHZaRk1vZXdjQlBabzhkQ21lTTJpTFkwajhwNWc2MlI1QXpQYm5DeVFTeXlyNG5NR3RHcUk2bnVXY1lYeUVib29UZlJ0MXFmc0N4aC1aeVh4cUtMbWNERXdxYkxWWmlLVVlZbFdlRDl4V2VaYkhGX2tiRi1WX3RWd3hMdU1VR3lmcVp4NEpmUFJOVFNXOWV0YUo0VWtUSkdCX1ZFQURwZVk?oc=5",
-      "source": "24/7 Wall St.",
-      "published": "2026-11-02T11:34:00+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump Says Iran Wants a Deal, Vows to Veto All Bills if Democrats Win Midterms - bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPZ2ExaUJDWklfT2s1SzEyU2w5LWpXMmdtQkxhVVRBRkctdEFqcjl2X3RGTTNCRXhSWjZLMXdWLTJndk1RM2tzMy1fTUZ3YVRWb3gxbQ?oc=5",
-      "source": "bloomingbit",
-      "published": "2026-11-02T11:25:16+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
     }
   ]
 }
