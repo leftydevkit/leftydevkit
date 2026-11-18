@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:41:15+00:00",
+  "generated_at": "2026-11-18T19:18:05+00:00",
   "window_days": 2,
   "queries": [
     "Trump corruption OR self-dealing OR \"conflict of interest\"",
@@ -10,11 +10,312 @@
     "site:reuters.com Trump investigation"
   ],
   "stats": {
-    "fetched": 188,
-    "new": 29,
+    "fetched": 212,
+    "new": 43,
     "kept": 300
   },
   "items": [
+    {
+      "title": "Trump\u2019s Iran War, Inflation and Corruption: Why Republicans Lost - Dawn",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNjJud3Zidy1wbUZJT0RRYmN0b0tjRXhPQ01oNHY0NkRrTGZ5WXozMExpeE1rOWVveVNiaVBFUFpRWFR2Q0lyQ0RXU2xwa0E1ZkNxNlJUR0RSQWZNZG44TjhMRE1GSXRobDZFcHpINTZiZmg1UDM3YzNWRW9UbDZRSVI5Sm1wSGhHUVl6SzhyZTVTMmNtX2UtV09JOA?oc=5",
+      "source": "Dawn",
+      "published": "2026-11-18T19:00:17+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump administration ordered to stop destroying documents ahead of corruption probes - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYjV5TTVwZ1RSWEFaVGRKem5HWnRtWVhUM21HQUdjc2lSMHgzMEpBaFl6NklIZW16WGJCX0V2NTdQOGp0WE5TSU5seFFJOGgwX0Y4V2Z6SGZMUE92a1NCd0Z3dzhQVmxwMFQ5aHJHMmdwSVJiRm1LX0NnOGFicVA4SzB0WjRmbFJTa2xRdWsxQWlkSmt3VjNobDBoVC1RV054a05TUzBYd3o?oc=5",
+      "source": "The Telegraph",
+      "published": "2026-11-18T18:53:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "New leader of US Democrats pledges to target Trump corruption - The Australian",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPa1k2ZGk5a3JmU1luYWF2UGNaQTNCWGxpdjVtd00tWkpQUzNmMHNzaGIwZW81RHZHMk1nYkpBVkkzaFQ5SGRqOG4zNTRJR2FfUjJKajVlTHh4emVYVlFPalFIVjZrWVRJQ2NRdk5iUXhwTXN6akRHVF93bHM4Z2E5Y0toRVVpX21lNkhFcFJ0cnY3ZXpWcnM4bm9FakFyYTJDNUs2RVZfZEg5VnBGWWVoTWU4cmV6cDhGWXprNHZtZjJQbmw1bE9kYkRmSGVrb2FhNFZ3cjJEVEF3aWIwT0tpRVR6Mnppc2RKUG1kRQ?oc=5",
+      "source": "The Australian",
+      "published": "2026-11-18T18:14:04+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "New leader of US Democrats pledges to target Trump corruption - Winnipeg Sun",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVFdwdDdjdDZ1aVZaS1F5anprSWhyc3FDMnllZlpVTXpPRy02MUw0cE1yand1UTkyclBJempyRGdFQ3l4a1hSb05qaEpTMTVoT3ZOSWFzMWhrUEdBS3d4N2JhTWRqcmhidkJrY3BkMmpvbU40cnpwQzBJSFFfX3Aya1VKV0l6b2pveHVDYkd6SzlQbU5iOUdzT3haNE5pOXFkWHNZRWRKYWFFamdTUUUxQ0NaY3FtS0RkNlp2RTZZM3VqUWdMMjhURV9ySHVTRGJMSlBndzNxNHR2TDBUMmVvTlNrcHA?oc=5",
+      "source": "Winnipeg Sun",
+      "published": "2026-11-18T18:14:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Mystery firm spending millions to attend Trump crypto gala, seeks to build \"Chinese $TRUMP coin community\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82VWJPRU0xZG0tUVFvN1FTd3VPdkdCcUhwOTNubkxyVXAyeHI3cTg4RjAzMUc0ZzBIczhhX0t2NWRWODdjVnZWTWZVUzJKejJDYkFkaHFwbXVub3BPRXJuN3BuUVZOWGdUb0pSclU0TDA?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-18T18:02:41+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Mystery Firm Tops Trump Crypto Gala Rankings - Newsmax",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IandfdjhJUHJETU5DMW1tOXk4X0laNUNsTUc1LTVDS3k2Rms3ZU5OSjNpNkZNd28zX1cwems4RXFHX3g0VTZGcDBnQzhJWWJOX1IzRnJsTGJiVVdpek1TRHVzZ3RNS0VSVEcyYXQwQzVzWjQ?oc=5",
+      "source": "Newsmax",
+      "published": "2026-11-18T17:55:38+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Top House oversight Democrat to investigate Trump family corruption, Epstein files - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYWJhSXJEajB4YzJrLTRxcThCTDh2VjJzRURpRHJ5NmJVczRjeFIwQnctTmRMdzdha0V1RVhFRHZjamlkdVpfM3JRbVdEVmRPWks0NVJWV2EwZGFmNnVwdW8zN1FoZEkzanlSSUNaUFBXLUZ4eVpIT2pxUjlfcE5FOG43RVNwSEJReUZpckpHT2N4em9fMTlVYVRyV05qQmdhTXFLdno0VXBlSWZOTmxsNWQ0akhqbkJNQm9YMi1ycEhwY1lDUEtnc3NhQQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-18T17:05:05+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Poll: Trump hits a new low; Americans split on impeachment, favor bills to reduce costs and corruption - Strength In Numbers | G. Elliott Morris",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3JrTkVYYjNiUUFXbExYZnk2SjhNRmxIV2R5eGVHTjY5SUtRVVJVUTZmeG1NZWoweTg5Zlc4N1dJcjVzZjZBMjNmaVNZSm9FVEVyanRwQnZ4NGVQZ29oc1hfODFmSXBLcHlDbnY5c052eFBlTjZ5RFNPZlBrZWFLY2hjSVJwM2tuUlBmZTBuQUR6RTR4SDRPd3lnSQ?oc=5",
+      "source": "Strength In Numbers | G. Elliott Morris",
+      "published": "2026-11-18T17:02:35+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump official's family hit with fresh demand as Dems probe 'avalanche of corruption' - Raw Story",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUEw4YldJT1AxTkZzRzVOcG9CQm9jSGphRXU4QWhGWWZoTUM5QWE3NXNMRU9EeW5VN1pEUXl5OWRqZWo2WVNWTTZ4WVZFbG1nZkh2UG9EemswX0ctZjVGMFExeERnWEgxSjhKRklCb9IBggFBVV95cUxPLU05NERpRTQ5a0hBTGdZRVBXNTZGbUg3Q0h1QW5YVHFUVTVVcFQ4dkJGeGlpbHJaa0R0UkhQRFhVcFByLXFCanNUbkVuYjhXdnBDeWVnYTM1MkFlTnJNMGVZUEQ2LTB5RjhueWhPaFdQRkY4ZGJrT0M2NE41UVRuT25R?oc=5",
+      "source": "Raw Story",
+      "published": "2026-11-18T16:43:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Leading House Dem Robert Garcia immediately targets Trump family, JD Vance in sweeping new investigation push - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORnNBYzNDWjdhZ2ZFTmZzYWVLRGhOaDBxQldzTGMzWW85MDJzRE13NG5RcmRfQWZVZWlQc3hVR2ZJQTFNcGk5QmxOWVNwVGQ1X0RQUFlPUmdLcEZneVJPRHE3bzdBTVh5UUtOVm5vSkJUNVowaklwSUF6OTMxUVpXTmNObzZBbWh3T2JXd0dmeTZ2M0pSdDMyU3VfakhncnhCTUstbjhTZmpVWlc3c1dxaHNIaw?oc=5",
+      "source": "New York Post",
+      "published": "2026-11-18T16:17:12+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Top House oversight Democrat to investigate Trump family corruption, Epstein files - Idaho Statesman",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSVlrQWJ4THZqbWlZeWJLLVdwR0NBM2ZZREJobzJiRFVmZ0lwYUQ2eWZ4LVpnWkZuQ3R5ZEFJZkM0eXdPeGRCdnNHaGNFV3cyQWVYUkNCRGpZQ2ozTm1YVFdRNnBZdnZ4WmhBUGItbURoNFFpeUd2a0pvR2ZBbmQ0TGIzWFFJQQ?oc=5",
+      "source": "Idaho Statesman",
+      "published": "2026-11-18T16:16:07+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Top House oversight Democrat to investigate Trump family corruption, Epstein files - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYmJadUJiSjBBQU9xcjR5YVEycl9wR1FxZ2NEbi1xT1NndFpOWmpZOWtXVGNjZmhtRHJ3V3htdWZLNk5oZmlid0NLNHpZd29SajlBazZGZDZ3WFRqWDR6Nnk2dFQ0S05laU9sNlA5ZjgwWjZ0QlJXTG1sVTdCY0x4LXBkMS1zRmY1cnpxcFlIWVZsNDhHTEVEQ3V2c3lRTUJDYUNxOWpoRE1Pc3NrdmExajJUMnktVVpvVUc3Zk1QYmhOaXBPb1ZlMnlPOGE3eVRGR2hoaE8tS0ZtcFhGZjRjN0JrdmtPUQ?oc=5",
+      "source": "TradingView",
+      "published": "2026-11-18T15:47:36+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "TRUMP Meme Coin Falls Nearly 40% Since Midterm Elections - Crypto Economy",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1Mk91NnhucXdNbUotcXd1SmRjdkVGS0xBbGx6b3R5UEk0dHd0cnZCRGlWNjg4azhaa1pTeWhIeFJkWi1xN3BlMlNNZjhVSWtqSVZOelgyY243QWgzQnFfTmQtS2FvcWNyak9HVEhlaTZxTzQzX250ak0xeW9XQQ?oc=5",
+      "source": "Crypto Economy",
+      "published": "2026-11-18T15:30:48+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Donald Trump Just Found a New Way to Challenge China's AI Ambitions - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96VDlVekZQTmppNmc1RWVjVjFPS2czbmhJSHVoVWNrS3lYdFFVU2lZd09XLVhMT0lXV3o4YWE0RmZIaThkSDJoV2FJTW9Tb2phYUswazI0TnJYaHViWE1QNFVLV29QbC1GeWpUa3FNTEc?oc=5",
+      "source": "BeInCrypto",
+      "published": "2026-11-18T15:14:10+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "House Democrat warns 13 Trump allies to save their records for upcoming investigations - NPR",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUUdMeUNKODFtd250dTVSb0ZreFRXaFg4N3h6d1F5UHZNZWZWa0pQMTEwc0cta2NybE1jYjcxaUtnY25HM00zdjkwbWd5LU5lZ3JETFBiU1NJZHU3RTdBOWxlUFdsclR4ZlBWTnduM0tQTzdET1BJRFhhN2xyUXlvZE5WVkRJNGU0bGZkdFo4T2Rqb0c2R3VxSTJsTjQzbWtBRGEtd1NQYjBXWTh3?oc=5",
+      "source": "NPR",
+      "published": "2026-11-18T15:01:32+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump\u2019s Crypto Coin Slides 40% After Midterms, Risks Dropping Out of Top 100 - CoinCodex",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWjRrckpJWnJpNFkzMXBBeGtFY0l6cS1selpuRE52SW5DdHpINlRBNU5oMTE4VXIxMGRSdjNQTG03bjZTYTd0SDBidGo5dTRTU0VFdjVPbmEybG9QR3FIRS10N1VCQU53Wk1tWnhjMm13TjNWYnVEVk1OdUR1TC1RRG15amtxTWwzX0tWbmJQWEF2b0Y3d1Iwc3pjWTdXdWJJa1RTZE5EMVpsS1VXUUQw?oc=5",
+      "source": "CoinCodex",
+      "published": "2026-11-18T14:57:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Official Trump Price Bearish Trend - The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ2t3d2xTQTh2VS0wWWNzcC1xT095dUNCWEdnaFF1N0FBLU9lenJxOTNMMVFFcW5vdmctS01mQkhfc1NzbHlGQ1Y1SmtQbExqeDlLTXBUYzlGYTFwOThoYXc0Uk5aalR1UXlMeUh0Y3JOeGRGbHUzVXo2bkxObUo4VWp5MnBURko2aEx5UjR5MGhoTjJ3d3pRdDRzQnY5Qkc3NV9n?oc=5",
+      "source": "The Cryptonomist",
+      "published": "2026-11-18T14:52:42+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Top Oversight Democrat sends letters to 12 people close to Trump ahead of future investigations - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ0lhRkVCTV9KdjRYTkxmaTgxcGoyYlJGQ2JlU1ltRjUwUmxkN3d6MFJ5XzBRb184TERGaERpR05zTFJ1aFhYVWRTa0xNZjhVTnRCM0c4UXRaa0kwZExaWWtkem9rbi1vWk9DcUxCMmpWYVVSeUtYcEV0NjRkR1FGbGdCTFEtWE1QMENZR3dkTjZCZTJnSmkxSk9wTHNmdGpNNzVaVXhnS3lfRC1ZVVJ5dEZsSGN4ZWpsV0d0YQ?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-18T14:52:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Congress Pushes for Investigation Into Impact of Trump Admin Cuts at FDA, CDC on Cyclospora Outbreak - Food Safety Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaG1OVTVTR1YyQTNKTHlad2syU1BQaGtDTGdfa1RKeXNTZ0V2MUtjX2ZzWkc0QXVYWlItNVhlOGh6dmozcHBSRXhPWGkxX3ZCeHIxWlRhckVwLWk0NGRCQUVJWXRQS0lWa0pIV1h2S29BOVAzMTBkNmJiR3h6RmRWM0ZKX3ZlYk0zbm5Fc2JXb0ZKaTd5Sl9FWDZRb3ppT2tRanJzLUZrM2s3NmZBRklQZ2xXRFJCY1d4Vkl6cGpJRWFxb0F1MzFzb0FEdTd2U3JTanJQNVV6MlAtdw?oc=5",
+      "source": "Food Safety Magazine",
+      "published": "2026-11-18T13:59:38+00:00",
+      "query": "Trump pardon OR donor OR super PAC"
+    },
+    {
+      "title": "Trump\u2019s exclusive dinner suffers humiliation as his crypto coin sinks - AlterNet",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RYThZemVNT0otUzZfVE42UXFMZVZ5R0Mtd1hYemNoenRDQXNLN0o4SWhjbGo3a0gtV3BadUNoUWdrclZOOHozS0cyYkhING53Rjd3enZiOFZqNkQyZGs3SzBlUXp6N2M?oc=5",
+      "source": "AlterNet",
+      "published": "2026-11-18T13:11:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Mystery Firm Spends Millions to Attend Trump Crypto Gala - Political Wire",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWZ6Q1pHaE1jdjg0clloT3FtV3JpRkZKSjhGbkJzZ3p3Rko5dUx6Z1NPNVB1S2NoTmVUa2tmYXYtZmp1M2xkZ2VmZEVJUURjaVFLY0pUd1dkX1hzVW1GcVVJRmFJZmhYZXp6YjNnbjVQaXlMaEV0d3dNdVpBLVQ3V3U0VkkwRDUzdlZhb1JNOU1KSGJ3MWh4bC1R?oc=5",
+      "source": "Political Wire",
+      "published": "2026-11-18T11:56:32+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "CFTC Halts Kalshi's Trump 'Mention' Markets, Gives the Exchange Until Dec. 11 to Defend Them - unchainedcrypto.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObG45bkw4bTJKTVU4Y1R0Wk5neDBPb2xlN0tNU2FPRmFNd2Fhek1LOVNRX0dtNW40WUE5MHRhLWtIX0JCQy1FQkN6TDBkNHZIYnVHWlhxSU5PeXh4ZURueEdjc3U0cXI3bVNBNUM1N1JHanNUNy11S21PQVhmcXBqZndfa3lkYjd0MVBUdk1lMHRWelFkS1Z3YUNCQ1lOVkdaVXVnQVJPT1BQNUU5VEdQOXV1bTRRMWs?oc=5",
+      "source": "unchainedcrypto.com",
+      "published": "2026-11-18T11:45:00+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump administration weighs forcing companies to disclose Chinese AI model use - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WMEJEYzZkZmV1UFptelI4MC1HSVIwNi0wVHRjZ2s4T3RGejJ5N05ScmM3alhoY1d1SWlMc3FNWWlSaVhuVU1neDl4WS1HaW10N3hweFRRbURXUW1FVnZmUFlISGptdzBWMXZsdjFEb1pOZHBy?oc=5",
+      "source": "Crypto Briefing",
+      "published": "2026-11-18T11:11:17+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Public distrust skyrockets as Trump admin corruption hits an all-time high - AlterNet",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3RkVU80LVE5WDNFQy1PQkJlV3BJZk56eEVFclNib1BIdlpTR2YwUUNScUczVldVdHk4Z2tSNTFhN1Y5a2EzLVNDYUlOQ0tJZC1sdmFqMDh1S0VrMzFXUTU2SG8wSE9sdW9HUlhXV0dyV1NDaXF3SVFxMjAtbnFmS1ZDSjdzMGt2?oc=5",
+      "source": "AlterNet",
+      "published": "2026-11-18T11:01:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "US tightens AI chip export rules days before Trump-Xi APEC meeting - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUbVRnMVZSZ3VKNFR3amdRQWE1SkhpejVwN21zajJFTXFxbDI1OTlheE9KWDNZTHd5aUxpd1pmX0xtS2R0RWEwdHRieTBRNEYzUkhMQzY1a1N4V2YwZWFxQWVzOGNNRDFjVU01RmlQV3NXVjQ?oc=5",
+      "source": "Crypto Briefing",
+      "published": "2026-11-18T10:41:33+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Chris Van Hollen Links Nvidia's $25 Million Ballroom Pledge to Trump's China Chip Decision: \u2018This Corruption Is a Policy Choice\u2019 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNmpDQ0NQeDBOLXp6QnJlSVZsWl8zMkRKQk9qa3p1MmV3N1ZwdE9tQWhLc29PUGp3Mmtyamw1YjRpRi1qR2luR0tGWmhLNzJMSGc5aElyUU90ZkhqR09GTjUyNWZ2YVNXRFhyTVlqdkdqLU5YTkUtbWlOOGhqMWY2RXJmQXdZaFNEQWNSWVYtQnBSM01EY2otbjZiU0R5R1kwZGRVNUVxVlRDNnB0VWNhWGxveGNabG5GRmhUMGhZY2stWl9OLXVIVFVfc0hHMkdEaWJkLXhaZXFidkdueUktUGt3dFUzcGJaOHNvdmtEWmVieU8wTnhNVGNseWh0d3I4eDJqaHhsbzhFWkFQcFlLbA?oc=5",
+      "source": "TradingView",
+      "published": "2026-11-18T10:31:25+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "President Trump\u2019s corruption, explained - Protect Democracy",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UOUtLVm40dmdLWngyMXZzXzVCeXQ1YmhrRFBoZmdIZERDVDdYOFp4Y210Z3V3NlJ0c2REd1poMDJSVG5vTnJwb3NWNE1Fbmk0YUR1bG92Qkx0akFvMGlSZDMyc21saE5iWlpaeTh1REdwa0hHVVR0WVM0dzY?oc=5",
+      "source": "Protect Democracy",
+      "published": "2026-11-18T10:27:59+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump\u2019s CFTC Nominees Rowland and Anonick Split on Crypto at Senate Hearing - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkdCa2VreWs2RlhUTDhuVndKeXlYZmtaeTZWMEpTd0U4MUs3Tl96RFJSdWYyRGZxMWtQQ2hvMi1VeVVkdktmQ3FPdzVBZkk0bTljU200R1ZHQWkyMW5Pb1ZYWUlFc3Bmd0N4LUF2d0RkR0p0SkF6VndUaHp1dmtGNFVHU0FGRFZCR0xoZHY5Ni1vbkdIREI0d1lwTk5sNnRDZGFUclIzelZ5dHJTN0JIUG5wR3lIY3E5eXc?oc=5",
+      "source": "The Crypto Times",
+      "published": "2026-11-18T09:43:16+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Xi and Putin blast sanctions before meeting Trump at APEC summit - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmEzcHpRMTdpNTRQMmR4dG5uSkZPLTI4b0RZWTlNNjJCY3poSGRhekQ3bXB2ZXdpRzk2TlpFRHFWV1lkVm5Ob0JwcXlUbW55VmxJQ25pU3lwZXlNQWRjY291NV9UM05mdFVfOTRDZDFlX0dNZnVKaWJST1V4VThubkxObUJ2QTA2bmpVVnBiczhvb0pRQVFV?oc=5",
+      "source": "Crypto Briefing",
+      "published": "2026-11-18T07:38:05+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Nvidia and the Trump administration\u2019s corruption: A widow\u2019s view - Baptist News Global",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnUxUWhSUWozODVoY1FicUxfTHhEZlVUNVdCVm1kdDVnS0dvaFRXUUt5RUdyc2ZIWVNySzVDSXpnVUZDNWNUOHpJTEVwdkNGWTA3R0NBUUxsSzc5T25CVGI2M3l4M3pZYWJJTG0xZDJ2dXJlOEs4clgta0tPTmxGQkJrZzZoa2UzaHFEZjVHLUNzRXBIODB6cEZR?oc=5",
+      "source": "Baptist News Global",
+      "published": "2026-11-18T03:47:15+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Pence: Americans rejected \u2018era of self-dealing and corruption\u2019 around the Trump administration - CNN",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWVMwc0FHSkJiZmEwRWQtN0owREMzOGplSGN2ZENIamdXQmJXbzJvNC1TUEI3TlpxZnZta2hLYWpqaC1ubVB6eElCdVV4bUgxVGl4dTVYZXV0VUhuWHhDbFRkOVFVTUZMdTc0anRvTDc2N3JQSElFSEw2VUlZOUJPTl84aEdKbTRxdU9LOFJTQmtXUndKa25ZY0RqUTZhUjBIcjIyRGVrSUNTZWxjcGpLTnFnV2U3eHVmQlpJV25uVmtWeXpqMzdv?oc=5",
+      "source": "CNN",
+      "published": "2026-11-18T02:40:09+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "\u2018Corruption has costs\u2019: Sen. Blumenthal prepares to investigate Trump\u2019s vanity projects - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNHkzM2dONWFKN0tjV3NmcjJVNGlqa3AwQmQ4NXY0MmZtZmo2WHVURVVYaGZheE5KeGtCOS1zdDFUSmNfdEhra0ZPa0FwalMyMFdHYzAzdHhBcWRjbGRBN0pfUW1yb3RlX0RIVEs4M2F2NHNpYVh0S1JFVHNyWENNTjdvUkp6ZXktekU1SFhYd200OWM?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-18T01:36:00+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Exclusive: Trump Jr. denies corruption allegations against venture capital firm - Axios",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDbVh0MHZoSVRuaXV4bFZjNm1lWlZBdzhPUHQxSS1pQzc0V1Q4TmJ1eVo4dlQ1NUFoVjZvUlRGNV9MTWZfblNRQzV4NXY3UHZJb0YyTTlTX3F5Y3NGUDNIYkotVEF4WFQ3RXl1T0VFMWpaMGc?oc=5",
+      "source": "Axios",
+      "published": "2026-11-18T00:59:33+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump Just Got Handed Proof of a Deeper Problem: Mike Pence Says an \u2018Air of Corruption\u2019 Is Hurting Republicans with Voters - National Security Journal",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUFpDYzdkWTNlNDVsbTVDc3VsQ2pXdHNhVDdkUXQ3UUVGUGlyRDNWRVB4WmpXNVhxUzdNeDhaUUJPOWFQeGZiUnNQcE8xdDBQMTJCQmNBTGFOdS15Yk9QaFVJN2trdzdLQS1BMTBNTHNhdzYzblRsN0tsVndMRmVQcWk4VmFUZ1dUYTBVUkJ3WllaVUxmTTh4ajNKaGg5bWpnQkdnNkxVTk5pM3hQcTZ0bVVvODBneENoRVVrck5fWnRPYjdQODNQVkpTZ2U2TkJSa3ppQ3ZvazdtSUlROG1jOFVrdVBCNzJHb2tGcQ?oc=5",
+      "source": "National Security Journal",
+      "published": "2026-11-17T23:55:57+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "After Democrats\u2019 electoral blue wave, Trump\u2019s meme coin craters and his crypto gala slumps - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbC1ZY2xMekxTXzN3YkNHdEc3MjhXZm5laW9KdzlSNkkyOGdObFdHS0ZheGtSNkRvb00wdmFPV0tYVlZScVJhVGhrMG9HYm1YVDg5WHRac0pEaDAtem0yZ2tqUmFXTmZScUZoUlNUNy1fLXg2LXVDc3RONE5uVzZ5azAycU1aSDhjWkE2Y0g3bTNOVnBoLUxiSUs2RQ?oc=5",
+      "source": "MS NOW",
+      "published": "2026-11-17T22:11:49+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Trump family earns $2.3B from crypto as investors lose $5B - Wonderwall",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNY2VjSE5DUUpIWDh0X2gtMXROZVBSZmwyVWw5RG5vMFNsRFJBdWNlTFRtclY4amt3LUw2S185NWJsb3V1VlRIS0ZaR1RYQmQzWExobFdQX21mMjA2alpYNm50aExHSkluVzhieTBrazVISFAzazdkVVdRQnZXbVVOUGRRQTJGVW9qN1AxeERxZXlUMHFJdWNoUWNNTmhrWWxnelZTU1BkSkhyYjR1SzVGNS1Edjl1c2o2eXRZdjBmejFTSjBMYkNpdEQwX29nMUdYM0hmR1FyZG1BV2FJblBheWNR?oc=5",
+      "source": "Wonderwall",
+      "published": "2026-11-17T21:11:04+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Kalshi Halts Trump Speech Betting Markets After CFTC Order - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcEI2eU93Y08xNTVyTFYyVUpPR3pRWUR4Z252UWZWaUlrd1pPSzJJQmUzUmQ4MUI1dkRwVzZRTTJDc2s5U0RKSVBwTHJlTFV4RWZETV9sTFY2aTFReUpnem1RSGVhcVpBX2ZLY3JETFhHN18zZnRqVzVibWpKUUVjeGVnaFRhYTQwQm5hM25JbzlQZGNuTUpQZzQwZ1FCdw?oc=5",
+      "source": "The Crypto Times",
+      "published": "2026-11-17T20:13:02+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Fake Trump videos push cryptocurrency amid unfounded blackout rumors - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaEFtVUdCaFpZVEVsbWkzeFJkdEN0NUFnbzZGa1JmMzVDRUJzS1pRN3ZhOElSb3NSdGZ0Vm8zXzVnUUJqTDcyWUFNTTFSSTdRZWhDSEl2VWl3dWJQOS1fcnpBckx2SUFPckVWalI3bDRGN041WUtKZEhiVVpkUno3NnNPRlRrWEVkYnQ00gGQAUFVX3lxTE16N0l6bi1wWVpuU3RRY1RCZ0xZbWRvaGR4d052SkdIazNENFlMVExDcUFaOWYwa205QW41cV9wa29HMXhqTGxhWHd4SkN3U0dMZl94UlQ4Nldxa1l6Qml0enl5MURWVkhqck4zOTBJVUdPcXY3eGd2dE1ab2lPemN2R2JHVVJYcDBOZEVZaVFGVg?oc=5",
+      "source": "NewsNation",
+      "published": "2026-11-17T19:59:05+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Austin Hilton Says Trump Can Use Executive Orders To Advance Crypto Policy After 2026 Midterm Loss - OneBullEx",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRm8tSzhndUpVVEtkZ1R3T1E5bTlPSy1rakhPdk5rb0tPaU8yaGhnUnNQd0hqeHlOak9QVDlHdjRDSlBPdFV1TDdmVGpLbVEyNDlWVUIzejAzNklOQktKQm1zZWd0aFJRWXk0Y180Rm01ZFp4NnRFSUlnNWtEZEhhTXB3TlJxVjk4MGc4TDBqZFI4X1o4akNxYVBDVVhfZVlmZ01mLTJaNTJPbndHVlRiREZzLVBqelRXTGJXX1JneXpGSGE2bVVneU9HVkRfSkh4c2pucA?oc=5",
+      "source": "OneBullEx",
+      "published": "2026-11-17T18:43:21+00:00",
+      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
+    },
+    {
+      "title": "Comedian Who Once Supported Trump Accuses President of 'Corruption' and Brands Him the 'Greatest Failure' - Yahoo Lifestyle Canada",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnZja2U5LUZVbzdmSHk4LXdneGxfR0lsMlpoVXFfRVNNWkliVlM4Ri0xbWlUMEtGb3huUXMtTUdyaUt0X19uTXlDMDZjcnphanVDX3V3bnpTOTg1UFp5azJTQzZoY2Nzd2FZSHJkN2dxcE5RWGp4bFJiMy1DY1VlSnEzSU9PUQ?oc=5",
+      "source": "Yahoo Lifestyle Canada",
+      "published": "2026-11-17T18:08:53+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Trump's Corrupt Pay-To-Play North Sea Oil Politics Exposed Live on Air - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96YzVOSmZnckEtLTcxOElFR3NnZ3E0bHFsdUpMOWdvSEdKc2JoeXBHbEJxdE5kbGRoQ1VlZ3ZWb0ZWNnU1NUljeVFYUzdhTUxoc2wzTXRuRURfa3V2?oc=5",
+      "source": "YouTube",
+      "published": "2026-11-17T10:11:33+00:00",
+      "query": "Trump \"no-bid\" OR emolument OR \"pay to play\""
+    },
+    {
+      "title": "Vance calls for a final settlement with Iran, and Trump hints at the effectiveness of fighting internal corruption over international agreements - \u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0642\u062f\u0633",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR1pkZi1UWWtWMUk2bURRZzFuSlUwRUZUYWh2Nm5XWGZHbk5oS0o5dTZXVWZnRlRnc1lBM29POGp5YUplMTN4eTlreXItNVg3aW1CQ3hmTk9sVmtpcGg3eTc5cXVTWHhXcnEyVnptd0t4Q2Z4bTVWVlhuNlo3TGlhS3I1ZF9uYlYwQUEtS2Vod1JLVEVGUzJ4QkNaNktWRzh6dnkzbQ?oc=5",
+      "source": "\u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0642\u062f\u0633",
+      "published": "2026-11-17T05:14:24+00:00",
+      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
+    },
+    {
+      "title": "Press Release: Linda S\u00e1nchez responds to Trump\u2019s latest Mexico tariff threat - Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRnJmUUdjbXpJYjYzdjl4UEtGWVV4SnZxVGpFdzhqelh1bVNTLS1vanFreUFIMjlqd0paeVBWcndCdHpxQVdVcU9YYkl3bE9CMXlRYlpSZXRPLXZ5R2JZTDZDdmkxTDJWLTl4M1BhbzFDTUxyNU11ZGpzTWRVcUdBMk9QWEFWWjJkNkEySnV0alB2WFlzNGxIX1BHMmRYUDQycEc2OVNXY28zVjhiVmxLMVhkeFZic0l1Ml9rVXFkaFpMdw?oc=5",
+      "source": "Quiver Quantitative",
+      "published": "2026-11-16T20:21:00+00:00",
+      "query": "Trump pardon OR donor OR super PAC"
+    },
     {
       "title": "Predictions platform Kalshi complies with order to halt Trump mention contracts - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRTJhVS01S05PZklGX1AxMUhkZWI4T0lRRHJpYnRBeEtmMm0xS1YyR3liejkxWTNBWmROb1Rmd083aURsNkRzcnphaDlySnZXUnB1c0p5OUlGNUVwZHE0ck5tV0pYOVlwVklKWHU5ZE50eDNXT1E1TlpONUo5ZlVYS29Fclp0OGJIX1lNUFRKOEFZaGNURDNoeE5fV2RXZE1vU2dYX2hUR0tqVERMNTUwVnRfRk0taTNyTmZVU29GSQ?oc=5",
@@ -1812,307 +2113,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeHB6S1h5N2xSdFdmY2NsSVF6RmJoOVo1ekd4Z1htMHh5T01tb3FUUVpEc05pbUoxaUwxdF85dlc3cWRKX0hMMi10aEJRc0tFTGtOQjU2Y3F4d3ItOUw2Y3o3a2dSSkphZG91ZHpwNzZDa1QyS0V1UFJZT0RoRWNjTzRBVzNMUVZ6a3ByaWkzRHVnZXFtT0dJN1JVX0ZOc1I2Tm1XSUo1cmpTbHhfc1pTcnBqRnI4NmQ3ZnZJVUdBWTV4cFHSAcgBQVVfeXFMT1NYbmZfdlNkZ3pMZ1lSSEU0NVJGOVhRTU5LLWk5QURMWl9XSG1KVldfWVAwd0RoQi0wcDdlYXJPejVyUlZOeTdHNnNJVUVlSTNZYUpRWVl0dGEwR0ZyZEhJa2Y2dFpyS1JSdVRtOTJvX0Y0TExlUnVxQXRiOTktcDk0R1U4MURIYUFtS2ZwSVo1WTNCMkZLNlBHZVhZTWN4LVpPdE9KWXF5dTI3ZGhYMFB5OGRrNV9aZ3VGdmlEY05FMl9RVVhfQjg?oc=5",
       "source": "The Hill",
       "published": "2026-11-12T14:51:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump orders Vance to focus on \"corruption\" in Democrat-run areas, not Iran - Axios",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVb1gtMkRDeHpTaFpaWTJiT01JTEFtMEItb3gyY0ZEX2RLZ0N2ZURlOEs5TGhqYlVRSXd5SEhfXzV1UlZ2MFFyUnd6aVVocF81dXF5c25pcktfZVVNY01Nc1poS1VwTXFVSWhrNk11QjBMRllsaE40LTMydw?oc=5",
-      "source": "Axios",
-      "published": "2026-11-12T14:50:02+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Why Trump\u2019s defense against corruption allegations is plainly self-defeating - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRWNseWFSRHhydlVVek1xUlU5M182TDdfbWs1MXFSTHc2bVhtZnB1WFJBb0Q1b3FhV1pJYjVReG96dVVHYVkzdWJWa1cyd2VNd1BtOHFLakhXWTNWYzBoWUstTDJMQnFDYnRITVhiNXNFc2NWZE1TYnNoVml5akpnZThELXluMDQ0TkxmM2VvRTVRaGxOYWNha2swOVM?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-12T14:48:20+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "'Democrats Are Corrupt And Evil': Trump Accuses Blue States Of Massive Corruption, Defends His Administration - Times Now",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdmV5RWdMeGw4MVNHVjZDSlN6cUdGVUJGOXY1cGFzY002c2VGZEpaby1DekdPeWJER2pmYXBlYWN3Qlk3VXV6bExERXN5M0ZDSE82RjlNS2UwYmEyeHEwTkRXTGcxOHlTOWFteGd4TmFHQlM5SXJwc1EwdkdUYjRGYnRrQzhvbG50enNLaTBkUG5JUUN3d09uNzluenNDMmVWOFlEd0xtbTh2b19heWtzemc1dC1SWkY2UmNIckg3clk0bmVzSTh3ZXcyaEQwNHdlMzhmZVRPWG0xSzQwVTFTNWVTRlU2VEpLRjQ3WWpyZ9IB9AFBVV95cUxNSWJNTzZzSHVhd1dUOGlGRWYtLU5hNkFPbTQ5dk1id2ZlZzhOUEFDNnJ5NUNNTEEtenBNSHljbER4bnJ3dks0UzdNLV9jRWd4WXNobWhoZEJJRkFfVGIwRkxLM05nc0dqRUZsUThaVXlVU0RuM20yeEoxQWVKMHhremU3NTJZNHQ1OFBIWDE3V0VXSnN1cF8wS3dJTnpIaDY5Ujc5RkFjVFZOejQwMHdlbUszMjNudl90XzBjVXowaVFCSEQ0VjRZcm1mSWpsTWNfdFlmMk9sOC0wMFVJSUhsbmh1NHBjeExPcFRqdi1ZeFkwaGJP?oc=5",
-      "source": "Times Now",
-      "published": "2026-11-12T14:44:58+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump tells JD Vance to forget Iran, focus on \u2018corruption\u2019 instead - NJ.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUGhGay1hVVRyVzBRc3Nwdnp4WmJwQ2s2YTN3eXBMeXcwdjA4X2NrbUFKVF9kNkVKLWtkNjBOQWJZdC1pb0NVekZlRS1ISnlzcDBhemU2aHJtQy1KNngtTXdhOW9FZ3VRelJyYWlVSXdRT0ppTUdEb3hQM0Mwb2VfQjRBaWVEem81YVV3VU02Yk9YR3FQWmhIQjI3WmpoR2hDLWNsajcxcw?oc=5",
-      "source": "NJ.com",
-      "published": "2026-11-12T14:40:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump Says Iran Deal No Longer Needed, Shifts Focus To Alleged Corruption In Democrat-Led States - VINnews",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVW5tV2xFanI1ZGgzbG5fOTZMLVUxdHlMUS1TR1cxMjhfNWNsclRZZTVGNDF3SEhjdTdHeWpzRFRJd1BSWEk2ZDd6VlNuUFRMYmxaLXlQY0RLdy1BUHllSVVrSlU1YUx5TE4xMVlqRkNKeDd4UEFXUldpZWRZMjBPWkJWcnFRaVdwNGVXR2dScUc5V2NyVjF3YnY5enRZbUFJRFozMkpERXFRNG1BVW9XbklPb0FWZmg1QmNVMmQ1eElrR0FlREE?oc=5",
-      "source": "VINnews",
-      "published": "2026-11-12T14:39:43+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump attacks corruption in Democratic cities and asserts no need for a deal with Iran - \u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0642\u062f\u0633",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTEJGZE8wa3VOMTUtd0ZCdkZYb19SeDFqMlZHc0xydUVjNHBWOW9UTEtLZDcwaHJaZ2xJTG4wekxkSnEtLW54VjRMM0xmNHJmTTBuZUJ5aXpWMWEzMjJ0Zl9acm5hX19IRTJBd2dmbmdoZkxlUDFWTFhVd3Y1Sk5aS2pPNDZyNXZES052dXYwZlB2VlNzOUpfdTVEaFh6aWZ2bF9kSFItclVTaFZ4bk8xaw?oc=5",
-      "source": "\u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0642\u062f\u0633",
-      "published": "2026-11-12T14:33:19+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump\u2019s Trade War and Jensen Huang\u2019s Honey Trap - emptywheel",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaW53R0lwMk5vYWRCSWdZMUNpUUVrY2c1b0JjeTRGdUJzTktvVFpRX0VJdy1oNVQ2bFFCalhiNEFPVzBJNTVLdFB1cnRjM1JROG1DSmdaU2l4UWVjNmo2a2stVnhvQzlUUy1ZTHJHUnJkUllnNjlmT3dDazBaaFlVSHltOUZhSWM?oc=5",
-      "source": "emptywheel",
-      "published": "2026-11-12T14:29:16+00:00",
-      "query": "Trump \"no-bid\" OR emolument OR \"pay to play\""
-    },
-    {
-      "title": "Trump says US doesnt need Iran deal, asks Vance to focus on mid-term corruption - The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLXhvOEJfM0lmYmJHeE13c2VWWVlLNmpqUHRLcG8xemNZZWNYTFk0d3hUMDhpSVBsb2ZSekNCU1FZZmV4WTlTMmctX1dmbk5McFF3ZkNYY1c2X2hfMDc0eXVKb2N1ZkdqelF4SWxEdzAtMXBVYnhPSUxZZEF4cWJuWlNTNzhuMkl2dXZxMUVDZTRsVG1HZjVRbVlhalBXOXBuVk5YNkRPMm1Va09TWVdnb1ZsMlJUQk56Z3lfMUlIRdIBwwFBVV95cUxNNlZOeW1DWXdKaEJWRnl5T0FXcmYzZUMxdmViOGdiSk1WZ3M2eHlKRGxMVFhRSXFxVE5YZExMSUZWbm11dlFrdXg0Y2lCZUFjM2Rpb2R3VTBZNFM1RERnZk9kU1V4eU1VdTlJMmhCZXBaX1FVTTNDUS03dHNYb3RHN1NXdy1PTHpjdEFhMmVEOTdYeHE0aUREU0UzYzZWT3BvUjlzWmtIeDRuU2hDMk9JV1UwYU5yT2EyRE8xSjEzbDUwaGM?oc=5",
-      "source": "The Tribune",
-      "published": "2026-11-12T14:22:07+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump Puts Vance On Minnesota, California And Illinois Corruption Hunt, Shuts Door On Iran Talks - Tampa Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUTY3TW1YZ25nTmd0VlhTLURJRldrbnctQVFpOThvM3lZSk9Rd2JORzJ1YnU1VjgtZjVmVnItMlRQVDF5N3FIZ1M2MkZ5bnpiV1Z1bnlkUXpBWElnaUtOVjNyUTFtcFgyWXEyRjEyN1ljV2dQN3ktc2NCTlUzWjBYZ09DRk85X0hPZEtNSVdZcXE1eWk1WmhsaEJHWW1iQUtEQUkyVF9CMEdqcjA4Rnh6OWs3MnBscWJaLVpR?oc=5",
-      "source": "Tampa Free Press",
-      "published": "2026-11-12T14:19:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump Orders Vance to Drop Iran Negotiations to Probe Blue State \u2018CORRUPTION\u2019 - Mediaite",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTk9UWmY2T0tzS2Ezck5peHpKSlB5UEFBbTI4a3IxaVRDX1Z4aUJOWnkzam10VlhUN09zXzY4M1BqR0N2UmNKWVQzeXZXMlNKb2RTTGotYml0bUlUU3BoSHFxRGs1eHJRSEZJeV90X0cxMHhxaGhLc0ZxZVNBc0lOQkVocloyNnFlSmZjY01ZSEh6MkEwNVBvV0hCZlB5bTg5MWdsTDN5RkhMc241?oc=5",
-      "source": "Mediaite",
-      "published": "2026-11-12T14:08:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump accuses Democrats of massive corruption - Report.az",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWNQTFNiMHdCdExfQmRfVWNocjJYblFFQjZLby1mSVJNR0pJbTVRYWhIa0o0cjBEdDF5OFFqdUZiWTcwV211OU5DMjJPWnJlWE52WVBDaXJmODA5UDN0aWNkaHc4aXRmeUpHRVpzWk1Cbk5oWjM2T1haNHFfeWd6Y042dlJDN2JmS3c?oc=5",
-      "source": "Report.az",
-      "published": "2026-11-12T14:00:50+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump says US 'doesn't need' deal with Iran, claims control of Strait of Hormuz - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMVhfT2d5R3c1d0lSWXN1Um9fcjhzSkp2RklrQk0zc016a0dNeHJEUUNYZk5ZblhwSTI1ejNWbklkdlBieWJ0X1NOaktfSFVFODNncUI5anFtTmlzeExVV3RjeTI5SmhCcUVmekJzTkNZY1o3UzZDcVpmb0xhbmJad3k3VC1JMTlnNDV5NEJRM1puUV9KeXF2TDFJOWY3N09ZNDFBMzZzY2w3bDNTYS16RHJwYmVLOWtO?oc=5",
-      "source": "Anadolu Ajans\u0131",
-      "published": "2026-11-12T14:00:44+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump directs Vance to focus on alleged corruption in Democrat-run areas, not Iran - Mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeHd3X1FFWnYzR3J2MEViQjZkV3VzZUw4NU9JWVNSb1MzUU5Udnh0S2FKX3BDakMzVUlOa3lKaXhzVW1LRnNkTllzSlBiSHgyT2k4M1YwcUdxQ2R2NzJ3ZFFrM1lxa2oxRWdmUXpvcmdEWFFCZHZEY1dTNi1MUUZVNWJ5TUo?oc=5",
-      "source": "Mezha.net",
-      "published": "2026-11-12T13:54:33+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump At 5:50 A.M.: 'Democrats Are Corrupt And Evil, And I Am The Exact Opposite!' - HuffPost",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0M3SUVPV0hkOGJJUzNDRlQyTjZpVVNBNkM1OXBXRl9HcVI1ZG9jaVFFeFg2akZ4bmJRbTNGRVlULWFaQWFLTk9RSkIxSnc3ZHZ6cG9WRG5TbElyd201N0wwdmppNUV5SFpaYmJLZnZFTUVJM3pWY05nTnNHV0pnZlNqVjFQT1hUdUdjYUlWMFl5NGdZcEdycnRQWm95X05jRi1TRUdRcnBBN29BUExDdW53VdIBuAFBVV95cUxQak5CRzR2aXpWQnZwVmJsRnNYdFBHNmRJTWdINnNjblk1YjhteWFvWFJwSVFyc2xwZVFuaHpkX0M4YUZ3eTZHZkhzMldUd3U3VFlxU2wtWndVeW80Wi1WRlIwdTRuY2pPdWlMNlpHTkVtb2xQQ0JDNThoZjlMV0RTSFV1akJDNGdIS1EzNG9nZzVScHJDdTI0Rzh1M0hxTk1ncEJXNms0QVhXVGk2UFJZMVBQbGJrbmo4?oc=5",
-      "source": "HuffPost",
-      "published": "2026-11-12T13:46:57+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "\u2018We don\u2019t need a deal with Iran\u2019: Trump tells Vance to focus on domestic corruption - The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNak1OcGE0SFNCVU9HNWFWeG1qNFJfZHh6ZFZaS1pPSmg1SS13ZFpWeWVnZWphdXV6SWpHTF8wOHpQekJvQUdMZHFZRUcyRTZVaF9yaFh6T0ZNa25KUnZ5RkJSYU9OTVZQWnpGMkxkd01WNDJfNkl3S3dIR0NvMDhoNEQ4MTNZbHlXM2Z2NHlRaFJhdjdseGt1SU5qMk5HX1VZM1owOF9vTHYtaXVLMTY3LS1YYUs2MWVFMkpPU3gyWHMwU19wQ0tPaDMwTQ?oc=5",
-      "source": "The Straits Times",
-      "published": "2026-11-12T13:44:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump says Vance should focus on domestic corruption, 'we don't need a deal with Iran' - Miami Herald",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1MSDA0QWVwRGlZdFJaNTU1MU5rZURzMjZrdVNNTVZqc2xsRWFxTHd6SXA2bkVOQlAya1pLdlhIWERidDNwMmlQWGFnQU9FbURiM0lLVkstSklrcnFsY1QtQUhJZ05DbmVnRXhrY1p2TlNhYklKZ1FzdXZ2alJIdw?oc=5",
-      "source": "Miami Herald",
-      "published": "2026-11-12T13:41:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "'We don\u2019t need a deal with Iran': Trump sidelines Vance from Iran talks - Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiZlJIWV9TUVRhTU90M3dNcFBiTFphUkR1SGh1cUI0b2NEWVNMUHVibHR5aGdXUWdfTUNoeFJGUlU4S2cxalVrV3hXVjk2QmUtYkFLY1VR?oc=5",
-      "source": "Ynetnews",
-      "published": "2026-11-12T13:39:29+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Donald Trump brags on Truth Social he doesn't take a salary and warns of 'blue state corruption' - The Mirror US",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd3NzQTNzZGpjQmhaV1IwbGlIbE9zVDZOcjJfb09ZNUVldlVFNlRrZkVxOW9TSVlXM0ZVUG5fRlB0ZDhTNWFVeXRUeElDOEhuaHc5X3R1cnFyUFZ1cEVXQTluUzdkd2JTak91SG05RGlpRVplOFpfWnowNUdFLURQSnJCZlrSAYoBQVVfeXFMUHBFY1VLanR2UjUzVElrWnFWcHVqQ1ZfT0dXNmJYWFFYNlk3QWkyZzdqNV9JR3J3RVRSZzljWDZfS0dNVXdVcDFjTEE4S2FrMm5KU3RYamtjb2NEeU4xaWk1eF9rdXRXbzZERVBPOE1zal93ZjVfRDVhNk1DdnpVemhCNnhJN2VTc3dR?oc=5",
-      "source": "The Mirror US",
-      "published": "2026-11-12T13:35:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump: Vance should focus on domestic corruption, 'we don't need a deal on Iran' - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU3Z2LXFEdEFrVE1wVVZleXI1VzFfa25LQUJndUZLLTlEMndnX0dMdnQ2YWVpSXNPdTRtTWZOR3ZwRnlHX2hGUlQzRlNiWEd3MmRCSmhkRlZkTEZXa2pxZDVaZHFlS05RNzlVM09KazhhbHNRSUVDVWpLbkJwRVBSQTJGWS1rNzRzRGJqLXdORzNaaU1hVUhoVzRWdDh3aUd1M0hnUEV2QVZ6OXBqNzJOUGkzVXBNZWhfX1V2MDRiWnNxd2tvaHZiRg?oc=5",
-      "source": "marketscreener.com",
-      "published": "2026-11-12T13:26:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump: Dems Cry Corruption to Hide Their Own in Blue States - Newsmax",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa1NXSFNfdHV6ZkRMTHY5Z2FtYmVOb05YZEs5aC1QR0xpQ2x3dkQ1WjhvTkFRUHU3eTBKV2pJazlweHFOZUFJYU1hMG5lSk13OE5fVmRDeG4wSkdDNkt2TVhlYmo3OTFIM05UOHZlUElVLUR3RXZ2c0RTdy1RQnJhalQ5alBzT3gzR2YweUZ0NEwyLTA0?oc=5",
-      "source": "Newsmax",
-      "published": "2026-11-12T12:58:39+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Ben Shapiro: \u2018Plenty of smoke\u2019 around Trump administration corruption claims | On Balance - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTUJWRktDa1VrT09BcmtPbTlDdGlfT1ctR2R0b1p4aUtTNW1UTTg5WUljSXFkdmhVQzhMRHVyc1E3cHR3UDBUTjExelEzRnhDYy12WlRpd2FqOWxzMHRHQjFmMHpTai1qaEtaSWdGbFA4RFhZcm00ZXFsRTRhUEtqYzVXQ1k4Z0k5WkEwWnJMQ1hzOGYzb3MwQzNIRXB0U3RnclpyOXN6REhwZE1SS3pFdzVOU2pxR2lyU0V2UnVnOVQ1TnFvN3pxdThvN29oVm5WOWFzSDZ0c9IB3AFBVV95cUxNOGJzS24tdHk5eTBhNUhubFRvRDFVYVpuYk1UcC1OOUNpcjdkOE5HWjFmb29hdEF6S3VhbU9GdEEzazZTZkczZXR2SFlBdUw0OGhxMlkxMFRaVkt2ekFOZGFrbm5KLTVOeFg5SERTNlJVZTMyOTdadTJFQ25icEg0R2JxUlFOSW9neFNaNjhtZVVaV2QwMEp1Z0tfYnZubmZHNGhqZENSdVlRYXRVSjdJOG1aLXEzRUEwaUFrWDNWS3M5QXJKUFp3Qnc2aWxGVTZMVUliRDdPRWV1MXJE?oc=5",
-      "source": "NewsNation",
-      "published": "2026-11-12T09:14:20+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Corruption is Trump's weak spot. Both parties are coming for it | Opinion - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdlJ4Z3V1UFVoRFY3c3ZyNTIzZy10T05jRkRrT0hubU1DVUJfRURYaE1mSjZfamh1cGx3SmdTOWktTVZURjlJem1qbW4xQnNwRWdQeGduUm4wSWF2Y3NTeTJhbkNPZ1g4dmdKVGtRVUJHS0M3bFZxMExTUHJxUFpGYVBBd3JpVDNBblJhWF9SLV9YdktydG1OQmQyOFR4ZWQyUnVBMlZtVjQ5eU5ORTFpZU05MTBxWDBpNXdnZlJwUmlXUnNCTm5zVA?oc=5",
-      "source": "USA Today",
-      "published": "2026-11-12T09:03:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "\u2018Plenty of smoke\u2019: Ben Shapiro questions Trump administration corruption | On Balance - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdjBmYnhrd3l0cFZOaFVJSVhpUEcyTk9qcGpycENlcnVmUGJfWlJZbUdGYVNLQWxJR0xPMEVkMTh4RU5lUnZwaUtQTE9FNTNfUjlSdWRmQ2FMZ2swZVRWVWEwLWVkVU9KdWk5ZWpldjY1NVVXNVhTZWp5NE9FTmZ1Tk1oOEtjZnh1NGI4Q25VNWZlMFVCY2VibVdub0dnUlRGNW0wOUpXUmJRU3BhRE5EUmdBa1pUQzJhMHFBemxRenZ1WTZGMVdCX1J3SjZ0X2E0TlZURWNmWVNJUklO?oc=5",
-      "source": "NewsNation",
-      "published": "2026-11-12T08:00:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "\u2018Plenty of smoke\u2019: Ben Shapiro questions Trump administration corruption - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNzRBTVZzWmFhaUdUbHdXNUZaVGM5UTVfYWZDVXhfTmRfRngtWkhQbkl2VVA4S1FmdVJQZjhwUG1EMXVDM2tHSGtxWTJHQ2w1UWRIYWRZRkVkNXBkendXc2lVWFFUWmlNZmZqUVk1ZWNmQllPV0E4bThCWTgtSy1PY0FIYTc?oc=5",
-      "source": "AOL.com",
-      "published": "2026-11-12T08:00:00+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Huang, Nvidia, Trump, Corruption and Entitlement\u2026 - Blain's Morning Porridge",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMjlOcXZuZ0o4QlB5MDdaOHNYNUpuMHpobWRGckpKMVlIY21LYjFRcEJfczdFNWowMVNsNTFGVERGUHBWUldZLWt0LU5leUtNUEljeExIUUNWT0ljcU5LeWlqUkU5TjRJZjNPNUQ0UENIWjBLMXpQVWRHSjBuUWtxTmpBM3RCSVNfS3AtZEt6Y1dBZzJMRlpmVEpyaw?oc=5",
-      "source": "Blain's Morning Porridge",
-      "published": "2026-11-12T07:39:46+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Democrats may rewrite CLARITY Act and dare Trump to veto it, Giancarlo says - Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLTVMOENiUURJRFRvS0J6WkZncG9zR2ZfTkZ5N2RtRnc2Zl90S3ZTSW4yNHhtalI3RC1HejEwYnYxV0JOLWVHZ21ldWk2UFpNLTBxemdLaW5OajFoei1pNlpkTldSNkpnLW14a2c5TW9UTVN2SWdidzN5TGtOc1g5eUpoTFdhMjNhUG13X2lJYUFmYktvWTh5dVNzcw?oc=5",
-      "source": "Crypto News",
-      "published": "2026-11-12T05:49:49+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump\u2019s USD1 Stablecoin Scrubbed From UAE-Linked FIFA Prediction Market - The Crypto Times",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWnp0WEtuMFNzTUhnTElFX00tWVIwOHJwNDNKS2ZpVzliN3FqTUM2SVhZeWNEcld4NjlvWVFtSkgyRzVmWFhxQ0NRY3NqeFZIZy16WUJpc3lxb2VwMmZ2amJ1UEhUcVBrc2E2YnFjQjhUZS1UNmJmX1l3dnFlNUxrZW5FeVV2dUdVdWZVazlZNGowaFNtbXBCVjNXU0FOSVozdU0xY1NMeElpUFBwWUE?oc=5",
-      "source": "The Crypto Times",
-      "published": "2026-11-12T05:31:56+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Venezuela Crude Sales Rights: Secret Talks with Vance Aide Behind Vitol's Win? Congress Probes Trump Administration's \"No-Bid\" Deal - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4alBSQ2JsY2VidkVxVGRzSVBMM183ODloTEZRdUtqa2poZTRMcmh1c2xPZlZxbVU3ZEpKMjNCZWQxUDhrUkoxU05xYmIydWY3Uk9hM2hHY1pnOWFodDhGdUlIZjhqWEJ3TVpPSWUxVi15b2pSZnc?oc=5",
-      "source": "BigGo Finance",
-      "published": "2026-11-12T05:25:00+00:00",
-      "query": "Trump \"no-bid\" OR emolument OR \"pay to play\""
-    },
-    {
-      "title": "\u2018Plenty of smoke\u2019: Ben Shapiro questions Trump administration corruption - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbGtSb2NnZkJMVkRrZGR2bGJfbnoxV0FMTHEzM1lIOHJZQVRhekJTM1VlNEp6VjU3WW1hb3U3aXRtc2piUm5YNkNvaC0xWkdqOVNMWGVhRXdUUkV0SHVFT1RNaGtpVmg4b3hKZExQbF9RaVdjSW1nTDRSejQzTzFtdDIxcVFMS0l2LXNNeUNQenBMN2JieGp6Z0Z5c2laLWZFMmNDTldNSzZfYTJJWUctaTRobFRQVTNiZUhGLU1fM1ZaZ093bV9jNW1Fc9IB0AFBVV95cUxQN3NXXzI3bDJsWlRNQ01Lbk5OR2dtWWJYYXJzSmVmbk81ZkdFRTMwNkt1QUpNZFhoZDNaTERzc2pNc3FMcHNsZ2dGeTB1MW5Wdjk2ODVRS1Nzc28waVdjS0d4NndNMngyamxZQUFTV2V4MFFjeUJVOEgzZDlWS21CRldJRElrOGNsenFUc3AwMWpiSGc2UE1YMzlBTFUxejJaUVh2NEN3Yy1zdTdXR0hUZ25KRjRCcFpDak1QbXZhcjhFUWs2TjNQb29CUlk3OTNX?oc=5",
-      "source": "NewsNation",
-      "published": "2026-11-12T02:48:03+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Senators Warren and Coons urge Trump administration to preserve Nvidia export records - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QelNHWTVMNkRjMGcwMml0cDNCYTVCQWVMX2RoMk5OdDNabU9tTUtDYUUyMTJHazhrdFNuc2dxQWFITE14Sng1ZzIwcEVVajBVTmtYRUZqVmU0eWVQbl9FZWxxY1lSTVc0Z2RiZkN2MThJX3RPVzJZ?oc=5",
-      "source": "Crypto Briefing",
-      "published": "2026-11-12T02:06:34+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Warren Signals Broad January Crypto Probe, Taking Aim at Trump Family Business - bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81UV9uZm4yVmdmNkxJOUN0TEd3MGEta1NnVE80RWRjeGphWFpBbVFfc1BZa3prWWZRa1MzZ1FMR0xGaEwycHVXLVVvQU5TLUhsbWZncg?oc=5",
-      "source": "bloomingbit",
-      "published": "2026-11-12T01:12:02+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Former Trump administration official claims billions in alleged corruption - Texas Public Radio | TPR",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVkzWU8weWdBRW0tSDA0bGh0YVVSMnpFQUN2aXhhMTd4VE80TjZuVXRFUEZmUVRGZXJFZ0Y5ZVU2VDFvNUpTbTJjMWQ4TnE2TVFPOThVbVdneWI5c0Q3RHdYVlB1cVNTdGRDRmtvdDJhS3lMWlRIV2pONEVNSGlwNGd3UWNtbDI4Wk8teGFOTmtKaXRFMVJDUHNZLU1TUTg4RWdXbmotdDZLTXQ2RHRfcGQzcHhmbEMzMUc2dVdhZEZXSUxQRFBnZ1NCYUpvd0k?oc=5",
-      "source": "Texas Public Radio | TPR",
-      "published": "2026-11-11T23:46:57+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Bessent vs. Lutnick: Trump Officials Clash Over Nvidia China Chip Probe - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKdWNpZ1I5TjY4ektUbWNOZEpLZjRkMFAyOURONnVwcWIwNDdaQWNGbHdETE5zTVpnTUJhNzlfQVJobmk5UzJtTlhlRUtDS1JoUW5IZ1dEVnJTdU5XTGZIaFhGdzl0Z2RNRExXYWl0WmxsRFR6eWc?oc=5",
-      "source": "BeInCrypto",
-      "published": "2026-11-11T22:38:37+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Elizabeth Warren Sets Sights on Trump Family\u2019s Crypto Businesses Ahead of Senate Banking Leadership - Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZzQ2ZE43bFpxS1RQNHVhWVM5ek8tOE1YaFp4dG1QbDU3NGdtSVRON212LTg4YXhTYVhneXU0ZFN2VG1nY0dLelEtNmYwUTZqcFhDUTBRV0V0OFpmSmtSajVBNWxEYUFJcTFuZHQ5MjhaaXI3OWZzT0w4Vkg2Nk5HcTRYMWdrZ3EzVWw4UW5vQVFrZklxTndvbEU2cjZ1OEtfOXAwb2RWS3IwcW1kUXk2bVJ4UzAyTnIwVkNVV1FvZkQ?oc=5",
-      "source": "Tekedia",
-      "published": "2026-11-11T22:37:59+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Trump Corruption Blowback & Dems\u2019 Israel Revolt - puck.news",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFRSY2xyMGR5bjlSMmU0YWw3bi04dzgtWlJINjBXN25MamV4Vm05YkRfSlJBZnc2Mi1SZmZ5amRZamZwUEtzbi0tRVRQLXZHeUNSdjcxWkdTU0I1VFN5TUZobW1lYzI3eXNCTk4zOHhNZU5tcTJGR01acC00WHdNRWJManMwenVZaWF5VWE3S1BJVzE3RkdXSDJXNTdadw?oc=5",
-      "source": "puck.news",
-      "published": "2026-11-11T22:34:56+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "White House tells Democrats that investigating Trump administration could be criminal - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQmtZZ2NGUE9lNXZHZTJySFhIbHJoemVJbks5bVNEV1l4WFJSWU5xaC1TV2lWR2lwSV9vUU9GRmZjTjJCdU51UzBGcWRiamFwcTVjWWNtUGpxR3ZORG1BUFFLTERUQlpvTlFrZ190MEZfMldGOUtZdFJkVHhudkRPS2ZMaUlWZy0tVWp2SlJCck1nRHFJdUtPbFpUbndiMlVuQkhKWDJocVNGVm42aVFZZFhOSUZSNDdqMXRPQVBjOXpNVUJORmNLVw?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-11T21:13:58+00:00",
-      "query": "site:reuters.com Trump investigation"
-    },
-    {
-      "title": "Howard Lutnick stalls Trump\u2019s Nvidia chip curbs on China after Oval Office talks - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hVVhWVjlrTnFZUmc2ZFo2MTFaRTZVendJVjI4cnp4elU2VDlXMER1YVo4VlJZT3FmbHFrZkh2VTM0NnotTnU3R2hPdGxTUjN5SFpCendTOFdvc2Q1Ym5DNmRuZU9YQTdZa3pFXzA4NU9hNjh4V2ZwdGN1ZFc?oc=5",
-      "source": "Crypto Briefing",
-      "published": "2026-11-11T21:07:08+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Democrats pledge to expose \u2018absolute avalanche of corruption\u2019 under Donald Trump - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVDhCVXM2WUFrdWpKU212dHJSN2lSN0NJRjVrY19lZFlWUjVfQWh4RFJKM19CUWd0REZWNGJjQXdraWZaYVVXd0xIQklEVUVWdmZhWGFfbDNfb3FCZXk1OFRFMmpHN3pPOXhYLTI4ZW1KWmdTb3h1UTR0aWZ1NmVmck52X18?oc=5",
-      "source": "Financial Times",
-      "published": "2026-11-11T21:01:55+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Bitwise's Matt Hougan Says 'Demographics' Trump Election's Impact on Crypto - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObzF5MjZFU0tYb3NpMVFLS0VORlpjcmRIbjVFU1hYTWlJZTBVUjFjNGhSQ0dhNGZzUEFBcEZucGllWWNCNFFqWk5mMzEwdnRCZnpRRUNxOS1XTlFCWVF3bmRKOHlLNDlNT0dRbVlzdVhMczNRTEJJa3FXZWVsSTNwV2tGakVCMWh0SC1uMmcxbUxxRkxIQ3VlV1JiSEVDc01nUEJMbVhSQ2JjdWg4eFMxRlNZU0FIanRGMFQ4NkNjZTZEby1WSS1PU3B2RGk5QQ?oc=5",
-      "source": "Benzinga",
-      "published": "2026-11-11T19:00:11+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Christians should support investigating Trump\u2019s corruption - America Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ2hGTTRLREFXd0hTWGlpLVVBM0hqU0lyeXp1cHVUXzdsVk90Z1F4d0VtOGFQUlJVbkhIY0xiMnZYOGZYQ2RycUl0eUQ5cVlPQ2NRN3AxTFVuWTdFSDVXR0F2OEh5eVNzcUc3ZVhIT0RveEFaaXVuWnNBcjBCa09kcmhvZ0l3WkdQa1Qyd09JZHVtSjA?oc=5",
-      "source": "America Magazine",
-      "published": "2026-11-11T18:55:50+00:00",
-      "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
-    },
-    {
-      "title": "Trump in Danger as Democratic Majority Takes Aim at His Crypto Empire - Futurism",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeGR3bi0yR3U1eGhVV1haclNwdUw3aTBOYzUtaW9vQlVNTXBMdFJETGY0WVNBY1VCR3Y0RElVQnpOWmlVVXktdk15ZFdRU3BDdmF3VGFwX0diVHJ2bkpNQVIwa3JNWlh3TUI2Uk44LW05Y1JvSEZMcnNVYzFCZ3VTeDY4MmhMbThEVDRtV1ZB?oc=5",
-      "source": "Futurism",
-      "published": "2026-11-11T18:54:16+00:00",
-      "query": "Trump crypto OR \"World Liberty Financial\" OR memecoin"
-    },
-    {
-      "title": "Alina Habba Mildon loses $50M contract after Trump criticism - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUnlfMnhNejYtS213X2YtaDJ1bi1sdHBxM01PdVFKU3JfRjVBSm5mNHpWRlRHUW43MUxwQmNXR2JSVzhtRVNFczRMdlctWk5lYW5oNDlmbGJ3NmZ6QnNQN1VlTy1MaWNpZkZwNWVKVnRYQTd5TWktdy1fUXlfM2FQZzVFb9IBiAFBVV95cUxPWkNpeFZZSERsWlpVbVpPT21DUWd2UjlSTWx3d0hWMURIb2JHdVp5a2Z1R24yVlJSQ2g4QnJ2a2hLX2NqQVp6aERCdEFySm41VnhDenFhUFpUbFhOLVZUekZfczktZlNuNnJCZzRCWm1mMlFkeEIyZ0QxU241LU1pWVdhN3dsQmlh?oc=5",
-      "source": "The Hill",
-      "published": "2026-11-11T18:22:00+00:00",
-      "query": "Trump pardon OR donor OR super PAC"
-    },
-    {
-      "title": "Trump loyalist breaks ranks over 'obvious corruption' - AlterNet",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaTTlta3VmQW55NVBiVHdnd1phc3NZcXJWZVhIeVZweEN2RXhkVXhGb054aTRHY2JZVUd1cVRJT3FFMlJ2aTBxWkdtYjlMNkhIeXJCVVRoVTU5Zw?oc=5",
-      "source": "AlterNet",
-      "published": "2026-11-11T17:57:00+00:00",
       "query": "Trump corruption OR self-dealing OR \"conflict of interest\""
     }
   ]
